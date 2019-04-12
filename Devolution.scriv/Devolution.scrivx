@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-04-12 11:49:17 +1200" ModID="85235453-F13A-4836-883E-8E82B8328629">
+    <Binder>
+        <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-04-12 11:39:41 +1200" Type="Text">
+            <Title>story ideas</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <FileExtension>rtf</FileExtension>
+            </MetaData>
+            <TextSettings>
+                <Target Type="Words">0</Target>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem ID="0" UUID="5CD0E3D6-0ECB-444A-BC46-F337010FFAF7" Created="2019-04-11 12:51:38 +1200" Modified="2019-04-11 12:51:38 +1200" Type="DraftFolder">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="11" UUID="DF2C9412-1067-477C-806B-06B011176CB0" Created="2019-04-12 11:47:59 +1200" Modified="2019-04-12 11:48:23 +1200" Type="Text">
+                    <Title>[C0] meeting Vagabonds-1</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>4427,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="12" UUID="41BC49E1-FA21-474F-9DC3-2B4C6DF3103F" Created="2019-04-12 11:48:23 +1200" Modified="2019-04-12 11:48:53 +1200" Type="Text">
+                    <Title>[C1] confront sister at home</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="7" UUID="FBA756C5-6414-4A93-9F23-6255FD9DDDD1" Created="2019-04-12 11:38:57 +1200" Modified="2019-04-12 11:44:42 +1200" Type="Text">
+                    <Title>[C1.1] sister angry conversation at home</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="5" UUID="8231C77E-6CFC-4591-8EF3-25DB600BFE14" Created="2019-04-12 11:38:47 +1200" Modified="2019-04-12 11:44:47 +1200" Type="Text">
+                    <Title>[C1.2] calm sister convo home</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="10" UUID="46EBBD98-2E9D-4840-BF10-7E661EDC6AD0" Created="2019-04-12 11:43:54 +1200" Modified="2019-04-12 11:44:51 +1200" Type="Text">
+                    <Title>[C1.1.1] dead. run out after sister</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" UUID="C5D44751-C2AF-4122-9B8B-1DFF04F161D5" Created="2019-04-11 12:51:38 +1200" Modified="2019-04-11 12:51:38 +1200" Type="ResearchFolder">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem ID="2" UUID="7385BC5F-3C45-4CBA-BE2A-1AAD96E1C4BB" Created="2019-04-11 12:51:38 +1200" Modified="2019-04-11 12:51:38 +1200" Type="TrashFolder">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="6" UUID="E483AD4B-A33F-4241-A1F5-C0E967A6C4ED" Created="2019-04-12 11:39:02 +1200" Modified="2019-04-12 11:39:00 +1200" Type="Text">
+                    <Title>[Choice1.1] sister angry conversation at home (1)</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="4" UUID="24E7B295-66FF-4781-A142-489715732732" Created="2019-04-12 11:38:39 +1200" Modified="2019-04-12 11:47:59 +1200" Type="Text">
+                    <Title>[C0] meeting Vagabonds</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="3" UUID="E3ECCADE-03F0-4910-BB3D-E611B138B8CC" Created="2019-04-11 12:51:38 +1200" Modified="2019-04-12 11:36:56 +1200" Type="Text">
+                    <Title>[Choice0] </Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>4409,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+    </Binder>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.752941 0.752941 1.000000">Concept</Label>
+            <Label ID="1" Color="1.000000 0.752941 0.752941">Chapter</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">N/A</Status>
+            <Status ID="1">To Do</Status>
+            <Status ID="2">First Draft</Status>
+            <Status ID="3">Revised Draft</Status>
+            <Status ID="4">Final Draft</Status>
+            <Status ID="5">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets>
+        <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
+        <PreviousSession Words="793" Characters="4410" Date="2019-04-11 12:51:39 +1200"/>
+    </ProjectTargets>
+    <Collections>
+        <Collection Type="Binder" ID="380EC639-26CC-4690-AFE4-C748DA8E7741" Color="0.901961 0.917647 0.933333">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="8AE22B70-BC74-4D7B-8981-D01A5F1E97F0" Color="0.901961 0.901961 0.980392">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No"></SearchSettings>
+        </Collection>
+    </Collections>
+    <PrintSettings PaperType="Letter" LeftMargin="36.0001" RightMargin="36.0001" TopMargin="36.0001" BottomMargin="36.0001" Orientation="Portrait" Collates="No" ReverseOrder="No"/>
+</ScrivenerProject>
