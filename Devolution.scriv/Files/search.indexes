@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="3"/>
+        <Document ID="3">
+            <Title>[Choice0] </Title>
+        </Document>
+        <Document ID="4">
+            <Title>[C0] meeting Vagabonds</Title>
+            <Notes>
+
+</Notes>
+        </Document>
+        <Document ID="5">
+            <Title>[C1.2] calm sister convo home</Title>
+        </Document>
+        <Document ID="6">
+            <Title>[Choice1.1] sister angry conversation at home (1)</Title>
+        </Document>
+        <Document ID="7">
+            <Title>[C1.1] sister angry conversation at home</Title>
+        </Document>
+        <Document ID="9">
+            <Title>story ideas</Title>
+        </Document>
+        <Document ID="10">
+            <Title>[C1.1.1] dead. run out after sister</Title>
+        </Document>
+        <Document ID="11">
+            <Title>[C0] meeting Vagabonds-1</Title>
+        </Document>
+        <Document ID="12">
+            <Title>[C1] confront sister at home</Title>
+        </Document>
     </Documents>
 </SearchIndexes>
