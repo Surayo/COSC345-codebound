@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-04-15 14:44:23 +1200" ModID="2EFFFE4C-1118-489E-94F9-4D5D0250812C">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-04-17 15:19:57 +1200" ModID="96D8187E-1825-4657-AD06-CF36B6C0B265">
     <Binder>
-        <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-04-15 14:25:52 +1200" Type="Text">
+        <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-04-17 15:17:59 +1200" Type="Text">
             <Title>story ideas</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
                 <FileExtension>rtf</FileExtension>
             </MetaData>
             <TextSettings>
-                <TextSelection>216,0</TextSelection>
+                <TextSelection>2920,0</TextSelection>
                 <Target Type="Words">0</Target>
             </TextSettings>
         </BinderItem>
@@ -18,14 +18,14 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="11" UUID="DF2C9412-1067-477C-806B-06B011176CB0" Created="2019-04-12 11:47:59 +1200" Modified="2019-04-15 14:40:37 +1200" Type="Text">
+                <BinderItem ID="11" UUID="DF2C9412-1067-477C-806B-06B011176CB0" Created="2019-04-12 11:47:59 +1200" Modified="2019-04-15 18:10:36 +1200" Type="Text">
                     <Title>[C0] meeting Vagabonds</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>4380,0</TextSelection>
+                        <TextSelection>3343,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
@@ -47,38 +47,128 @@
                                         <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>3341,0</TextSelection>
+                                        <TextSelection>2975,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="10" UUID="46EBBD98-2E9D-4840-BF10-7E661EDC6AD0" Created="2019-04-12 11:43:54 +1200" Modified="2019-04-15 14:43:34 +1200" Type="Text">
-                                            <Title>[C1.1.1] dead. run out after sister</Title>
+                                        <BinderItem ID="10" UUID="46EBBD98-2E9D-4840-BF10-7E661EDC6AD0" Created="2019-04-12 11:43:54 +1200" Modified="2019-04-15 18:00:27 +1200" Type="Text">
+                                            <Title>[C1.1.1] dead ends. run out after sister</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                 <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>1190,0</TextSelection>
+                                                <TextSelection>1031,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
-                                                <BinderItem ID="14" UUID="8D1096F8-ECF9-4C55-8661-D2AA764F8F76" Created="2019-04-15 14:41:54 +1200" Modified="2019-04-15 14:44:21 +1200" Type="Text">
+                                                <BinderItem ID="14" UUID="8D1096F8-ECF9-4C55-8661-D2AA764F8F76" Created="2019-04-15 14:41:54 +1200" Modified="2019-04-17 14:35:16 +1200" Type="Text">
                                                     <Title>[C1.1.1.1] towards the factory</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                     </MetaData>
                                                     <TextSettings>
+                                                        <TextSelection>869,0</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
+                                                    <Children>
+                                                        <BinderItem ID="17" UUID="78A82C4C-511C-445F-AF83-83FE8E8EDDE4" Created="2019-04-15 15:04:00 +1200" Modified="2019-04-17 15:17:22 +1200" Type="Text">
+                                                            <Title>[C1.1.1.1.1]</Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <TextSelection>2547,14</TextSelection>
+                                                                <Target Type="Words">0</Target>
+                                                            </TextSettings>
+                                                            <Children>
+                                                                <BinderItem ID="23" UUID="980F1989-6D21-4568-AB47-C7FEE92B26E6" Created="2019-04-17 15:18:09 +1200" Modified="2019-04-17 15:18:29 +1200" Type="Text">
+                                                                    <Title>[C1.1.1.1.1.1]</Title>
+                                                                    <MetaData>
+                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                    </MetaData>
+                                                                    <TextSettings>
+                                                                        <Target Type="Words">0</Target>
+                                                                    </TextSettings>
+                                                                </BinderItem>
+                                                                <BinderItem ID="24" UUID="18569926-C13A-48D4-98B1-B321438F98BF" Created="2019-04-17 15:18:31 +1200" Modified="2019-04-17 15:18:36 +1200" Type="Text">
+                                                                    <Title>[C1.1.1.1.1.2]</Title>
+                                                                    <MetaData>
+                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                    </MetaData>
+                                                                    <TextSettings>
+                                                                        <Target Type="Words">0</Target>
+                                                                    </TextSettings>
+                                                                </BinderItem>
+                                                                <BinderItem ID="25" UUID="0E76C9D8-6C83-4E27-8DA5-BBBA359B652A" Created="2019-04-17 15:18:39 +1200" Modified="2019-04-17 15:18:44 +1200" Type="Text">
+                                                                    <Title>[C1.1.1.1.1.3]</Title>
+                                                                    <MetaData>
+                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                    </MetaData>
+                                                                    <TextSettings>
+                                                                        <Target Type="Words">0</Target>
+                                                                    </TextSettings>
+                                                                </BinderItem>
+                                                            </Children>
+                                                        </BinderItem>
+                                                        <BinderItem ID="18" UUID="9002E73A-B4BF-4C1A-B159-9D8B212844E6" Created="2019-04-15 15:04:34 +1200" Modified="2019-04-15 15:04:55 +1200" Type="Text">
+                                                            <Title>[C1.1.1.1.2]</Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <Target Type="Words">0</Target>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                        <BinderItem ID="19" UUID="73FCF289-D123-4094-99B6-20038B41153C" Created="2019-04-15 15:05:00 +1200" Modified="2019-04-15 15:05:10 +1200" Type="Text">
+                                                            <Title>[C1.1.1.1.3]</Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <Target Type="Words">0</Target>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                    </Children>
                                                 </BinderItem>
-                                                <BinderItem ID="15" UUID="112A7F36-2863-4EA8-AF9B-28B353982431" Created="2019-04-15 14:42:23 +1200" Modified="2019-04-15 14:42:30 +1200" Type="Text">
+                                                <BinderItem ID="15" UUID="112A7F36-2863-4EA8-AF9B-28B353982431" Created="2019-04-15 14:42:23 +1200" Modified="2019-04-15 18:22:08 +1200" Type="Text">
                                                     <Title>[C1.1.1.2]</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                     </MetaData>
                                                     <TextSettings>
+                                                        <TextSelection>1081,0</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
+                                                    <Children>
+                                                        <BinderItem ID="20" UUID="42A3321D-11A1-41F2-BF42-07A0EB3E97C9" Created="2019-04-15 18:22:13 +1200" Modified="2019-04-15 18:22:30 +1200" Type="Text">
+                                                            <Title>[C1.1.1.2.1]</Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <Target Type="Words">0</Target>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                        <BinderItem ID="21" UUID="43D06FE8-5F58-4123-B107-088A046A77A4" Created="2019-04-15 18:22:33 +1200" Modified="2019-04-15 18:22:39 +1200" Type="Text">
+                                                            <Title>[C1.1.1.2.2]</Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <Target Type="Words">0</Target>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                        <BinderItem ID="22" UUID="1E9DDEEA-7BFF-4F8B-970E-4D90F4C43B7D" Created="2019-04-15 18:22:42 +1200" Modified="2019-04-15 18:22:47 +1200" Type="Text">
+                                                            <Title>[C1.1.1.2.3]</Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <Target Type="Words">0</Target>
+                                                            </TextSettings>
+                                                        </BinderItem>
+                                                    </Children>
                                                 </BinderItem>
                                                 <BinderItem ID="16" UUID="75FBC677-E499-46E4-B073-78D048D390C0" Created="2019-04-15 14:42:34 +1200" Modified="2019-04-15 14:42:38 +1200" Type="Text">
                                                     <Title>[C1.1.1.3]</Title>
@@ -112,14 +202,14 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="5" UUID="8231C77E-6CFC-4591-8EF3-25DB600BFE14" Created="2019-04-12 11:38:47 +1200" Modified="2019-04-15 14:38:45 +1200" Type="Text">
+                                <BinderItem ID="5" UUID="8231C77E-6CFC-4591-8EF3-25DB600BFE14" Created="2019-04-12 11:38:47 +1200" Modified="2019-04-15 15:03:32 +1200" Type="Text">
                                     <Title>[C1.2] calm sister convo home</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>2156,0</TextSelection>
+                                        <TextSelection>3109,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
@@ -135,7 +225,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="4" UUID="24E7B295-66FF-4781-A142-489715732732" Created="2019-04-12 11:38:39 +1200" Modified="2019-04-15 14:09:54 +1200" Type="Text">
+                        <BinderItem ID="4" UUID="24E7B295-66FF-4781-A142-489715732732" Created="2019-04-12 11:38:39 +1200" Modified="2019-04-16 12:28:31 +1200" Type="Text">
                             <Title>[C3]</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
