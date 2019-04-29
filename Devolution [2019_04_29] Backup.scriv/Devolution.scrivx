@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-04-29 13:35:19 +1200" ModID="AF32D8CD-BFE9-4A66-B4DA-8A8CB9B7201F">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-04-29 13:20:43 +1200" ModID="AF32D8CD-BFE9-4A66-B4DA-8A8CB9B7201F">
     <Binder>
         <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-04-17 15:17:59 +1200" Type="Text">
             <Title>story ideas</Title>
@@ -260,6 +260,7 @@
                                         <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
+                                        <TextSelection>3109,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>

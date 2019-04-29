@@ -1,0 +1,31 @@
+
+	story ideas
+	Draft
+		[C0] meeting Vagabonds
+			[C1] confront sister at home
+				[C1.1] sister angry conversation at home
+					[C1.1.1] dead ends. run out after sister
+						[C1.1.1.1] towards the factory
+							[C1.1.1.1.2] crying in the fringes
+								[C1.1.1.1.2.|.1]
+							[C1.1.1.1.3] Enter the factory
+								[C1.1.1.1.3.|.1] choice of corridors
+									[C1.1.1.1.3.|.1.1]
+									[C1.1.1.1.3.|.1.2]
+								[C1.1.1.1.3.|.2]
+						[C1.1.1.2] Vagabonds round 2
+							[C1.1.1.2.1]
+							[C1.1.1.2.2]
+							[C1.1.1.2.3]
+						[C1.1.1.3] Liaba introduction
+							[C1.1.1.1.1.|.1]
+							[C1.1.1.1.1.|.2]
+							[C1.1.1.1.1.|.3]
+					[C1.1.2]
+					[C1.1.3]
+				[C1.2] calm sister convo home
+			[C2]
+			[C3]
+	Research
+	Trash
+		[C1.1.1.3] Go home
