@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F024C23122824A5F00C8FCD0 /* [C1] confront sister at home.txt in Sources */ = {isa = PBXBuildFile; fileRef = F0E4AE4F22823B8900641B53 /* [C1] confront sister at home.txt */; };
+		F024C23B2282558B00C8FCD0 /* [C1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0E4AE5122823B8900641B53 /* [C1.txt */; };
 		F0DA39C222557E7A00A83874 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F0DA39C122557E7A00A83874 /* main.c */; };
 		F0E4AE5E22823B8900641B53 /* fileLoader.c in Sources */ = {isa = PBXBuildFile; fileRef = F0E4AE4C22823B8800641B53 /* fileLoader.c */; };
 /* End PBXBuildFile section */
@@ -14,12 +16,13 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		F0DA39BC22557E7A00A83874 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				F024C23B2282558B00C8FCD0 /* [C1.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F024C23122824A5F00C8FCD0 /* [C1] confront sister at home.txt in Sources */,
 				F0E4AE5E22823B8900641B53 /* fileLoader.c in Sources */,
 				F0DA39C222557E7A00A83874 /* main.c in Sources */,
 			);

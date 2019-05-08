@@ -14,12 +14,14 @@
 
 int main(int argc, const char * argv[]) {
     char *meh = NULL;
-    meh = malloc(100 * sizeof meh[0]);
+    FILE *fptr;
     
-    //meh = current_directory(meh);
-    //printf("Hebo! %s\n", meh);
+    meh = malloc(10000 * sizeof(char));
     
-    
+    meh = current_directory(meh);
+    printf("CWD! %s\n", meh);
+    fptr = openfile(meh, "/[C1.txt");
+    printstuff(fptr);
     
     free(meh);
     
