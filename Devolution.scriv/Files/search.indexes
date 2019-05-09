@@ -2,17 +2,17 @@
 <SearchIndexes Version="1.0">
     <Documents>
         <Document ID="3">
-            <Title>[C1.1.2]</Title>
+            <Title>[C1.1.2] kiddnapping</Title>
+            <Text>[1.1.2]You turn over in bed, drowsy and barley conscious. It’s not unusual for you to wake up in the middle of the night. Your sister is a restless sleeper and you drift, listening to the sounds of her moving on the other side of the room. 
+
+You hear her light boot-steps as she </Text>
         </Document>
         <Document ID="4">
             <Title>[C3]</Title>
         </Document>
         <Document ID="5">
             <Title>[C1.2] calm sister convo home</Title>
-            <Text>”Come in here for a second. We need to talk” You say instead. Her head pokes into the room before she creeps inside to sit next to you at the table.
-
-
-[1.2]”OK.” You say rubbing a hand down your face. How do you even begin to address what your sister had done. “I saw you with the rebels today…” you glance up at her. “Bad choice on your part I’m afraid.”
+            <Text>[1.2]”OK.” You say rubbing a hand down your face. How do you even begin to address what your sister had done. “I saw you with the rebels today…” you glance up at her. “Bad choice on your part I’m afraid.”
 
 
 She chuckles weakly and looks away. “Yeah. Well… Staying at the factory is the shittier option. It hurt me to work there - it’s hurting you! Look at you, you’re falling asleep as we talk.” You straighten your spine and try to look more awake from where you were slumped down in your seat. Eve frowns at your apparent recovery. “Do you have any idea how much better I’m feeling? I get to sleep!”
@@ -61,24 +61,40 @@ She doesn’t say anything else and before long the door is clicking closed behi
 [C1.1.3]Sleep drags your eyes back closed. You fall asleep at the table.</Text>
         </Document>
         <Document ID="6">
-            <Title>[C2]</Title>
-            <Text>[2]Eve opens her mouth to reply to you then clamps it shut, glancing at the tall man. Did he put her up to this? He looks between you and her. “A friend, is it Eve?”
+            <Title>[C2] talk to vagabonds after work</Title>
+            <Text>[2]Eve opens her mouth to reply to you then clamps it shut, glancing at the tall man. Did he force her to join? He looks between you and her. “A friend, is it Eve?”
 
-“My [Xther] actually.” Eve replies but she isn’t looking at him, she’s looking at you. You don’t know what your face is doing right now but it incites her into saying, “I’m sorry, [NAME]. You wouldn’t understand. The Vagabonds aren’t trying to hurt anyone.”
+“My [XTHER] actually.” Eve replies but she isn’t looking at him, she’s looking at you. You don’t know what your face is doing right now but it incites her into saying, “I’m sorry, [NAME]. You wouldn’t understand. The Vagabonds aren’t trying to hurt anyone.”
 
 “Of course we aren’t, Eve. That you even feel the need to state it-” He looks at you. It’s about at that time that you remember that these Vagabonds have committed an unknown number of atrocities against your city. You tense, taking your eyes from Eve’s to meet his. “Ah, but of course. [NAME] was it? I don’t think we’ve met before. My name is Rasputin. I wont presume your sister has had the forethought to tell you but I am the leader of the Vagabonds.”
 
 Oh Fuck. The Leader. “Oh - ah. Right. Right.” You gulp. What are you still doing here? Your eyes flick back to your sister, looking for an explanation. 
 
-“[NAME]. I should have told you I know but it’s not like I didn’t try. You have always been so stuck up on working in that shitty fucking factory-” Rasputin raises his hand and your sisters jaw clicks shut immediately. 
+“[NAME]. I should have told you, I know, but it’s not like I didn’t try. You have always been so stuck up on working in that shitty fucking factory-” Rasputin raises his hand and your sisters mouth clicks shut immediately. 
 
-“It must have come as a shock, your sister joining our group.” A cramp has developed in your left calf from standing tense for so long. You dare not more. “I know how we must seem from the outside, by working in The Factory you are protecting everyone in the city who can’t and yet even though we are able we do not work.”
+“It must have come as a shock, your sister joining our group.” A cramp has developed in your left calf from standing tense for so long. You dare not more. “I know how we must seem from the outside. You must think that by working in The Factory you are protecting everyone in the city who can’t work themselves. Yet the Vagabonds can work yet choose not to.”
 
-“I don’t understand. Are you trying to make yourself out to be the bad guys?” you ask. If he knows why you hate the Vagabonds, why you think they are scum who turned against the people, then why do they do it?
+“I don’t understand. Evey time a worker leaves the Factory the other workers have to pick up the slack. We can’t keep doing this. It’s killing us. If you understand this why then. Why are you doing it?” you ask. If he knows why you hate the Vagabonds, if he knows why you think they are scum who turned against their own people, then why?
 
-“
+“Our actions aren’t without cause. We are the rebellion as you rightly know. But do you know who we are rebelling against?” You had always thought they were against working in the Factory. That they were lazy and selfish and would rather have an easy life without toil and pain then protect their people. 
 
-“I just don’t understand why she would do it. You guys are making it harder for the rest of us by not working. The Factory is the only thing protecting us from the Bioforms.” You fume for a second but then realise who you’re talking to. “Uhh, no offence.
+You glance from one face to another and spot another familiar face in the crowd. Rush. An older guy who used to work alongside you at the furnaces. He had been hardworking and committed to keeping your city alive. Rush had been a guiding force in your early days of working in the factory after your parents deaths.
+
+Rush had disappeared one day. He never said anything. It had been a crushing blow.
+
+You don’t know what he is rebelling against, or what bought your sister over to the Vagabonds side.
+
+Rasputin speaks again. “There is good reason we rebel.”
+
+
+[Choices]
+
+
+[C2.1]”Explain it to me then.” You say. Rasputin nods, satisfied and motions for you to follow him. You follow.
+
+[C2.2]”Everyone has to work. It’s the only way to keep the Bioforms out of the city. You need to stop this.” You say
+
+[C2.3]You look at Eve. “Please, come back home. You shouldn’t be doing this no matter what fucked up reasons they’ve given you to make you think it’s ok.”
 
 
 
@@ -232,20 +248,20 @@ By the time the people realised the Bioforms were hostile it was too late. It wa
 
 But some did survive. Around the world there were clusters of people who had been protected by the onslaught of this worlds flora and fauna by the most unlikely of sources; smog. The largest most dense most industrial cities clung to survival as the rest of the world’s population was gassed.
 
-In these cities nature had been pushed out by the dense polluting air and crowded spaces. These cities had defended themselves against the Bioforms before they even knew the Bioforms were a threat. Dense polluting air, crowded spaces - no Bioform could grow here and so when the time of the slaughter came nothing was here to attack.
+In these cities nature had been pushed out by the dense polluting air and crowded spaces. These cities had defended themselves against the Bioforms before they even knew the Bioforms were a threat. Dense polluting air, crowded spaces - no Bioform could survive here and so when the time of the slaughter came nothing was here to attack.
 
 Still, even in these cities, few survived. 
 
-Time passed for the survivors and the remaining people of Dirth clustered together in their protective cities for outside those walls were the Bioforms. In this game of adaptation only time would tell who would survive.  
+Time passed for the survivors and the remaining people of Dirth clustered together in their protective cities, for outside those walls were the Bioforms. In this game of adaptation only time would tell who would survive.  
 
 
 [0]Your name is [NAME] and you are walking home from work. The air is heavy with smog and the streets are cracked and filthy. Dust clings to your drab work clothes as it always does - a remnant of The Factory. It’s the end of another grueling shift and after twelve long hours in front of the furnaces it’s all you can do to put one foot in front of the other. 
 
 Your route home takes you through The Fringes - an abandoned part of this sprawling city you call home. It’s quiet. This isn’t the part of your city that your people are allowed to occupy but if the odd shadow or creek disturbs your walk you never stop to acknowledge it. It’s better to just keep your head down and get home.
 
-A heavy cloud of exhaustion has settled over you like a familiar old blanket that greets you at the end of every work day. Except instead of comfort it’s weight carries with it only bone weary dread. This is just another in an endless stretch of days. You sigh. 
+A heavy cloud of exhaustion has settled over you like the familiar old blanket that greets you at the end of every work day. Except instead of comfort it’s weight carries with it only bone weary dread. This is just another day in an endless stretch of days. You sigh. 
 
-A rustle of noise. A shadow shifts out of your peripheral vision. You are suddenly very alert. Somehow you manage not to stop even as you get closer to the source. Another quiet noise - this one almost sounds like a muffled echoey bark. It came from the alley up ahead, a route that leads to deeper parts of the city - sprawling underground structures and streets no worker like yourself ever walks down. 
+A rustle of noise. A shadow shifts out of your peripheral vision. You are suddenly very alert. Somehow you manage not to stop even as you get closer to the source. Another quiet noise - this one almost sounds like a muffled echoey bark. It came from the alley up ahead, a side path that leads to deeper parts of the city. Sprawling underground structures and streets no worker like yourself ever walks down. 
 
 You peer into the gloom but see nothing. If that was voices you heard it’s bad news for you. Only outcasts and rebels spend any time in these streets. Maybe you should take another route home. 
 
@@ -345,7 +361,7 @@ You slow back down to a walk. Past the beat of your own heartbeat you hear it ag
         </Document>
         <Document ID="17">
             <Title>[C1.1.1.3] Liaba introduction</Title>
-            <Text>[1.1.1.1.1]It’s a quiet walk home. Your feet drag along the cracked pavement and by the time your house comes back into view you are wavering on your feet. 
+            <Text>[1.1.1.3]It’s a quiet walk home. Your feet drag along the cracked pavement and by the time your house comes back into view you are wavering on your feet. 
 
 You sleep roughly for far fewer hours then you need. The day starts like every other. Banging at your rooms door and the sounds of shuffling feet. Drew hollers outside the door something indecipherable and then moves on. 
 
@@ -353,11 +369,11 @@ It’s the same wake up call every morning.
 
 You pull yourself out of bed where you managed to pass out last night. Eve’s bed still sits in the corner - stripped of it’s blankets. 
 
-You eat your gloop like you do every morning listening to the rest of the house as the workers all get ready for the mornings shift. Somewhere on the far side of the house Agnes’s baby Sally is crying as she is want to do. 
+You eat your vaguely nutritious gloop like you do every morning while listening to the rest of the house as the workers all get ready for the early shift. Somewhere on the far side of the house Agnes’s baby, Sally is crying, as she is want to do. 
 
-It isn't’ long before Drew is making the rounds again, your ears prick up at the sound of his yelling. “We got ten minutes Brian if ye want grub before yur shif’ ye gotta get up and eat it!” a pause, “Ye’ll be bloody sorry when yur half staved slaving away at the tiller.” It’s honestly a life send that you have Drew in your house. He makes sure all the workers get up every day and checks in on you all as he does. He’s invaluable.
+It isn't’ long before Drew is making the rounds again, your ears prick up at the sound of his yelling. “We got ten minutes Brian if ye want grub before yur shif’ ye gotta get up and eat it!” a pause, “Ye’ll be bloody sorry when yur half staved slaving away at the tiller.” It’s honestly a life-send that you have Drew in your house. He makes sure all the workers get up every day and checks in on you all as he does. He’s invaluable.
 
-Doors start opening throughout the house, other workers making their way out to The Factory. That’s your queue.
+Doors start opening throughout the house, other workers making their way out of the house and towards The Factory. That’s your queue.
 
 
 The smog heavier in the air, more so then usual. The air is unnaturally still.
@@ -384,7 +400,7 @@ You grumble something even you know isn’t words and plod on, head down.
 
 [C1.1.1.1.1.2]Dread and guilt washes over you. You should tell her. She’s as much Eve’s friend as your. She needs to know what Eve has done.
 
-[C1.1.1.1.1.3][I1]You pull Eve’s ring out of your pocket. “I’ve lost her.” Liaba looks as you quizzically. 
+[C1.1.1.1.1.3][I1]You pull Eve’s ring out of your pocket. “Eve is gone.” Liaba looks as you quizzically. 
 
 
 
@@ -498,6 +514,47 @@ You start towards the furnaces, following the corridors you always walk.
         </Document>
         <Document ID="30">
             <Title>[C1.1.1.1.3.|.1.2]</Title>
+        </Document>
+        <Document ID="31">
+            <Title>[C2.1]</Title>
+            <Text>[2.1]Eve sticks by your side and doesn’t say a word as the Vagabonds lead you from your normal route home and deeper into the abandoned parts of the city. 
+
+You wonder if this is how they recruited her, maybe this is how they recruit all their members. 
+
+“Where are you taking me?” you ask after a few minutes of walking. You are heading straight for unknown roads. This is already further into the Fringes then you’ve walked before.
+
+“Taking you? No, no. You can go back at any time. This is just a demonstration. I thought it best I show you what exactly what we rebel against. </Text>
+        </Document>
+        <Document ID="32">
+            <Title>[C2.2]</Title>
+            <Text>[2.2]Eve speaks up, “It’s not the only way you shitty little [XTHER]. DO you have any idea what we are doing?”
+
+“No. And I don’t want to know. If you could all just give up this little charade and come back, it would-” you let out a frustrated sound. “The other workers would have it so much better. There would be less pressure on the individual. I could work a fucking six hour shift instead of a fucking twelve!”
+
+“That doesn’t matter-” Eve starts. 
+
+Rasputin motions for her to stop and you start out of your tirade. You forgot to be scared for a second there. But Eve does that to you sometimes, frustrates you enough to start yelling.
+
+“It does matter.” Rasputin says. “I know the workers are tired. But it had to be done. But don’t worry. All the pieces are almost in place. Relief is coming.”
+
+“Well that wasn’t cryptic or anything.” You say before you can think better of it.
+
+Rasputin chuckles. “I can’t give the game away. With your disposition you would go running to whatever authorities you think could do something to stop as and foil our plans. What’s more important then what we’re doing, is why.”
+
+
+[Choices]
+
+
+[C2.1]”Why then.” You ask. He motions for you to follow. You follow.
+
+[C2.2.1]”Why then.” You ask. He motions for you to follow. You don’t trust him in any way. “What? I’m not going with you.”
+
+[C2.2.2]Whatever they’re planning maybe you can stop it right here and now. You thumb the flick knife in your pocket.
+
+</Text>
+        </Document>
+        <Document ID="33">
+            <Title>[C2.3]</Title>
         </Document>
     </Documents>
 </SearchIndexes>
