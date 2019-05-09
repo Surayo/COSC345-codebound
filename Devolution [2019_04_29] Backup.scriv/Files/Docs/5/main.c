@@ -11,20 +11,17 @@
 #include <unistd.h>
 #include <string.h>
 #include "fileLoader.h"
-#include "textManipulation.h"
 
 int main(int argc, const char * argv[]) {
-    char *cwd = NULL;
-    FILE *fptr;
+    char *meh = NULL;
+    meh = malloc(100 * sizeof meh[0]);
     
-    cwd = malloc(10000 * sizeof(char));
+    //meh = current_directory(meh);
+    //printf("Hebo! %s\n", meh);
     
-    cwd = current_directory(cwd);
-    //printf("CWD! %s\n", cwd);
-    fptr = openfile(cwd, "/[C1.txt");
-    fileprint(fptr);
     
-    free(cwd);
+    
+    free(meh);
     
     return 0;
 }
