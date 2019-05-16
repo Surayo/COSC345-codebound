@@ -24,6 +24,7 @@ int main(int argc, const char * argv[]) {
     fptr = openfile(cwd, "/[C1.txt");
     fileprint(fptr);
     closefile(fptr);
+    create_window();
     
     free(cwd);
     

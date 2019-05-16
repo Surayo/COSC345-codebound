@@ -16,6 +16,9 @@
 char* remove_brackets(char *filetext){
     int i = 0, brackets = 0;
     
+    const char *PATTERN1 = "[";
+    const char *PATTERN2 = "]";
+    
     while (filetext[i] != '\0'){
         if (filetext[i] == '['){
             brackets ++;

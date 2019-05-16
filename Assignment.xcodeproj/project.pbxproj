@@ -10,6 +10,9 @@
 		F024C23122824A5F00C8FCD0 /* [C1] confront sister at home.txt in Sources */ = {isa = PBXBuildFile; fileRef = F0E4AE4F22823B8900641B53 /* [C1] confront sister at home.txt */; };
 		F024C23B2282558B00C8FCD0 /* [C1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0E4AE5122823B8900641B53 /* [C1.txt */; };
 		F07C0C4C2283B35700696A60 /* textManipulation.c in Sources */ = {isa = PBXBuildFile; fileRef = F07C0C4B2283B35700696A60 /* textManipulation.c */; };
+		F0A034AA228CE78700C7FA62 /* graphics.c in Sources */ = {isa = PBXBuildFile; fileRef = F0A034A8228CE78700C7FA62 /* graphics.c */; };
+		F0A034AD228CE83300C7FA62 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A034AC228CE83300C7FA62 /* SDL2.framework */; };
+		F0A034AF228CE84400C7FA62 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0A034AE228CE84400C7FA62 /* SDL2.framework */; };
 		F0DA39C222557E7A00A83874 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F0DA39C122557E7A00A83874 /* main.c */; };
 		F0E4AE5E22823B8900641B53 /* fileLoader.c in Sources */ = {isa = PBXBuildFile; fileRef = F0E4AE4C22823B8800641B53 /* fileLoader.c */; };
 /* End PBXBuildFile section */
@@ -21,6 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				F0A034AF228CE84400C7FA62 /* SDL2.framework in CopyFiles */,
 				F024C23B2282558B00C8FCD0 /* [C1.txt in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,6 +34,10 @@
 /* Begin PBXFileReference section */
 		F07C0C4A2283B35700696A60 /* textManipulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textManipulation.h; sourceTree = "<group>"; };
 		F07C0C4B2283B35700696A60 /* textManipulation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = textManipulation.c; sourceTree = "<group>"; };
+		F0A034A8228CE78700C7FA62 /* graphics.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = graphics.c; sourceTree = "<group>"; };
+		F0A034A9228CE78700C7FA62 /* graphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
+		F0A034AC228CE83300C7FA62 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+		F0A034AE228CE84400C7FA62 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
 		F0DA39BE22557E7A00A83874 /* Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DA39C122557E7A00A83874 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F0E4AE4C22823B8800641B53 /* fileLoader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileLoader.c; sourceTree = "<group>"; };
@@ -50,17 +58,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A034AD228CE83300C7FA62 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0A034AB228CE83300C7FA62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A034AC228CE83300C7FA62 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F0DA39B522557E7A00A83874 = {
 			isa = PBXGroup;
 			children = (
+				F0A034AE228CE84400C7FA62 /* SDL2.framework */,
 				F0DA39C022557E7A00A83874 /* Assignment */,
 				F0DA39BF22557E7A00A83874 /* Products */,
+				F0A034AB228CE83300C7FA62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +100,8 @@
 				F0DA39C122557E7A00A83874 /* main.c */,
 				F07C0C4A2283B35700696A60 /* textManipulation.h */,
 				F07C0C4B2283B35700696A60 /* textManipulation.c */,
+				F0A034A8228CE78700C7FA62 /* graphics.c */,
+				F0A034A9228CE78700C7FA62 /* graphics.h */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -205,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A034AA228CE78700C7FA62 /* graphics.c in Sources */,
 				F024C23122824A5F00C8FCD0 /* [C1] confront sister at home.txt in Sources */,
 				F07C0C4C2283B35700696A60 /* textManipulation.c in Sources */,
 				F0E4AE5E22823B8900641B53 /* fileLoader.c in Sources */,
@@ -330,6 +352,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/SDL2.framework/Headers\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -338,6 +369,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/SDL2.framework/Headers\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
