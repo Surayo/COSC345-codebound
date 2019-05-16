@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-05-13 13:58:18 +1200" ModID="33E41D57-ED50-476B-8344-C0A7848D157C">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-05-16 13:08:20 +1200" ModID="D2EFF0B8-55B8-424B-AAB1-C4A4D93D873F">
     <Binder>
-        <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-04-17 15:17:59 +1200" Type="Text">
+        <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-05-16 12:17:58 +1200" Type="Text">
             <Title>story ideas</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
                 <FileExtension>rtf</FileExtension>
             </MetaData>
             <TextSettings>
-                <TextSelection>2968,0</TextSelection>
+                <TextSelection>3085,0</TextSelection>
                 <Target Type="Words">0</Target>
             </TextSettings>
         </BinderItem>
@@ -114,7 +114,7 @@
                                                                         <FileExtension>rtf</FileExtension>
                                                                     </MetaData>
                                                                     <TextSettings>
-                                                                        <TextSelection>425,0</TextSelection>
+                                                                        <TextSelection>249,0</TextSelection>
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
                                                                     <Children>
@@ -198,7 +198,7 @@
                                                         <FileExtension>rtf</FileExtension>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>2945,0</TextSelection>
+                                                        <TextSelection>2209,0</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
@@ -274,12 +274,12 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>86,0</TextSelection>
+                                <TextSelection Caret="2415">2349,66</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="31" UUID="78201881-B296-4C16-A1EE-6BECB808CF14" Created="2019-05-02 12:06:09 +1200" Modified="2019-05-13 13:34:26 +1200" Type="Text">
-                                    <Title>[C2.1]</Title>
+                                <BinderItem ID="31" UUID="78201881-B296-4C16-A1EE-6BECB808CF14" Created="2019-05-02 12:06:09 +1200" Modified="2019-05-16 13:07:06 +1200" Type="Text">
+                                    <Title>[C2.1] flytecraft</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
@@ -288,30 +288,31 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="34" UUID="0AC019C5-BFBB-48DE-A947-50375F3E581C" Created="2019-05-13 13:16:47 +1200" Modified="2019-05-13 13:58:16 +1200" Type="Text">
-                                            <Title>[C2.1.1]</Title>
+                                        <BinderItem ID="34" UUID="0AC019C5-BFBB-48DE-A947-50375F3E581C" Created="2019-05-13 13:16:47 +1200" Modified="2019-05-16 13:07:17 +1200" Type="Text">
+                                            <Title>[C2.1.1] follow Robots</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>142,0</TextSelection>
+                                                <TextSelection>3766,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="35" UUID="51F99D19-9663-448E-94E3-75ABCA992282" Created="2019-05-13 13:17:01 +1200" Modified="2019-05-13 13:45:55 +1200" Type="Text">
-                                            <Title>[C2.1.2]</Title>
+                                        <BinderItem ID="35" UUID="51F99D19-9663-448E-94E3-75ABCA992282" Created="2019-05-13 13:17:01 +1200" Modified="2019-05-16 13:07:43 +1200" Type="Text">
+                                            <Title>[C2.1.2] discus second in command of Vagabonds</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>455,0</TextSelection>
+                                                <TextSelection>719,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="32" UUID="CC8A6E72-6781-4F17-A954-7DD284394F1C" Created="2019-05-02 12:06:43 +1200" Modified="2019-05-02 12:42:26 +1200" Type="Text">
-                                    <Title>[C2.2]</Title>
+                                <BinderItem ID="32" UUID="CC8A6E72-6781-4F17-A954-7DD284394F1C" Created="2019-05-02 12:06:43 +1200" Modified="2019-05-16 13:08:18 +1200" Type="Text">
+                                    <Title>[C2.2] argue with Eve and Rasputin about working</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
@@ -394,7 +395,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="1635" Characters="8945" Date="2019-05-08 11:27:57 +1200"/>
+        <PreviousSession Words="458" Characters="2474" Date="2019-05-16 12:14:17 +1200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="380EC639-26CC-4690-AFE4-C748DA8E7741" Color="0.901961 0.917647 0.933333">
