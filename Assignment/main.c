@@ -23,6 +23,7 @@ int main(int argc, const char * argv[]) {
     //printf("CWD! %s\n", cwd);
     fptr = openfile(cwd, "/[C1.txt");
     fileprint(fptr);
+    closefile(fptr);
     
     free(cwd);
     

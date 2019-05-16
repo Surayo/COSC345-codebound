@@ -12,11 +12,24 @@
 #include <string.h>
 #include "textManipulation.h"
 
+//Removes the brackets from the text
+char* remove_brackets(char *filetext){
+    int i = 0, brackets = 0;
+    
+    while (filetext[i] != '\0'){
+        if (filetext[i] == '['){
+            brackets ++;
+        }
+        i++;
+    }
+    
+    return filetext;
+}
+
 // Prints out the text file
 void fileprint(FILE *file){
     char *filetext;
     long bytes;
-    int i = 0, brackets = 0;
     
     // Number of bytes in file
     fseek(file, 0L, SEEK_END);
@@ -35,15 +48,10 @@ void fileprint(FILE *file){
     // Copy text of file into filetext and prints text
     fread(filetext, sizeof(char), bytes, file);
     
-    while (filetext[i] != '\0'){
-        if (filetext[i] == '['){
-            brackets ++;
-        }
-        i++;
-    }
+    filetext = remove_brackets(filetext);
     
     printf("%s\n", filetext);
-    printf("\n\nBrackets: %d\n", brackets);
+    //printf("\n\nBrackets: %d\n", brackets);
     
     free(filetext);
 }
