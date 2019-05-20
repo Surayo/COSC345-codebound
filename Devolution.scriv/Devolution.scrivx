@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-05-16 13:08:20 +1200" ModID="D2EFF0B8-55B8-424B-AAB1-C4A4D93D873F">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-05-20 13:13:23 +1200" ModID="199D0EFD-C243-49D9-A73A-907FE9A95B5C">
     <Binder>
         <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-05-16 12:17:58 +1200" Type="Text">
             <Title>story ideas</Title>
@@ -25,7 +25,7 @@
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>73,0</TextSelection>
+                        <TextSelection>439,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
@@ -36,6 +36,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
+                                <TextSelection Caret="1320">0,1320</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
@@ -46,7 +47,7 @@
                                         <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>2961,0</TextSelection>
+                                        <TextSelection Caret="3413">0,3413</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
@@ -57,7 +58,7 @@
                                                 <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>1043,0</TextSelection>
+                                                <TextSelection Caret="1164">0,1164</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
@@ -68,7 +69,7 @@
                                                         <FileExtension>rtf</FileExtension>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>577,0</TextSelection>
+                                                        <TextSelection Caret="1026">0,1026</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
@@ -79,18 +80,18 @@
                                                                 <FileExtension>rtf</FileExtension>
                                                             </MetaData>
                                                             <TextSettings>
-                                                                <TextSelection>1040,0</TextSelection>
+                                                                <TextSelection Caret="1877">0,1877</TextSelection>
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                             <Children>
-                                                                <BinderItem ID="26" UUID="8D032CF3-309B-47FE-A7FC-3FF09AD4F297" Created="2019-04-17 15:41:59 +1200" Modified="2019-04-18 12:54:54 +1200" Type="Text">
+                                                                <BinderItem ID="26" UUID="8D032CF3-309B-47FE-A7FC-3FF09AD4F297" Created="2019-04-17 15:41:59 +1200" Modified="2019-05-20 13:06:08 +1200" Type="Text">
                                                                     <Title>[C1.1.1.1.2.|.1]</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                         <FileExtension>rtf</FileExtension>
                                                                     </MetaData>
                                                                     <TextSettings>
-                                                                        <TextSelection>156,0</TextSelection>
+                                                                        <TextSelection>11,0</TextSelection>
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
                                                                 </BinderItem>
@@ -103,18 +104,18 @@
                                                                 <FileExtension>rtf</FileExtension>
                                                             </MetaData>
                                                             <TextSettings>
-                                                                <TextSelection>299,0</TextSelection>
+                                                                <TextSelection Caret="363">0,363</TextSelection>
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                             <Children>
-                                                                <BinderItem ID="28" UUID="257C1037-D8C7-4D47-9C35-CEF6657799C9" Created="2019-04-18 12:27:17 +1200" Modified="2019-04-18 12:49:24 +1200" Type="Text">
+                                                                <BinderItem ID="28" UUID="257C1037-D8C7-4D47-9C35-CEF6657799C9" Created="2019-04-18 12:27:17 +1200" Modified="2019-05-20 13:06:13 +1200" Type="Text">
                                                                     <Title>[C1.1.1.1.3.|.1] choice of corridors</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                         <FileExtension>rtf</FileExtension>
                                                                     </MetaData>
                                                                     <TextSettings>
-                                                                        <TextSelection>249,0</TextSelection>
+                                                                        <TextSelection>10,0</TextSelection>
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
                                                                     <Children>
@@ -151,14 +152,14 @@
                                                         </BinderItem>
                                                     </Children>
                                                 </BinderItem>
-                                                <BinderItem ID="15" UUID="112A7F36-2863-4EA8-AF9B-28B353982431" Created="2019-04-15 14:42:23 +1200" Modified="2019-04-17 15:35:13 +1200" Type="Text">
+                                                <BinderItem ID="15" UUID="112A7F36-2863-4EA8-AF9B-28B353982431" Created="2019-04-15 14:42:23 +1200" Modified="2019-05-20 13:07:11 +1200" Type="Text">
                                                     <Title>[C1.1.1.2] Vagabonds round 2</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                         <FileExtension>rtf</FileExtension>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>1083,0</TextSelection>
+                                                        <TextSelection>888,0</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
@@ -198,7 +199,7 @@
                                                         <FileExtension>rtf</FileExtension>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>2209,0</TextSelection>
+                                                        <TextSelection Caret="2950">0,2950</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
@@ -240,7 +241,7 @@
                                                 <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>351,0</TextSelection>
+                                                <TextSelection>0,350</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
@@ -262,6 +263,7 @@
                                         <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
+                                        <TextSelection Caret="3396">0,3396</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
@@ -274,7 +276,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection Caret="2415">2349,66</TextSelection>
+                                <TextSelection Caret="3239">0,3239</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
@@ -284,7 +286,7 @@
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>5876,0</TextSelection>
+                                        <TextSelection Caret="6455">0,6455</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
@@ -295,7 +297,7 @@
                                                 <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>3766,0</TextSelection>
+                                                <TextSelection Caret="3766">0,3766</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
@@ -305,7 +307,7 @@
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>719,0</TextSelection>
+                                                <TextSelection>0,1148</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
@@ -395,7 +397,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="458" Characters="2474" Date="2019-05-16 12:14:17 +1200"/>
+        <PreviousSession Words="458" Characters="2471" Date="2019-05-16 12:14:17 +1200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="380EC639-26CC-4690-AFE4-C748DA8E7741" Color="0.901961 0.917647 0.933333">

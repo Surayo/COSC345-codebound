@@ -211,6 +211,8 @@ Drew - bangs on the doors of the house.
 
 Liaba - friend of Eve and [NAME]. Possible romance?
 
+Rush - “An older guy who used to work alongside you at the furnaces.”
+
 
 
 
@@ -348,6 +350,7 @@ You slow back down to a walk. Past the beat of your own heartbeat you hear it ag
 
 
 [Choices]
+
 
 [C1.1.1.2.1]Run.
 
@@ -488,14 +491,14 @@ You walk up to the entrance.
         </Document>
         <Document ID="26">
             <Title>[C1.1.1.1.2.|.1]</Title>
-            <Text>[C1.1.1.1.2.|.1]Desperatly you start searching the ground for Eve’s ring. Your hands hurt and you couldn’t give less of a fuck. You scrabble at the pavement</Text>
+            <Text>[C1.1.1.1.2.1]Desperatly you start searching the ground for Eve’s ring. Your hands hurt and you couldn’t give less of a fuck. You scrabble at the pavement</Text>
         </Document>
         <Document ID="27">
             <Title>[C1.1.1.1.3.|.1.1]</Title>
         </Document>
         <Document ID="28">
             <Title>[C1.1.1.1.3.|.1] choice of corridors</Title>
-            <Text>[1.1.1.1.3.|.1]You go inside. You have walked through these halls every day for years but the stark emptiness of The Factory during the night-shift is staggering. 
+            <Text>[1.1.1.1.3.1]You go inside. You have walked through these halls every day for years but the stark emptiness of The Factory during the night-shift is staggering. 
 
 You start towards the furnaces, following the corridors you always walk.
 
@@ -516,7 +519,7 @@ You start towards the furnaces, following the corridors you always walk.
             <Title>[C1.1.1.1.3.|.1.2]</Title>
         </Document>
         <Document ID="31">
-            <Title>[C2.1]</Title>
+            <Title>[C2.1] flytecraft</Title>
             <Text>[2.1]Eve sticks by your side and doesn’t say a word as the Vagabonds lead you away from your normal route home and deeper into the abandoned parts of the city. 
 
 You wonder if this is how they recruited her, maybe this is how they recruit all their members. Just picking them up from the sidewalk and convincing them to go with them.
@@ -609,7 +612,7 @@ The stream of delivery drones finally tapers off and dissapears between two buil
 </Text>
         </Document>
         <Document ID="32">
-            <Title>[C2.2]</Title>
+            <Title>[C2.2] argue with Eve and Rasputin about working</Title>
             <Text>[2.2]Eve speaks up, “It’s not the only way you shitty little [XTHER]. DO you have any idea what we are doing?”
 
 “No. And I don’t want to know. If you could all just give up this little charade and come back, it would-” you let out a frustrated sound. “The other workers would have it so much better. There would be less pressure on the individual. I could work a fucking six hour shift instead of a fucking twelve!”
@@ -640,21 +643,57 @@ Rasputin chuckles. “I can’t give the game away. With your disposition you wo
             <Title>[C2.3]</Title>
         </Document>
         <Document ID="34">
-            <Title>[C2.1.1]</Title>
-            <Text>[2.1.1]The first thing the Robots do is head underground. The dip down into the gloom of an old parking complex and head down several levels. The other vagabonds meet up with you at the entrance and you all head down, several of them pulling out flashlights to light the way.
+            <Title>[C2.1.1] follow Robots</Title>
+            <Text>[2.1.1]”Go get the others.” Rasputin says to Eve. She nods and peels off from your party. You hesitate, not wanting to be alone with Rasputin. He arches an eyebrow at the look you are giving him then head off after the Robots himself.
 
-This explains why you have never seen them. You did your fair share of exploring back in your youth with Eve, before you both had to start work in the Factory. You even went all the way to the edge. That was where you discovered your Aspect. Both you and Eve were immune to the polin. And when your friends were with you they were immune too. 
+You follow.
 
-People still go to the edge of the city even though they know of the dangers the poison provides. You know because kids still come home teary-eyed and sneezing and are rushed inside by their mothers to get the yellow dust cleaned out of their clothes. Most of them don’t die. 
+The first thing the Robots do is head underground. They dip down into the gloom of an old subway system and and disappear out of sight. “They don’t surface again until they return to the ship.” Rasputin says. 
 
-Most of them stay in bed for a few days and shake until the small amount of poisoned polin clears through their system from playing too close for too long near the edge of the city.
+“I still want to see for myself.” He nods at your words.
 
-You and your sister though had gone deep into the trees and never caught their sickness. Your friends had stuck by your side and been safe too. Because unlike Eve, you could stop others from getting sick too just from having them near you when they were close to the Bioforms. 
+“Your sister was the same way - lacking trust. It’s admirable. I know you are committed to doing the right thing.”
 
- </Text>
+“Yeah I’m still not sure on that. Like the Flytecraft is cool and all but why exactly is it important? The Factory still needs to run if we want to keep out people alive.”
+
+“Ah, I should have explained further. What is important about the Flytecraft isn’t that it still exists. It is that if it exists, that means that there are people on the other side who survived the pandemic. Not only that, wherever they are, they are thriving. Now I only want whats best for this city and I believe that if we can transport everyone from here to wherever there is, everyone will be better off.”
+
+Suddenly the connection is clear to you. He is desperately trying to find out where the food is coming from, because wherever there is, you will thrive. You get it. Why just survive when you could all live in prosperity?
+
+The Flytecraft is the connection.
+
+The other vagabonds meet up with you at the entrance and you all head down, several of them pulling out flashlights to light the way. The Robots have mad their way onto the tracks and are heading in the direction of Town.
+
+It’s a slow walk.  
+
+You did your fair share of exploring back in your youth with Eve, before you both had to start work in the Factory. You even went all the way to the edge. That was where you discovered your Aspect. Both you and Eve were immune to the polin. Though there is a slight difference. You Aspect manifests itself as a sort of invisible shield, a barrier that the polin cannot permeate whereas Eve herself is immune to the polin and though she has breathed it in she has never gotten sick.
+
+People still go to the edge of the city even though they know of the dangers of the Bioforms poison. You know because kids still come home teary-eyed and sneezing and are rushed inside by their mothers to get the yellow dust cleaned out of their clothes. 
+
+Most of them don’t die.
+
+Most of them stay in bed for a few days and shake until the small amount of poisonous polin clears through their system.
+
+You and your sister though had gone deep into the trees and never caught their sickness. Your friends had stuck by your side and been safe too. Your shield had grown as you aged and as long as they stayed close, they stayed healthy.
+
+Your party of Vagabonds come to a halt as the Robots stop ahead of you. You watch as they lower their packages, lining them up in a neat pile.
+
+There are no obvious landmarks you can see in the darkness. You’ve passed several side passages and the tracks have widened and shrunk as paths have converged. If your estimations are correct you have been heading towards town and should now be close to its center if you haven't passed under it entirely.
+
+“The Robots will head back the way they came if you want to confirm that too.” Eve says, looking bored. 
+
+
+[Choices]
+
+
+[C2.1.1.1]You want to get back to the Flytecraft. “Maybe I do. Maybe I want to see where they go after they get back.” You say to Eve.
+
+[C2.1.1.2]”Who comes down to collect the packages?” You ask Rasputin, ignoring your sister remark. 
+
+[C2.1.1.3]”I think I’ve seen enough of these Robots. I believe you.” You say to Rasputin. He nods, looking satisfied.</Text>
         </Document>
         <Document ID="35">
-            <Title>[C2.1.2]</Title>
+            <Title>[C2.1.2] discus second in command of Vagabonds</Title>
             <Text>[2.1.2]”The first person we sent was my then second in command, Juniper. That was more then a year ago. We lost contact with her a few hours into her flight. A week after Juniper disappeared we sent a rescue party of 6 Vagabonds to try and retrieve her but they were met with the same fate, whatever that may be.” Rasputin frowns, looking up at the flytecraft sitting idle in front of you. “I would sent more, but I don’t want to loose more of my people.”
 
 Eve looks uncharasticly somber, her eyes wide behind her large round glasses. “I didn’t know. I mean I knew something had happened to your previous second but I didn’t know that she had been… lost. Like that.”
