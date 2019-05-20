@@ -20,16 +20,17 @@ char* remove_brackets(char *filetext){
     char *start, *end;
     
     while (filetext[i] != '\0'){
-        /*printf("Filenum: %c\n", filetext[i]);
-        brackets = strcmp(filetext[i], '[');
-        if (brackets == 0){
-            start += strlen( BRACKET1 );
-            if (end = strstr(start, BRACKET2)){
+        printf("Filenum: %c\n", filetext[i]);
+        //brackets = strcmp(filetext[i], '[');
+        if (filetext[i] == '['){
+            start = &filetext[i];
+            printf("Start: %ptr\n", start);
+            /*if (end = strstr(start, BRACKET2)){
                 target = (char *)malloc(end - start + 1);
                 memcpy(target, start, end - start);
                 target[end - start] = '\0';
-            }
-        }*/
+            }*/
+        }
         i++;
         if (target){
            printf("%s\n", target);
