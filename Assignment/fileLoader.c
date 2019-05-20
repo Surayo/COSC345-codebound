@@ -43,3 +43,8 @@ FILE* openfile(char *cwd, char *filename){
     }
     return fptr;
 }
+
+//Close the file
+void closefile(FILE *fptr){
+    fclose(fptr);
+}

@@ -10,5 +10,6 @@
 #define textManipulation_h
 
 extern void fileprint(FILE *fptr);
+extern char* remove_brackets(char *filetext);
 
 #endif /* textManipulation_h */

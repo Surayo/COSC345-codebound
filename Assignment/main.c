@@ -12,6 +12,7 @@
 #include <string.h>
 #include "fileLoader.h"
 #include "textManipulation.h"
+#include "graphics.h"
 
 int main(int argc, const char * argv[]) {
     char *cwd = NULL;
@@ -23,6 +24,8 @@ int main(int argc, const char * argv[]) {
     //printf("CWD! %s\n", cwd);
     fptr = openfile(cwd, "/[C1.txt");
     fileprint(fptr);
+    closefile(fptr);
+    create_window(1);
     
     free(cwd);
     

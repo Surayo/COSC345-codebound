@@ -12,5 +12,6 @@
 extern char* concat(const char *s1, const char *s2);
 extern char* current_directory(char *cwd);
 extern FILE* openfile(char *cwd, char *filename);
+extern void closefile(FILE *fptr);
 
 #endif /* fileLoader_h */
