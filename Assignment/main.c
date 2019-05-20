@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
     cwd = malloc(10000 * sizeof(char));
     
     cwd = current_directory(cwd);
-    //printf("CWD! %s\n", cwd);
+    //fptr is a pointer to the story text
     fptr = openfile(cwd, "/[C1.txt");
     fileprint(fptr);
     closefile(fptr);
