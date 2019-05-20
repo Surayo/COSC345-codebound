@@ -16,16 +16,26 @@
 char* remove_brackets(char *filetext){
     int i = 0, brackets = 0;
     
-    const char *PATTERN1 = "[";
-    const char *PATTERN2 = "]";
+    char *target = NULL;
+    char *start, *end;
     
     while (filetext[i] != '\0'){
-        if (filetext[i] == '['){
-            brackets ++;
-        }
+        /*printf("Filenum: %c\n", filetext[i]);
+        brackets = strcmp(filetext[i], '[');
+        if (brackets == 0){
+            start += strlen( BRACKET1 );
+            if (end = strstr(start, BRACKET2)){
+                target = (char *)malloc(end - start + 1);
+                memcpy(target, start, end - start);
+                target[end - start] = '\0';
+            }
+        }*/
         i++;
+        if (target){
+           printf("%s\n", target);
+        }
+        free(target);
     }
-    
     return filetext;
 }
 

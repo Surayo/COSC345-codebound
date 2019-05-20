@@ -11,7 +11,8 @@
 //#include "SDL_ttf.h"
 #include <stdio.h>
 
-void create_window(){
+void create_window(int boolean){
+    
     const int WIDTH = 800, HEIGHT = 600;
 
     SDL_Window *window;
