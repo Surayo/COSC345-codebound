@@ -26,7 +26,7 @@ void create_window(){
                               SDL_WINDOWPOS_UNDEFINED,      //initial y pos
                               WIDTH,                        //width, in pixels
                               HEIGHT,                       //height, in pixels
-                              SDL_WINDOW_FULLSCREEN);       //flags
+                              SDL_WINDOW_OPENGL);           //flags
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
     
     //the window is open: enter program loop (SDL_PollEvent)
