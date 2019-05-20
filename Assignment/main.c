@@ -22,10 +22,10 @@ int main(int argc, const char * argv[]) {
     
     cwd = current_directory(cwd);
     //fptr is a pointer to the story text
-    fptr = openfile(cwd, "/[C1.txt");
+    fptr = openfile(cwd, "/Devolution/C0.txt");
     fileprint(fptr);
+    create_window();
     closefile(fptr);
-    create_window(1);
     
     free(cwd);
     
