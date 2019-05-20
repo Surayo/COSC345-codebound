@@ -3,9 +3,21 @@
     <Documents>
         <Document ID="3">
             <Title>[C1.1.2] kiddnapping</Title>
-            <Text>[1.1.2]You turn over in bed, drowsy and barley conscious. It’s not unusual for you to wake up in the middle of the night. Your sister is a restless sleeper so you drift, listening to the sounds of her moving on the other side of the room. 
+            <Text>[1.1.2]You turn over in bed, drowsy and only half conscious. It’s not unusual for you to wake up in the middle of the night. Your sister is a restless sleeper so you drift, listening to the sounds of her moving on the other side of the room. 
 
-You hear her light boot-steps as she moves closer to the two mattresses on the floor that serve as your beds. </Text>
+You hear her light boot-steps as she moves closer to the two mattresses on the floor that serve as your beds.
+
+A rough hand covers your mouth and you snap awake. 
+
+
+[Choices]
+
+
+[C1.1.2.1]Struggle and scream.
+
+[C1.1.2.2]Go limp. 
+
+[C1.1.2.3]Bite.</Text>
         </Document>
         <Document ID="4">
             <Title>[C3]</Title>
@@ -213,7 +225,9 @@ Liaba - friend of Eve and [NAME]. Possible romance?
 
 Rush - “An older guy who used to work alongside you at the furnaces.”
 
-
+Greg - kidnapper
+Patrick - kidnapper
+Boss - attacker, lead kidnapper woman
 
 
 [Choice0] meeting Vagabonds
@@ -711,6 +725,51 @@ Eve looks uncharasticly somber, her eyes wide behind her large round glasses. �
 [C2.1.2.3]”Don’t think this excuses anything.” You say, “You should still be working in the Factory, all of you should be.”
 
  </Text>
+        </Document>
+        <Document ID="36">
+            <Title>[C1.1.2.1] struggle against attacker</Title>
+            <Text>[1.1.2.1]You toss your head to the side and let out a strangled shout before strong hands push you down again. Foul tasting cloth is shoved in your mouth.
+
+“Keep [Xer] quiet.” Someone whispers.
+
+It’s too dark to see. But the blurry human shapes look too large to be your sister. You shove your way out of your blanket but more hands and a knee hold your limbs down. They press down painfully.
+
+ More shapes come into view. There must be at least three of them now surrounding your bed. 
+
+You try and push the cloth out of your mouth but then another of the assailers is grabbing you roughly by the head and tying more cloth round your mouth, keeping the gag in place. 
+
+You tense and try to throw off the people holding you down, your yelling muffled through your gag.
+
+You manage to get an arm free.
+
+
+[Choices]
+
+
+[C1.1.2.1.1]Aim high.
+
+[C1.1.2.1.1]Aim low.</Text>
+        </Document>
+        <Document ID="37">
+            <Title>[C1.1.2.2]</Title>
+        </Document>
+        <Document ID="38">
+            <Title>[C1.1.2.3]</Title>
+        </Document>
+        <Document ID="39">
+            <Title>[C1.1.2.1.1]</Title>
+            <Text>[1.1.2.1.1]You punch the closest one right in the chin, the highest you can reach. They let out a deep grunt but don’t budge from on to of you.
+
+“Tie [Xer] up. We need to get out of here.” A womans voice says from the other side of the room near the door. Oh fuck no. Fuck this. There is no way you’re going anywhere with these people. 
+
+“Little busy here.” Says the man holding you down. He has grabbed your free arm but you are not making it easy for him.
+
+“Not you, Greg. Patrick!” She shout whispers. “Where’s the rucksack!” 
+
+“Greg’s got it, boss.” </Text>
+        </Document>
+        <Document ID="40">
+            <Title>[C1.1.2.1.2]</Title>
         </Document>
     </Documents>
 </SearchIndexes>
