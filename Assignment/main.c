@@ -12,6 +12,7 @@
 #include <string.h>
 #include "fileLoader.h"
 #include "textManipulation.h"
+#include "graphics.h"
 
 int main(int argc, const char * argv[]) {
     char *cwd = NULL;
@@ -20,11 +21,11 @@ int main(int argc, const char * argv[]) {
     cwd = malloc(10000 * sizeof(char));
     
     cwd = current_directory(cwd);
-    //printf("CWD! %s\n", cwd);
+    //fptr is a pointer to the story text
     fptr = openfile(cwd, "/[C1.txt");
     fileprint(fptr);
     closefile(fptr);
-    create_window();
+    create_window(1);
     
     free(cwd);
     
