@@ -16,6 +16,7 @@
 
 int main(int argc, const char * argv[]) {
     char *cwd = NULL;
+    char *text = NULL;
     FILE *fptr;
     
     cwd = malloc(10000 * sizeof(char));
@@ -23,11 +24,21 @@ int main(int argc, const char * argv[]) {
     cwd = current_directory(cwd);
     //fptr is a pointer to the story text
     fptr = openfile(cwd, "/Devolution/C0.txt");
+<<<<<<< HEAD
     fileprint(fptr);
+=======
+    text = setFile(fptr);
+    
+    store_brackets(text);
+    text = getCleanText();
+    printf("%s\n", text);
+    
+    //create_window();
+>>>>>>> master
     closefile(fptr);
-    createWindow(1);
     
     free(cwd);
+    free(text);
     
     return 0;
 }

@@ -11,6 +11,33 @@
 #include <string.h>
 #include "textManipulation.h"
 
+char *cleantext = NULL;
+
+void removeBrackets(char *filetext, char *start, char *end){
+    char *meh = NULL;
+    
+    if (cleantext == NULL){
+        cleantext = malloc (sizeof(filetext));
+    }
+    //printf("End2: %ptr\n", end);
+    if (end == NULL){
+        end = &filetext[0];
+    }
+    
+    ptrdiff_t bytes = ((char *)start) - ((char *)end);
+    meh = malloc(bytes * sizeof(char));
+    
+    strncpy(meh, end, bytes);
+    //printf("Test: %s\n", target);
+    strcat(cleantext, meh);
+    
+    free(meh);
+}
+
+char* getCleanText(){
+    return cleantext;
+}
+
 int getBracketAmount(char *filetext){
     int amount = 0;
     int i = 0;
@@ -24,46 +51,60 @@ int getBracketAmount(char *filetext){
 }
 
 //Stores the brackets from the text
-char* store_brackets(char *filetext){
+void store_brackets(char *filetext){
     int i = 0;
     int listIndex = 0;
-    int bracketnum = getBracketAmount(filetext);
-    char* bracketlist[bracketnum];
+    //int bracketnum = getBracketAmount(filetext);
+    //char* bracketlist[bracketnum];
+    
     
     char *target = NULL;
     char *start = NULL, *end = NULL;
+    char *startLocation = NULL, *endLocation = NULL;
     
     while (filetext[i] != '\0'){
         //printf("Filenum: %c\n", filetext[i]);
         if (filetext[i] == '['){
             start = &filetext[i];
-            //printf("Start: %ptr\n", start);
+            startLocation = &filetext[i];
         }
         else if (filetext[i] == ']'){
             end = &filetext[i] + 1;
+            endLocation = &filetext[i] + 1;
+            //printf("End1: %ptr\n", end);
             //printf("End: %ptr\n", end);
             }
+        
+        if (startLocation != NULL){
+            removeBrackets(filetext, startLocation, endLocation);
+            startLocation = NULL;
+        }
+        
         // Adds the bracketed word into a dynamic array
         if (start != NULL && end != NULL){
             ptrdiff_t bytes = ((char *)end) - ((char *)start);
             target = malloc(bytes * sizeof(char));
             strncpy (target, start, bytes);
-            printf("Target: %s\n", target);
-            bracketlist[listIndex] = malloc((strlen(target) + 1) * sizeof bracketlist[0][0]);
-            strcpy(bracketlist[listIndex], target);
-            printf("ListTarget: %s\n", bracketlist[listIndex]);
+            //printf("Target: %s\n", target);
+            //bracketlist[listIndex] = malloc((strlen(target) + 1) * sizeof bracketlist[0][0]);
+            //strcpy(bracketlist[listIndex], target);
+            //printf("ListTarget: %s\n", bracketlist[listIndex]);
+
             start = NULL;
             end = NULL;
             listIndex++;
+            free(target);
         }
         i++;
     }
+    
     //free(bracketlist);
-    return filetext;
+    free(filetext);
+    //return filetext;
 }
 
 // Prints out the text file
-void fileprint(FILE *file){
+char* setFile(FILE *file){
     char *filetext;
     long bytes;
     
@@ -84,10 +125,11 @@ void fileprint(FILE *file){
     // Copy text of file into filetext and prints text
     fread(filetext, sizeof(char), bytes, file);
     
-    filetext = store_brackets(filetext);
+    return filetext;
+    //filetext = store_brackets(filetext);
     
-    printf("%s\n", filetext);
+    //printf("%s\n", filetext);
     //printf("\n\nBrackets: %d\n", brackets);
     
-    free(filetext);
+    //free(filetext);
 }
