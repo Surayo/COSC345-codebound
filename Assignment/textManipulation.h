@@ -9,7 +9,9 @@
 #ifndef textManipulation_h
 #define textManipulation_h
 
-extern void fileprint(FILE *fptr);
-extern char* store_brackets(char *filetext);
+extern char* setFile(FILE *fptr);
+extern void store_brackets(char *filetext);
+extern char* getCleanText();
+extern void printCleanText();
 
 #endif /* textManipulation_h */
