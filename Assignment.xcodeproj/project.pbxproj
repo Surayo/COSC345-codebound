@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F024C23122824A5F00C8FCD0 /* [C1] confront sister at home.txt in Sources */ = {isa = PBXBuildFile; fileRef = F0E4AE4F22823B8900641B53 /* [C1] confront sister at home.txt */; };
-		F024C23B2282558B00C8FCD0 /* [C1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0E4AE5122823B8900641B53 /* [C1.txt */; };
 		F07C0C4C2283B35700696A60 /* textManipulation.c in Sources */ = {isa = PBXBuildFile; fileRef = F07C0C4B2283B35700696A60 /* textManipulation.c */; };
 		F0A034AA228CE78700C7FA62 /* graphics.c in Sources */ = {isa = PBXBuildFile; fileRef = F0A034A8228CE78700C7FA62 /* graphics.c */; };
 		F0A034AD228CE83300C7FA62 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A034AC228CE83300C7FA62 /* SDL2.framework */; };
 		F0A034AF228CE84400C7FA62 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0A034AE228CE84400C7FA62 /* SDL2.framework */; };
+		F0B017E222923FE000BFDD6C /* Devolution in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0B017E122923FD200BFDD6C /* Devolution */; };
 		F0DA39C222557E7A00A83874 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F0DA39C122557E7A00A83874 /* main.c */; };
 		F0E4AE5E22823B8900641B53 /* fileLoader.c in Sources */ = {isa = PBXBuildFile; fileRef = F0E4AE4C22823B8800641B53 /* fileLoader.c */; };
 /* End PBXBuildFile section */
@@ -24,8 +23,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				F0B017E222923FE000BFDD6C /* Devolution in CopyFiles */,
 				F0A034AF228CE84400C7FA62 /* SDL2.framework in CopyFiles */,
-				F024C23B2282558B00C8FCD0 /* [C1.txt in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,18 +37,10 @@
 		F0A034A9228CE78700C7FA62 /* graphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
 		F0A034AC228CE83300C7FA62 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
 		F0A034AE228CE84400C7FA62 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+		F0B017E122923FD200BFDD6C /* Devolution */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Devolution; sourceTree = "<group>"; };
 		F0DA39BE22557E7A00A83874 /* Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DA39C122557E7A00A83874 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F0E4AE4C22823B8800641B53 /* fileLoader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileLoader.c; sourceTree = "<group>"; };
-		F0E4AE4F22823B8900641B53 /* [C1] confront sister at home.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C1] confront sister at home.txt"; sourceTree = "<group>"; };
-		F0E4AE5122823B8900641B53 /* [C1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C1.txt"; sourceTree = "<group>"; };
-		F0E4AE5322823B8900641B53 /* [C1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C1.txt"; sourceTree = "<group>"; };
-		F0E4AE5522823B8900641B53 /* [C1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C1.txt"; sourceTree = "<group>"; };
-		F0E4AE5822823B8900641B53 /* [C1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C1.txt"; sourceTree = "<group>"; };
-		F0E4AE5922823B8900641B53 /* [C1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C1.txt"; sourceTree = "<group>"; };
-		F0E4AE5A22823B8900641B53 /* [C3].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C3].txt"; sourceTree = "<group>"; };
-		F0E4AE5B22823B8900641B53 /* [C2].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C2].txt"; sourceTree = "<group>"; };
-		F0E4AE5C22823B8900641B53 /* [C0] meeting Vagabonds.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C0] meeting Vagabonds.txt"; sourceTree = "<group>"; };
 		F0E4AE5D22823B8900641B53 /* fileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileLoader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +85,7 @@
 		F0DA39C022557E7A00A83874 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				F0E4AE4D22823B8900641B53 /* Devolution */,
+				F0B017E122923FD200BFDD6C /* Devolution */,
 				F0E4AE4C22823B8800641B53 /* fileLoader.c */,
 				F0E4AE5D22823B8900641B53 /* fileLoader.h */,
 				F0DA39C122557E7A00A83874 /* main.c */,
@@ -104,70 +95,6 @@
 				F0A034A9228CE78700C7FA62 /* graphics.h */,
 			);
 			path = Assignment;
-			sourceTree = "<group>";
-		};
-		F0E4AE4D22823B8900641B53 /* Devolution */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE4E22823B8900641B53 /* [C0] meeting Vagabonds */,
-				F0E4AE5C22823B8900641B53 /* [C0] meeting Vagabonds.txt */,
-			);
-			path = Devolution;
-			sourceTree = "<group>";
-		};
-		F0E4AE4E22823B8900641B53 /* [C0] meeting Vagabonds */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE4F22823B8900641B53 /* [C1] confront sister at home.txt */,
-				F0E4AE5022823B8900641B53 /* [C1] confront sister at home */,
-				F0E4AE5A22823B8900641B53 /* [C3].txt */,
-				F0E4AE5B22823B8900641B53 /* [C2].txt */,
-			);
-			path = "[C0] meeting Vagabonds";
-			sourceTree = "<group>";
-		};
-		F0E4AE5022823B8900641B53 /* [C1] confront sister at home */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE5122823B8900641B53 /* [C1.txt */,
-				F0E4AE5222823B8900641B53 /* [C1 */,
-			);
-			path = "[C1] confront sister at home";
-			sourceTree = "<group>";
-		};
-		F0E4AE5222823B8900641B53 /* [C1 */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE5322823B8900641B53 /* [C1.txt */,
-				F0E4AE5422823B8900641B53 /* [C1 */,
-			);
-			path = "[C1";
-			sourceTree = "<group>";
-		};
-		F0E4AE5422823B8900641B53 /* [C1 */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE5522823B8900641B53 /* [C1.txt */,
-				F0E4AE5622823B8900641B53 /* [C1 */,
-			);
-			path = "[C1";
-			sourceTree = "<group>";
-		};
-		F0E4AE5622823B8900641B53 /* [C1 */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE5722823B8900641B53 /* [C1 */,
-				F0E4AE5922823B8900641B53 /* [C1.txt */,
-			);
-			path = "[C1";
-			sourceTree = "<group>";
-		};
-		F0E4AE5722823B8900641B53 /* [C1 */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE5822823B8900641B53 /* [C1.txt */,
-			);
-			path = "[C1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +154,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0A034AA228CE78700C7FA62 /* graphics.c in Sources */,
-				F024C23122824A5F00C8FCD0 /* [C1] confront sister at home.txt in Sources */,
 				F07C0C4C2283B35700696A60 /* textManipulation.c in Sources */,
 				F0E4AE5E22823B8900641B53 /* fileLoader.c in Sources */,
 				F0DA39C222557E7A00A83874 /* main.c in Sources */,
