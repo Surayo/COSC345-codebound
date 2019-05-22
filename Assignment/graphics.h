@@ -9,6 +9,6 @@
 #ifndef graphics_h
 #define graphics_h
 
-extern void create_window();
+extern void createWindow(int boolean);
 
 #endif /* graphics_h */
