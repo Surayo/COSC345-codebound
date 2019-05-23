@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
     char *text = NULL;
     FILE *fptr;
     
-    cwd = malloc(10000 * sizeof(char));
+    cwd = malloc(150 * sizeof(char));
     
     cwd = current_directory(cwd);
     //fptr is a pointer to the story text
@@ -28,7 +28,7 @@ int main(int argc, const char * argv[]) {
     
     store_brackets(text);
     text = getCleanText();
-    printf("%s\n", text);
+    printf("Text: %s\n", text);
     
     //create_window();
     closefile(fptr);
