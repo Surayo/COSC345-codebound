@@ -17,29 +17,29 @@ char *choice1 = NULL;
 char *choice2 = NULL;
 char *choice3 = NULL;
 
-void removeBrackets(char *filetext, char *start, char *end){
+void removeBrackets(char *filetext, char *target, char *start, char *end){
     char *meh = NULL;
     
     if (cleantext == NULL){
         cleantext = malloc (strlen(filetext) * sizeof(char));
     }
-    //printf("End2: %ptr\n", end);
-    if (end == NULL){
-        end = &filetext[0];
-    }
     //printf("Check: %s\n", (end));
     
     ptrdiff_t bytes = ((char *)end) - ((char *)start);
+    printf("Value: %d\n", bytes);
     meh = malloc(bytes * sizeof(char));
+    strncpy(meh, start, bytes);
     
-    strncpy(meh, end, bytes);
+    printf("Name: %s\n", target);
+    if (strcmp(target, "[NAME]") == 0){
+        strcat(cleantext, "Greg");
+    }
     //printf("Test: %s\n", target);
     strcat(cleantext, meh);
     
     //printf("Test1: %s\n", meh);
     meh = NULL;
     free(meh);
-    
 }
 
 // Gets the cleaned text file
@@ -75,20 +75,26 @@ void store_brackets(char *filetext){
         //printf("Filenum: %c\n", filetext[i]);
         if (filetext[i] == '['){
             start = &filetext[i];
-            startLocation = &filetext[i];
+            endLocation = &filetext[i];
             printf("Start location: %ptf\n", &start);
         }
         else if (filetext[i] == ']'){
             end = &filetext[i] + 1;
-            endLocation = &filetext[i];
+            startLocation = &filetext[i] + 1;
+            endLocation = NULL;
             printf("End location: %ptf\n", &end);
             }
 
         // Adds the bracketed word into a dynamic array
         if (start != NULL && end != NULL){
+            target = NULL;
             ptrdiff_t bytes = ((char *)end) - ((char *)start);
             printf("Bytes: %d\n", bytes);
-            target = malloc(bytes);
+            if (target != NULL){
+                target = realloc(target, bytes);
+            } else{
+                target = malloc(bytes);
+            }
             strncpy (target, start, bytes);
 
             printf("Target: %s\n", target);
@@ -99,16 +105,16 @@ void store_brackets(char *filetext){
                 printf("Target at 1: %c\n", target[1]);
                 check = false;
             }
-            if (startLocation != NULL && check == true){
-                removeBrackets(filetext, startLocation, endLocation);
-                startLocation = NULL;
-            }
-            
             start = NULL;
             end = NULL;
             listIndex++;
-            target = NULL;
-            free(target);
+        }
+        
+        //Clean text
+        else if (startLocation != NULL && endLocation != NULL && check == true){
+            removeBrackets(filetext, target, startLocation, endLocation);
+            startLocation = NULL;
+            endLocation = NULL;
         }
         i++;
     }
@@ -116,6 +122,8 @@ void store_brackets(char *filetext){
         free(bracketlist[i]);
     }
     free(bracketlist);*/
+    target = NULL;
+    free(target);
     free(filetext);
     //return filetext;
 }
