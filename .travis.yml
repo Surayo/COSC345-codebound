@@ -1,0 +1,4 @@
+language: C
+osx_image: xode6.4
+xcode_project: Assignment.xcodeproj
+xcode_scheme: Assignment
