@@ -23,12 +23,12 @@ int main(int argc, const char * argv[]) {
     
     cwd = current_directory(cwd);
     //fptr is a pointer to the story text
-    fptr = openfile(cwd, "/Devolution/C0.txt");
+    fptr = openfile(cwd, "/Devolution/test.txt");
     text = setFile(fptr);
     
     store_brackets(text);
     text = getCleanText();
-    printf("Text: %s\n", text);
+    printf("%s\n", text);
     
     //create_window();
     closefile(fptr);
