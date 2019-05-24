@@ -1,4 +1,12 @@
 language: C
+compiler: clang
+matrix:
+  include:
+    - os: osx
+      osx_image: xcode10.1
+    
+    - os: osx
+      osx_image: xcode9.4
 #osx_image: xode10.1
 #xcode_project: Assignment.xcodeproj
 #xcode_scheme: Assignment
