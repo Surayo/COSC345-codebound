@@ -13,13 +13,14 @@
 #include "fileLoader.h"
 #include "textManipulation.h"
 #include "graphics.h"
+#include "mylib.h"
 
 int main(int argc, const char * argv[]) {
     char *cwd = NULL;
     char *text = NULL;
     FILE *fptr;
     
-    cwd = malloc(150 * sizeof(char));
+    cwd = emalloc(150 * sizeof(char));
     
     cwd = current_directory(cwd);
     //fptr is a pointer to the story text

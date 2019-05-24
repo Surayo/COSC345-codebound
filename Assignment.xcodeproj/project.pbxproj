@@ -14,6 +14,7 @@
 		F0B017E222923FE000BFDD6C /* Devolution in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0B017E122923FD200BFDD6C /* Devolution */; };
 		F0DA39C222557E7A00A83874 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F0DA39C122557E7A00A83874 /* main.c */; };
 		F0E4AE5E22823B8900641B53 /* fileLoader.c in Sources */ = {isa = PBXBuildFile; fileRef = F0E4AE4C22823B8800641B53 /* fileLoader.c */; };
+		F0F1505F2297B10000394C17 /* mylib.c in Sources */ = {isa = PBXBuildFile; fileRef = F0F1505D2297B10000394C17 /* mylib.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,8 @@
 		F0DA39C122557E7A00A83874 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F0E4AE4C22823B8800641B53 /* fileLoader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileLoader.c; sourceTree = "<group>"; };
 		F0E4AE5D22823B8900641B53 /* fileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileLoader.h; sourceTree = "<group>"; };
+		F0F1505D2297B10000394C17 /* mylib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mylib.c; sourceTree = "<group>"; };
+		F0F1505E2297B10000394C17 /* mylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mylib.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				F07C0C4B2283B35700696A60 /* textManipulation.c */,
 				F0A034A8228CE78700C7FA62 /* graphics.c */,
 				F0A034A9228CE78700C7FA62 /* graphics.h */,
+				F0F1505D2297B10000394C17 /* mylib.c */,
+				F0F1505E2297B10000394C17 /* mylib.h */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0A034AA228CE78700C7FA62 /* graphics.c in Sources */,
+				F0F1505F2297B10000394C17 /* mylib.c in Sources */,
 				F07C0C4C2283B35700696A60 /* textManipulation.c in Sources */,
 				F0E4AE5E22823B8900641B53 /* fileLoader.c in Sources */,
 				F0DA39C222557E7A00A83874 /* main.c in Sources */,

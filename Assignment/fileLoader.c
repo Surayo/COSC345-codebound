@@ -10,9 +10,10 @@
 #include <unistd.h>
 #include <string.h>
 #include "fileLoader.h"
+#include "mylib.h"
 
 char* concat(const char *s1, const char *s2){
-    char *result = malloc(strlen(s1) + strlen(s2) + 1); // +1 for the null-terminator
+    char *result = emalloc(strlen(s1) + strlen(s2) + 1); // +1 for the null-terminator
     if(result == NULL){
         perror("Error! Can't malloc\n");
         exit(1);

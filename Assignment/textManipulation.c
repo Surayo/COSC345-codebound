@@ -11,6 +11,7 @@
 #include <unistd.h>
 #include <string.h>
 #include "textManipulation.h"
+#include "mylib.h"
 
 struct choice{
     char *choice_text;
@@ -18,24 +19,35 @@ struct choice{
 };
 
 char *clean_block_text = NULL;
-struct choice choice1;
-struct choice choice2;
-struct choice choice3;
+struct choice* choice1;
+struct choice* choice2;
+struct choice* choice3;
+int choiceNum = 0;
 
 // Gets the cleaned text file
 char* getCleanText(){
     return clean_block_text;
 }
 
+char* removeFirstAndLast(char *file_choice, char *output, unsigned long len){
+    if (len > 0){
+        strcpy(output, ++file_choice);
+    }
+    if (len > 1){
+        output[len - 2] = '\0';
+    }
+    return output;
+}
+
 void removeBrackets(char *filetext, char *target, char *start, char *end){
     char *storyText = NULL;
     
     if (clean_block_text == NULL){
-        clean_block_text = malloc (strlen(filetext) * sizeof(char));
+        clean_block_text = emalloc (strlen(filetext) * sizeof(char));
     }
     
     long bytes = ((char *)end) - ((char *)start);
-    storyText = malloc(bytes * sizeof(char));
+    storyText = emalloc(bytes * sizeof(char));
     strncpy(storyText, start, bytes);
     
     if (strcmp(target, "[NAME]") == 0){
@@ -66,7 +78,7 @@ void store_brackets(char *filetext){
     int listIndex = 0;
     
     bool choices = false;
-    char *target = NULL;
+    char *target = NULL, *nextFile = NULL;
     char *start = NULL, *end = NULL;
     char *startLocation = NULL, *endLocation = NULL;
     
@@ -87,9 +99,9 @@ void store_brackets(char *filetext){
             target = NULL;
             long bytes = ((char *)end) - ((char *)start);
             if (target != NULL){
-                target = realloc(target, bytes);
+                target = erealloc(target, bytes);
             } else{
-                target = malloc(bytes);
+                target = emalloc(bytes);
             }
             strncpy (target, start, bytes);
 
@@ -109,11 +121,38 @@ void store_brackets(char *filetext){
             startLocation = NULL;
             endLocation = NULL;
         }
-        
-        
+        if (choices == true){
+            //Use the same method as above and the pointers should still work,
+            //start and end should still be set
+            unsigned long len = strlen(target);
+            char output[len];
+            nextFile = removeFirstAndLast(target, output, len);
+            if (choiceNum == 0 && choice1 == NULL){
+                choice1 = emalloc(sizeof(choice1));
+                choice1->choice_file = emalloc(10 * sizeof(choice1->choice_text[0]));
+                strcpy(choice1->choice_file, nextFile);
+                choiceNum++;
+            }
+            else if (choiceNum == 1 && (strcmp(choice1->choice_file, nextFile) != 0)){
+                choice2 = emalloc(sizeof(choice2));
+                choice2->choice_file = emalloc(10 * sizeof(choice2->choice_text[0]));
+                strcpy(choice2->choice_file, nextFile);
+                choiceNum++;
+            }
+            else if (choiceNum == 2 && (strcmp(choice2->choice_file, nextFile) != 0)){
+                choice3 = emalloc(sizeof(choice3));
+                choice3->choice_file = emalloc(10 * sizeof(choice3->choice_text[0]));
+                strcpy(choice3->choice_file, nextFile);
+                choiceNum++;
+            }
+            
+        }
         i++;
-    }
+    } // End while loop
     target = NULL;
+    nextFile = NULL;
+    
+    free(nextFile);
     free(target);
     free(filetext);
 }
