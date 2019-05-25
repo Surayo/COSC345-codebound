@@ -45,8 +45,9 @@ FILE* openfile(char *cwd, char *filename){
     fptr = fopen(cwd,"r");
     //printf("%s\n", cwd);
     if(fptr == NULL){
-        perror("Error! Opening file\n");
-        exit(1);
+        //perror("Error! Opening file\n");
+        perror("To Be Continued\n");
+        return NULL;
     }
     return fptr;
 }

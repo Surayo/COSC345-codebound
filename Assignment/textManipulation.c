@@ -24,6 +24,10 @@ struct choice* choice2;
 struct choice* choice3;
 int choiceNum = 0, choiceTextNum = 0;
 
+void freeChoices(){
+    
+}
+
 // Gets the cleaned text file
 char* getCleanText(){
     return clean_block_text;
@@ -65,7 +69,6 @@ char* removeFirstAndLast(char *file_choice, char *output, unsigned long len){
 
 void removeBrackets(char *filetext, char *target, char *start, char *end){
     char *storyText = NULL;
-    
     if (clean_block_text == NULL){
         clean_block_text = emalloc (strlen(filetext) * sizeof(char));
     }
@@ -105,7 +108,7 @@ void store_brackets(char *filetext){
     char *target = NULL, *nextFile = NULL;
     char *start = NULL, *end = NULL;
     char *startLocation = NULL, *endLocation = NULL;
-    
+    printf("Test: %s\n", filetext);
     while (filetext[i] != '\0'){
         //printf("Filenum: %c\n", filetext[i]);
         if (filetext[i] == '['){
@@ -116,8 +119,8 @@ void store_brackets(char *filetext){
             end = &filetext[i] + 1;
             startLocation = &filetext[i] + 1;
             endLocation = NULL;
-            }
-
+        }
+        
         // Adds the bracketed word into a dynamic array
         if (start != NULL && end != NULL){
             target = NULL;
