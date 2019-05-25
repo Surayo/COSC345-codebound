@@ -11,6 +11,7 @@
 		D08A39AE22961DB300F08D98 /* titleScreen.c in Sources */ = {isa = PBXBuildFile; fileRef = D08A39AC22961DB300F08D98 /* titleScreen.c */; };
 		D0B961CF2298CA500003732A /* gameScreen.c in Sources */ = {isa = PBXBuildFile; fileRef = D0B961CD2298CA500003732A /* gameScreen.c */; };
 		D0B961D12298FD0A0003732A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D0B961D02298FD0A0003732A /* main.c */; };
+		D0B961D4229900590003732A /* mylib.c in Sources */ = {isa = PBXBuildFile; fileRef = D0B961D2229900590003732A /* mylib.c */; };
 		D0F355252294D00E003DEFED /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F355242294D00E003DEFED /* SDL2_ttf.framework */; };
 		D0F355262294D014003DEFED /* SDL2_ttf.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D0F355242294D00E003DEFED /* SDL2_ttf.framework */; };
 		D0F3552A2294D7E0003DEFED /* Arial.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D0F355292294D7E0003DEFED /* Arial.ttf */; };
@@ -46,6 +47,8 @@
 		D0B961CD2298CA500003732A /* gameScreen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gameScreen.c; sourceTree = "<group>"; };
 		D0B961CE2298CA500003732A /* gameScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gameScreen.h; sourceTree = "<group>"; };
 		D0B961D02298FD0A0003732A /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D0B961D2229900590003732A /* mylib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mylib.c; sourceTree = "<group>"; };
+		D0B961D3229900590003732A /* mylib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mylib.h; sourceTree = "<group>"; };
 		D0F355242294D00E003DEFED /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_ttf.framework; sourceTree = "<group>"; };
 		D0F355292294D7E0003DEFED /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
 		F07C0C4A2283B35700696A60 /* textManipulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textManipulation.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				F0E4AE5D22823B8900641B53 /* fileLoader.h */,
 				F07C0C4A2283B35700696A60 /* textManipulation.h */,
 				F07C0C4B2283B35700696A60 /* textManipulation.c */,
+				D0B961D2229900590003732A /* mylib.c */,
+				D0B961D3229900590003732A /* mylib.h */,
 				D0B961D02298FD0A0003732A /* main.c */,
 				F0A034A8228CE78700C7FA62 /* graphics.c */,
 				F0A034A9228CE78700C7FA62 /* graphics.h */,
@@ -183,6 +188,7 @@
 				D08A39AE22961DB300F08D98 /* titleScreen.c in Sources */,
 				F07C0C4C2283B35700696A60 /* textManipulation.c in Sources */,
 				F0E4AE5E22823B8900641B53 /* fileLoader.c in Sources */,
+				D0B961D4229900590003732A /* mylib.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

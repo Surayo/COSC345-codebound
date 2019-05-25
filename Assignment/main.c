@@ -50,7 +50,7 @@ int main(int argc, const char * argv[]) {
         strcat(file_location, next_file);
         strcat(file_location, ".txt");
         
-        //create_window();
+        createWindow(1);
         fclose(fptr);
     //}
     
