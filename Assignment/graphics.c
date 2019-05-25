@@ -56,14 +56,14 @@ int processEvents(SDL_Window *window, GameState *game){
             }
             break;
             case SDL_KEYDOWN: {
-                switch(event.key.keysym.sym) { //keyboard events go here
-                    case SDLK_ESCAPE:           //check to see if escape key has been pressed
+                switch(event.key.keysym.sym) {                              //keyboard events go here
+                    case SDLK_ESCAPE:                                       //check to see if escape key has been pressed
                         if (game->statusState == STATUS_STATE_GAME) {       //if the SELECTOR is hovered over NEWGAME
                             game->statusState = STATUS_STATE_TITLE;          //begin a new game - load the game screen
                             init_title_screen(game);
                             break;
                         } else {
-                            done = 1;               //currently set to quit game (change to if in STATUS_GAME_STATE open menu or something)
+                            done = 1;
                         break;
                         }
                 break;
@@ -148,9 +148,9 @@ int processEvents(SDL_Window *window, GameState *game){
                             break;
                         }
                     }
-                    case SDLK_RETURN:                                       //return key is pressed
+                    case SDLK_RETURN:                                               //return key is pressed
                         if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {       //if the SELECTOR is hovered over NEWGAME
-                            game->statusState = STATUS_STATE_GAME;          //begin a new game - load the game screen
+                            game->statusState = STATUS_STATE_GAME;                  //begin a new game - load the game screen
                             init_game_screen(game);
                         break;
                         }

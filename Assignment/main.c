@@ -37,7 +37,7 @@ int main(int argc, const char * argv[]) {
     next_file = getNextFile(1);
     printf("%s\n", next_file);
     
-    //create_window();
+    createWindow(1);
     closefile(fptr);
     
     free(cwd);
