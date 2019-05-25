@@ -18,18 +18,24 @@
 int main(int argc, const char * argv[]) {
     char *cwd = NULL;
     char *text = NULL;
+    char *choice = NULL, *next_file = NULL;
     FILE *fptr;
     
     cwd = emalloc(150 * sizeof(char));
     
     cwd = current_directory(cwd);
     //fptr is a pointer to the story text
-    fptr = openfile(cwd, "/Devolution/test.txt");
+    fptr = openfile(cwd, "/Devolution/C0.txt");
     text = setFile(fptr);
     
     store_brackets(text);
     text = getCleanText();
     printf("%s\n", text);
+    
+    choice = getChoiceText(1);
+    printf("%s\n", choice);
+    next_file = getNextFile(1);
+    printf("%s\n", next_file);
     
     //create_window();
     closefile(fptr);

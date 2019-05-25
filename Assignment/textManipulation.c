@@ -29,6 +29,30 @@ char* getCleanText(){
     return clean_block_text;
 }
 
+char* getNextFile(int num){
+    if (num == 1){
+        return choice1->choice_file;
+    } else if (num == 2){
+        return choice2->choice_file;
+    } else if (num == 3){
+        return choice3->choice_file;
+    } else{
+        return NULL;
+    }
+}
+
+char* getChoiceText(int num){
+    if (num == 1){
+        return choice1->choice_text;
+    } else if (num == 2){
+        return choice2->choice_text;
+    } else if (num == 3){
+        return choice3->choice_text;
+    } else{
+        return NULL;
+    }
+}
+
 char* removeFirstAndLast(char *file_choice, char *output, unsigned long len){
     if (len > 0){
         strcpy(output, ++file_choice);
