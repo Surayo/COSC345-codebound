@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D086AB852297A27B00248F54 /* Nasalization.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D086AB842297A27B00248F54 /* Nasalization.ttf */; };
+		D08A39AE22961DB300F08D98 /* titleScreen.c in Sources */ = {isa = PBXBuildFile; fileRef = D08A39AC22961DB300F08D98 /* titleScreen.c */; };
+		D0B961CF2298CA500003732A /* gameScreen.c in Sources */ = {isa = PBXBuildFile; fileRef = D0B961CD2298CA500003732A /* gameScreen.c */; };
+		D0F355252294D00E003DEFED /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F355242294D00E003DEFED /* SDL2_ttf.framework */; };
+		D0F355262294D014003DEFED /* SDL2_ttf.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D0F355242294D00E003DEFED /* SDL2_ttf.framework */; };
+		D0F3552A2294D7E0003DEFED /* Arial.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D0F355292294D7E0003DEFED /* Arial.ttf */; };
 		F07C0C4C2283B35700696A60 /* textManipulation.c in Sources */ = {isa = PBXBuildFile; fileRef = F07C0C4B2283B35700696A60 /* textManipulation.c */; };
 		F0A034AA228CE78700C7FA62 /* graphics.c in Sources */ = {isa = PBXBuildFile; fileRef = F0A034A8228CE78700C7FA62 /* graphics.c */; };
 		F0A034AD228CE83300C7FA62 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A034AC228CE83300C7FA62 /* SDL2.framework */; };
@@ -23,6 +29,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				D086AB852297A27B00248F54 /* Nasalization.ttf in CopyFiles */,
+				D0F3552A2294D7E0003DEFED /* Arial.ttf in CopyFiles */,
+				D0F355262294D014003DEFED /* SDL2_ttf.framework in CopyFiles */,
 				F0B017E222923FE000BFDD6C /* Devolution in CopyFiles */,
 				F0A034AF228CE84400C7FA62 /* SDL2.framework in CopyFiles */,
 			);
@@ -31,6 +40,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D086AB842297A27B00248F54 /* Nasalization.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nasalization.ttf; sourceTree = "<group>"; };
+		D08A39AC22961DB300F08D98 /* titleScreen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = titleScreen.c; sourceTree = "<group>"; };
+		D08A39AD22961DB300F08D98 /* titleScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = titleScreen.h; sourceTree = "<group>"; };
+		D0B961CD2298CA500003732A /* gameScreen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gameScreen.c; sourceTree = "<group>"; };
+		D0B961CE2298CA500003732A /* gameScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gameScreen.h; sourceTree = "<group>"; };
+		D0F355242294D00E003DEFED /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_ttf.framework; sourceTree = "<group>"; };
+		D0F355292294D7E0003DEFED /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
 		F07C0C4A2283B35700696A60 /* textManipulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textManipulation.h; sourceTree = "<group>"; };
 		F07C0C4B2283B35700696A60 /* textManipulation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = textManipulation.c; sourceTree = "<group>"; };
 		F0A034A8228CE78700C7FA62 /* graphics.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = graphics.c; sourceTree = "<group>"; };
@@ -49,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F355252294D00E003DEFED /* SDL2_ttf.framework in Frameworks */,
 				F0A034AD228CE83300C7FA62 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,6 +76,7 @@
 		F0A034AB228CE83300C7FA62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0F355242294D00E003DEFED /* SDL2_ttf.framework */,
 				F0A034AC228CE83300C7FA62 /* SDL2.framework */,
 			);
 			name = Frameworks;
@@ -67,6 +85,8 @@
 		F0DA39B522557E7A00A83874 = {
 			isa = PBXGroup;
 			children = (
+				D086AB842297A27B00248F54 /* Nasalization.ttf */,
+				D0F355292294D7E0003DEFED /* Arial.ttf */,
 				F0A034AE228CE84400C7FA62 /* SDL2.framework */,
 				F0DA39C022557E7A00A83874 /* Assignment */,
 				F0DA39BF22557E7A00A83874 /* Products */,
@@ -93,6 +113,10 @@
 				F07C0C4B2283B35700696A60 /* textManipulation.c */,
 				F0A034A8228CE78700C7FA62 /* graphics.c */,
 				F0A034A9228CE78700C7FA62 /* graphics.h */,
+				D08A39AC22961DB300F08D98 /* titleScreen.c */,
+				D08A39AD22961DB300F08D98 /* titleScreen.h */,
+				D0B961CD2298CA500003732A /* gameScreen.c */,
+				D0B961CE2298CA500003732A /* gameScreen.h */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -154,6 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0A034AA228CE78700C7FA62 /* graphics.c in Sources */,
+				D0B961CF2298CA500003732A /* gameScreen.c in Sources */,
+				D08A39AE22961DB300F08D98 /* titleScreen.c in Sources */,
 				F07C0C4C2283B35700696A60 /* textManipulation.c in Sources */,
 				F0E4AE5E22823B8900641B53 /* fileLoader.c in Sources */,
 				F0DA39C222557E7A00A83874 /* main.c in Sources */,
@@ -286,6 +312,7 @@
 				HEADER_SEARCH_PATHS = (
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(SRCROOT)/SDL2.framework/Headers\"",
+					"\"$(SRCROOT)/SDL2_ttf.framework/Headers\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -303,6 +330,7 @@
 				HEADER_SEARCH_PATHS = (
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(SRCROOT)/SDL2.framework/Headers\"",
+					"\"$(SRCROOT)/SDL2_ttf.framework/Headers\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
