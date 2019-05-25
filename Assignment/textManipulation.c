@@ -7,35 +7,81 @@
 //
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include <unistd.h>
 #include <string.h>
 #include "textManipulation.h"
+#include "mylib.h"
 
-char *cleantext = NULL;
+struct choice{
+    char *choice_text;
+    char *choice_file;
+};
 
-void removeBrackets(char *filetext, char *start, char *end){
-    char *meh = NULL;
-    
-    if (cleantext == NULL){
-        cleantext = malloc (sizeof(filetext));
-    }
-    //printf("End2: %ptr\n", end);
-    if (end == NULL){
-        end = &filetext[0];
-    }
-    
-    ptrdiff_t bytes = ((char *)start) - ((char *)end);
-    meh = malloc(bytes * sizeof(char));
-    
-    strncpy(meh, end, bytes);
-    //printf("Test: %s\n", target);
-    strcat(cleantext, meh);
-    
-    free(meh);
+char *clean_block_text = NULL;
+struct choice* choice1;
+struct choice* choice2;
+struct choice* choice3;
+int choiceNum = 0, choiceTextNum = 0;
+
+// Gets the cleaned text file
+char* getCleanText(){
+    return clean_block_text;
 }
 
-char* getCleanText(){
-    return cleantext;
+char* getNextFile(int num){
+    if (num == 1){
+        return choice1->choice_file;
+    } else if (num == 2){
+        return choice2->choice_file;
+    } else if (num == 3){
+        return choice3->choice_file;
+    } else{
+        return NULL;
+    }
+}
+
+char* getChoiceText(int num){
+    if (num == 1){
+        return choice1->choice_text;
+    } else if (num == 2){
+        return choice2->choice_text;
+    } else if (num == 3){
+        return choice3->choice_text;
+    } else{
+        return NULL;
+    }
+}
+
+char* removeFirstAndLast(char *file_choice, char *output, unsigned long len){
+    if (len > 0){
+        strcpy(output, ++file_choice);
+    }
+    if (len > 1){
+        output[len - 2] = '\0';
+    }
+    return output;
+}
+
+void removeBrackets(char *filetext, char *target, char *start, char *end){
+    char *storyText = NULL;
+    
+    if (clean_block_text == NULL){
+        clean_block_text = emalloc (strlen(filetext) * sizeof(char));
+    }
+    
+    long bytes = ((char *)end) - ((char *)start);
+    storyText = emalloc(bytes * sizeof(char));
+    strncpy(storyText, start, bytes);
+    
+    if (strcmp(target, "[NAME]") == 0){
+        strcat(clean_block_text, "Greg");
+    }
+    
+    strcat(clean_block_text, storyText);
+    
+    storyText = NULL;
+    free(storyText);
 }
 
 int getBracketAmount(char *filetext){
@@ -54,11 +100,9 @@ int getBracketAmount(char *filetext){
 void store_brackets(char *filetext){
     int i = 0;
     int listIndex = 0;
-    //int bracketnum = getBracketAmount(filetext);
-    //char* bracketlist[bracketnum];
     
-    
-    char *target = NULL;
+    bool choices = false;
+    char *target = NULL, *nextFile = NULL;
     char *start = NULL, *end = NULL;
     char *startLocation = NULL, *endLocation = NULL;
     
@@ -66,44 +110,108 @@ void store_brackets(char *filetext){
         //printf("Filenum: %c\n", filetext[i]);
         if (filetext[i] == '['){
             start = &filetext[i];
-            startLocation = &filetext[i];
+            endLocation = &filetext[i];
         }
         else if (filetext[i] == ']'){
             end = &filetext[i] + 1;
-            endLocation = &filetext[i] + 1;
-            //printf("End1: %ptr\n", end);
-            //printf("End: %ptr\n", end);
+            startLocation = &filetext[i] + 1;
+            endLocation = NULL;
             }
-        
-        if (startLocation != NULL){
-            removeBrackets(filetext, startLocation, endLocation);
-            startLocation = NULL;
-        }
-        
+
         // Adds the bracketed word into a dynamic array
         if (start != NULL && end != NULL){
-            ptrdiff_t bytes = ((char *)end) - ((char *)start);
-            target = malloc(bytes * sizeof(char));
+            target = NULL;
+            long bytes = ((char *)end) - ((char *)start);
+            if (target != NULL){
+                target = erealloc(target, bytes);
+            } else{
+                target = emalloc(bytes);
+            }
             strncpy (target, start, bytes);
-            //printf("Target: %s\n", target);
-            //bracketlist[listIndex] = malloc((strlen(target) + 1) * sizeof bracketlist[0][0]);
-            //strcpy(bracketlist[listIndex], target);
-            //printf("ListTarget: %s\n", bracketlist[listIndex]);
 
+            if (target != NULL){
+                if (target[1] == 'C' && choices == false){
+                    choices = true;
+                }
+            }
             start = NULL;
             end = NULL;
             listIndex++;
-            free(target);
+        }
+        
+        //Clean body text
+        else if (startLocation != NULL && endLocation != NULL && choices == false){
+            removeBrackets(filetext, target, startLocation, endLocation);
+            startLocation = NULL;
+            endLocation = NULL;
+        }
+        if (choices == true){
+            //Use the same method as above and the pointers should still work,
+            //start and end should still be set
+            
+            //Sets the filename of the next story piece for each choice
+            unsigned long len = strlen(target);
+            long bytes = 0;
+            char output[len];
+            nextFile = removeFirstAndLast(target, output, len);
+            bool check = false;
+            
+            if (startLocation != NULL && endLocation != NULL){
+                check = true;
+                bytes = ((char *)endLocation) - ((char *)startLocation);
+                //printf("Start: %s\n", startLocation);
+                //printf("End: %s\n", endLocation);
+            }
+            
+            if (choiceNum == 0 && choice1 == NULL){
+                choice1 = emalloc(sizeof(choice1));
+                choice1->choice_file = emalloc(10 * sizeof(choice1->choice_text[0]));
+                strcpy(choice1->choice_file, nextFile);
+                choiceNum++;
+            } else if (choiceNum == 1 && (strcmp(choice1->choice_file, nextFile) != 0)){
+                choice2 = emalloc(sizeof(choice2));
+                choice2->choice_file = emalloc(10 * sizeof(choice2->choice_text[0]));
+                strcpy(choice2->choice_file, nextFile);
+                choiceNum++;
+            } else if (choiceNum == 2 && (strcmp(choice2->choice_file, nextFile) != 0)){
+                choice3 = emalloc(sizeof(choice3));
+                choice3->choice_file = emalloc(10 * sizeof(choice3->choice_text[0]));
+                strcpy(choice3->choice_file, nextFile);
+                choiceNum++;
+            }
+            
+            if (choiceTextNum == 0 && check == true){
+                choice1->choice_text = emalloc(bytes * sizeof(char));
+                strncpy(choice1->choice_text, startLocation, bytes);
+                startLocation = NULL;
+                endLocation = NULL;
+                choiceTextNum++;
+            } else if (choiceTextNum == 1 && check == true){
+                choice2->choice_text = emalloc(bytes * sizeof(char));
+                strncpy(choice2->choice_text, startLocation, bytes);
+                startLocation = NULL;
+                endLocation = NULL;
+                choiceTextNum++;
+            } else if (choiceTextNum == 2 && check == true){
+                choice3->choice_text = emalloc(bytes * sizeof(char));
+                strncpy(choice3->choice_text, startLocation, bytes);
+                startLocation = NULL;
+                endLocation = NULL;
+                choiceTextNum++;
+            }
+            check = false;
         }
         i++;
-    }
+    } // End while loop
+    target = NULL;
+    nextFile = NULL;
     
-    //free(bracketlist);
+    free(nextFile);
+    free(target);
     free(filetext);
-    //return filetext;
 }
 
-// Prints out the text file
+// Sets the file into a string
 char* setFile(FILE *file){
     char *filetext;
     long bytes;
@@ -126,10 +234,4 @@ char* setFile(FILE *file){
     fread(filetext, sizeof(char), bytes, file);
     
     return filetext;
-    //filetext = store_brackets(filetext);
-    
-    //printf("%s\n", filetext);
-    //printf("\n\nBrackets: %d\n", brackets);
-    
-    //free(filetext);
 }
