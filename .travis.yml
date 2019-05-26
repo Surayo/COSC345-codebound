@@ -10,7 +10,7 @@ matrix:
 xcode_project: Assignment.xcodeproj # path to your xcodeproj folder
 xcode_scheme: AssignmentTests
 xcode_destination: platform=macOS
-script: cc main.c fileLoader.c textManipulation.c graphics.c mylib.c titleScreen.c gameScreen.c displayText.c
+script: Assignment
 #osx_image: xode10.1
 #xcode_project: Assignment.xcodeproj
 #xcode_scheme: Assignment
