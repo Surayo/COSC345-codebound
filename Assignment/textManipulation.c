@@ -186,22 +186,41 @@ void store_brackets(char *filetext){
                 //printf("Start: %s\n", startLocation);
                 //printf("End: %s\n", endLocation);
             }
-            
-            if (choiceNum == 0 && choice1 == NULL){
-                choice1 = emalloc(sizeof(choice1));
-                choice1->choice_file = emalloc(10 * sizeof(choice1->choice_text[0]));
-                strcpy(choice1->choice_file, nextFile);
-                choiceNum++;
-            } else if (choiceNum == 1 && (strcmp(choice1->choice_file, nextFile) != 0)){
-                choice2 = emalloc(sizeof(choice2));
-                choice2->choice_file = emalloc(10 * sizeof(choice2->choice_text[0]));
-                strcpy(choice2->choice_file, nextFile);
-                choiceNum++;
-            } else if (choiceNum == 2 && (strcmp(choice2->choice_file, nextFile) != 0)){
-                choice3 = emalloc(sizeof(choice3));
-                choice3->choice_file = emalloc(10 * sizeof(choice3->choice_text[0]));
-                strcpy(choice3->choice_file, nextFile);
-                choiceNum++;
+            // This is a hot fix - make better later
+            if (nextFile[1] == '0'){
+                if (choiceNum == 0 && choice1 == NULL){
+                    choice1 = emalloc(sizeof(choice1));
+                    choice1->choice_file = emalloc(10 * sizeof(choice1->choice_text[0]));
+                    strcpy(choice1->choice_file, nextFile);
+                    choiceNum++;
+                } else if (choiceNum == 1){
+                    choice2 = emalloc(sizeof(choice2));
+                    choice2->choice_file = emalloc(10 * sizeof(choice2->choice_text[0]));
+                    strcpy(choice2->choice_file, nextFile);
+                    choiceNum++;
+                } else if (choiceNum == 2){
+                    choice3 = emalloc(sizeof(choice3));
+                    choice3->choice_file = emalloc(10 * sizeof(choice3->choice_text[0]));
+                    strcpy(choice3->choice_file, nextFile);
+                    choiceNum++;
+                }
+            } else {
+                if (choiceNum == 0 && choice1 == NULL){
+                    choice1 = emalloc(sizeof(choice1));
+                    choice1->choice_file = emalloc(10 * sizeof(choice1->choice_text[0]));
+                    strcpy(choice1->choice_file, nextFile);
+                    choiceNum++;
+                } else if (choiceNum == 1 && (strcmp(choice1->choice_file, nextFile) != 0)){
+                    choice2 = emalloc(sizeof(choice2));
+                    choice2->choice_file = emalloc(10 * sizeof(choice2->choice_text[0]));
+                    strcpy(choice2->choice_file, nextFile);
+                    choiceNum++;
+                } else if (choiceNum == 2 && (strcmp(choice2->choice_file, nextFile) != 0)){
+                    choice3 = emalloc(sizeof(choice3));
+                    choice3->choice_file = emalloc(10 * sizeof(choice3->choice_text[0]));
+                    strcpy(choice3->choice_file, nextFile);
+                    choiceNum++;
+                }
             }
             
             if (choiceTextNum == 0 && check == true){
