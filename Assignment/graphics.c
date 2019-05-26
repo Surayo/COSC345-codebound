@@ -17,20 +17,19 @@
 /** When game first launches, load in any required resources and start with the title screen. */
 void loadGame(GameState *game){
     
-    //Load fonts - report error if a font cannot be located
-    game->titleFont = TTF_OpenFont("Nasalization.ttf", 144);
-    if(!game->titleFont){
-        printf("Cannot find font file! (title)\n\n");
-        SDL_Quit();
-        exit(1);
-    }
-    game->menuFont = TTF_OpenFont("Arial.ttf", 36);
-    if(!game->menuFont){
-        printf("Cannot find font file! (menu)\n\n");
+    // Load fonts & report an error if a font cannot be located
+    game->titleFont = TTF_OpenFont("Perfect DOS VGA 437.ttf", 156);
+    game->subtitleFont = TTF_OpenFont("VCR_OSD_MONO.ttf", 42);
+    game->footerFont = TTF_OpenFont("Perfect DOS VGA 437.ttf", 30);
+    game->menuFont = TTF_OpenFont("Perfect DOS VGA 437.ttf", 36);
+    game->gameFont = TTF_OpenFont("VCR_OSD_MONO.ttf", 16);
+    if(!game->titleFont || !game->subtitleFont || !game->menuFont || !game->gameFont || !game->footerFont){
+        printf("Cannot find font file!\n\n");
         SDL_Quit();
         exit(1);
     }
     
+    //set the window center coordinates
     game->screenCenterX = 1366/2;
     game->screenCenterY = 768/2;
     
@@ -154,6 +153,10 @@ int processEvents(SDL_Window *window, GameState *game){
                             init_game_screen(game);
                         break;
                         }
+                        if (game->selectorStatus == SELECTOR_HOVER_QUITGAME) { 
+                            done = 1;
+                        break;
+                        }
                 }
             }
                 break;
@@ -198,7 +201,7 @@ void createWindow(int boolean){
                                   SDL_WINDOWPOS_UNDEFINED,      //initial y pos
                                   WIDTH,                        //width, in pixels
                                   HEIGHT,                       //height, in pixels
-                                  0);                           //flags
+                                  SDL_WINDOW_OPENGL);           //flags
         renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
         
         TTF_Init();                             //initialise font library

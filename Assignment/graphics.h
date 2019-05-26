@@ -25,11 +25,8 @@
 #define SELECTOR_HOVER_QUITGAME 6
 #define SELECTOR_HOVER_BACK 7
 
-#define SELECTOR_SELECT_NONE 0
-#define SELECTOR_SELECT_C1 1
-#define SELECTOR_SELECT_C2 2
-#define SELECTOR_SELECT_C3 3
-
+#define SCENARIO_INTRO 0
+#define SCENARIO_C0 1
 
 typedef struct {
     int x, y, w, h;
@@ -45,24 +42,36 @@ typedef struct {
     
     //Selector
     Selector selector;
-    int selectorStatus;
     
     //Fonts
     TTF_Font *titleFont;
+    TTF_Font *subtitleFont;
+    TTF_Font *footerFont;
     TTF_Font *menuFont;
+    TTF_Font *gameFont;
     
     //Textures: contain any text string that we may want to draw
     SDL_Texture *title;
     int titleW, titleH;
+    SDL_Texture *subtitle;
+    int subtitleW, subtitleH;
+    SDL_Texture *footer;
+    int footerW, footerH;
     SDL_Texture *newGame;
     int newGameW, newGameH;
     SDL_Texture *loadGame;
     int loadGameW, loadGameH;
     SDL_Texture *quitGame;
     int quitGameW, quitGameH;
+    SDL_Texture *storyText;
+    int storyTextW, storyTextH;
+    SDL_Texture *choice1Text;
+    int choice1TextW, choice1TextH;
     
     //Status
     int statusState;
+    int scenarioStatus;
+    int selectorStatus;
     
     //Time
     int time;
