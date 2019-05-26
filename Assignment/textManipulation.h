@@ -16,5 +16,6 @@ extern void store_brackets(char *filetext);
 extern char* getCleanText();
 extern char* getNextFile(int num);
 extern char* getChoiceText(int num);
+extern void freeChoices();
 
 #endif /* textManipulation_h */
