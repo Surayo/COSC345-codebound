@@ -8,14 +8,39 @@
 
 #include "graphics.h"
 #include "SDL.h"
-//#include "SDL_ttf.h"
+#include "SDL_ttf.h"
+#include "titleScreen.h"
+#include "gameScreen.h"
 #include <stdio.h>
+#include <time.h>
 
-typedef struct {
-    int x, y;
-} Selector;
+/** When game first launches, load in any required resources and start with the title screen. */
+void loadGame(GameState *game){
+    
+    //Load fonts - report error if a font cannot be located
+    game->titleFont = TTF_OpenFont("Nasalization.ttf", 144);
+    if(!game->titleFont){
+        printf("Cannot find font file! (title)\n\n");
+        SDL_Quit();
+        exit(1);
+    }
+    game->menuFont = TTF_OpenFont("Arial.ttf", 36);
+    if(!game->menuFont){
+        printf("Cannot find font file! (menu)\n\n");
+        SDL_Quit();
+        exit(1);
+    }
+    
+    game->screenCenterX = 1366/2;
+    game->screenCenterY = 768/2;
+    
+    //initialise the title screen:
+    game->statusState = STATUS_STATE_TITLE;
+    init_title_screen(game);
+}
 
-int processEvents(SDL_Window *window, Selector *selector){
+/** function for processing any game events */
+int processEvents(SDL_Window *window, GameState *game){
     SDL_Event event;
     int done = 0;
     
@@ -31,35 +56,103 @@ int processEvents(SDL_Window *window, Selector *selector){
             }
             break;
             case SDL_KEYDOWN: {
-                switch(event.key.keysym.sym) { //keyboard events go here
-                    case SDLK_ESCAPE: //check to see if escape key has been pressed
-                        done = 1;
-                    break;
-                    case SDLK_UP:
-                        if (selector->y == 595) {
-                            selector->y = 715;
+                switch(event.key.keysym.sym) {                              //keyboard events go here
+                    case SDLK_ESCAPE:                                       //check to see if escape key has been pressed
+                        if (game->statusState == STATUS_STATE_GAME) {       //if the SELECTOR is hovered over NEWGAME
+                            game->statusState = STATUS_STATE_TITLE;          //begin a new game - load the game screen
+                            init_title_screen(game);
                             break;
+                        } else {
+                            done = 1;
+                        break;
                         }
-                        if (selector->y == 655) {
-                            selector->y = 595;
-                            break;
-                        }
-                        if (selector->y == 715) {
-                            selector->y = 655;
-                            break;
-                        }
+                break;
                     case SDLK_DOWN:
-                        if (selector->y == 595) {
-                            selector->y = 655;
+                        if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {
+                            game->selector.x = game->screenCenterX-game->loadGameW/2-25;
+                            game->selector.y = game->screenCenterY+85;
+                            game->selector.w = game->loadGameW+50;
+                            game->selector.h = game->loadGameH+30;
+                            game->selectorStatus = SELECTOR_HOVER_LOADGAME;
+                        break;
+                        }
+                        if (game->selectorStatus == SELECTOR_HOVER_LOADGAME) {
+                            game->selector.x = game->screenCenterX-game->quitGameW/2-25;
+                            game->selector.y = game->screenCenterY+185;
+                            game->selector.w = game->quitGameW+50;
+                            game->selector.h = game->quitGameH+30;
+                            game->selectorStatus = SELECTOR_HOVER_QUITGAME;
+                        break;
+                        }
+                        if (game->selectorStatus == SELECTOR_HOVER_QUITGAME) {
+                            game->selector.x = game->screenCenterX-game->newGameW/2-25;
+                            game->selector.y = game->screenCenterY-15;
+                            game->selector.w = game->newGameW+50;
+                            game->selector.h = game->newGameH+30;
+                            game->selectorStatus = SELECTOR_HOVER_NEWGAME;
+                        break;
+                        }
+                        if (game->selectorStatus == SELECTOR_HOVER_C1) {
+                            game->selector.y = game->screenCenterY+248;
+                            game->selectorStatus = SELECTOR_HOVER_C2;
+                        break;
+                        }
+                        if (game->selectorStatus == SELECTOR_HOVER_C2) {
+                            game->selector.y = game->screenCenterY+298;
+                            game->selectorStatus = SELECTOR_HOVER_C3;
+                        break;
+                        }
+                        if (game->selectorStatus == SELECTOR_HOVER_C3) {
+                            game->selector.y = game->screenCenterY+198;
+                            game->selectorStatus = SELECTOR_HOVER_C1;
+                        break;
+                        }
+                    case SDLK_UP: {
+                        if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {
+                            game->selector.x = game->screenCenterX-game->quitGameW/2-25;
+                            game->selector.y = game->screenCenterY+185;
+                            game->selector.w = game->quitGameW+50;
+                            game->selector.h = game->quitGameH+30;
+                            game->selectorStatus = SELECTOR_HOVER_QUITGAME;
                             break;
                         }
-                        if (selector->y == 655) {
-                            selector->y = 715;
+                        if (game->selectorStatus == SELECTOR_HOVER_LOADGAME) {
+                            game->selector.x = game->screenCenterX-game->newGameW/2-25;
+                            game->selector.y = game->screenCenterY-15;
+                            game->selector.w = game->newGameW+50;
+                            game->selector.h = game->newGameH+30;
+                            game->selectorStatus = SELECTOR_HOVER_NEWGAME;
                             break;
                         }
-                        if (selector->y == 715) {
-                            selector->y = 595;
+                        if (game->selectorStatus == SELECTOR_HOVER_QUITGAME) {
+                            game->selector.x = game->screenCenterX-game->loadGameW/2-25;
+                            game->selector.y = game->screenCenterY+85;
+                            game->selector.w = game->loadGameW+50;
+                            game->selector.h = game->loadGameH+30;
+                            game->selectorStatus = SELECTOR_HOVER_LOADGAME;
                             break;
+                        }
+                        if (game->selectorStatus == SELECTOR_HOVER_C1) {
+                            game->selector.y = game->screenCenterY+298;
+                            game->selectorStatus = SELECTOR_HOVER_C3;
+                            break;
+                        }
+                        if (game->selectorStatus == SELECTOR_HOVER_C2) {
+                            game->selector.y = game->screenCenterY+198;
+                            game->selectorStatus = SELECTOR_HOVER_C1;
+                            break;
+                        }
+                        if (game->selectorStatus == SELECTOR_HOVER_C3) {
+                            game->selector.y = game->screenCenterY+248;
+                            game->selectorStatus = SELECTOR_HOVER_C2;
+                            break;
+                        }
+                    }
+                    case SDLK_RETURN:                                               //return key is pressed
+                        if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {       //if the SELECTOR is hovered over NEWGAME
+                            game->statusState = STATUS_STATE_GAME;                  //begin a new game - load the game screen
+                            init_game_screen(game);
+                        break;
                         }
                 }
             }
@@ -73,85 +166,72 @@ int processEvents(SDL_Window *window, Selector *selector){
     return done;
 }
 
-void doRender(SDL_Renderer *renderer, Selector *selector){
-    //set the drawing colour to gray
-    SDL_SetRenderDrawColor(renderer, 80, 80, 80, 255);
-    
-    //clear the screen to gray (background colour)
-    SDL_RenderClear(renderer);
-    
-    //set the drawing colour to white
-    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
-    
-    SDL_Rect selectorPanel = { selector->x, selector->y, 790, 60 };
-    SDL_RenderFillRect(renderer, &selectorPanel);
-    
-    //set the drawing colour to darker gray
-    SDL_SetRenderDrawColor(renderer, 40, 40, 40, 255);
-    
-    //draw the main text panel { x, y, width, height }
-    SDL_Rect mainPanel = { 100, 40, 800, 500 };
-    SDL_RenderFillRect(renderer, &mainPanel);
-    
-    //draw the main text panel { x, y, width, height }
-    SDL_Rect choice1Panel = { 110, 600, 780, 50 };
-    SDL_RenderFillRect(renderer, &choice1Panel);
-    
-    //draw the main text panel { x, y, width, height }
-    SDL_Rect choice2Panel = { 110, 660, 780, 50 };
-    SDL_RenderFillRect(renderer, &choice2Panel);
-    
-    //draw the main text panel { x, y, width, height }
-    SDL_Rect choice3Panel = { 110, 720, 780, 50 };
-    SDL_RenderFillRect(renderer, &choice3Panel);
-    
-    //present what we have drawn
-    SDL_RenderPresent(renderer);
+/** render the display */
+void doRender(SDL_Renderer *renderer, GameState *game){
+    if(game->statusState == STATUS_STATE_TITLE) {
+        draw_title_screen(game);
+        if (game->selector.y == 540-game->newGameH) {
+            game->selectorStatus = SELECTOR_HOVER_NEWGAME;
+        }
+    } else if (game->statusState == STATUS_STATE_GAME) {
+        draw_game_screen(game);
+        //displayText(game);
+    } else if (game->statusState == STATUS_STATE_GAMEOVER){
+        //gameOverScreen(game);
+    }
 }
 
-void createWindow(){
-    const int WIDTH = 1000, HEIGHT = 800;
+/** Initialise SDL2 and create an application window for the game. */
+void createWindow(int boolean){
+    const int WIDTH = 1366, HEIGHT = 768;
+    if (boolean == 1) {
     
-    //GameState = ganeState;
-    SDL_Window *window;                     //Declare a window
-    SDL_Renderer *renderer;                 //Declare a renderer
-    
-    SDL_Init(SDL_INIT_VIDEO);               //Initialise SDL2
-    
-    Selector selector;
-    selector.x = 105;
-    selector.y = 595;
-    
-    //create an application window with the following settings:
-    window = SDL_CreateWindow("Game Window",                //window title
-                              SDL_WINDOWPOS_UNDEFINED,      //initial x pos
-                              SDL_WINDOWPOS_UNDEFINED,      //initial y pos
-                              WIDTH,                        //width, in pixels
-                              HEIGHT,                       //height, in pixels
-                              SDL_WINDOW_OPENGL);           //flags
-    renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
-    
-    
-    //the window is open: enter program loop (SDL_PollEvent)
-    int done = 0;
-    
-    //Event loop: constantly checks for events - tied to fps
-    while(!done) {
+        GameState gameState;
+        SDL_Window *window;                     //Declare a window
+        SDL_Renderer *renderer;                 //Declare a renderer
         
-        //check for events:
-        done = (processEvents(window, &selector));
+        SDL_Init(SDL_INIT_VIDEO);               //Initialise SDL2 library
         
-        //render display:
-        doRender(renderer, &selector);
+        //create an application window with the following settings:
+        window = SDL_CreateWindow("345 Project: Devolution",                //window title
+                                  SDL_WINDOWPOS_UNDEFINED,      //initial x pos
+                                  SDL_WINDOWPOS_UNDEFINED,      //initial y pos
+                                  WIDTH,                        //width, in pixels
+                                  HEIGHT,                       //height, in pixels
+                                  0);                           //flags
+        renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
         
-        //wait 100 milliseconds for every frame (don't burn out CPU)
-        SDL_Delay(100);
-    }
-    
-    //close and destroy the window
-    SDL_DestroyWindow(window);
-    SDL_DestroyRenderer(renderer);
+        TTF_Init();                             //initialise font library
+        
+        gameState.renderer = renderer;          //Pass renderer to gameState
 
-    //clean up
-    SDL_Quit();
+        loadGame(&gameState);                   //load the game with necessary resources & begin with title screen
+        
+        //at this point the window is open: enter program loop (using SDL_PollEvent)
+        int done = 0;
+        //Event loop: constantly checks for events (tied to fps, but I used a delay in case VSYNC doesn't work)
+        while(!done) {
+            //check for events:
+            done = (processEvents(window, &gameState));
+            
+            //render the display:
+            doRender(renderer, &gameState);
+            
+            //wait 100 milliseconds for every frame (so we don't burn out CPU)
+            SDL_Delay(100);
+        }
+        
+        // Shutdown the game and unload all memory //
+        if(gameState.title != NULL)
+            SDL_DestroyTexture(gameState.title);
+        TTF_CloseFont(gameState.titleFont);
+        
+        //close and destroy the window:
+        SDL_DestroyWindow(window);
+        SDL_DestroyRenderer(renderer);
+
+        //clean up:
+        TTF_Quit();
+        SDL_Quit();
+    }
 }
