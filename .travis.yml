@@ -6,8 +6,11 @@ matrix:
       osx_image: xcode10.1
     
     - os: osx
-      osx_image: xcode9.4
-build: cc main.c fileLoader.c textManipulation.c graphics.c
+      osx_image: xcode9.3
+xcode_project: Assignment.xcodeproj # path to your xcodeproj folder
+xcode_scheme: AssignmentTests
+xcode_destination: platform=macOS
+#build: cc main.c fileLoader.c textManipulation.c graphics.c
 #osx_image: xode10.1
 #xcode_project: Assignment.xcodeproj
 #xcode_scheme: Assignment
