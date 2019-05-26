@@ -25,7 +25,28 @@ struct choice* choice3;
 int choiceNum = 0, choiceTextNum = 0;
 
 void freeChoices(){
-    
+    choice1->choice_file = NULL;
+    choice1->choice_text = NULL;
+    free(choice1->choice_file);
+    free(choice1->choice_text);
+    choice1 = NULL;
+    free(choice1);
+    choice2->choice_file = NULL;
+    choice2->choice_text = NULL;
+    free(choice2->choice_file);
+    free(choice2->choice_text);
+    choice2 = NULL;
+    free(choice2);
+    choice3->choice_file = NULL;
+    choice3->choice_text = NULL;
+    free(choice3->choice_file);
+    free(choice3->choice_text);
+    choice3 = NULL;
+    free(choice3);
+    choiceNum = 0;
+    choiceTextNum = 0;
+    clean_block_text = NULL;
+    free(clean_block_text);
 }
 
 // Gets the cleaned text file
@@ -108,7 +129,7 @@ void store_brackets(char *filetext){
     char *target = NULL, *nextFile = NULL;
     char *start = NULL, *end = NULL;
     char *startLocation = NULL, *endLocation = NULL;
-    printf("Test: %s\n", filetext);
+    //printf("Test: %s\n", filetext);
     while (filetext[i] != '\0'){
         //printf("Filenum: %c\n", filetext[i]);
         if (filetext[i] == '['){
@@ -202,7 +223,6 @@ void store_brackets(char *filetext){
                 endLocation = NULL;
                 choiceTextNum++;
             }
-            check = false;
         }
         i++;
     } // End while loop

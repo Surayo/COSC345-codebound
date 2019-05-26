@@ -1,8 +1,8 @@
 [1.1.1.1.2]The night draws on as you stumble through unfamiliar streets. The pale glow reflecting off of the smog from the Bioforms that surround this vast city is the only thing lighting your wavering path. 
 
-You can’t bring yourself to run, exhausted as you are from your long day in the Factory but you’re stubborn and refuse to turn back. 
+You can't bring yourself to run, exhausted as you are from your long day in the Factory but you're stubborn and refuse to turn back. 
 
-It hurts to keep moving. The street sways under your feet. You are dizzy from lack of sleep and the stress of searching for your sister. What is your don’t find her. 
+It hurts to keep moving. The street sways under your feet. You are dizzy from lack of sleep and the stress of searching for your sister. What is your don't find her. 
 
 No sound jumps out at you, no twitch of movement calls your attention. Nothing.  Your knees almost buckle on your next step.
 
@@ -10,7 +10,7 @@ Where is she?
 
 Wh-
 
-You gasp and your eyes prick. You’ve slowed almost to a stop.
+You gasp and your eyes prick. You've slowed almost to a stop.
 
 Where the fu-
 
@@ -22,21 +22,20 @@ How could she do this to you.
 
 The only thing keeping you upright and moving at this point is your desperate anger.
 
-You are utterly and completely lost and it’s all her fault. How could she?
+You are utterly and completely lost and it's all her fault. How could she?
 
 Fuck her. Fuck you for letting her fuck you over like this.
 
-Your eyes are blurring too much so see the street in front of you. You blindly stumble on. It’s no surprise when you trip but you are shocked anyway at the audacity the universe has for punching you while this rage of emotions is tearing through you.
+Your eyes are blurring too much so see the street in front of you. You blindly stumble on. It's no surprise when you trip but you are shocked anyway at the audacity the universe has for punching you while this rage of emotions is tearing through you.
 
-You hit the ground hard on hands and knees and feel the palms of your hands tear. Eve’s Ring goes flying out into the street.
+You hit the ground hard on hands and knees and feel the palms of your hands tear. Eve's Ring goes flying out into the street.
 
 
 [I1]You have lost SISTERS RING
 
+[C1.1.1.1.2.1]The soft ping of Eve's ring hitting the street somewhere out in the dark shocks the anger out of you. Your emotions clog in your throat.
 
-[Choices]
+[C1.1.1.3]Fuck this. And fuck Eve's ring. You haul yourself back to your feet, turn, and start walking back towards home.
 
-
-[C1.1.1.1.2.1]The soft ping of Eve’s ring hitting the street somewhere out in the dark shocks the anger out of you. Your emotions clog in your throat.
-
-[C1.1.1.3]Fuck this. And fuck Eve’s ring. You haul yourself back to your feet, turn, and start walking back towards home.
+[C1.3]To be continued
+[End]
