@@ -16,7 +16,9 @@ Something pale and white. A flytecraft.
 
 How? It's been years since there were flytecrafts, since before you were born. Flytecrafts are flying transport ships that were common before the days of the pandemic. You've seen pictures from the history books and when you were a child you used to play in the hollow of a stripped out flytecraft but for one to be up and functioning.
 
-[C0002.1]Continue Story
-[C0002.1]Continue Story
-[C0002.1]Continue Story
+Choices:
+
+[C0002.1]1. Continue Story
+[C0002.1]2. Continue Story
+[C0002.1]3. Continue Story
 [End]

@@ -9,9 +9,9 @@ A heavy cloud of exhaustion has settled over you like the familiar old blanket t
 
 A rustle of noise. A shadow shifts out of your peripheral vision. You are suddenly very alert. Somehow you manage not to stop even as you get closer to the source. Another quiet noise - this one almost sounds like a muffled echoey bark. It came from the alley up ahead, a side path that leads to deeper parts of the city. Sprawling underground structures and streets no worker like yourself ever walks down. 
 
-[C0.2] Continue Story
+Choices:
 
-[C0.2] Continue Story
-
-[C0.2] Continue Story
+[C0.2]1. Continue Story
+[C0.2]2. Continue Story
+[C0.2]3. Continue Story
 [End]

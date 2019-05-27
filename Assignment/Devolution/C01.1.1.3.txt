@@ -14,10 +14,9 @@ You grumble something even you know isn't words and plod on, head down.
 
 "Hmmmmm. Alright. But you are moping way more then usual. If your sister has gotten into some shit again talk to me. Her stressing you out stresses me out and I'm not about that life."
 
-[C1.1.1.1.1.1]You give her a friendly punch on the shoulder. You feel better knowing she's there for you.
+Choices:
 
-[C1.1.1.1.1.2]Dread and guilt washes over you. You should tell her. She's as much Eve's friend as your. She needs to know what Eve has done.
-
-[C1.1.1.1.1.3][I1]You pull Eve's ring out of your pocket. "Eve is gone." Liaba looks as you quizzically.
-
+[C1.1.1.1.1.1]1. You give her a friendly punch on the shoulder. You feel better knowing she's there for you.
+[C1.1.1.1.1.2]2. Dread and guilt washes over you. You should tell her. She's as much Eve's friend as your. She needs to know what Eve has done.
+[C1.1.1.1.1.3]3. You pull Eve's ring out of your pocket. "Eve is gone." Liaba looks as you quizzically.
 [End]
