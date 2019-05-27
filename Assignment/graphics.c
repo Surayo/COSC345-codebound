@@ -12,6 +12,7 @@
 #include "graphics.h"
 #include "titleScreen.h"
 #include "gameScreen.h"
+#include "displayText.h"
 
 #include <stdio.h>
 #include <time.h>
@@ -96,21 +97,24 @@ int processEvents(SDL_Window *window, GameState *game){
                             game->selectorStatus = SELECTOR_HOVER_NEWGAME;
                         break;
                         }
-                        if (game->selectorStatus == SELECTOR_HOVER_C1) {
-                            game->selector.y = game->screenCenterY+248;
-                            game->selectorStatus = SELECTOR_HOVER_C2;
-                        break;
+                        if (game->scenarioStatus == SCENARIO_C0_2) {
+                            if (game->selectorStatus == SELECTOR_HOVER_C1) {
+                                game->selector.y = game->screenCenterY+248;
+                                game->selectorStatus = SELECTOR_HOVER_C2;
+                            break;
+                            }
+                            if (game->selectorStatus == SELECTOR_HOVER_C2) {
+                                game->selector.y = game->screenCenterY+298;
+                                game->selectorStatus = SELECTOR_HOVER_C3;
+                            break;
+                            }
+                            if (game->selectorStatus == SELECTOR_HOVER_C3) {
+                                game->selector.y = game->screenCenterY+198;
+                                game->selectorStatus = SELECTOR_HOVER_C1;
+                            break;
+                            }
                         }
-                        if (game->selectorStatus == SELECTOR_HOVER_C2) {
-                            game->selector.y = game->screenCenterY+298;
-                            game->selectorStatus = SELECTOR_HOVER_C3;
                         break;
-                        }
-                        if (game->selectorStatus == SELECTOR_HOVER_C3) {
-                            game->selector.y = game->screenCenterY+198;
-                            game->selectorStatus = SELECTOR_HOVER_C1;
-                        break;
-                        }
                     case SDLK_UP: {
                         if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {
                             game->selector.x = game->screenCenterX-game->quitGameW/2-25;
@@ -118,7 +122,7 @@ int processEvents(SDL_Window *window, GameState *game){
                             game->selector.w = game->quitGameW+50;
                             game->selector.h = game->quitGameH+30;
                             game->selectorStatus = SELECTOR_HOVER_QUITGAME;
-                            break;
+                        break;
                         }
                         if (game->selectorStatus == SELECTOR_HOVER_LOADGAME) {
                             game->selector.x = game->screenCenterX-game->newGameW/2-25;
@@ -126,7 +130,7 @@ int processEvents(SDL_Window *window, GameState *game){
                             game->selector.w = game->newGameW+50;
                             game->selector.h = game->newGameH+30;
                             game->selectorStatus = SELECTOR_HOVER_NEWGAME;
-                            break;
+                        break;
                         }
                         if (game->selectorStatus == SELECTOR_HOVER_QUITGAME) {
                             game->selector.x = game->screenCenterX-game->loadGameW/2-25;
@@ -134,23 +138,26 @@ int processEvents(SDL_Window *window, GameState *game){
                             game->selector.w = game->loadGameW+50;
                             game->selector.h = game->loadGameH+30;
                             game->selectorStatus = SELECTOR_HOVER_LOADGAME;
-                            break;
+                        break;
                         }
-                        if (game->selectorStatus == SELECTOR_HOVER_C1) {
-                            game->selector.y = game->screenCenterY+298;
-                            game->selectorStatus = SELECTOR_HOVER_C3;
+                        if (game->scenarioStatus == SCENARIO_C0_2) {
+                            if (game->selectorStatus == SELECTOR_HOVER_C1) {
+                                game->selector.y = game->screenCenterY+298;
+                                game->selectorStatus = SELECTOR_HOVER_C3;
                             break;
-                        }
-                        if (game->selectorStatus == SELECTOR_HOVER_C2) {
-                            game->selector.y = game->screenCenterY+198;
-                            game->selectorStatus = SELECTOR_HOVER_C1;
+                            }
+                            if (game->selectorStatus == SELECTOR_HOVER_C2) {
+                                game->selector.y = game->screenCenterY+198;
+                                game->selectorStatus = SELECTOR_HOVER_C1;
                             break;
-                        }
-                        if (game->selectorStatus == SELECTOR_HOVER_C3) {
-                            game->selector.y = game->screenCenterY+248;
-                            game->selectorStatus = SELECTOR_HOVER_C2;
+                            }
+                            if (game->selectorStatus == SELECTOR_HOVER_C3) {
+                                game->selector.y = game->screenCenterY+248;
+                                game->selectorStatus = SELECTOR_HOVER_C2;
                             break;
+                            }
                         }
+                        break;
                     }
                     case SDLK_RETURN:                                               //return key is pressed
                         if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {       //if the SELECTOR is hovered over NEWGAME
@@ -160,15 +167,13 @@ int processEvents(SDL_Window *window, GameState *game){
                             init_game_screen(game);
                         break;
                         }
+                        if (game->selectorStatus == SELECTOR_HOVER_C1) {
+                            changeScenario(game);
+                        break;
+                        }
                         if (game->selectorStatus == SELECTOR_HOVER_QUITGAME) { 
                             done = 1;
                         break;
-                        }
-                        if (game->scenarioStatus == SCENARIO_C0){
-                            if (game->selectorStatus == SELECTOR_HOVER_C1) {       
-                                game->choiceStatus = SELECT_CHOICE_1;
-                            break;
-                            }
                         }
                 }
             }

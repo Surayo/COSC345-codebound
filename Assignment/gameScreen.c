@@ -14,8 +14,6 @@ const int DISPLAY_W = 1000, DISPLAY_H = 710, CHOICE_W =900, CHOICE_H =40;
 
 void init_game_screen(GameState *game){
     
-    game->scenarioStatus = SCENARIO_C0;
-    
     //move selector to right place and set the right dimensions//
     game->selectorStatus = SELECTOR_HOVER_C1;
     game->selector.x = game->screenCenterX-CHOICE_W/2-2;

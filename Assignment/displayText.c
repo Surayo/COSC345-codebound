@@ -34,34 +34,14 @@ void init_display_text(GameState *game){
     char *choice1 = NULL;
     char *choice2 = NULL;
     char *choice3 = NULL;
-    char *next_file = NULL;
+    //char *next_file = NULL;
     FILE *fptr;
     
     cwd = emalloc(150 * sizeof(char));
     cwd = current_directory(cwd);
-    strcpy(file_location, "/Devolution/C0.txt");
-    fptr = openfile(cwd, file_location);
-    story = setFile(fptr);
-    store_brackets(story);
-    story = getCleanText();
     
-    if (game->scenarioStatus == SCENARIO_C0) {
-        
-        choice1 = getChoiceText(1);
-        choice2 = getChoiceText(2);
-        choice3 = getChoiceText(3);
-        
-        freeChoices();
-        fclose(fptr);
-        free(cwd);
-    } else { //if (game-> scenarioStatus == SCENARIO_NEXT)
-        next_file = getNextFile(1);
-        printf("%s\n", next_file);
-        
-        strcpy(file_location, "/Devolution/");
-        strcat(file_location, next_file);
-        strcat(file_location, ".txt");
-        
+    if (game->scenarioStatus == SCENARIO_C0){
+        strcpy(file_location, "/Devolution/C0.txt");
         fptr = openfile(cwd, file_location);
         story = setFile(fptr);
         store_brackets(story);
@@ -69,11 +49,42 @@ void init_display_text(GameState *game){
         choice1 = getChoiceText(1);
         choice2 = getChoiceText(2);
         choice3 = getChoiceText(3);
-        
         freeChoices();
         fclose(fptr);
         free(cwd);
     }
+    
+    if (game->scenarioStatus == SCENARIO_C0_1) {
+        strcpy(file_location, "/Devolution/C0.1.txt");
+        fptr = openfile(cwd, file_location);
+        story = setFile(fptr);
+        store_brackets(story);
+        story = getCleanText();
+        choice1 = getChoiceText(1);
+        choice2 = getChoiceText(2);
+        choice3 = getChoiceText(3);
+        freeChoices();
+        fclose(fptr);
+        free(cwd);
+    }
+    
+    if (game->scenarioStatus == SCENARIO_C0_2) {
+        cwd = emalloc(150 * sizeof(char));
+        cwd = current_directory(cwd);
+        strcpy(file_location, "/Devolution/C0.2.txt");
+        fptr = openfile(cwd, file_location);
+        story = setFile(fptr);
+        store_brackets(story);
+        story = getCleanText();
+        choice1 = getChoiceText(1);
+        choice2 = getChoiceText(2);
+        choice3 = getChoiceText(3);
+        freeChoices();
+        fclose(fptr);
+        free(cwd);
+    }
+    
+    
     //create any text to be used on the game screen//
     //Story text:
     SDL_Color white = { 255, 255, 255, 255};                                                    //text colour set to white
@@ -84,24 +95,25 @@ void init_display_text(GameState *game){
     SDL_FreeSurface(tmp0);                                                                      //destroy surface
     //CHOICES text:
     //choice 1:
-    SDL_Surface *tmp1 = TTF_RenderText_Blended_Wrapped(game->gameFont, choice1, white, 900);
+    SDL_Surface *tmp1 = TTF_RenderText_Blended_Wrapped(game->gameFont, choice1, white, 800);
     game->choice1TextW = tmp1->w;
     game->choice1TextH = tmp1->h;
     game->choice1Text = SDL_CreateTextureFromSurface(game->renderer, tmp1);
     SDL_FreeSurface(tmp1);
-    //choice 2:
-    SDL_Surface *tmp2 = TTF_RenderText_Blended_Wrapped(game->gameFont, choice2, white, 900);
-    game->choice2TextW = tmp2->w;
-    game->choice2TextH = tmp2->h;
-    game->choice2Text = SDL_CreateTextureFromSurface(game->renderer, tmp2);
-    SDL_FreeSurface(tmp2);
-    //choice 3:
-    SDL_Surface *tmp3 = TTF_RenderText_Blended_Wrapped(game->gameFont, choice3, white, 900);
-    game->choice3TextW = tmp3->w;
-    game->choice3TextH = tmp3->h;
-    game->choice3Text = SDL_CreateTextureFromSurface(game->renderer, tmp3);
-    SDL_FreeSurface(tmp3);
-    
+    if (game->scenarioStatus == SCENARIO_C0_2){
+        //choice 2:
+        SDL_Surface *tmp2 = TTF_RenderText_Blended_Wrapped(game->gameFont, choice2, white, 800);
+        game->choice2TextW = tmp2->w;
+        game->choice2TextH = tmp2->h;
+        game->choice2Text = SDL_CreateTextureFromSurface(game->renderer, tmp2);
+        SDL_FreeSurface(tmp2);
+        //choice 3:
+        SDL_Surface *tmp3 = TTF_RenderText_Blended_Wrapped(game->gameFont, choice3, white, 800);
+        game->choice3TextW = tmp3->w;
+        game->choice3TextH = tmp3->h;
+        game->choice3Text = SDL_CreateTextureFromSurface(game->renderer, tmp3);
+        SDL_FreeSurface(tmp3);
+    }
 }
 
 void draw_display_text(GameState *game){
@@ -118,14 +130,22 @@ void draw_display_text(GameState *game){
     SDL_RenderCopy(renderer, game->choice2Text, NULL, &choice2Rect);
     SDL_Rect choice3Rect = { game->screenCenterX-game->choice3TextW/2, game->screenCenterY+305, game->choice3TextW, game->choice3TextH};
     SDL_RenderCopy(renderer, game->choice3Text, NULL, &choice3Rect);
+}
+
+void changeScenario(GameState *game){
+    if (game->scenarioStatus == SCENARIO_C0) {
+        game->scenarioStatus = SCENARIO_C0_1;
+        init_display_text(game);
+        return;
+    }
     
-    if(game->scenarioStatus == SCENARIO_C0){
-        if (game->choiceStatus == SELECT_CHOICE_1 || game->choiceStatus == SELECT_CHOICE_2 || game->choiceStatus == SELECT_CHOICE_3  ){
-            game->scenarioStatus = SCENARIO_NEXT;
-            init_display_text(game);
-        }
+    if (game->scenarioStatus == SCENARIO_C0_1) {
+        game->scenarioStatus = SCENARIO_C0_2;
+        init_display_text(game);
+        return;
     }
 }
+
 
 void shutdown_display_text(GameState *game){
     SDL_DestroyTexture(game->storyText);
