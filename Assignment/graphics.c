@@ -14,25 +14,26 @@
 #include <stdio.h>
 #include <time.h>
 
+const int WINDOW_W = 1366, WINDOW_H = 768;
+
 /** When game first launches, load in any required resources and start with the title screen. */
-void loadGame(GameState *game){
+void loadGame(GameState *game) {
     
-    //Load fonts - report error if a font cannot be located
-    game->titleFont = TTF_OpenFont("Nasalization.ttf", 144);
-    if(!game->titleFont){
-        printf("Cannot find font file! (title)\n\n");
-        SDL_Quit();
-        exit(1);
-    }
-    game->menuFont = TTF_OpenFont("Arial.ttf", 36);
-    if(!game->menuFont){
-        printf("Cannot find font file! (menu)\n\n");
+    // Load fonts & report an error if a font cannot be located
+    game->titleFont = TTF_OpenFont("Perfect DOS VGA 437.ttf", 156);
+    game->subtitleFont = TTF_OpenFont("VCR_OSD_MONO.ttf", 42);
+    game->footerFont = TTF_OpenFont("Perfect DOS VGA 437.ttf", 26);
+    game->menuFont = TTF_OpenFont("Perfect DOS VGA 437.ttf", 36);
+    game->gameFont = TTF_OpenFont("VCR_OSD_MONO.ttf", 16);
+    if(!game->titleFont || !game->subtitleFont || !game->menuFont || !game->gameFont || !game->footerFont){
+        printf("Cannot find font file!\n\n");
         SDL_Quit();
         exit(1);
     }
     
-    game->screenCenterX = 1366/2;
-    game->screenCenterY = 768/2;
+    //set the window center coordinates
+    game->screenCenterX = WINDOW_W/2;
+    game->screenCenterY = WINDOW_H/2;
     
     //initialise the title screen:
     game->statusState = STATUS_STATE_TITLE;
@@ -59,7 +60,8 @@ int processEvents(SDL_Window *window, GameState *game){
                 switch(event.key.keysym.sym) {                              //keyboard events go here
                     case SDLK_ESCAPE:                                       //check to see if escape key has been pressed
                         if (game->statusState == STATUS_STATE_GAME) {       //if the SELECTOR is hovered over NEWGAME
-                            game->statusState = STATUS_STATE_TITLE;          //begin a new game - load the game screen
+                            game->statusState = STATUS_STATE_TITLE;         //begin a new game - load the game screen
+                            shutdown_game_screen(game);
                             init_title_screen(game);
                             break;
                         } else {
@@ -151,7 +153,12 @@ int processEvents(SDL_Window *window, GameState *game){
                     case SDLK_RETURN:                                               //return key is pressed
                         if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {       //if the SELECTOR is hovered over NEWGAME
                             game->statusState = STATUS_STATE_GAME;                  //begin a new game - load the game screen
+                            shutdown_title_screen(game);
                             init_game_screen(game);
+                        break;
+                        }
+                        if (game->selectorStatus == SELECTOR_HOVER_QUITGAME) { 
+                            done = 1;
                         break;
                         }
                 }
@@ -175,7 +182,6 @@ void doRender(SDL_Renderer *renderer, GameState *game){
         }
     } else if (game->statusState == STATUS_STATE_GAME) {
         draw_game_screen(game);
-        //displayText(game);
     } else if (game->statusState == STATUS_STATE_GAMEOVER){
         //gameOverScreen(game);
     }
@@ -183,7 +189,6 @@ void doRender(SDL_Renderer *renderer, GameState *game){
 
 /** Initialise SDL2 and create an application window for the game. */
 void createWindow(int boolean){
-    const int WIDTH = 1366, HEIGHT = 768;
     if (boolean == 1) {
     
         GameState gameState;
@@ -193,17 +198,18 @@ void createWindow(int boolean){
         SDL_Init(SDL_INIT_VIDEO);               //Initialise SDL2 library
         
         //create an application window with the following settings:
-        window = SDL_CreateWindow("345 Project: Devolution",                //window title
-                                  SDL_WINDOWPOS_UNDEFINED,      //initial x pos
-                                  SDL_WINDOWPOS_UNDEFINED,      //initial y pos
-                                  WIDTH,                        //width, in pixels
-                                  HEIGHT,                       //height, in pixels
-                                  0);                           //flags
+        window = SDL_CreateWindow("COSC 345 Project: Devolution",                   //window title
+                                  SDL_WINDOWPOS_UNDEFINED,                          //initial x pos
+                                  SDL_WINDOWPOS_UNDEFINED,                          //initial y pos
+                                  WINDOW_W,                                         //width, in pixels
+                                  WINDOW_H,                                         //height, in pixels
+                                  SDL_WINDOW_OPENGL);                               //flags
+        
+        //create the renderer we will be using throughout the program:
         renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
+        gameState.renderer = renderer;          //Pass renderer to gameState
         
         TTF_Init();                             //initialise font library
-        
-        gameState.renderer = renderer;          //Pass renderer to gameState
 
         loadGame(&gameState);                   //load the game with necessary resources & begin with title screen
         
@@ -218,13 +224,17 @@ void createWindow(int boolean){
             doRender(renderer, &gameState);
             
             //wait 100 milliseconds for every frame (so we don't burn out CPU)
-            SDL_Delay(100);
+            //SDL_Delay(100);
         }
         
         // Shutdown the game and unload all memory //
-        if(gameState.title != NULL)
-            SDL_DestroyTexture(gameState.title);
+        if(gameState.storyText != NULL)
+            SDL_DestroyTexture(gameState.storyText);
         TTF_CloseFont(gameState.titleFont);
+        TTF_CloseFont(gameState.subtitleFont);
+        TTF_CloseFont(gameState.footerFont);
+        TTF_CloseFont(gameState.menuFont);
+        TTF_CloseFont(gameState.gameFont);
         
         //close and destroy the window:
         SDL_DestroyWindow(window);

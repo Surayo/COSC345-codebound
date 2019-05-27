@@ -31,18 +31,21 @@ void freeChoices(){
     free(choice1->choice_text);
     choice1 = NULL;
     free(choice1);
+    
     choice2->choice_file = NULL;
     choice2->choice_text = NULL;
     free(choice2->choice_file);
     free(choice2->choice_text);
     choice2 = NULL;
     free(choice2);
+    
     choice3->choice_file = NULL;
     choice3->choice_text = NULL;
     free(choice3->choice_file);
     free(choice3->choice_text);
     choice3 = NULL;
     free(choice3);
+    
     choiceNum = 0;
     choiceTextNum = 0;
     clean_block_text = NULL;

@@ -28,7 +28,7 @@ char* concat(const char *s1, const char *s2){
 //Get the current directory
 char* current_directory(char *cwd){
     if (getcwd(cwd, sizeof(char) * 200) != NULL) {
-        // printf("Current working dir: %s\n", cwd);
+        //printf("Current working dir: %s\n", cwd);
         return cwd;
     } else {
         perror("getcwd() error");

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		D086AB852297A27B00248F54 /* Nasalization.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D086AB842297A27B00248F54 /* Nasalization.ttf */; };
 		D08A39AE22961DB300F08D98 /* titleScreen.c in Sources */ = {isa = PBXBuildFile; fileRef = D08A39AC22961DB300F08D98 /* titleScreen.c */; };
+		D08F07C0229A251A00EF8355 /* displayText.c in Sources */ = {isa = PBXBuildFile; fileRef = D08F07BE229A251A00EF8355 /* displayText.c */; };
+		D08F07C2229A301800EF8355 /* VCR_OSD_MONO.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D08F07C1229A301800EF8355 /* VCR_OSD_MONO.ttf */; };
+		D08F07C4229A339400EF8355 /* Perfect DOS VGA 437.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D08F07C3229A339400EF8355 /* Perfect DOS VGA 437.ttf */; };
 		D0B961CF2298CA500003732A /* gameScreen.c in Sources */ = {isa = PBXBuildFile; fileRef = D0B961CD2298CA500003732A /* gameScreen.c */; };
 		D0B961D12298FD0A0003732A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D0B961D02298FD0A0003732A /* main.c */; };
 		D0B961D4229900590003732A /* mylib.c in Sources */ = {isa = PBXBuildFile; fileRef = D0B961D2229900590003732A /* mylib.c */; };
@@ -30,6 +33,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				D08F07C4229A339400EF8355 /* Perfect DOS VGA 437.ttf in CopyFiles */,
+				D08F07C2229A301800EF8355 /* VCR_OSD_MONO.ttf in CopyFiles */,
 				D086AB852297A27B00248F54 /* Nasalization.ttf in CopyFiles */,
 				D0F3552A2294D7E0003DEFED /* Arial.ttf in CopyFiles */,
 				D0F355262294D014003DEFED /* SDL2_ttf.framework in CopyFiles */,
@@ -44,6 +49,10 @@
 		D086AB842297A27B00248F54 /* Nasalization.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nasalization.ttf; sourceTree = "<group>"; };
 		D08A39AC22961DB300F08D98 /* titleScreen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = titleScreen.c; sourceTree = "<group>"; };
 		D08A39AD22961DB300F08D98 /* titleScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = titleScreen.h; sourceTree = "<group>"; };
+		D08F07BE229A251A00EF8355 /* displayText.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = displayText.c; sourceTree = "<group>"; };
+		D08F07BF229A251A00EF8355 /* displayText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = displayText.h; sourceTree = "<group>"; };
+		D08F07C1229A301800EF8355 /* VCR_OSD_MONO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VCR_OSD_MONO.ttf; sourceTree = "<group>"; };
+		D08F07C3229A339400EF8355 /* Perfect DOS VGA 437.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Perfect DOS VGA 437.ttf"; sourceTree = "<group>"; };
 		D0B961CD2298CA500003732A /* gameScreen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gameScreen.c; sourceTree = "<group>"; };
 		D0B961CE2298CA500003732A /* gameScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gameScreen.h; sourceTree = "<group>"; };
 		D0B961D02298FD0A0003732A /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
@@ -88,6 +97,8 @@
 		F0DA39B522557E7A00A83874 = {
 			isa = PBXGroup;
 			children = (
+				D08F07C3229A339400EF8355 /* Perfect DOS VGA 437.ttf */,
+				D08F07C1229A301800EF8355 /* VCR_OSD_MONO.ttf */,
 				D086AB842297A27B00248F54 /* Nasalization.ttf */,
 				D0F355292294D7E0003DEFED /* Arial.ttf */,
 				F0A034AE228CE84400C7FA62 /* SDL2.framework */,
@@ -111,8 +122,8 @@
 				F0B017E122923FD200BFDD6C /* Devolution */,
 				F0E4AE4C22823B8800641B53 /* fileLoader.c */,
 				F0E4AE5D22823B8900641B53 /* fileLoader.h */,
-				F07C0C4A2283B35700696A60 /* textManipulation.h */,
 				F07C0C4B2283B35700696A60 /* textManipulation.c */,
+				F07C0C4A2283B35700696A60 /* textManipulation.h */,
 				D0B961D2229900590003732A /* mylib.c */,
 				D0B961D3229900590003732A /* mylib.h */,
 				D0B961D02298FD0A0003732A /* main.c */,
@@ -122,6 +133,8 @@
 				D08A39AD22961DB300F08D98 /* titleScreen.h */,
 				D0B961CD2298CA500003732A /* gameScreen.c */,
 				D0B961CE2298CA500003732A /* gameScreen.h */,
+				D08F07BE229A251A00EF8355 /* displayText.c */,
+				D08F07BF229A251A00EF8355 /* displayText.h */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -183,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0A034AA228CE78700C7FA62 /* graphics.c in Sources */,
+				D08F07C0229A251A00EF8355 /* displayText.c in Sources */,
 				D0B961CF2298CA500003732A /* gameScreen.c in Sources */,
 				D0B961D12298FD0A0003732A /* main.c in Sources */,
 				D08A39AE22961DB300F08D98 /* titleScreen.c in Sources */,
