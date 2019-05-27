@@ -20,11 +20,11 @@
 
 void init_display_text(GameState *game){
     
-    //Intro text:
+    // Intro text: //
     //char *story = NULL;
     //story = "Welcome to DEVOLUTION\n\nAs a text-based adventure, the player chooses how the story unfolds.\n\n\n\nPress continue to begin the story...";
     
-    //Continue text:
+    // Continue text: //
     //char *choice1 = NULL;
     //choice1 = "Continue";
     
@@ -34,8 +34,9 @@ void init_display_text(GameState *game){
     char *choice1 = NULL;
     char *choice2 = NULL;
     char *choice3 = NULL;
-    
+    char *next_file = NULL;
     FILE *fptr;
+    
     cwd = emalloc(150 * sizeof(char));
     cwd = current_directory(cwd);
     strcpy(file_location, "/Devolution/C0.txt");
@@ -43,13 +44,36 @@ void init_display_text(GameState *game){
     story = setFile(fptr);
     store_brackets(story);
     story = getCleanText();
-    choice1 = getChoiceText(1);
-    choice2 = getChoiceText(2);
-    choice3 = getChoiceText(3);
     
-    fclose(fptr);
-    free(cwd);
-    
+    if (game->scenarioStatus == SCENARIO_C0) {
+        
+        choice1 = getChoiceText(1);
+        choice2 = getChoiceText(2);
+        choice3 = getChoiceText(3);
+        
+        freeChoices();
+        fclose(fptr);
+        free(cwd);
+    } else { //if (game-> scenarioStatus == SCENARIO_NEXT)
+        next_file = getNextFile(1);
+        printf("%s\n", next_file);
+        
+        strcpy(file_location, "/Devolution/");
+        strcat(file_location, next_file);
+        strcat(file_location, ".txt");
+        
+        fptr = openfile(cwd, file_location);
+        story = setFile(fptr);
+        store_brackets(story);
+        story = getCleanText();
+        choice1 = getChoiceText(1);
+        choice2 = getChoiceText(2);
+        choice3 = getChoiceText(3);
+        
+        freeChoices();
+        fclose(fptr);
+        free(cwd);
+    }
     //create any text to be used on the game screen//
     //Story text:
     SDL_Color white = { 255, 255, 255, 255};                                                    //text colour set to white
@@ -78,7 +102,6 @@ void init_display_text(GameState *game){
     game->choice3Text = SDL_CreateTextureFromSurface(game->renderer, tmp3);
     SDL_FreeSurface(tmp3);
     
-    
 }
 
 void draw_display_text(GameState *game){
@@ -92,9 +115,16 @@ void draw_display_text(GameState *game){
     SDL_Rect choice1Rect = { game->screenCenterX-game->choice1TextW/2, game->screenCenterY+205, game->choice1TextW, game->choice1TextH};
     SDL_RenderCopy(renderer, game->choice1Text, NULL, &choice1Rect);
     SDL_Rect choice2Rect = { game->screenCenterX-game->choice2TextW/2, game->screenCenterY+255, game->choice2TextW, game->choice2TextH};
-    SDL_RenderCopy(renderer, game->choice1Text, NULL, &choice2Rect);
+    SDL_RenderCopy(renderer, game->choice2Text, NULL, &choice2Rect);
     SDL_Rect choice3Rect = { game->screenCenterX-game->choice3TextW/2, game->screenCenterY+305, game->choice3TextW, game->choice3TextH};
-    SDL_RenderCopy(renderer, game->choice1Text, NULL, &choice3Rect);
+    SDL_RenderCopy(renderer, game->choice3Text, NULL, &choice3Rect);
+    
+    if(game->scenarioStatus == SCENARIO_C0){
+        if (game->choiceStatus == SELECT_CHOICE_1 || game->choiceStatus == SELECT_CHOICE_2 || game->choiceStatus == SELECT_CHOICE_3  ){
+            game->scenarioStatus = SCENARIO_NEXT;
+            init_display_text(game);
+        }
+    }
 }
 
 void shutdown_display_text(GameState *game){

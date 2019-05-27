@@ -6,11 +6,13 @@
 //  Copyright © 2019 CodeBound. All rights reserved.
 //
 
-#include "graphics.h"
 #include "SDL.h"
 #include "SDL_ttf.h"
+
+#include "graphics.h"
 #include "titleScreen.h"
 #include "gameScreen.h"
+
 #include <stdio.h>
 #include <time.h>
 
@@ -153,6 +155,7 @@ int processEvents(SDL_Window *window, GameState *game){
                     case SDLK_RETURN:                                               //return key is pressed
                         if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {       //if the SELECTOR is hovered over NEWGAME
                             game->statusState = STATUS_STATE_GAME;                  //begin a new game - load the game screen
+                            game->scenarioStatus = SCENARIO_C0;
                             shutdown_title_screen(game);
                             init_game_screen(game);
                         break;
@@ -160,6 +163,12 @@ int processEvents(SDL_Window *window, GameState *game){
                         if (game->selectorStatus == SELECTOR_HOVER_QUITGAME) { 
                             done = 1;
                         break;
+                        }
+                        if (game->scenarioStatus == SCENARIO_C0){
+                            if (game->selectorStatus == SELECTOR_HOVER_C1) {       
+                                game->choiceStatus = SELECT_CHOICE_1;
+                            break;
+                            }
                         }
                 }
             }

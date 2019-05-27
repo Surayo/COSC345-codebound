@@ -20,7 +20,7 @@ int main(int argc, const char * argv[]) {
     char *cwd = NULL;
     char file_location[50];
     char *text = NULL;
-    char *choice = NULL, *next_file = NULL;
+    char *choice = NULL, 
     FILE *fptr;
     
     cwd = emalloc(150 * sizeof(char));
