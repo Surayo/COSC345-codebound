@@ -90,7 +90,7 @@ void draw_title_screen(GameState *game){
     SDL_Rect subtitleRect = { game->screenCenterX-game->subtitleW/2, game->screenCenterY-130, game->subtitleW, game->subtitleH};
     SDL_RenderCopy(renderer, game->subtitle, NULL, &subtitleRect);
     // draw the FOOTER //
-    SDL_Rect footerRect = { game->screenCenterX-game->footerW/2, game->screenCenterY+300, game->footerW, game->footerH};
+    SDL_Rect footerRect = { game->screenCenterX-game->footerW/2, game->screenCenterY+310, game->footerW, game->footerH};
     SDL_RenderCopy(renderer, game->footer, NULL, &footerRect);
     
     // draw the NEWGAME option //
@@ -126,7 +126,11 @@ void draw_title_screen(GameState *game){
 
 void shutdown_title_screen(GameState *game){
     SDL_DestroyTexture(game->title);
+    SDL_DestroyTexture(game->subtitle);
     SDL_DestroyTexture(game->newGame);
+    SDL_DestroyTexture(game->loadGame);
+    SDL_DestroyTexture(game->quitGame);
+    SDL_DestroyTexture(game->footer);
     game->title = NULL;
     game->newGame = NULL;
 }

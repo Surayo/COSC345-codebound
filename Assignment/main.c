@@ -16,6 +16,7 @@
 #include "mylib.h"
 
 int main(int argc, const char * argv[]) {
+    /*
     char *cwd = NULL;
     char file_location[50];
     char *text = NULL;
@@ -51,11 +52,13 @@ int main(int argc, const char * argv[]) {
         strcat(file_location, ".txt");
     
         freeChoices();
-        //create_window();
+        
         fclose(fptr);
     }
     
     free(cwd);
+    */
     
+    createWindow(1);
     return 0;
 }

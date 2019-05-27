@@ -67,6 +67,10 @@ typedef struct {
     int storyTextW, storyTextH;
     SDL_Texture *choice1Text;
     int choice1TextW, choice1TextH;
+    SDL_Texture *choice2Text;
+    int choice2TextW, choice2TextH;
+    SDL_Texture *choice3Text;
+    int choice3TextW, choice3TextH;
     
     //Status
     int statusState;

@@ -14,9 +14,12 @@ In these cities nature had been pushed out by the dense polluting air and crowde
 
 Still, even in these cities, few survived. 
 
-[C0.1] Continue Story
+Time passed for the survivors and the remaining people of Dirth clustered together in their protective cities, for outside those walls were the Bioforms. In this game of adaptation only time would tell who would survive.  
 
-[C0.1] Continue Story
+[C0.1]There is no point provoking this gang of bastards. You catch and hold your sisters eye before you turn around and walk away. There is always another route home.
 
-[C0.1] Continue Story
+[C0.2]Eve? You say, your sister tenses up as you call her out, What are you doing with them? The tall man who addressed you glances back at her, expression faintly curious. 
+
+[C0.3]That fucking shithead. What the hell is Eve doing with a bunch of traitorous rebels. Your hand clenches down on the flick knife in your pocket.
+
 [End]
