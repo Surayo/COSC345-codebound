@@ -12,21 +12,7 @@ Oh Fuck. The Leader. "Oh - ah. Right. Right." You gulp. What are you still doing
 
 "I don't understand. Evey time a worker leaves the Factory the other workers have to pick up the slack. We can't keep doing this. It's killing us. If you understand this why then. Why are you doing it?" you ask. If he knows why you hate the Vagabonds, if he knows why you think they are scum who turned against their own people, then why?
 
-"Our actions aren't without cause. We are the rebellion as you rightly know. But do you know who we are rebelling against?" You had always thought they were against working in the Factory. That they were lazy and selfish and would rather have an easy life without toil and pain then protect their people. 
-
-You glance from one face to another and spot another familiar face in the crowd. Rush. An older guy who used to work alongside you at the furnaces. He had been hardworking and committed to keeping your city alive. Rush had been a guiding force in your early days of working in the factory after your parents deaths.
-
-Rush had disappeared one day. He never said anything. It had been a crushing blow.
-
-You don't know what he is rebelling against, or what bought your sister over to the Vagabonds side.
-
-Rasputin speaks again. "There is good reason we rebel."
-
-
-[C2.1]"Explain it to me then." You say. Rasputin nods, satisfied and motions for you to follow him. You follow.
-
-[C2.2]"Everyone has to work. It's the only way to keep the Bioforms out of the city. You need to stop this." You say
-
-[C2.3]You look at Eve. "Please, come back home. You shouldn't be doing this no matter what fucked up reasons they've given you to make you think it's OK."
-
+[C02]Continue Story
+[C02]Continue Story
+[C02]Continue Story
 [End]
