@@ -7,10 +7,10 @@ matrix:
     
     - os: osx
       osx_image: xcode9.3
-xcode_project: Assignment.xcodeproj # path to your xcodeproj folder
-xcode_scheme: AssignmentTests
-xcode_destination: platform=macOS
 before_script: cd Assignment
+xcode_project: Assignment.xcodeproj # path to your xcodeproj folder
+xcode_scheme: Assignment
+xcode_destination: platform=macOS
 build: cc main.c fileLoader.c textManipulation.c mylib.c graphics.c titleScreen.c gameScreen.c displayText.c
 #osx_image: xode10.1
 #xcode_project: Assignment.xcodeproj
