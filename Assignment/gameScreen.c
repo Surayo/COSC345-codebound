@@ -14,8 +14,6 @@ const int DISPLAY_W = 1000, DISPLAY_H = 710, CHOICE_W =900, CHOICE_H =40;
 
 void init_game_screen(GameState *game){
     
-    game->scenarioStatus = SCENARIO_INTRO;
-    
     //move selector to right place and set the right dimensions//
     game->selectorStatus = SELECTOR_HOVER_C1;
     game->selector.x = game->screenCenterX-CHOICE_W/2-2;
@@ -47,13 +45,6 @@ void draw_game_screen(GameState *game){
     SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
     SDL_Rect selectorRect = { game->selector.x, game->selector.y, game->selector.w, game->selector.h};
     SDL_RenderFillRect(renderer, &selectorRect);
-    
-    /*
-    SDL_SetRenderDrawColor(renderer, 80, 80, 80, 255);
-    if (game->scenarioStatus == SCENARIO_INTRO){
-        SDL_Rect continueRect = { game->screenCenterX-CHOICE_W/2, game->screenCenterY+200, CHOICE_W, CHOICE_H };
-        SDL_RenderFillRect(renderer, &continueRect);
-    } */
     
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     //draw the CHOICE backdrops //

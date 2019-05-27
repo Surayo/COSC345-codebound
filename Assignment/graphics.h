@@ -25,8 +25,14 @@
 #define SELECTOR_HOVER_QUITGAME 6
 #define SELECTOR_HOVER_BACK 7
 
-#define SCENARIO_INTRO 0
-#define SCENARIO_C0 1
+#define SCENARIO_C0     0
+#define SCENARIO_C0_1   1
+#define SCENARIO_C0_2   2
+
+#define SELECT_CHOICE_NONE 0
+#define SELECT_CHOICE_1 1
+#define SELECT_CHOICE_2 2
+#define SELECT_CHOICE_3 3
 
 typedef struct {
     int x, y, w, h;
@@ -76,6 +82,7 @@ typedef struct {
     int statusState;
     int scenarioStatus;
     int selectorStatus;
+    int choiceStatus;
     
     //Time
     int time;
