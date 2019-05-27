@@ -5,11 +5,10 @@ Eve looks uncharasticly somber, her eyes wide behind her large round glasses. "I
 "Yes well, as great as Maxim is, he is no Juniper."
 
 
-[Choices]
+Choices:
 
 
-[C2.1.2.1]"I'll go after her." You say. Rasputin glances your way, surprised. "I'll find out where she went and bring her back."
-
-[C2.1.2.2]"Who's Maxim?" you ask. Rasputin gestures again and starts walking. "Let's walk while we talk. I think you are ready to see where we base ourselves."
-
-[C2.1.2.3]"Don't think this excuses anything." You say, "You should still be working in the Factory, all of you should be."
+[C2.1.2.1]1. "I'll go after her." You say. Rasputin glances your way, surprised. "I'll find out where she went and bring her back."
+[C2.1.2.2]2. "Who's Maxim?" you ask. Rasputin gestures again and starts walking. "Let's walk while we talk. I think you are ready to see where we base ourselves."
+[C2.1.2.3]3. "Don't think this excuses anything." You say, "You should still be working in the Factory, all of you should be."
+[End]

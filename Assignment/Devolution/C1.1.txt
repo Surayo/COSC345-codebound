@@ -14,7 +14,9 @@ You groan and thump your head down on the table. "Why do you have to be like thi
 
 "That's what they want you to think." She says smuggly. What. What does that even mean? "We'll I'm not going back. I'm going to get out of this shitty town and when I do i'll never have to work in that dump-hole ever again." She extends her middle finger towards you.
 
-[C01.1]Continue Story
-[C01.1]Continue Story
-[C01.1]Continue Story
+Choices: 
+
+[C01.1]1. Continue Story
+[C01.1]2. Continue Story
+[C01.1]3. Continue Story
 [End]

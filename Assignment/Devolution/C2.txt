@@ -12,7 +12,9 @@ Oh Fuck. The Leader. "Oh - ah. Right. Right." You gulp. What are you still doing
 
 "I don't understand. Evey time a worker leaves the Factory the other workers have to pick up the slack. We can't keep doing this. It's killing us. If you understand this why then. Why are you doing it?" you ask. If he knows why you hate the Vagabonds, if he knows why you think they are scum who turned against their own people, then why?
 
-[C02]Continue Story
-[C02]Continue Story
-[C02]Continue Story
+Choices:
+
+[C02]1. Continue Story
+[C02]2. Continue Story
+[C02]3. Continue Story
 [End]
