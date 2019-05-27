@@ -16,10 +16,11 @@
 #include "mylib.h"
 
 int main(int argc, const char * argv[]) {
+    /*
     char *cwd = NULL;
     char file_location[50];
     char *text = NULL;
-    char *choice = NULL, 
+    char *choice = NULL;
     FILE *fptr;
     
     cwd = emalloc(150 * sizeof(char));
@@ -56,7 +57,9 @@ int main(int argc, const char * argv[]) {
     }
     
     free(cwd);
+     */
     
+    createWindow(1);
     return 0;
 }
 
