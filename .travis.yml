@@ -12,7 +12,7 @@ matrix:
   #- XCWORKSPACE="Assignment.xcodeproj"
 before_install:
     - brew update
-    - brew update xctool
+    - brew upgrade xctool
 script:
     xctool -project Assignment.xcodeproj -scheme Assignment -destination platform=macOS #CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
 #xcode_project: Assignment.xcodeproj # path to your xcodeproj folder
