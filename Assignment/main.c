@@ -40,9 +40,9 @@ int main(int argc, const char * argv[]) {
         text = getCleanText();
         printf("%s\n", text);
         
-        choice = getChoiceText(1);
+        choice = getChoiceText(2);
         printf("%s\n", choice);
-        next_file = getNextFile(1);
+        next_file = getNextFile(2);
         printf("%s\n", next_file);
     
         //file_location = NULL;
@@ -51,7 +51,7 @@ int main(int argc, const char * argv[]) {
         strcat(file_location, ".txt");
     
         freeChoices();
-        //create_window();
+        //createWindow(1);
         fclose(fptr);
     }
     
@@ -59,3 +59,7 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
+
+/*
+    YOU ARE BREAKING UP THE TEXT FILES LOOK AT ME!!!!!!!!!! REMEMBER
+ */
