@@ -1,4 +1,6 @@
-[0.2]You hear that muffled noise again, loader and more distinct. Definitely voices. You hardly have time to freeze before a group of people walk out into the smog filtered daylight. They are Vagabonds. All of them. You know this immediately by the black stained clothes of their crew.
+[0.2]You peer into the gloom but see nothing. If that was voices you heard it's bad news for you. Only outcasts and rebels spend any time in these streets. Maybe you should take another route home. 
+
+You hear that muffled noise again, loader and more distinct. Definitely voices. You hardly have time to freeze before a group of people walk out into the smog filtered daylight. They are Vagabonds. All of them. You know this immediately by the black stained clothes of their crew.
 
 This time you stutter to a stop. Shit. This is a bad place to be caught. Your eyes flick from one face to another as they shaunter out of the alley. More than a dozen Vagabonds and one of you. Icy fear flows down your spine. They're rebels, no one knows exactly how dangerous they are but from the stories you've heard they are vicious in their cause. 
 
@@ -10,9 +12,9 @@ It can't be. Your sister.
 
 What is Eve doing?
 
-[C0.1]There is no point provoking this gang of bastards. You catch and hold your sisters eye before you turn around and walk away. There is always another route home.
+Choices:
 
-[C0.2]"Eve?" You say, your sister tenses up as you call her out, "What are you doing with them?" The tall man who addressed you glances back at her, expression faintly curious. 
-
-[C0.3]That fucking shithead. What the hell is Eve doing with a bunch of tratourious rebels. Your hand clenches down on the flick knife in your pocket.
+[C1]1. There is no point provoking this gang of bastards. You catch and hold your sisters eye before you turn around and walk away. There is always another route home.
+[C2]2. "Eve?" You say, your sister tenses up as you call her out, "What are you doing with them?" The tall man who addressed you glances back at her, expression faintly curious. 
+[C3]3. That fucking shithead. What the hell is Eve doing with a bunch of tratourious rebels. Your hand clenches down on the flick knife in your pocket.
 [end]

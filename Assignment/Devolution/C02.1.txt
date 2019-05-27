@@ -16,7 +16,9 @@ Patches of green grow on almost all of the buildings now and the air is starting
 
 You wonder if Rasputin has an Aspect similar to yours and your sisters? Your Aspects make you  immune to the toxin secreted by the Bioforms. Most people would die if they breathed in the sickly sweet scent for too long.
 
-[C002.1]Continue Story
-[C002.1]Continue Story
-[C002.1]Continue Story
+Choices:
+
+[C002.1]1. Continue Story
+[C002.1]2. Continue Story
+[C002.1]3. Continue Story
 [End]

@@ -16,10 +16,10 @@ Still, even in these cities, few survived.
 
 Time passed for the survivors and the remaining people of Dirth clustered together in their protective cities, for outside those walls were the Bioforms. In this game of adaptation only time would tell who would survive.  
 
-[C0.1] Continue Story
+Choices:
 
-[C0.2] Continue Story
-
-[C0.3] Continue Story
+[C0.1]1: Continue Story
+[C0.1]2: Continue Story
+[C0.1]3: Continue Story
 
 [End]

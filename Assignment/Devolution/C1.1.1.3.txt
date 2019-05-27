@@ -12,9 +12,9 @@ It isn't' long before Drew is making the rounds again, your ears prick up at the
 
 Doors start opening throughout the house, other workers making their way out of the house and towards The Factory. That's your queue.
 
-[01.1.1.3]Continue Story
+Choices:
 
-[01.1.1.3]Continue Story
-
-[01.1.1.3]Continue Story
+[01.1.1.3]1. Continue Story
+[01.1.1.3]2. Continue Story
+[01.1.1.3]3. Continue Story
 [End]

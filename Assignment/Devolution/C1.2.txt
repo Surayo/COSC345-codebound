@@ -10,7 +10,9 @@ You dismis her words with a shake of your head. "Wait. How long have you even be
 
 "A couple weeks now." Eve says, not ashamed in the slightest. "They asked me to join actually after they heard about my Aspect. Which, I don't know why they're interested in that. I only makes me immune to the Bioform gasses." You frown more and more as she continues talking. "They must be trying to get out of the city or something? Honestly I don't really give a shit as long as they keep letting me live in their bunker."
 
-[C01.2]Continue Story
-[C01.2]Continue Story
-[C01.2]Continue Story
+Choices:
+
+[C01.2]1. Continue Story
+[C01.2]2. Continue Story
+[C01.2]3. Continue Story
 [End]

@@ -14,7 +14,9 @@ You gasp and your eyes prick. You've slowed almost to a stop.
 
 Where the fu-
 
-[01.1.1.1.2] Continue Story
-[01.1.1.1.2] Continue Story
-[01.1.1.1.2] Continue Story
+Choices:
+
+[01.1.1.1.2]1. Continue Story
+[01.1.1.1.2]2. Continue Story
+[01.1.1.1.2]3. Continue Story
 [End]

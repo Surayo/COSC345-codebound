@@ -16,7 +16,9 @@ Suddenly the connection is clear to you. He is desperately trying to find out wh
 
 The Flytecraft is the connection.
 
-[C02.1.1]Continue Story
-[C02.1.1]Continue Story
-[C02.1.1]Continue Story
+Choices:
+
+[C02.1.1]1. Continue Story
+[C02.1.1]2. Continue Story
+[C02.1.1]3. Continue Story
 [End]
