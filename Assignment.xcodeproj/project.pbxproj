@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F024C23122824A5F00C8FCD0 /* [C1] confront sister at home.txt in Sources */ = {isa = PBXBuildFile; fileRef = F0E4AE4F22823B8900641B53 /* [C1] confront sister at home.txt */; };
-		F024C23B2282558B00C8FCD0 /* [C1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0E4AE5122823B8900641B53 /* [C1.txt */; };
+		D086AB852297A27B00248F54 /* Nasalization.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D086AB842297A27B00248F54 /* Nasalization.ttf */; };
+		D08A39AE22961DB300F08D98 /* titleScreen.c in Sources */ = {isa = PBXBuildFile; fileRef = D08A39AC22961DB300F08D98 /* titleScreen.c */; };
+		D08F07C0229A251A00EF8355 /* displayText.c in Sources */ = {isa = PBXBuildFile; fileRef = D08F07BE229A251A00EF8355 /* displayText.c */; };
+		D08F07C2229A301800EF8355 /* VCR_OSD_MONO.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D08F07C1229A301800EF8355 /* VCR_OSD_MONO.ttf */; };
+		D08F07C4229A339400EF8355 /* Perfect DOS VGA 437.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D08F07C3229A339400EF8355 /* Perfect DOS VGA 437.ttf */; };
+		D0B961CF2298CA500003732A /* gameScreen.c in Sources */ = {isa = PBXBuildFile; fileRef = D0B961CD2298CA500003732A /* gameScreen.c */; };
+		D0B961D12298FD0A0003732A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D0B961D02298FD0A0003732A /* main.c */; };
+		D0B961D4229900590003732A /* mylib.c in Sources */ = {isa = PBXBuildFile; fileRef = D0B961D2229900590003732A /* mylib.c */; };
+		D0F355252294D00E003DEFED /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F355242294D00E003DEFED /* SDL2_ttf.framework */; };
+		D0F355262294D014003DEFED /* SDL2_ttf.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D0F355242294D00E003DEFED /* SDL2_ttf.framework */; };
+		D0F3552A2294D7E0003DEFED /* Arial.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D0F355292294D7E0003DEFED /* Arial.ttf */; };
 		F07C0C4C2283B35700696A60 /* textManipulation.c in Sources */ = {isa = PBXBuildFile; fileRef = F07C0C4B2283B35700696A60 /* textManipulation.c */; };
 		F0A034AA228CE78700C7FA62 /* graphics.c in Sources */ = {isa = PBXBuildFile; fileRef = F0A034A8228CE78700C7FA62 /* graphics.c */; };
 		F0A034AD228CE83300C7FA62 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A034AC228CE83300C7FA62 /* SDL2.framework */; };
 		F0A034AF228CE84400C7FA62 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0A034AE228CE84400C7FA62 /* SDL2.framework */; };
-		F0DA39C222557E7A00A83874 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F0DA39C122557E7A00A83874 /* main.c */; };
+		F0B017E222923FE000BFDD6C /* Devolution in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0B017E122923FD200BFDD6C /* Devolution */; };
 		F0E4AE5E22823B8900641B53 /* fileLoader.c in Sources */ = {isa = PBXBuildFile; fileRef = F0E4AE4C22823B8800641B53 /* fileLoader.c */; };
 /* End PBXBuildFile section */
 
@@ -24,32 +33,42 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				D08F07C4229A339400EF8355 /* Perfect DOS VGA 437.ttf in CopyFiles */,
+				D08F07C2229A301800EF8355 /* VCR_OSD_MONO.ttf in CopyFiles */,
+				D086AB852297A27B00248F54 /* Nasalization.ttf in CopyFiles */,
+				D0F3552A2294D7E0003DEFED /* Arial.ttf in CopyFiles */,
+				D0F355262294D014003DEFED /* SDL2_ttf.framework in CopyFiles */,
+				F0B017E222923FE000BFDD6C /* Devolution in CopyFiles */,
 				F0A034AF228CE84400C7FA62 /* SDL2.framework in CopyFiles */,
-				F024C23B2282558B00C8FCD0 /* [C1.txt in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D086AB842297A27B00248F54 /* Nasalization.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nasalization.ttf; sourceTree = "<group>"; };
+		D08A39AC22961DB300F08D98 /* titleScreen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = titleScreen.c; sourceTree = "<group>"; };
+		D08A39AD22961DB300F08D98 /* titleScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = titleScreen.h; sourceTree = "<group>"; };
+		D08F07BE229A251A00EF8355 /* displayText.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = displayText.c; sourceTree = "<group>"; };
+		D08F07BF229A251A00EF8355 /* displayText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = displayText.h; sourceTree = "<group>"; };
+		D08F07C1229A301800EF8355 /* VCR_OSD_MONO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VCR_OSD_MONO.ttf; sourceTree = "<group>"; };
+		D08F07C3229A339400EF8355 /* Perfect DOS VGA 437.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Perfect DOS VGA 437.ttf"; sourceTree = "<group>"; };
+		D0B961CD2298CA500003732A /* gameScreen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gameScreen.c; sourceTree = "<group>"; };
+		D0B961CE2298CA500003732A /* gameScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gameScreen.h; sourceTree = "<group>"; };
+		D0B961D02298FD0A0003732A /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D0B961D2229900590003732A /* mylib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mylib.c; sourceTree = "<group>"; };
+		D0B961D3229900590003732A /* mylib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mylib.h; sourceTree = "<group>"; };
+		D0F355242294D00E003DEFED /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_ttf.framework; sourceTree = "<group>"; };
+		D0F355292294D7E0003DEFED /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
 		F07C0C4A2283B35700696A60 /* textManipulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textManipulation.h; sourceTree = "<group>"; };
 		F07C0C4B2283B35700696A60 /* textManipulation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = textManipulation.c; sourceTree = "<group>"; };
 		F0A034A8228CE78700C7FA62 /* graphics.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = graphics.c; sourceTree = "<group>"; };
 		F0A034A9228CE78700C7FA62 /* graphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
 		F0A034AC228CE83300C7FA62 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
 		F0A034AE228CE84400C7FA62 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+		F0B017E122923FD200BFDD6C /* Devolution */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Devolution; sourceTree = "<group>"; };
 		F0DA39BE22557E7A00A83874 /* Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0DA39C122557E7A00A83874 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F0E4AE4C22823B8800641B53 /* fileLoader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileLoader.c; sourceTree = "<group>"; };
-		F0E4AE4F22823B8900641B53 /* [C1] confront sister at home.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C1] confront sister at home.txt"; sourceTree = "<group>"; };
-		F0E4AE5122823B8900641B53 /* [C1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C1.txt"; sourceTree = "<group>"; };
-		F0E4AE5322823B8900641B53 /* [C1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C1.txt"; sourceTree = "<group>"; };
-		F0E4AE5522823B8900641B53 /* [C1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C1.txt"; sourceTree = "<group>"; };
-		F0E4AE5822823B8900641B53 /* [C1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C1.txt"; sourceTree = "<group>"; };
-		F0E4AE5922823B8900641B53 /* [C1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C1.txt"; sourceTree = "<group>"; };
-		F0E4AE5A22823B8900641B53 /* [C3].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C3].txt"; sourceTree = "<group>"; };
-		F0E4AE5B22823B8900641B53 /* [C2].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C2].txt"; sourceTree = "<group>"; };
-		F0E4AE5C22823B8900641B53 /* [C0] meeting Vagabonds.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[C0] meeting Vagabonds.txt"; sourceTree = "<group>"; };
 		F0E4AE5D22823B8900641B53 /* fileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileLoader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F355252294D00E003DEFED /* SDL2_ttf.framework in Frameworks */,
 				F0A034AD228CE83300C7FA62 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +88,7 @@
 		F0A034AB228CE83300C7FA62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0F355242294D00E003DEFED /* SDL2_ttf.framework */,
 				F0A034AC228CE83300C7FA62 /* SDL2.framework */,
 			);
 			name = Frameworks;
@@ -76,6 +97,10 @@
 		F0DA39B522557E7A00A83874 = {
 			isa = PBXGroup;
 			children = (
+				D08F07C3229A339400EF8355 /* Perfect DOS VGA 437.ttf */,
+				D08F07C1229A301800EF8355 /* VCR_OSD_MONO.ttf */,
+				D086AB842297A27B00248F54 /* Nasalization.ttf */,
+				D0F355292294D7E0003DEFED /* Arial.ttf */,
 				F0A034AE228CE84400C7FA62 /* SDL2.framework */,
 				F0DA39C022557E7A00A83874 /* Assignment */,
 				F0DA39BF22557E7A00A83874 /* Products */,
@@ -94,80 +119,24 @@
 		F0DA39C022557E7A00A83874 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				F0E4AE4D22823B8900641B53 /* Devolution */,
+				F0B017E122923FD200BFDD6C /* Devolution */,
 				F0E4AE4C22823B8800641B53 /* fileLoader.c */,
 				F0E4AE5D22823B8900641B53 /* fileLoader.h */,
-				F0DA39C122557E7A00A83874 /* main.c */,
-				F07C0C4A2283B35700696A60 /* textManipulation.h */,
 				F07C0C4B2283B35700696A60 /* textManipulation.c */,
+				F07C0C4A2283B35700696A60 /* textManipulation.h */,
+				D0B961D2229900590003732A /* mylib.c */,
+				D0B961D3229900590003732A /* mylib.h */,
+				D0B961D02298FD0A0003732A /* main.c */,
 				F0A034A8228CE78700C7FA62 /* graphics.c */,
 				F0A034A9228CE78700C7FA62 /* graphics.h */,
+				D08A39AC22961DB300F08D98 /* titleScreen.c */,
+				D08A39AD22961DB300F08D98 /* titleScreen.h */,
+				D0B961CD2298CA500003732A /* gameScreen.c */,
+				D0B961CE2298CA500003732A /* gameScreen.h */,
+				D08F07BE229A251A00EF8355 /* displayText.c */,
+				D08F07BF229A251A00EF8355 /* displayText.h */,
 			);
 			path = Assignment;
-			sourceTree = "<group>";
-		};
-		F0E4AE4D22823B8900641B53 /* Devolution */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE4E22823B8900641B53 /* [C0] meeting Vagabonds */,
-				F0E4AE5C22823B8900641B53 /* [C0] meeting Vagabonds.txt */,
-			);
-			path = Devolution;
-			sourceTree = "<group>";
-		};
-		F0E4AE4E22823B8900641B53 /* [C0] meeting Vagabonds */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE4F22823B8900641B53 /* [C1] confront sister at home.txt */,
-				F0E4AE5022823B8900641B53 /* [C1] confront sister at home */,
-				F0E4AE5A22823B8900641B53 /* [C3].txt */,
-				F0E4AE5B22823B8900641B53 /* [C2].txt */,
-			);
-			path = "[C0] meeting Vagabonds";
-			sourceTree = "<group>";
-		};
-		F0E4AE5022823B8900641B53 /* [C1] confront sister at home */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE5122823B8900641B53 /* [C1.txt */,
-				F0E4AE5222823B8900641B53 /* [C1 */,
-			);
-			path = "[C1] confront sister at home";
-			sourceTree = "<group>";
-		};
-		F0E4AE5222823B8900641B53 /* [C1 */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE5322823B8900641B53 /* [C1.txt */,
-				F0E4AE5422823B8900641B53 /* [C1 */,
-			);
-			path = "[C1";
-			sourceTree = "<group>";
-		};
-		F0E4AE5422823B8900641B53 /* [C1 */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE5522823B8900641B53 /* [C1.txt */,
-				F0E4AE5622823B8900641B53 /* [C1 */,
-			);
-			path = "[C1";
-			sourceTree = "<group>";
-		};
-		F0E4AE5622823B8900641B53 /* [C1 */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE5722823B8900641B53 /* [C1 */,
-				F0E4AE5922823B8900641B53 /* [C1.txt */,
-			);
-			path = "[C1";
-			sourceTree = "<group>";
-		};
-		F0E4AE5722823B8900641B53 /* [C1 */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4AE5822823B8900641B53 /* [C1.txt */,
-			);
-			path = "[C1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,10 +196,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0A034AA228CE78700C7FA62 /* graphics.c in Sources */,
-				F024C23122824A5F00C8FCD0 /* [C1] confront sister at home.txt in Sources */,
+				D08F07C0229A251A00EF8355 /* displayText.c in Sources */,
+				D0B961CF2298CA500003732A /* gameScreen.c in Sources */,
+				D0B961D12298FD0A0003732A /* main.c in Sources */,
+				D08A39AE22961DB300F08D98 /* titleScreen.c in Sources */,
 				F07C0C4C2283B35700696A60 /* textManipulation.c in Sources */,
 				F0E4AE5E22823B8900641B53 /* fileLoader.c in Sources */,
-				F0DA39C222557E7A00A83874 /* main.c in Sources */,
+				D0B961D4229900590003732A /* mylib.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +332,7 @@
 				HEADER_SEARCH_PATHS = (
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(SRCROOT)/SDL2.framework/Headers\"",
+					"\"$(SRCROOT)/SDL2_ttf.framework/Headers\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -377,6 +350,7 @@
 				HEADER_SEARCH_PATHS = (
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(SRCROOT)/SDL2.framework/Headers\"",
+					"\"$(SRCROOT)/SDL2_ttf.framework/Headers\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -9,7 +9,13 @@
 #ifndef textManipulation_h
 #define textManipulation_h
 
-extern void fileprint(FILE *fptr);
-extern char* remove_brackets(char *filetext);
+typedef struct choice *choices;
+
+extern char* setFile(FILE *fptr);
+extern void store_brackets(char *filetext);
+extern char* getCleanText();
+extern char* getNextFile(int num);
+extern char* getChoiceText(int num);
+extern void freeChoices();
 
 #endif /* textManipulation_h */

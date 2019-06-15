@@ -1,0 +1,22 @@
+[01.2]"You'd sell your soul for anything wouldn't you." You mutter mostly to yourself, leaning back in your chair so far you can no longer see her.
+
+You hear Eve stand. "Yeah well hit me up when you want to feel alive again. I'm done working for that shit fueled factory. I'm out. And I'm never going back." She walks away from that table.
+
+You fume for a second as Eve starts gathering her stuff from around the room. You don't understand why she can trust them when everything they're doing goes against the greater good. By not working in The Factory the Vagabonds just put their share of the work onto everyone else. 
+
+The factory protects everyone and the Vagabonds should know that. Eve should know that! The heavy smog it pumps into the air day in and day out forms a powerful chemical barrier against the Bioforms native to this planet. If it weren't for The Factory all of Fragos, your safe-haven in the forest, would have been slaughtered with the rest of the world in the Bioforms first attack.
+
+And your sister is just thinking of her beauty sleep. Typical. 
+
+She stops behind you where you are still slumped over the table. "You could join us." She says, her tone cautious and hopeful.
+
+"You could shut up." You reply, voice muffled from where your face is pressed into your arm. 
+
+She doesn't say anything else and before long the door is clicking closed behind her.
+
+Choices:
+
+[C1.1.1]1. You can't let her do this. You slap yourself to back awake and pull yourself back to your feet. Then before you can second guess your sudden resolve you run out into the night to look for Eve.
+[C1.1.2]2. She can look after herself for one night. You pull yourself to your feet just long enough to strip your uniform off and crawl into bed. You are so tired.
+[C1.1.3]3. Sleep drags your eyes back closed. You fall asleep at the table.
+[End]
