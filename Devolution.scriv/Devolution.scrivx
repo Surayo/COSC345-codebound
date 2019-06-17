@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-06-15 22:09:54 +1200" ModID="A4921194-2797-4438-8A80-EE5C36660CD9">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-06-17 12:28:16 +1200" ModID="3660D5D7-B0A1-4E23-AE83-B94B8A73CC7A">
     <Binder>
         <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-05-20 13:58:57 +1200" Type="Text">
             <Title>story ideas</Title>
@@ -25,7 +25,6 @@
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>439,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
@@ -36,7 +35,6 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection Caret="1320">0,1320</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
@@ -58,7 +56,6 @@
                                                 <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>738,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
@@ -69,7 +66,6 @@
                                                         <FileExtension>rtf</FileExtension>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection Caret="1026">0,1026</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
@@ -265,14 +261,27 @@
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                             <Children>
-                                                                <BinderItem ID="41" UUID="7975D1F7-93FA-4899-BE85-57684B962229" Created="2019-06-15 21:39:39 +1200" Modified="2019-06-15 21:48:07 +1200" Type="Text">
+                                                                <BinderItem ID="41" UUID="7975D1F7-93FA-4899-BE85-57684B962229" Created="2019-06-15 21:39:39 +1200" Modified="2019-06-16 16:11:10 +1200" Type="Text">
                                                                     <Title>[C1.1.2.1.1.1] be carried by greg</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                     </MetaData>
                                                                     <TextSettings>
+                                                                        <TextSelection>2751,0</TextSelection>
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
+                                                                    <Children>
+                                                                        <BinderItem ID="42" UUID="F2CCDE16-D49C-49FA-8601-B36037A55519" Created="2019-06-16 16:06:29 +1200" Modified="2019-06-16 16:11:25 +1200" Type="Text">
+                                                                            <Title>[C1.1.2.1.1.1.1]dumped in cell</Title>
+                                                                            <MetaData>
+                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                            </MetaData>
+                                                                            <TextSettings>
+                                                                                <TextSelection>72,0</TextSelection>
+                                                                                <Target Type="Words">0</Target>
+                                                                            </TextSettings>
+                                                                        </BinderItem>
+                                                                    </Children>
                                                                 </BinderItem>
                                                             </Children>
                                                         </BinderItem>
@@ -332,7 +341,6 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection Caret="3239">0,3239</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
@@ -342,7 +350,6 @@
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>5876,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
@@ -353,7 +360,6 @@
                                                 <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection Caret="3766">0,3766</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
@@ -363,7 +369,6 @@
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>0,1148</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
@@ -375,7 +380,6 @@
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>1126,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
@@ -462,7 +466,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="884" Characters="4841" Date="2019-06-15 21:07:49 +1200"/>
+        <PreviousSession Words="546" Characters="2867" Date="2019-06-16 13:08:27 +1200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="380EC639-26CC-4690-AFE4-C748DA8E7741" Color="0.901961 0.917647 0.933333">
