@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-07-01 16:21:16 +1200" ModID="34ECB2C4-80A6-41DE-969D-F19D9B0D4772">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-07-08 13:00:26 +1200" ModID="79F8EABB-53EA-4946-91B4-BF710D9CAABE">
     <Binder>
         <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-06-23 13:19:08 +1200" Type="Text">
             <Title>story ideas</Title>
@@ -171,28 +171,28 @@
                                                                         </BinderItem>
                                                                     </Children>
                                                                 </BinderItem>
-                                                                <BinderItem ID="29" UUID="5D01BEC5-A311-4265-A6A9-6C1C4A3F541B" Created="2019-04-18 12:27:39 +1200" Modified="2019-07-01 12:58:13 +1200" Type="Text">
+                                                                <BinderItem ID="29" UUID="5D01BEC5-A311-4265-A6A9-6C1C4A3F541B" Created="2019-04-18 12:27:39 +1200" Modified="2019-07-08 12:25:30 +1200" Type="Text">
                                                                     <Title>[C1.1.1.1.3.|.2] outside factory hear vagabonds</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                     </MetaData>
                                                                     <TextSettings>
-                                                                        <TextSelection>682,0</TextSelection>
+                                                                        <TextSelection>56,0</TextSelection>
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
                                                                     <Children>
-                                                                        <BinderItem ID="47" UUID="524E9008-3CFE-444A-8898-4799CDD9AAB0" Created="2019-06-24 13:03:46 +1200" Modified="2019-07-01 13:12:43 +1200" Type="Text">
+                                                                        <BinderItem ID="47" UUID="524E9008-3CFE-444A-8898-4799CDD9AAB0" Created="2019-06-24 13:03:46 +1200" Modified="2019-07-08 12:35:52 +1200" Type="Text">
                                                                             <Title>[C1.1.1.1.3.2.2] one way home get captured by vagabonds</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                             </MetaData>
                                                                             <TextSettings>
-                                                                                <TextSelection>2936,0</TextSelection>
+                                                                                <TextSelection>3479,0</TextSelection>
                                                                                 <Target Type="Words">0</Target>
                                                                             </TextSettings>
                                                                             <Children>
-                                                                                <BinderItem ID="51" UUID="E631A10E-77B4-45EA-8E36-D11A0D878AB5" Created="2019-07-01 13:13:43 +1200" Modified="2019-07-01 13:17:28 +1200" Type="Text">
-                                                                                    <Title>[C1.1.1.1.3.2.2.1]</Title>
+                                                                                <BinderItem ID="51" UUID="E631A10E-77B4-45EA-8E36-D11A0D878AB5" Created="2019-07-01 13:13:43 +1200" Modified="2019-07-08 12:36:11 +1200" Type="Text">
+                                                                                    <Title>[C1.1.1.1.3.2.2.1] greg dangle kick</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                     </MetaData>
@@ -201,13 +201,13 @@
                                                                                         <Target Type="Words">0</Target>
                                                                                     </TextSettings>
                                                                                 </BinderItem>
-                                                                                <BinderItem ID="52" UUID="B9A8AB29-1C25-4189-BBFA-46548428EA28" Created="2019-07-01 13:14:13 +1200" Modified="2019-07-01 16:21:14 +1200" Type="Text">
-                                                                                    <Title>[C1.1.1.1.3.2.2.2]</Title>
+                                                                                <BinderItem ID="52" UUID="B9A8AB29-1C25-4189-BBFA-46548428EA28" Created="2019-07-01 13:14:13 +1200" Modified="2019-07-08 12:42:53 +1200" Type="Text">
+                                                                                    <Title>[C1.1.1.1.3.2.2.2] tied up in fringes</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                     </MetaData>
                                                                                     <TextSettings>
-                                                                                        <TextSelection>1423,0</TextSelection>
+                                                                                        <TextSelection>1873,0</TextSelection>
                                                                                         <Target Type="Words">0</Target>
                                                                                     </TextSettings>
                                                                                 </BinderItem>
@@ -467,25 +467,48 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem ID="4" UUID="24E7B295-66FF-4781-A142-489715732732" Created="2019-04-12 11:38:39 +1200" Modified="2019-06-24 12:40:21 +1200" Type="Text">
+                        <BinderItem ID="4" UUID="24E7B295-66FF-4781-A142-489715732732" Created="2019-04-12 11:38:39 +1200" Modified="2019-07-08 12:48:40 +1200" Type="Text">
                             <Title>[C3] Yell at Eve in front of Vagabonds</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>550,0</TextSelection>
+                                <TextSelection>752,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="43" UUID="DE0BA9C2-51B0-480D-8D86-5E7446E29DD0" Created="2019-06-23 13:23:59 +1200" Modified="2019-06-24 12:50:26 +1200" Type="Text">
+                                <BinderItem ID="43" UUID="DE0BA9C2-51B0-480D-8D86-5E7446E29DD0" Created="2019-06-23 13:23:59 +1200" Modified="2019-07-08 12:54:24 +1200" Type="Text">
                                     <Title>[C3.1]</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
+                                        <TextSelection>1765,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="16" UUID="75FBC677-E499-46E4-B073-78D048D390C0" Created="2019-04-15 14:42:34 +1200" Modified="2019-07-08 12:59:22 +1200" Type="Text">
+                                            <Title>[C3.1.1] killed by vagabonds</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>434,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="13" UUID="E83D046C-71C9-4A2F-8300-696FFF291AC7" Created="2019-04-15 14:11:43 +1200" Modified="2019-07-08 12:54:55 +1200" Type="Text">
+                                            <Title>[C3.1.2] </Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>312,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
                                 </BinderItem>
                                 <BinderItem ID="44" UUID="E6377793-F1E2-4D7D-B5CD-C3D5B89B0D9D" Created="2019-06-23 13:24:17 +1200" Modified="2019-06-24 12:51:50 +1200" Type="Text">
                                     <Title>[C3.2]</Title>
@@ -524,24 +547,6 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="16" UUID="75FBC677-E499-46E4-B073-78D048D390C0" Created="2019-04-15 14:42:34 +1200" Modified="2019-04-18 12:47:16 +1200" Type="Text">
-                    <Title>[C1.1.1.3] Go home</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <Target Type="Words">0</Target>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem ID="13" UUID="E83D046C-71C9-4A2F-8300-696FFF291AC7" Created="2019-04-15 14:11:43 +1200" Modified="2019-04-15 14:11:53 +1200" Type="Text">
-                    <Title>[C1.1.3]</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <Target Type="Words">0</Target>
-                    </TextSettings>
-                </BinderItem>
                 <BinderItem ID="46" UUID="EEB4E811-8A63-46CD-ACCB-9E6CD5678017" Created="2019-06-24 13:03:30 +1200" Modified="2019-06-24 13:04:01 +1200" Type="Text">
                     <Title>[C1.1.1.1.3.2.1]</Title>
                     <MetaData>
@@ -580,7 +585,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="499" Characters="2686" Date="2019-07-01 12:54:21 +1200"/>
+        <PreviousSession Words="760" Characters="4019" Date="2019-07-01 12:54:21 +1200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="380EC639-26CC-4690-AFE4-C748DA8E7741" Color="0.901961 0.917647 0.933333">
