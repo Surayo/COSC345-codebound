@@ -52,7 +52,7 @@ She chuckles weakly and looks away. “Yeah. Well… Staying at the factory is t
 You dismis her words with a shake of your head. “Wait. How long have you even been hanging around with these fucks?” You vaguely recall noticing her absence at home a few times but you’re normally too tired to think about diner let alone something as strenuous as contemplating the absence of someone who isn’t even there.
 
 
-“A couple weeks now.” Eve says, not ashamed in the slightest. “They asked me to join actually after they heard about my Aspect. Which, I don’t know why they’re interested in that. I only makes me immune to toxins.” You frown more and more as she continues talking. “They must be trying to get out of the city or something? Honestly I don’t really give a shit as long as they keep letting me live in their bunker.”
+“A couple weeks now.” Eve says, not ashamed in the slightest. “They asked me to join actually after they heard about my Aspect. Which, I don’t know why they’re interested in that. It only makes me immune to toxins.” You frown more and more as she continues talking. “They must be trying to get out of the city or something? Honestly I don’t really give a shit as long as they keep letting me live in their bunker.”
 
 
 “You’d sell your soul for anything wouldn’t you.” You mutter mostly to yourself, leaning back in your chair so far you can no longer see her.
@@ -456,7 +456,7 @@ You grumble something even you know isn’t words and plod on, head down.
 </Text>
         </Document>
         <Document ID="18">
-            <Title>[C1.1.1.1.2] crying in the fringes</Title>
+            <Title>[C1.1.1.1.2] lost in the fringes</Title>
             <Text>[1.1.1.1.2]The night draws on as you stumble through unfamiliar streets. The pale green glow reflecting off of the smog enough to light your wavering path. The light is a sign of the Bioforms that surround this vast city. They glow. 
 
 You can’t bring yourself to run, exhausted as you are from your long day in the Factory, but you’re stubborn and refuse to turn back. 
@@ -508,7 +508,7 @@ You walk up to the entrance.
             <Title>[C1.1.1.1.1.|.3]</Title>
         </Document>
         <Document ID="26">
-            <Title>[C1.1.1.1.2.1]</Title>
+            <Title>[C1.1.1.1.2.1] emotional meltdown</Title>
             <Text>[1.1.1.1.2.1]No sound jumps out at you, no twitch of movement calls your attention. Nothing. Your knees almost buckle on your next step.
 
 Where is she?
@@ -902,7 +902,7 @@ In a rush you are picked up and hauled over someones shoulder - Greg from the si
 
 “Greg! No!” The person at your head yells. He stops where he was tying the gag in place over your mouth and you take the opportunity to head-butt him as hard as you can with the back of your skull. 
 
-His face makes a disgusting crunching noise on contact but you have no time to think about that. The third attacker comes towrds you with three quick strides from where they were standing guard at the door.
+His face makes a disgusting crunching noise on contact but you have no time to think about that. The third attacker comes towards you with three quick strides from where they were standing guard at the door.
 
 “Fucking hell Patrick.” She says in a harsh whisper, “Keep it down. We don’t want this whole building down on us.” They might not but you fucking do. You want to scream for help and bring the whole building down upon them. Fuck. The gag is still in place. You can only hope someone decides to come and see what Patrick’s screaming was about before these people do whatever the fuck they are trying to do to you.
 
@@ -912,7 +912,7 @@ The only thing between you and safety is a gag and four sets of hands. Your eyes
 
 The woman sighs and lightly thumps her boot boot against strong-man Greg where he is still clutching himself and slumped over. “At least he’s quiet about it.”
 
-Patrick clings tighter to you, attempting to pin down your other arm and you struggle, kicking out desperately. You manage hit Greg again and he grunts but Patrick just cligs tighter. “Blimmny fucking christ. Stay still!” Patrick hisses at you.
+Patrick clings tighter to you, attempting to pin down your other arm and you struggle, kicking out desperately. You manage hit Greg again and he grunts but Patrick just clings tighter. “Blimmny fucking christ. Stay still!” Patrick hisses at you.
 
 “Can you not subdue one half-starved worker, Patrick?” the boss says.
 
@@ -1171,19 +1171,32 @@ You sit back on the ground, gasping and lost.
             <Title>[C1.1.1.1.2.3]</Title>
             <Text>[C1.1.1.1.2.3]Eventually, you reach the edge of the city.
 
-The first sign is the moss, the buildings around you appear with patches of glowing green. It takes you a second to notice. The glow isn’t much brighter then the natural reflection off the clouds but when you do you stumble to a stop.
+The first sign is the moss, the buildings around you appear with patches of glowing green. It takes you a second to notice. Their glow isn’t much brighter then the natural reflection off the clouds but when you do notice you stumble to a stop.
 
 You haven’t been to the edge since you were a kid.
 
-After a beat, you wander forward again. 
+After a beat, you walk forward again. 
 
-At this stage you won’t find your sister. The Vagabonds wouldn’t dare come this close to the edge of the city least they succumb of the sickness of the Bioforms. 
+This far out, you won’t find your sister. The Vagabonds wouldn’t dare come this close to the edge of the city least they succumb of the sickness of the Bioforms. 
 
-But you and your sister are immune to toxins. That is your aspect. It does shit all to help you in everyday life though. Like, sure, it’s safer for you to work in the furnaces because of your immunity and by proxcimity anyone near you gets that protection as well, but you still</Text>
+But you and your sister are immune to toxins. That immunity is your aspect. You yourself emit a sort of toxin neutralizing force field. Anyone within it is protected as well. While your sister herself is immune to toxins. 
+
+It means you will never get sick from the Bioforms. 
+
+It does shit all to help you in everyday life though. The reason you’ve been assigned to the furnaces is that you keep yourself and everyone around you safe from any toxins generated from the burning material. But even if you don’t get sick, you are still exhausted every day. The work takes it’s toll on you.
+
+If only you had a useful aspect, like your friend Liaba’s bursts of energy after eating, or Reginald tough, heat-proof skin. That’s the sort of aspect that helps with everyday life in The Factory.
+
+Plants have started sprouting around the buildings, and the sky is clearing. You must be getting to the edge of The Factory’s reach. Up above you can see the first signs of stars against the growing glow of the Bioforms.
+
+
+[C1.1.1.1.2.3.1]Enter the forest of Bioforms. 
+
+[C1.1.1.1.2.3.2]Make your way back to the center of the city where the Factory sits. You should be able to find your way home from there.</Text>
         </Document>
         <Document ID="56">
             <Title>[C1.1.1.1.2.1.1.1]</Title>
-            <Text>[1.1.1.1.2.1.1.1]You sit there in the dirt. The night is utterly still as you sob. A rock is gripped in your hand, pressing into the wound there but you don’t care.
+            <Text>[1.1.1.1.2.1.1.1]You sit there in the dirt. The night is utterly still as you sob. A rock is gripped in your hand, pressing into the wound there, but you don’t care.
 
 You hurt and you want to feel it.
 
@@ -1198,9 +1211,56 @@ Your other hand holds the rock but no mater how hard you grip it, feeling it dig
         </Document>
         <Document ID="57">
             <Title>[C1.1.1.1.2.1.1.1.1]</Title>
+            <Text>[C1.1.1.1.2.1.1.1.1]You take a deep breath in, calming your raging emotions. The rock drops from your hand, you don’t know why you still are still holding it. 
+
+It’s in the brief span of silence that you hear the footsteps coming up from behind you.
+
+“[Name]?”
+
+You turn, “Eve?” you ask.
+
+“What are you doing out here?” she asks. You glance from her to the girl beside her. You can’t tell if she looks younger then you or not. She stares back, not saying anything.
+
+“I - I lost your ring.” You say.
+
+“What are you even talking about? What. Are you doing. Out Here!? Give me the why! You can’t lose a ring if you’re not out here in the first place.”
+
+Dispite her forceful voice she looks more concerned for you then angry that you lost her ring. You breathe out, stealing yourself, “I was looking for you. I can’t let you do this. The Vagabonds are - are…” You glance at the girl beside her again. She awkwardly looks away.
+
+“Fuck off. I’m fine. Just, Just go home [Name]. I don’t have time for this.” 
+
+“I can’t. I can’t just let you leave like that. Also, I don’t know where I am.” 
+
+Eve groans. “Why are you like this. Shit. OK. You’re coming with us then.” She pulls you out of the dirt by the arm and dusts you off. “What were you ding on the ground anyway? Wait. You know what. I don’t care. Just shut up and come with us.”
+
+She stomps off in a direction you are sure is the opposite of where you cant to go.
+
+
+[C1.1.1.1.2.1.1.1.1]”I have to go home.” You say, “Can you just point me in the right direction?” 
+
+[C1.1.1.1.2.1.1.1.2]Follow her.</Text>
         </Document>
         <Document ID="58">
             <Title>[C1.1.1.1.2.1.1.1.2]</Title>
+            <Text>[C1.1.1.1.2.1.1.1.2]You sob, still clutching the rock in your hand. You thump the other on the ground in frustrated anger.</Text>
+        </Document>
+        <Document ID="59">
+            <Title>[C1.1.1.1.2.1.2.1] sleep in the fringes</Title>
+            <Text>[C1.1.1.1.2.1.2.1]Dispite what you tell yourself, you don’t get back up.
+
+You drift in and out as the sky brightens around you, slumped against the side of a building. </Text>
+        </Document>
+        <Document ID="60">
+            <Title>[C1.1.1.1.2.3.1]</Title>
+        </Document>
+        <Document ID="61">
+            <Title>[C1.1.1.1.2.3.2]</Title>
+        </Document>
+        <Document ID="62">
+            <Title>[C1.1.1.1.2.1.1.1.1.1]</Title>
+        </Document>
+        <Document ID="63">
+            <Title>[C1.1.1.1.2.1.1.1.1.2]</Title>
         </Document>
     </Documents>
 </SearchIndexes>

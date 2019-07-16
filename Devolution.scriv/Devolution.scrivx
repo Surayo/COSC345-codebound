@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-07-10 14:58:50 +1200" ModID="16E675AE-5706-403C-9F9D-959ADBCEE17E">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-07-16 12:37:15 +1200" ModID="B79E4BBB-4488-4433-AD52-6429809ABA0C">
     <Binder>
         <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-06-23 13:19:08 +1200" Type="Text">
             <Title>story ideas</Title>
@@ -8,7 +8,7 @@
                 <FileExtension>rtf</FileExtension>
             </MetaData>
             <TextSettings>
-                <TextSelection>2587,0</TextSelection>
+                <TextSelection>216,0</TextSelection>
                 <Target Type="Words">0</Target>
             </TextSettings>
         </BinderItem>
@@ -29,13 +29,14 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="12" UUID="41BC49E1-FA21-474F-9DC3-2B4C6DF3103F" Created="2019-04-12 11:48:23 +1200" Modified="2019-04-15 14:39:36 +1200" Type="Text">
+                        <BinderItem ID="12" UUID="41BC49E1-FA21-474F-9DC3-2B4C6DF3103F" Created="2019-04-12 11:48:23 +1200" Modified="2019-07-12 09:26:08 +1200" Type="Text">
                             <Title>[C1] confront sister at home</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
+                                <TextSelection>1006,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
@@ -57,6 +58,7 @@
                                                 <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
+                                                <TextSelection>1053,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
@@ -149,6 +151,7 @@
                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                             </MetaData>
                                                                                             <TextSettings>
+                                                                                                <TextSelection>122,0</TextSelection>
                                                                                                 <Target Type="Words">0</Target>
                                                                                             </TextSettings>
                                                                                         </BinderItem>
@@ -251,6 +254,7 @@
                                                                     <Title>[C1.1.1.1.3.|.2] outside factory hear vagabonds</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                        <FileExtension>rtf</FileExtension>
                                                                     </MetaData>
                                                                     <TextSettings>
                                                                         <TextSelection>56,0</TextSelection>
@@ -475,13 +479,13 @@
                                                                 </BinderItem>
                                                             </Children>
                                                         </BinderItem>
-                                                        <BinderItem ID="40" UUID="9F61BF23-7426-47FE-AA02-C1565890DD20" Created="2019-05-20 13:51:14 +1200" Modified="2019-06-15 21:47:56 +1200" Type="Text">
+                                                        <BinderItem ID="40" UUID="9F61BF23-7426-47FE-AA02-C1565890DD20" Created="2019-05-20 13:51:14 +1200" Modified="2019-07-12 09:51:41 +1200" Type="Text">
                                                             <Title>[C1.1.2.1.2] punch greg in balls</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                             </MetaData>
                                                             <TextSettings>
-                                                                <TextSelection>4141,0</TextSelection>
+                                                                <TextSelection>4143,0</TextSelection>
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                         </BinderItem>
@@ -511,14 +515,14 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="5" UUID="8231C77E-6CFC-4591-8EF3-25DB600BFE14" Created="2019-04-12 11:38:47 +1200" Modified="2019-07-01 16:17:37 +1200" Type="Text">
+                                <BinderItem ID="5" UUID="8231C77E-6CFC-4591-8EF3-25DB600BFE14" Created="2019-04-12 11:38:47 +1200" Modified="2019-07-12 09:35:21 +1200" Type="Text">
                                     <Title>[C1.2] calm sister convo home</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>1347,0</TextSelection>
+                                        <TextSelection>3312,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
@@ -566,12 +570,14 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="32" UUID="CC8A6E72-6781-4F17-A954-7DD284394F1C" Created="2019-05-02 12:06:43 +1200" Modified="2019-05-16 13:08:18 +1200" Type="Text">
+                                <BinderItem ID="32" UUID="CC8A6E72-6781-4F17-A954-7DD284394F1C" Created="2019-05-02 12:06:43 +1200" Modified="2019-07-16 12:11:04 +1200" Type="Text">
                                     <Title>[C2.2] argue with Eve and Rasputin about working</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
+                                        <TextSelection>554,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
@@ -593,17 +599,17 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>752,0</TextSelection>
+                                <TextSelection>791,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="43" UUID="DE0BA9C2-51B0-480D-8D86-5E7446E29DD0" Created="2019-06-23 13:23:59 +1200" Modified="2019-07-08 12:54:24 +1200" Type="Text">
-                                    <Title>[C3.1]</Title>
+                                <BinderItem ID="43" UUID="DE0BA9C2-51B0-480D-8D86-5E7446E29DD0" Created="2019-06-23 13:23:59 +1200" Modified="2019-07-16 12:36:36 +1200" Type="Text">
+                                    <Title>[C3.1] slow time and confusion</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>1765,0</TextSelection>
+                                        <TextSelection>1439,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
@@ -613,29 +619,40 @@
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>434,0</TextSelection>
+                                                <TextSelection>183,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="13" UUID="E83D046C-71C9-4A2F-8300-696FFF291AC7" Created="2019-04-15 14:11:43 +1200" Modified="2019-07-08 12:54:55 +1200" Type="Text">
-                                            <Title>[C3.1.2] </Title>
+                                        <BinderItem ID="13" UUID="E83D046C-71C9-4A2F-8300-696FFF291AC7" Created="2019-04-15 14:11:43 +1200" Modified="2019-07-16 12:36:57 +1200" Type="Text">
+                                            <Title>[C3.1.2]  calm after confusion / pain</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>312,0</TextSelection>
+                                                <TextSelection>1482,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="64" UUID="50AFA693-D96B-4735-807B-F75F948F5E77" Created="2019-07-16 12:14:05 +1200" Modified="2019-07-16 12:14:12 +1200" Type="Text">
+                                                    <Title>[C3.1.2.2]</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <Target Type="Words">0</Target>
+                                                    </TextSettings>
+                                                </BinderItem>
+                                            </Children>
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="44" UUID="E6377793-F1E2-4D7D-B5CD-C3D5B89B0D9D" Created="2019-06-23 13:24:17 +1200" Modified="2019-06-24 12:51:50 +1200" Type="Text">
-                                    <Title>[C3.2]</Title>
+                                <BinderItem ID="44" UUID="E6377793-F1E2-4D7D-B5CD-C3D5B89B0D9D" Created="2019-06-23 13:24:17 +1200" Modified="2019-07-16 12:37:13 +1200" Type="Text">
+                                    <Title>[C3.2] confusion drop knife</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>63,0</TextSelection>
+                                        <TextSelection>2194,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
@@ -703,7 +720,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="551" Characters="2762" Date="2019-07-10 11:55:45 +1200"/>
+        <PreviousSession Words="603" Characters="3314" Date="2019-07-16 11:55:58 +1200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="380EC639-26CC-4690-AFE4-C748DA8E7741" Color="0.901961 0.917647 0.933333">
@@ -711,7 +728,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="8AE22B70-BC74-4D7B-8981-D01A5F1E97F0" Color="0.901961 0.901961 0.980392">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">aspect</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">C1.1.3]</SearchSettings>
         </Collection>
     </Collections>
     <PrintSettings PaperType="Letter" LeftMargin="36.0001" RightMargin="36.0001" TopMargin="36.0001" BottomMargin="36.0001" Orientation="Portrait" Collates="No" ReverseOrder="No"/>
