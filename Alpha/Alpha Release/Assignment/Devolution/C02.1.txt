@@ -1,0 +1,24 @@
+[02.1]The buildings on the other side of the bridge are in an even worse state, half slumped into each other, with no sign of human life. At least the streets look walked if not lived in. 
+
+Why are the other Vagabonds weary of this place? You can't place what's different. 
+
+Then, as you walk further out, you spot it, growing in the cracks of a building - A Bioform.
+
+You take a half step back. The Bioforms are everything your community has ever feared. They are why you work so hard - you pump out smog to keep the Bioforms out of your sanctuary, your city. For Bioforms to be growing here you must have come right out to the edge of what the smog reaches. 
+
+The tiny patches of flora you notice as you pass wont be enough to kill anyone in these low numbers, and you and your sister have nothing to fear yourselves, but this must be why the other Vagabonds hung back. Bioforms are terrifying for a person who isn't immune. Their presence means death.
+
+"I don't get it. What does this have to do with the rations?" you ask. 
+
+Rasputin doesn't turn back towards you to reply, and you sister just smirks, a knowing glint in her eye.
+
+Patches of green grow on almost all of the buildings now and the air is starting to clear up from the smog heavy air you are used to. You breath in deep and smell polin. It's something you havent smelled in a long time.
+
+You wonder if Rasputin has an Aspect similar to yours and your sisters? Your Aspects make you  immune to the toxin secreted by the Bioforms. Most people would die if they breathed in the sickly sweet scent for too long.
+
+Choices:
+
+[C002.1]1. Continue Story
+[C002.1]2. Continue Story
+[C002.1]3. Continue Story
+[End]
