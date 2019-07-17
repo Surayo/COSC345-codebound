@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-07-17 12:05:33 +1200" ModID="75E33746-7EF9-4AF0-A2ED-884FEC8496B7">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-07-17 12:49:11 +1200" ModID="FF90D46C-7045-402A-A796-B477033E6A2A">
     <Binder>
         <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-06-23 13:19:08 +1200" Type="Text">
             <Title>story ideas</Title>
@@ -40,8 +40,8 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="7" UUID="FBA756C5-6414-4A93-9F23-6255FD9DDDD1" Created="2019-04-12 11:38:57 +1200" Modified="2019-06-11 19:41:19 +1200" Type="Text">
-                                    <Title>[C1.1] sister angry conversation at home</Title>
+                                <BinderItem ID="7" UUID="FBA756C5-6414-4A93-9F23-6255FD9DDDD1" Created="2019-04-12 11:38:57 +1200" Modified="2019-07-17 12:41:21 +1200" Type="Text">
+                                    <Title>[C1|1] sister angry conversation at home</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <FileExtension>rtf</FileExtension>
@@ -51,8 +51,8 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="10" UUID="46EBBD98-2E9D-4840-BF10-7E661EDC6AD0" Created="2019-04-12 11:43:54 +1200" Modified="2019-04-15 18:00:27 +1200" Type="Text">
-                                            <Title>[C1.1.1] dead ends. run out after sister</Title>
+                                        <BinderItem ID="10" UUID="46EBBD98-2E9D-4840-BF10-7E661EDC6AD0" Created="2019-04-12 11:43:54 +1200" Modified="2019-07-17 12:41:30 +1200" Type="Text">
+                                            <Title>[C1|1|1] dead ends. run out after sister</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                 <FileExtension>rtf</FileExtension>
@@ -62,8 +62,8 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
-                                                <BinderItem ID="14" UUID="8D1096F8-ECF9-4C55-8661-D2AA764F8F76" Created="2019-04-15 14:41:54 +1200" Modified="2019-07-09 12:01:06 +1200" Type="Text">
-                                                    <Title>[C1.1.1.1] towards the factory</Title>
+                                                <BinderItem ID="14" UUID="8D1096F8-ECF9-4C55-8661-D2AA764F8F76" Created="2019-04-15 14:41:54 +1200" Modified="2019-07-17 12:41:37 +1200" Type="Text">
+                                                    <Title>[C1|1|1|1] towards the factory</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                         <FileExtension>rtf</FileExtension>
@@ -73,8 +73,8 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
-                                                        <BinderItem ID="18" UUID="9002E73A-B4BF-4C1A-B159-9D8B212844E6" Created="2019-04-15 15:04:34 +1200" Modified="2019-07-10 11:59:51 +1200" Type="Text">
-                                                            <Title>[C1.1.1.1.2] lost in the fringes</Title>
+                                                        <BinderItem ID="18" UUID="9002E73A-B4BF-4C1A-B159-9D8B212844E6" Created="2019-04-15 15:04:34 +1200" Modified="2019-07-17 12:41:50 +1200" Type="Text">
+                                                            <Title>[C1|1|1|1|2] lost in the fringes</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                 <FileExtension>rtf</FileExtension>
@@ -84,8 +84,8 @@
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                             <Children>
-                                                                <BinderItem ID="26" UUID="8D032CF3-309B-47FE-A7FC-3FF09AD4F297" Created="2019-04-17 15:41:59 +1200" Modified="2019-07-10 11:59:38 +1200" Type="Text">
-                                                                    <Title>[C1.1.1.1.2.1] emotional meltdown</Title>
+                                                                <BinderItem ID="26" UUID="8D032CF3-309B-47FE-A7FC-3FF09AD4F297" Created="2019-04-17 15:41:59 +1200" Modified="2019-07-17 12:42:01 +1200" Type="Text">
+                                                                    <Title>[C1|1|1|1|2|1] emotional meltdown</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                         <FileExtension>rtf</FileExtension>
@@ -99,6 +99,7 @@
                                                                             <Title>[C1.1.1.1.2.1.1]</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
                                                                             </MetaData>
                                                                             <TextSettings>
                                                                                 <TextSelection>340,0</TextSelection>
@@ -109,6 +110,7 @@
                                                                                     <Title>[C1.1.1.1.2.1.1.1]</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
                                                                                     </MetaData>
                                                                                     <TextSettings>
                                                                                         <TextSelection>467,0</TextSelection>
@@ -119,6 +121,7 @@
                                                                                             <Title>[C1.1.1.1.2.1.1.1.1]</Title>
                                                                                             <MetaData>
                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                <FileExtension>rtf</FileExtension>
                                                                                             </MetaData>
                                                                                             <TextSettings>
                                                                                                 <TextSelection>76,0</TextSelection>
@@ -149,6 +152,7 @@
                                                                                             <Title>[C1.1.1.1.2.1.1.1.2]</Title>
                                                                                             <MetaData>
                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                <FileExtension>rtf</FileExtension>
                                                                                             </MetaData>
                                                                                             <TextSettings>
                                                                                                 <TextSelection>122,0</TextSelection>
@@ -172,6 +176,7 @@
                                                                                             <Title>[C1.1.1.1.2.1.2.1] sleep in the fringes</Title>
                                                                                             <MetaData>
                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                <FileExtension>rtf</FileExtension>
                                                                                             </MetaData>
                                                                                             <TextSettings>
                                                                                                 <TextSelection>168,0</TextSelection>
@@ -188,6 +193,7 @@
                                                                     <Title>[C1.1.1.1.2.3]</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                        <FileExtension>rtf</FileExtension>
                                                                     </MetaData>
                                                                     <TextSettings>
                                                                         <TextSelection>1614,0</TextSelection>
@@ -242,6 +248,7 @@
                                                                             <Title>[C1.1.1.1.3.|.1.1] furnace room</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
                                                                             </MetaData>
                                                                             <TextSettings>
                                                                                 <TextSelection>638,0</TextSelection>
@@ -265,6 +272,7 @@
                                                                             <Title>[C1.1.1.1.3.2.2] one way home get captured by vagabonds</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
                                                                             </MetaData>
                                                                             <TextSettings>
                                                                                 <TextSelection>3479,0</TextSelection>
@@ -286,6 +294,7 @@
                                                                                             <Title>[C1.1.1.1.3.1.2.1] recieve laser handgun</Title>
                                                                                             <MetaData>
                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                <FileExtension>rtf</FileExtension>
                                                                                             </MetaData>
                                                                                             <TextSettings>
                                                                                                 <TextSelection>98,0</TextSelection>
@@ -296,6 +305,7 @@
                                                                                             <Title>[C1.1.1.1.3.1.2.2]</Title>
                                                                                             <MetaData>
                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                <FileExtension>rtf</FileExtension>
                                                                                             </MetaData>
                                                                                             <TextSettings>
                                                                                                 <TextSelection>251,0</TextSelection>
@@ -306,6 +316,7 @@
                                                                                             <Title>[C1.1.1.1.3.1.2.3] gun - game over</Title>
                                                                                             <MetaData>
                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                <FileExtension>rtf</FileExtension>
                                                                                             </MetaData>
                                                                                             <TextSettings>
                                                                                                 <TextSelection>339,0</TextSelection>
@@ -318,6 +329,7 @@
                                                                                     <Title>[C1.1.1.1.3.2.2.1] greg dangle kick</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
                                                                                     </MetaData>
                                                                                     <TextSettings>
                                                                                         <TextSelection>249,0</TextSelection>
@@ -328,6 +340,7 @@
                                                                                     <Title>[C1.1.1.1.3.2.2.2] tied up in fringes</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
                                                                                     </MetaData>
                                                                                     <TextSettings>
                                                                                         <TextSelection>1923,0</TextSelection>
@@ -439,6 +452,7 @@
                                                     <Title>[C1.1.2.1] struggle against attacker</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <FileExtension>rtf</FileExtension>
                                                     </MetaData>
                                                     <TextSettings>
                                                         <TextSelection>209,0</TextSelection>
@@ -449,6 +463,7 @@
                                                             <Title>[C1.1.2.1.1] punch gregs face</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <FileExtension>rtf</FileExtension>
                                                             </MetaData>
                                                             <TextSettings>
                                                                 <TextSelection>238,0</TextSelection>
@@ -459,6 +474,7 @@
                                                                     <Title>[C1.1.2.1.1.1] be carried by greg</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                        <FileExtension>rtf</FileExtension>
                                                                     </MetaData>
                                                                     <TextSettings>
                                                                         <TextSelection>2121,0</TextSelection>
@@ -469,6 +485,7 @@
                                                                             <Title>[C1.1.2.1.1.1.1]dumped in cell</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
                                                                             </MetaData>
                                                                             <TextSettings>
                                                                                 <TextSelection>72,0</TextSelection>
@@ -483,6 +500,7 @@
                                                             <Title>[C1.1.2.1.2] punch greg in balls</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <FileExtension>rtf</FileExtension>
                                                             </MetaData>
                                                             <TextSettings>
                                                                 <TextSelection>4143,0</TextSelection>
@@ -495,6 +513,7 @@
                                                     <Title>[C1.1.2.2] cower at you are kidnapped</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <FileExtension>rtf</FileExtension>
                                                     </MetaData>
                                                     <TextSettings>
                                                         <TextSelection>1244,0</TextSelection>
@@ -505,6 +524,7 @@
                                                     <Title>[C1.1.2.3] bite greg</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <FileExtension>rtf</FileExtension>
                                                     </MetaData>
                                                     <TextSettings>
                                                         <TextSelection>1251,0</TextSelection>
@@ -542,6 +562,7 @@
                                     <Title>[C2.1] flytecraft</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
                                         <TextSelection>3052,0</TextSelection>
@@ -563,6 +584,7 @@
                                             <Title>[C2.1.2] discus second in command of Vagabonds</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
                                                 <Target Type="Words">0</Target>
@@ -607,6 +629,7 @@
                                     <Title>[C3.1] slow time and confusion</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
                                         <TextSelection>1439,0</TextSelection>
@@ -617,6 +640,7 @@
                                             <Title>[C3.1.1] killed by vagabonds</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
                                                 <TextSelection>183,0</TextSelection>
@@ -627,6 +651,7 @@
                                             <Title>[C3.1.2]  calm after confusion / pain</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
                                                 <TextSelection>1482,0</TextSelection>
@@ -650,6 +675,7 @@
                                     <Title>[C3.2] confusion drop knife</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
                                         <TextSelection>2194,0</TextSelection>
@@ -728,7 +754,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="8AE22B70-BC74-4D7B-8981-D01A5F1E97F0" Color="0.901961 0.901961 0.980392">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">C1.1.3]</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">1.1.3</SearchSettings>
         </Collection>
     </Collections>
     <PrintSettings PaperType="Letter" LeftMargin="36.0001" RightMargin="36.0001" TopMargin="36.0001" BottomMargin="36.0001" Orientation="Portrait" Collates="No" ReverseOrder="No"/>

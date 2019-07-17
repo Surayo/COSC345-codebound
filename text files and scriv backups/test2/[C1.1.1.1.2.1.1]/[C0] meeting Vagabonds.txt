@@ -1,0 +1,65 @@
+
+	story ideas
+	Draft
+		[C0] meeting Vagabonds
+			[C1] confront sister at home
+				[C1|1] sister angry conversation at home
+					[C1|1|1] dead ends. run out after sister
+						[C1|1|1|1] towards the factory
+							[C1|1|1|1|2] lost in the fringes
+								[C1|1|1|1|2|1] emotional meltdown
+									[C1.1.1.1.2.1.1]
+										[C1.1.1.1.2.1.1.1]
+											[C1.1.1.1.2.1.1.1.1]
+												[C1.1.1.1.2.1.1.1.1.1]
+												[C1.1.1.1.2.1.1.1.1.2]
+											[C1.1.1.1.2.1.1.1.2]
+										[C1.1.1.1.2.1.2]
+											[C1.1.1.1.2.1.2.1] sleep in the fringes
+								[C1.1.1.1.2.3]
+									[C1.1.1.1.2.3.1]
+									[C1.1.1.1.2.3.2]
+							[C1.1.1.1.3] Enter the factory
+								[C1.1.1.1.3.|.1] choice of corridors
+									[C1.1.1.1.3.|.1.1] furnace room
+								[C1.1.1.1.3.|.2] outside factory hear vagabonds
+									[C1.1.1.1.3.2.2] one way home get captured by vagabonds
+										[C1.1.1.1.3.|.1.2] gun room
+											[C1.1.1.1.3.1.2.1] recieve laser handgun
+											[C1.1.1.1.3.1.2.2]
+											[C1.1.1.1.3.1.2.3] gun - game over
+										[C1.1.1.1.3.2.2.1] greg dangle kick
+										[C1.1.1.1.3.2.2.2] tied up in fringes
+						[C1.1.1.2] Vagabonds round 2
+							[C1.1.1.2.1]
+							[C1.1.1.2.2]
+							[C1.1.1.2.3]
+						[C1.1.1.3] Liaba introduction
+							[C1.1.1.1.1.|.1]
+							[C1.1.1.1.1.|.2]
+							[C1.1.1.1.1.|.3]
+					[C1.1.2] kiddnapping
+						[C1.1.2.1] struggle against attacker
+							[C1.1.2.1.1] punch gregs face
+								[C1.1.2.1.1.1] be carried by greg
+									[C1.1.2.1.1.1.1]dumped in cell
+							[C1.1.2.1.2] punch greg in balls
+						[C1.1.2.2] cower at you are kidnapped
+						[C1.1.2.3] bite greg
+				[C1.2] calm sister convo home
+			[C2] talk to vagabonds after work
+				[C2.1] flytecraft
+					[C2.1.1] follow Robots
+					[C2.1.2] discus second in command of Vagabonds
+				[C2.2] argue with Eve and Rasputin about working
+				[C2.3]
+			[C3] Yell at Eve in front of Vagabonds
+				[C3.1] slow time and confusion
+					[C3.1.1] killed by vagabonds
+					[C3.1.2]  calm after confusion / pain
+						[C3.1.2.2]
+				[C3.2] confusion drop knife
+				[C3.3]
+	Research
+	Trash
+		[C1.1.1.1.2.2]
