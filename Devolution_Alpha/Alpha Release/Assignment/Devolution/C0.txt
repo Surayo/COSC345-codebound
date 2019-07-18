@@ -1,0 +1,25 @@
+[0]There was a stretch of history where Humans were the most powerful beings on Dirth. They had magic on their side that Dirth had never seen before - the power of their Aspects. And when that failed they developed technology.
+
+The humans adapted faster then anything before. They thrived.
+
+Most of the human inhabitants of Dirth have been wiped out long ago. Death came suddenly and neither their Aspects nor their science could save them. 
+
+They were poisoned. For Humans were not the first beings to claim this world and once, before the humans came, the Bioforms ruled.
+
+By the time the people realised the Bioforms were hostile it was too late. It was a pandemic engineered by the native species of Dirth that few humans could survive.
+
+But some did survive. Around the world there were clusters of people who had been protected by the onslaught of this worlds flora and fauna by the most unlikely of sources; smog. The largest most dense most industrial cities clung to survival as the rest of the world's population were gassed.
+
+In these cities nature had been pushed out by the dense polluting air and crowded spaces. These cities had defended themselves against the Bioforms before they even knew the Bioforms were a threat. Dense polluting air, crowded spaces - no Bioform could survive here and so when the time of the slaughter came nothing was here to attack.
+
+Still, even in these cities, few survived. 
+
+Time passed for the survivors and the remaining people of Dirth clustered together in their protective cities, for outside those walls were the Bioforms. In this game of adaptation only time would tell who would survive.  
+
+Choices:
+
+[C0.1]1: Continue Story
+[C0.1]2: Continue Story
+[C0.1]3: Continue Story
+
+[End]

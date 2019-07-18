@@ -1,0 +1,20 @@
+[1.1.1.3]It's a quiet walk home. Your feet drag along the cracked pavement and by the time your house comes back into view you are wavering on your feet. 
+
+You sleep roughly for far fewer hours then you need. The day starts like every other. Banging at your rooms door and the sounds of shuffling feet. Drew hollers outside the door something indecipherable and then moves on. 
+
+It's the same wake up call every morning.
+
+You pull yourself out of bed where you managed to pass out last night. Eve's bed still sits in the corner - stripped of it's blankets. 
+
+You eat your vaguely nutritious gloop like you do every morning while listening to the rest of the house as the workers all get ready for the early shift. Somewhere on the far side of the house Agnes's baby, Sally is crying, as she is want to do. 
+
+It isn't' long before Drew is making the rounds again, your ears prick up at the sound of his yelling. "We got ten minutes Brian if ye want grub before yur shif' ye gotta get up and eat it!" a pause, "Ye'll be bloody sorry when yur half staved slaving away at the tiller." It's honestly a life-send that you have Drew in your house. He makes sure all the workers get up every day and checks in on you all as he does. He's invaluable.
+
+Doors start opening throughout the house, other workers making their way out of the house and towards The Factory. That's your queue.
+
+Choices:
+
+[01.1.1.3]1. Continue Story
+[01.1.1.3]2. Continue Story
+[01.1.1.3]3. Continue Story
+[End]

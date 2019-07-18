@@ -1,0 +1,22 @@
+[2.1]Eve sticks by your side and doesn't say a word as the Vagabonds lead you away from your normal route home and deeper into the abandoned parts of the city. 
+
+You wonder if this is how they recruited her, maybe this is how they recruit all their members. Just picking them up from the sidewalk and convincing them to go with them.
+
+"Where are you taking me?" you ask after a few minutes of walking. You are heading straight for unknown roads. This is already further into the Fringes then you've walked before.
+
+"Taking you?" Rasputin replies, "No, no. You can go back at any time. This is just a demonstration. I thought it best I show you what exactly what we rebel against."
+
+You pass under a huge bridge. It is crumbling and cracked in a way that makes you doubt it's going to stay standing for much longer. Some of the other Vagabonds stay back but your sister and Rasputin continue forward. 
+
+The other Vagabonds look nervous, eying up the crumbling buildings around you. What are they afraid of? Sure the bridge looks sketchy as fuck but its not much worse then the rest of the city.
+
+You hesitate for only a second before jogging to catch up with Eve and Rasputin.
+
+Rasputin start talking again, "Have you ever wondered how the rations never run out? How you get new clothes when your old ones wear through with holes? Who makes those cans of food, who makes the clothes if it's none of as? You all work in the Factory. Everyone works in the Factory"
+
+Choices:
+
+[C02.1]1. Continue Story
+[C02.1]2. Continue Story
+[C02.1]3. Continue Story
+[End]
