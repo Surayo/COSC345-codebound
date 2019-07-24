@@ -47,39 +47,31 @@ She chuckles weakly and looks away. “Yeah. Well… Staying at the factory is t
 
 “I sleep-” you say.
 
-“-for more then a shitty fist full of hours. I get actual restful deep sleep for more then a couple days in a row. When has The Fucking Factory ever done that for you, little [Xther]?”
+“-for more then a shitty fist-full of hours. I get actual restful deep sleep for more then a couple days in a row. When has The Fucking Factory ever done that for you, little [Xther]?”
 
 You dismis her words with a shake of your head. “Wait. How long have you even been hanging around with these fucks?” You vaguely recall noticing her absence at home a few times but you’re normally too tired to think about diner let alone something as strenuous as contemplating the absence of someone who isn’t even there.
 
 
-“A couple weeks now.” Eve says, not ashamed in the slightest. “They asked me to join actually after they heard about my Aspect. Which, I don’t know why they’re interested in that. It only makes me immune to toxins.” You frown more and more as she continues talking. “They must be trying to get out of the city or something? Honestly I don’t really give a shit as long as they keep letting me live in their bunker.”
+“A couple weeks now.” Eve says, not ashamed in the slightest. “They asked me to join, actually, after they heard about my Aspect. Which, I don’t know why they’re interested in that. It only makes me immune to toxins.” You frown more and more as she continues talking. “They must be trying to get out of the city or something? Get past the Bioforms? Honestly I don’t really give a shit as long as they keep letting me live in their bunker.”
 
 
 “You’d sell your soul for anything wouldn’t you.” You mutter mostly to yourself, leaning back in your chair so far you can no longer see her.
 
-
-You hear Eve stand. “Yeah well hit me up when you want to feel alive again. I’m done working for that shit fueled factory. I’m out. And I’m never going back.” She walks away from that table.
-
+You hear Eve stand. “Yeah, well, hit me up when you want to feel alive again. I’m done working for that shit fueled factory. I’m out. And I’m never going back.” She walks away from that table.
 
 You fume for a second as Eve starts gathering her stuff from around the room. You don’t understand why she can trust them when everything they’re doing goes against the greater good. By not working in The Factory the Vagabonds just put their share of the work onto everyone else. 
 
-
 The factory protects everyone and the Vagabonds should know that. Eve should know that! The heavy smog it pumps into the air day in and day out forms a powerful chemical barrier against the Bioforms native to this planet. If it weren't for The Factory all of Fragos, your safe-haven in the forest, would have been slaughtered with the rest of the world in the Bioforms first attack.
-
 
 And your sister is just thinking of her beauty sleep. Typical. 
 
-
 She stops behind you where you are still slumped over the table. “You could join us.” She says, her tone cautious and hopeful.
-
 
 “You could shut up.” You reply, voice muffled from where your face is pressed into your arm. 
 
+She doesn’t say anything else, just drops something on the table with a clank, and before long the door is clicking closed behind her.
 
-She doesn’t say anything else and before long the door is clicking closed behind her.
-
-
-[Choices]
+Sitting on the table is the ring you gave her her first day in The Factory.
 
 
 [C1.1.1]You can’t let her do this. You slap yourself to back awake and pull yourself back to your feet. Then before you can second guess your sudden resolve you run out into the night to look for Eve.
@@ -164,19 +156,13 @@ You groan again and thump your head back down on the table. Sometimes you just w
 
 You’re so tired. You should probably haul yourself off to bed and leave her to ruin her own life. 
 
-Eve stomps around the small space picking up the few items she owns that are scattered around. You watch her progress from where you’re still slumped across the table. There are only you and your sisters two beds in the room plus the table with it’s two mismatched chairs. It doesn’t take her long to gather up her few possessions but your eyes droop anyway. 
+Eve stomps around the small space picking up the few items she owns that are scattered around. You watch her progress from where you’re still slumped across the table. The only furniture in the room is you and your sisters beds and a table with two mismatched chairs. It doesn’t take her long to gather up her few possessions but in that short span of time your eyes droop anyway.
 
-You are half asleep again by the time she steps up behind you and you hear a clink of something dropping onto the table. Then before you can do more then lift your head she has sweep out of the room and back out into the night.
+You are half asleep again by the time she steps up behind you and you hear a clink of something dropping onto the table. Then before you can do more then lift your head she has sweept out of the room and back out into the night.
 
-You sit up and stretch the crink out of your back. The empty silence of the room seeps into your tired limbs. On the table is a simple ring, one of your sister’s rings. 
+You sit up and stretch the crink out of your back. The empty silence of the room seeps into your tired limbs. On the table is a simple ring, one of your sister’s. 
 
 It’s the ring you gave her as a gift when she started her first day in The Factory.
-
-
-[Item]You have received SISTERS RING
-
-
-[Choices]
 
 
 [C1.1.1]You can’t let her do this. You slap yourself to back awake and pull yourself back to your feet. Then before you can second guess your sudden resolve you run out into the night to look for Eve.
@@ -259,9 +245,6 @@ It’s fully dark out and a harsh chill has settled over the town center. You mu
 You shiver and pull your work coat closer around yourself and peer both ways down the street. To the left lies the Factory, you know that path like the unwavering aftertaste of canned Nutritious Food Staple. To the right lies deeper parts of the Fringes, crumbling skyscrapers and the sprawling roads of a city long abandoned. 
 
 Which way did she go?
-
-
-[Choices]
  
 
 [C1.1.1.1]You quickly pull yourself together and run to the left towards The Factory. Eve will be headed towards the Vagabonds and that is near where you saw them last.
@@ -273,7 +256,7 @@ Which way did she go?
         </Document>
         <Document ID="11">
             <Title>[C0]</Title>
-            <Text>There was a stretch of history where Humans were the most powerful beings on Dirth. They had magic on their side that Dirth had never seen before - the power of their Aspects. And when that failed they developed technology.
+            <Text>[0]There was a stretch of history where Humans were the most powerful beings on Dirth. They had magic on their side that Dirth had never seen before - the power of their Aspects. And when that failed they developed technology.
 
 The humans adapted faster then anything before. They thrived.
 
@@ -291,8 +274,9 @@ Still, even in these cities, few survived.
 
 Time passed for the survivors and the remaining people of Dirth clustered together in their protective cities, for outside those walls were the Bioforms. In this game of adaptation only time would tell who would survive.  
 
+***
 
-[0]Your name is [NAME] and you are walking home from work. The air is heavy with smog and the streets are cracked and filthy. Dust clings to your drab work clothes as it always does - a remnant of The Factory. It’s the end of another grueling shift and after twelve long hours in front of the furnaces it’s all you can do to put one foot in front of the other. 
+Your name is [Name] and you are walking home from work. The air is heavy with smog and the streets are cracked and filthy. Dust clings to your drab work clothes as it always does - a remnant of The Factory. It’s the end of another grueling shift and after twelve long hours in front of the furnaces it’s all you can do to put one foot in front of the other. 
 
 Your route home takes you through The Fringes - an abandoned part of this sprawling city you call home. It’s quiet. This isn’t the part of your city that your people are allowed to occupy but if the odd shadow or creek disturbs your walk you never stop to acknowledge it. It’s better to just keep your head down and get home.
 
@@ -435,16 +419,15 @@ You pull yourself out of bed where you managed to pass out last night. Eve’s b
 
 You eat your vaguely nutritious gloop like you do every morning while listening to the rest of the house as the workers all get ready for the early shift. Somewhere on the far side of the house Agnes’s baby, Sally is crying, as she is want to do. 
 
-It isn't’ long before Drew is making the rounds again, your ears prick up at the sound of his yelling. “We got ten minutes Brian if ye want grub before yur shif’ ye gotta get up and eat it!” a pause, “Ye’ll be bloody sorry when yur half staved slaving away at the tiller.” It’s honestly a life-send that you have Drew in your house. He makes sure all the workers get up every day and checks in on you all as he does. He’s invaluable.
+It isn't’ long before Drew is making the rounds again, your ears prick up at the sound of his yelling. “We got ten minutes, Brian, if ye want grub before yur shif’ ye gotta get up and eat it!” a pause, “Ye’ll be bloody sorry when yur half staved slaving away at the tiller.” It’s honestly a life-send that you have Drew in your house. He makes sure all the workers get up every day and checks in on you all as he does. He’s invaluable.
 
 Doors start opening throughout the house, other workers making their way out of the house and towards The Factory. That’s your queue.
-
 
 The smog heavier in the air, more so then usual. The air is unnaturally still.
 
 You walk with other workers but feel too tired to join in with their banter, your sisters absence sits heavy on your shoulders.
 
-It sucks. Why did she have to abandon you like that? You’ve been together since your parents died years ago. She was a constant presence in your life and sure she has always been a little flighty but fuck. Why did she have to up and become a fucking Vagabond sympathizer?
+It sucks. Why did she have to abandon you like that? You’ve been together since your parents died years ago. She was a constant presence in your life and sure she has always been a little flighty but fuck. Why did she have to up and become a fucking Vagabond sympathiser?
 
 Liaba glances back at you, “Where’s your sister? Is she skipping out again.” She asks, falling back from the group to walk with you.
 
@@ -454,10 +437,7 @@ You grumble something even you know isn’t words and plod on, head down.
 
 “I don’t want to talk about it.” You don’t want to have to lie to her but your sister left you for the fucking Vagabonds last night and you are trying not to stay pissed about it. 
 
-“Hmmmmm. Alright. But you are moping way more then usual. If your sister has gotten into some shit again talk to me. Her stressing you out stresses me out and I’m not about that life.”
-
-
-[Choices]
+“Hmmmmm. Alright. But you are moping way more then usual. If your sister’s gotten into some shit again talk to me. Her stressing you out stresses me out and I’m not about that life.”
 
 
 [C1.1.1.1.1.1]You give her a friendly punch on the shoulder. You feel better knowing she’s there for you.
@@ -855,7 +835,7 @@ You manage to get an arm free.
 
 He uncovers your mouth only for the second figure to shove a balled up piece of cloth into your mouth a second later. You let them, and shake. What the fuck? What is even happening? Are you being kidnapped or something?
 
-“[Xe]’s being awfully quite quiet don’t you think, Greg?” the second figure says. The first one grunts and holds you still by the shoulders even as you don’t struggle against him. “I was expecting a real fight with this one but I guess you can never really tell.” 
+“[Xe]’s being awfully quite don’t you think, Greg?” the second figure says. The first one grunts and holds you still by the shoulders even as you don’t struggle against him. “I was expecting a real fight with this one but I guess you can never really tell.” 
 
 “I wish you would take [Xis] queue, Patrick.” A female voice says from over near the door. How many of these guys are there? It suddenly dawns on you that these must be Vagabonds and you feel yourself tense up with renewed fear. What the fuck do the Vagabonds want with you that they’ll go to all the trouble of kidnapping you over it?
 
@@ -871,15 +851,21 @@ He uncovers your mouth only for the second figure to shove a balled up piece of 
 
 Yes you fucking do. You shout out a strangled “Help!” before the same large hands are closing over your mouth. 
 
-“Stop.” He says. You strain and scratch at his hands. You hear and loud thud coming from the room next to yours and a voice muffled through the walls. 
+“Stop.” The man holding your mouth closed says. You strain and scratch at his hands. You hear and loud thud coming from the room next to yours and a voice muffled through the walls. 
 
 “Shit, boss. Abort?” the second male says, backing away from you.
 
-“Agreed.” The woman says. “Let’s get out of here before the whole building comes down on us.” 
+“Agreed. There are more people waking up.” The woman says. “Let’s get out of here before the whole building comes down on us.” 
 
 The first and largest assailant immediately lets go of you and sprints out the door, his footfalls surprisingly light for his large frame. The second man falls back almost as quickly, stumbling over himself on the way out the door and then all three of them are gone, leaving the door clicked shut behind them.
 
-Fuck. You breath, feeling you face over for bruises. </Text>
+Fuck. You breath, feeling you face over for bruises.
+
+Fuck.
+
+Someone barges into your room and you scream, cowering back into your bed.
+
+“Bloody heaving fuck, [Name]. It’s just me.</Text>
         </Document>
         <Document ID="39">
             <Title>[C1,1,2,1,1]</Title>
@@ -1213,7 +1199,7 @@ After a while you start hear more voices, and feel your blood run cold. “Who�
         </Document>
         <Document ID="54">
             <Title>[C1,1,1,1,2,1,1]</Title>
-            <Text>[C1.1.1.1.2.1.1]Desperatly you start searching the ground for Eve’s ring. Your hands hurt and you couldn’t give less of a fuck. You scrabble at the pavement. 
+            <Text>[1.1.1.1.2.1.1]Desperatly you start searching the ground for Eve’s ring. Your hands hurt and you couldn’t give less of a fuck. You scrabble at the pavement. 
 
 You gasp out a sob, scrabbling at the ground where you heard the ring fall. 
 
@@ -1270,7 +1256,7 @@ Your other hand holds the rock but no mater how hard you grip it, feeling it dig
         </Document>
         <Document ID="57">
             <Title>[C1,1,1,1,2,1,1,1,1]</Title>
-            <Text>[C1.1.1.1.2.1.1.1.1]You take a deep breath in, calming your raging emotions. The rock drops from your hand, you don’t know why you still are still holding it. 
+            <Text>[1.1.1.1.2.1.1.1.1]You take a deep breath in, calming your raging emotions. The rock drops from your hand, you don’t know why you’re still holding it. 
 
 It’s in the brief span of silence that you hear the footsteps coming up from behind you.
 
@@ -1278,13 +1264,13 @@ It’s in the brief span of silence that you hear the footsteps coming up from b
 
 You turn, “Eve?” you ask.
 
-“What are you doing out here?” she asks. You glance from her to the girl beside her. You can’t tell if she looks younger then you or not. She stares back, not saying anything.
+“What are you doing out here?” Eve asks. You glance from her to the girl beside her. You can’t tell if she looks younger then you or not. She stares back, not saying anything.
 
 “I - I lost your ring.” You say.
 
-“What are you even talking about? What. Are you doing. Out Here!? Give me the why! You can’t lose a ring if you’re not out here in the first place.”
+“My ring? What are you even talking about? I don’t care about that stupid ring. What! Are you doing!? Out Here!? Give me the why!”
 
-Dispite her forceful voice she looks more concerned for you then angry that you lost her ring. You breathe out, stealing yourself, “I was looking for you. I can’t let you do this. The Vagabonds are - are…” You glance at the girl beside her again. She awkwardly looks away.
+Despite her forceful voice she looks more concerned for you then angry that you lost her ring. You breathe out, stealing yourself, “I was looking for you. I can’t let you do this. The Vagabonds are - are…” You glance at the girl beside her again. She awkwardly looks away.
 
 “Fuck off. I’m fine. Just, Just go home [Name]. I don’t have time for this.” 
 
@@ -1292,10 +1278,10 @@ Dispite her forceful voice she looks more concerned for you then angry that you 
 
 Eve groans. “Why are you like this. Shit. OK. You’re coming with us then.” She pulls you out of the dirt by the arm and dusts you off. “What were you ding on the ground anyway? Wait. You know what. I don’t care. Just shut up and come with us.”
 
-She stomps off in a direction you are sure is the opposite of where you cant to go.
+She stomps off in a direction you are sure is the opposite of where you want to go.
 
 
-[C1.1.1.1.2.1.1.1.1]”I have to go home.” You say, “Can you just point me in the right direction?” 
+[C1.1.1.1.2.1.1.1.1]”No. I can’t. I have to go home.” You say, “Can you just point me in the right direction?” 
 
 [C1.1.1.1.2.1.1.1.2]Follow her.</Text>
         </Document>
@@ -1317,12 +1303,54 @@ You drift in and out as the sky brightens around you, slumped against the side o
         </Document>
         <Document ID="62">
             <Title>[C1,1,1,1,2,1,1,1,1,1]</Title>
+            <Text>[1.1.1.1.2.1.1.1.1.1]”I can’t let you go back now. You’ve seen us. You’ll tell them what we’re up to.” Eve says, looking back at you like you’re stupid.
+
+“No I won’t,” you say reflexively
+
+“Yes you fucking will, [Name], I know you. Now come on. I have things to do and if you’re coming along you may as well help me do them”
+
+
+[C1.1.1.1.2.1.1.1.1.2]”What things?” You ask, following after her and the girl with her.
+
+[C1.1.1.1.2.1.1.1.1.1.2]”Hey, you know what? Fuck that. And fuck you. I’m not going with you” You say, backing away. </Text>
         </Document>
         <Document ID="63">
             <Title>[C1,1,1,1,2,1,1,1,1,2]</Title>
+            <Text>[1.1.1.1.2.1.1.1.1.2]”This is a top secret vagabond mission. It’s to do with my aspect. Apparently they’ve been looking for someone who can survive out where the Bioforms are for years now. 
+
+“Who would have thunk it, eh? We always thought our Aspects were so useless but it’s what they’ve been looking for the entire goddamn time!” Eve grins at you while the girl with her continues to stare at you, impassive. 
+
+“So what,” You say, “They want to live out in the wilderness? Is that it?” 
+
+“I don’t know. I haven’t asked. Being a Vagabond got be away from that shitty fucking Factory so if they want me to go out and test my Aspect with Ellie-May then I fucking will.”
+
+“Hi.” Ellie-May says, “Eve won’t stop talking about you.”
+
+“What!” Eve says, “No, I don’t fuck you.” She shoves Ellie-May who just giggles and and keeps walking just out of Eve’s reach. Cute.
+
+“Anyway,” Eve says turning back to you, “Ellie-May here can mimic other people’s aspects-”
+
+“Some people’s Aspects.” Ellie-May interjects.
+
+“-some people’s Aspects.” Eve continues, “So we’re going to see if she can become immune to toxins too.”
+
+“You’re going to expose her to the toxins and see if she dies? Is that it?” You ask.
+
+“No, stupid, She has a monitor on.” At this Ellie-May pulls out a small handheld device that you can see is wired into her arm. It’s what the doctor uses to check Bioform Polin levels in blood to determine if a patient is doomed or just caught a cold. 
+
+“Huh.” You say. Smart.
+
+
+</Text>
         </Document>
         <Document ID="64">
             <Title>[C3,1,2,2]</Title>
+        </Document>
+        <Document ID="65">
+            <Title>[C1,1,1,1,2,1,1,1,1,1.2]</Title>
+            <Text>[1.1.1.1.2.1.1.1.1.1.2]You break into a sprint, hoping the girl with her doesn’t have an Aspect that can catch you.
+
+Eve yells after you and you can hear the heavy footfalls of her chasing you down. “Get back here you fucking piece of shit!”</Text>
         </Document>
     </Documents>
 </SearchIndexes>
