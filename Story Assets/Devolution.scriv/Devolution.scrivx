@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.12.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-07-24 12:24:17 +1200" ModID="8CB43F7A-2E85-4271-8E04-C93669B4B79F">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.12.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-07-24 16:41:30 +1200" ModID="0817034E-97DD-44BB-84E1-A0E01DC706FB">
     <Binder>
         <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-06-23 13:19:08 +1200" Type="Text">
             <Title>story ideas</Title>
@@ -18,14 +18,14 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="11" UUID="DF2C9412-1067-477C-806B-06B011176CB0" Created="2019-04-12 11:47:59 +1200" Modified="2019-07-18 12:46:49 +1200" Type="Text">
+                <BinderItem ID="11" UUID="DF2C9412-1067-477C-806B-06B011176CB0" Created="2019-04-12 11:47:59 +1200" Modified="2019-07-24 12:51:05 +1200" Type="Text">
                     <Title>[C0]</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1667,0</TextSelection>
+                        <TextSelection>257,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
@@ -69,7 +69,7 @@
                                                         <FileExtension>rtf</FileExtension>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>417,0</TextSelection>
+                                                        <TextSelection>728,0</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
@@ -132,6 +132,7 @@
                                                                                                     <Title>[C1,1,1,1,2,1,1,1,1,1]</Title>
                                                                                                     <MetaData>
                                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                        <FileExtension>rtf</FileExtension>
                                                                                                     </MetaData>
                                                                                                     <TextSettings>
                                                                                                         <TextSelection>349,0</TextSelection>
@@ -155,6 +156,7 @@
                                                                                                     <Title>[C1,1,1,1,2,1,1,1,1,2]</Title>
                                                                                                     <MetaData>
                                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                        <FileExtension>rtf</FileExtension>
                                                                                                     </MetaData>
                                                                                                     <TextSettings>
                                                                                                         <TextSelection>1002,0</TextSelection>
@@ -417,7 +419,7 @@
                                                         <FileExtension>rtf</FileExtension>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>2610,0</TextSelection>
+                                                        <TextSelection>2934,0</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
@@ -581,7 +583,7 @@
                                         <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>3759,0</TextSelection>
+                                        <TextSelection>681,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
@@ -770,7 +772,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="8AE22B70-BC74-4D7B-8981-D01A5F1E97F0" Color="0.901961 0.901961 0.980392">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">1.1.3</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">fringes</SearchSettings>
         </Collection>
     </Collections>
     <PrintSettings PaperType="Letter" LeftMargin="36.0001" RightMargin="36.0001" TopMargin="36.0001" BottomMargin="36.0001" Orientation="Portrait" Collates="No" ReverseOrder="No"/>
