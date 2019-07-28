@@ -2,7 +2,7 @@
 
 “My [XTHER] actually.” Eve replies but she isn’t looking at him, she’s looking at you. You don’t know what your face is doing right now but it incites her into saying, “I’m sorry, [NAME]. You wouldn’t understand. The Vagabonds aren’t trying to hurt anyone.”
 
-“Of course we aren’t, Eve. That you even feel the need to state it-” He looks at you. It’s about at that time that you remember that these Vagabonds have committed an unknown number of atrocities against your city. You tense, taking your eyes from Eve’s to meet his. “Ah, but of course. [NAME] was it? I don’t think we’ve met before. My name is Rasputin. I wont presume your sister has had the forethought to tell you but I am the leader of the Vagabonds.”
+“Of course we aren’t, Eve. That you even feel the need to state it-” He looks at you. It’s about at that time that you remember that these Vagabonds have committed an unknown number of atrocities against your city. You tense, taking your eyes from Eve’s to meet his. “Ah, but of course. [NAME] was it? I don’t think we’ve met before. My name is Rasputin. I won't presume your sister has had the forethought to tell you but I am the leader of the Vagabonds.”
 
 Oh Fuck. The Leader. “Oh - ah. Right. Right.” You gulp. What are you still doing here? Your eyes flick back to your sister, looking for an explanation. 
 
@@ -10,11 +10,11 @@ Oh Fuck. The Leader. “Oh - ah. Right. Right.” You gulp. What are you still d
 
 “It must have come as a shock, your sister joining our group.” A cramp has developed in your left calf from standing tense for so long. You dare not more. “I know how we must seem from the outside. You must think that by working in The Factory you are protecting everyone in the city who can’t work themselves. Yet the Vagabonds can work yet choose not to.”
 
-“I don’t understand. Evey time a worker leaves the Factory the other workers have to pick up the slack. We can’t keep doing this. It’s killing us. If you understand this why then. Why are you doing it?” you ask. If he knows why you hate the Vagabonds, if he knows why you think they are scum who turned against their own people, then why?
+“I don’t understand. Every time a worker leaves the Factory the other workers have to pick up the slack. We can’t keep doing this. It’s killing us. If you understand this why then. Why are you doing it?” you ask. If he knows why you hate the Vagabonds, if he knows why you think they are scum who turned against their own people, then why?
 
-“Our actions aren’t without cause. We are the rebellion as you rightly know. But do you know who we are rebelling against?” You had always thought they were against working in the Factory. That they were lazy and selfish and would rather have an easy life without toil and pain then protect their people. 
+“Our actions aren’t without cause. We are the rebellion as you rightly know. But do you know who we are rebelling against?” You had always thought they were against working in the Factory. That they were lazy and selfish and would rather have an easy life without toil and pain than protect their people. 
 
-You glance from one face to another and spot another familiar face in the crowd. Rush. An older guy who used to work alongside you at the furnaces. He had been hardworking and committed to keeping your city alive. Rush had been a guiding force in your early days of working in the factory after your parents deaths.
+You glance from one face to another and spot another familiar face in the crowd. Rush. An older guy who used to work alongside you at the furnaces. He had been hard-working and committed to keeping your city alive. Rush had been a guiding force in your early days of working in the factory after your parents' deaths.
 
 Rush had disappeared one day. He never said anything. It had been a crushing blow.
 
@@ -22,8 +22,6 @@ You don’t know what he is rebelling against, or what bought your sister over t
 
 Rasputin speaks again. “There is good reason we rebel.”
 
-
-[Choices]
 
 
 [C2.1]”Explain it to me then.” You say. Rasputin nods, satisfied and motions for you to follow him. You follow.

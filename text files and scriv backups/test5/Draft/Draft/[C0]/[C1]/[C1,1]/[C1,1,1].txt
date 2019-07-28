@@ -7,8 +7,6 @@ You shiver and pull your work coat closer around yourself and peer both ways dow
 Which way did she go?
 
 
-[Choices]
- 
 
 [C1.1.1.1]You quickly pull yourself together and run to the left towards The Factory. Eve will be headed towards the Vagabonds and that is near where you saw them last.
 

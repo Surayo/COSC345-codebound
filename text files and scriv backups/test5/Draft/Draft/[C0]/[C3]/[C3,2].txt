@@ -2,7 +2,7 @@
 
 You stumble, your limbs disconnected.
 
-You are awake but your thoughts are so far apart from each other that that the world just exists around you with no effort on your part.
+You are awake but your thoughts are so far apart from each other that the world just exists around you with no effort on your part.
 
 When your mind pulls itself back together you are being held up by multiple hands, your dropped knife gone.
 
@@ -22,17 +22,17 @@ Eve interjects, “What the shit, [Name]!? What is with you today? I know what I
 
 You are the only one who looks concerned with this arrangement.
 
-“Well, you obviously don’t want to work so you’re abandoning the Factory and leaving the rest of as to shoulder the-”
+“Well, you obviously don’t want to work so you’re abandoning the Factory and leaving the rest of us to shoulder the-”
 
 “Wrong!” Eve interjects.
 
 You fume, but don’t take a step forward.
 
-Rasputin explains Eve’s rude comment further, “Despite her method of communication Eve is correct. It is not that we don’t want to keep the city safe from the Bioforms, it is that we believe that there is a better way, an easier way, a way that would keep everyone safe while also freeing them from the toll the Factory takes on them.”
+Rasputin explains Eve’s rude comment further, “Despite her method of communication, Eve is correct. It is not that we don’t want to keep the city safe from the Bioforms, it is that we believe that there is a better way, an easier way, a way that would keep everyone safe while also freeing them from the toll the Factory takes on them.”
 
 “How?” You say.
 
-Rasputin motions for you to follow, “I think it best if I show you.”
+Rasputin motions for you to follow, “I think it's best if I show you.”
 
 
 [C2.1]Intrigued, you follow.
