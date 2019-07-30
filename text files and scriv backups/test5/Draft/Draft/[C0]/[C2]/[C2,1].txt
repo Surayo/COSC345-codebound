@@ -1,18 +1,18 @@
-[2.1]Eve sticks by your side and doesn’t say a word as the Vagabonds lead you away from your normal route home and deeper into the abandoned parts of the city. 
+[2.1]Eve sticks by your side and doesn’t say a word as the Vagabonds lead you away from your normal route home deeper into the abandoned parts of the city. 
 
 You wonder if this is how they recruited her, maybe this is how they recruit all their members. Just picking them up from the sidewalk and convincing them to go with them.
 
 “Where are you taking me?” you ask after a few minutes of walking. You are heading straight for unknown roads. This is already further into the Fringes then you’ve walked before.
 
-“Taking you?” Rasputin replies, “No, no. You can go back at any time. This is just a demonstration. I thought it best I show you what exactly what we rebel against.”
+“Taking you?” Rasputin replies, “No, no. You can go back at any time. This is just a demonstration. I thought it's best I show you what's exactly what we rebel against.”
 
 You pass under a huge bridge. It is crumbling and cracked in a way that makes you doubt it’s going to stay standing for much longer. Some of the other Vagabonds stay back but your sister and Rasputin continue forward. 
 
-The other Vagabonds look nervous, eying up the crumbling buildings around you. What are they afraid of? Sure the bridge looks sketchy as fuck but its not much worse then the rest of the city.
+The other Vagabonds look nervous, eyeing up the crumbling buildings around you. What are they afraid of? Sure the bridge looks sketchy as fuck but it's not much worse than the rest of the city.
 
 You hesitate for only a second before jogging to catch up with Eve and Rasputin.
 
-Rasputin start talking again, “Have you ever wondered how the rations never run out? How you get new clothes when your old ones wear through with holes? Who makes those cans of food, who makes the clothes if it’s none of as? You all work in the Factory. Everyone works in the Factory”
+Rasputin starts talking again, “Have you ever wondered how the rations never run out? How you get new clothes when your old ones wear through with holes? Who makes those cans of food, who makes the clothes if it’s none of us? You all work in the Factory. Everyone works in the Factory”
 
 The buildings on the other side of the bridge are in an even worse state, half slumped into each other, with no sign of human life. At least the streets look walked if not lived in. 
 
@@ -22,29 +22,29 @@ Then, as you walk further out, you spot it, growing in the cracks of a building 
 
 You take a half step back. The Bioforms are everything your community has ever feared. They are why you work so hard - you pump out smog to keep the Bioforms out of your sanctuary, your city. For Bioforms to be growing here you must have come right out to the edge of what the smog reaches. 
 
-The tiny patches of flora you notice as you pass wont be enough to kill anyone in these low numbers, and you and your sister have nothing to fear yourselves, but this must be why the other Vagabonds hung back. Bioforms are terrifying for a person who isn’t immune. Their presence means death.
+The tiny patches of flora you notice as you pass won't be enough to kill anyone in these low numbers, and you and your sister have nothing to fear yourselves, but this must be why the other Vagabonds hung back. Bioforms are terrifying for a person who isn’t immune. Their presence means death.
 
 “I don’t get it. What does this have to do with the rations?” you ask. 
 
 Rasputin doesn’t turn back towards you to reply, and you sister just smirks, a knowing glint in her eye.
 
-Patches of green grow on almost all of the buildings now and the air is starting to clear up from the smog heavy air you are used to. You breath in deep and smell polin. It’s something you havent smelled in a long time.
+Patches of green grow on almost all of the buildings now and the air is starting to clear up from the smog heavy air you are used to. You breathe in deep and smell pollen. It’s something you haven't smelled in a long time.
 
-You wonder if Rasputin has an Aspect similar to yours and your sisters? Your Aspects make you  immune to the toxins. It protects you from the Bioforms poison. Most people would die if they breathed in the sickly sweet scent for too long. 
+You wonder if Rasputin has an Aspect similar to yours and your sisters? Your Aspects make you immune to the toxins. It protects you from the Bioforms' poison. Most people would die if they breathed in the sickly sweet scent for too long. 
 
 “Is your Aspect like ours?” you ask. You fall into step next to Rasputin and Eve. Eve scoffs as Rasputin shakes his head. 
 
 “My Aspect lets me sense importance. That is how I found this place.” He gestures as you come up to an empty crumbling lot, “And that is how I found Eve.” 
 
-This is the first wide open space you have seen in a while. There are Bioforms growing all over the place, poking through the cracks and along rusted wire fences, a smear of green, vivid as poison against the gray tones of the city. 
+This is the first wide open space you have seen in a while. There are Bioforms growing all over the place, poking through the cracks and along rusted wire fences, a smear of green, vivid as poison against the grey tones of the city. 
 
-It’s not quite a forest but it’s more then most people have seen.
+It’s not quite a forest but it’s more than most people have seen.
 
 “I have no idea what ‘importance’ means. How is this place important?”
 
-“It’s hard to describe how my Aspect works. At this location, I sense a swelling of significance that ebbs and flow through time. Right now it is almost at it’s crescendo. Something important is about to happen here. Watch.” He points far off over the tops of the buildings where the smog has thinned to almost nonexistent levels. 
+“It’s hard to describe how my Aspect works. At this location, I sense a swelling of significance that ebbs and flows through time. Right now it is almost at it’s crescendo. Something important is about to happen here. Watch.” He points far off over the tops of the buildings where the smog has thinned to almost non-existent levels. 
 
-You squint in that direction. The sky is brighter then you are used to without the dampening cover of smog. For a few long seconds you see nothing, but then a glint catches you eye. There is something… in the sky?
+You squint in that direction. The sky is brighter than you are used to without the dampening cover of smog. For a few long seconds you see nothing, but then a glint catches your eye. There is something… in the sky?
 
 Something pale and white. A flytecraft.
 
@@ -68,10 +68,8 @@ Several delivery drones - robots from before the pandemic - exit from the multip
 
 “To a drop off point close to the city. We have followed them multiple times before, we’ve blocked them, taken their packages, kidnapped them so we can pull them apart, we’ve even destroyed them. None of it helped us find out who they answer to. They have a singular purpose, to drop off their assets and get back to the flytecraft. That is all they know.”
 
-The stream of delivery drones finally tapers off and dissapears between two buildings.
+The stream of delivery drones finally tapers off and disappears between two buildings.
 
-
-[Choices]
 
 
 [C2.1.1]”I want to see for myself.” You say. Rasputin nods and gestures towards where the robots disappeared as if to say ‘After you.’
