@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.12.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-07-30 12:51:43 +1200" ModID="B3A2E71D-80BA-474F-9E7D-D2A8FBBF4E98">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.12.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-07-31 12:29:27 +1200" ModID="448605F1-1768-4278-9851-B774D3D17C95">
     <Binder>
         <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-06-23 13:19:08 +1200" Type="Text">
             <Title>story ideas</Title>
@@ -18,36 +18,36 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="11" UUID="DF2C9412-1067-477C-806B-06B011176CB0" Created="2019-04-12 11:47:59 +1200" Modified="2019-07-24 12:51:05 +1200" Type="Text">
+                <BinderItem ID="11" UUID="DF2C9412-1067-477C-806B-06B011176CB0" Created="2019-04-12 11:47:59 +1200" Modified="2019-07-31 12:14:25 +1200" Type="Text">
                     <Title>[C0]</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1143,0</TextSelection>
+                        <TextSelection>4494,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="12" UUID="41BC49E1-FA21-474F-9DC3-2B4C6DF3103F" Created="2019-04-12 11:48:23 +1200" Modified="2019-07-18 12:04:03 +1200" Type="Text">
+                        <BinderItem ID="12" UUID="41BC49E1-FA21-474F-9DC3-2B4C6DF3103F" Created="2019-04-12 11:48:23 +1200" Modified="2019-07-31 12:14:51 +1200" Type="Text">
                             <Title>[C1]</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>239,0</TextSelection>
+                                <TextSelection>1152,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="7" UUID="FBA756C5-6414-4A93-9F23-6255FD9DDDD1" Created="2019-04-12 11:38:57 +1200" Modified="2019-07-22 14:07:04 +1200" Type="Text">
+                                <BinderItem ID="7" UUID="FBA756C5-6414-4A93-9F23-6255FD9DDDD1" Created="2019-04-12 11:38:57 +1200" Modified="2019-07-31 12:16:51 +1200" Type="Text">
                                     <Title>[C1,1]</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>2938,0</TextSelection>
+                                        <TextSelection>3081,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
@@ -73,58 +73,58 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
-                                                        <BinderItem ID="18" UUID="9002E73A-B4BF-4C1A-B159-9D8B212844E6" Created="2019-04-15 15:04:34 +1200" Modified="2019-07-18 12:07:02 +1200" Type="Text">
+                                                        <BinderItem ID="18" UUID="9002E73A-B4BF-4C1A-B159-9D8B212844E6" Created="2019-04-15 15:04:34 +1200" Modified="2019-07-31 12:17:29 +1200" Type="Text">
                                                             <Title>[C1,1,1,1,2]</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                 <FileExtension>rtf</FileExtension>
                                                             </MetaData>
                                                             <TextSettings>
-                                                                <TextSelection>648,0</TextSelection>
+                                                                <TextSelection>768,0</TextSelection>
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                             <Children>
-                                                                <BinderItem ID="26" UUID="8D032CF3-309B-47FE-A7FC-3FF09AD4F297" Created="2019-04-17 15:41:59 +1200" Modified="2019-07-18 12:07:10 +1200" Type="Text">
+                                                                <BinderItem ID="26" UUID="8D032CF3-309B-47FE-A7FC-3FF09AD4F297" Created="2019-04-17 15:41:59 +1200" Modified="2019-07-31 12:17:57 +1200" Type="Text">
                                                                     <Title>[C1,1,1,1,2,1]</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                         <FileExtension>rtf</FileExtension>
                                                                     </MetaData>
                                                                     <TextSettings>
-                                                                        <TextSelection>239,0</TextSelection>
+                                                                        <TextSelection>893,0</TextSelection>
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
                                                                     <Children>
-                                                                        <BinderItem ID="54" UUID="B8CCAD56-E2FB-4C0E-BD3E-7E5EE845039C" Created="2019-07-09 12:07:18 +1200" Modified="2019-07-22 14:24:05 +1200" Type="Text">
+                                                                        <BinderItem ID="54" UUID="B8CCAD56-E2FB-4C0E-BD3E-7E5EE845039C" Created="2019-07-09 12:07:18 +1200" Modified="2019-07-31 12:18:11 +1200" Type="Text">
                                                                             <Title>[C1,1,1,1,2,1,1]</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                 <FileExtension>rtf</FileExtension>
                                                                             </MetaData>
                                                                             <TextSettings>
-                                                                                <TextSelection>1,0</TextSelection>
+                                                                                <TextSelection>324,0</TextSelection>
                                                                                 <Target Type="Words">0</Target>
                                                                             </TextSettings>
                                                                             <Children>
-                                                                                <BinderItem ID="56" UUID="4D331ED6-54AB-472C-83BA-044F7EC8D48E" Created="2019-07-09 12:19:16 +1200" Modified="2019-07-18 12:07:29 +1200" Type="Text">
+                                                                                <BinderItem ID="56" UUID="4D331ED6-54AB-472C-83BA-044F7EC8D48E" Created="2019-07-09 12:19:16 +1200" Modified="2019-07-31 12:18:32 +1200" Type="Text">
                                                                                     <Title>[C1,1,1,1,2,1,1,1]</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                         <FileExtension>rtf</FileExtension>
                                                                                     </MetaData>
                                                                                     <TextSettings>
-                                                                                        <TextSelection>467,0</TextSelection>
+                                                                                        <TextSelection>517,0</TextSelection>
                                                                                         <Target Type="Words">0</Target>
                                                                                     </TextSettings>
                                                                                     <Children>
-                                                                                        <BinderItem ID="57" UUID="47E69FB2-C189-47E4-8170-8280FE893A45" Created="2019-07-09 12:24:29 +1200" Modified="2019-07-22 14:23:54 +1200" Type="Text">
+                                                                                        <BinderItem ID="57" UUID="47E69FB2-C189-47E4-8170-8280FE893A45" Created="2019-07-09 12:24:29 +1200" Modified="2019-07-31 12:19:43 +1200" Type="Text">
                                                                                             <Title>[C1,1,1,1,2,1,1,1,1]</Title>
                                                                                             <MetaData>
                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                                 <FileExtension>rtf</FileExtension>
                                                                                             </MetaData>
                                                                                             <TextSettings>
-                                                                                                <TextSelection>490,0</TextSelection>
+                                                                                                <TextSelection>1538,0</TextSelection>
                                                                                                 <Target Type="Words">0</Target>
                                                                                             </TextSettings>
                                                                                             <Children>
@@ -219,14 +219,14 @@
                                                                         </BinderItem>
                                                                     </Children>
                                                                 </BinderItem>
-                                                                <BinderItem ID="55" UUID="B60D706A-C7C9-4FDC-9751-3E3A1E246068" Created="2019-07-09 12:09:27 +1200" Modified="2019-07-18 12:08:45 +1200" Type="Text">
+                                                                <BinderItem ID="55" UUID="B60D706A-C7C9-4FDC-9751-3E3A1E246068" Created="2019-07-09 12:09:27 +1200" Modified="2019-07-31 12:21:10 +1200" Type="Text">
                                                                     <Title>[C1,1,1,1,2,3]</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                         <FileExtension>rtf</FileExtension>
                                                                     </MetaData>
                                                                     <TextSettings>
-                                                                        <TextSelection>1614,0</TextSelection>
+                                                                        <TextSelection>1583,0</TextSelection>
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
                                                                     <Children>
@@ -285,6 +285,52 @@
                                                                                 <Target Type="Words">0</Target>
                                                                             </TextSettings>
                                                                         </BinderItem>
+                                                                        <BinderItem ID="30" UUID="68A7C490-4041-4C09-946D-4BDB473BBE44" Created="2019-04-18 12:27:50 +1200" Modified="2019-07-31 12:28:11 +1200" Type="Text">
+                                                                            <Title>[C1,1,1,1,3,1,2]</Title>
+                                                                            <MetaData>
+                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
+                                                                            </MetaData>
+                                                                            <TextSettings>
+                                                                                <TextSelection>879,0</TextSelection>
+                                                                                <Target Type="Words">0</Target>
+                                                                            </TextSettings>
+                                                                            <Children>
+                                                                                <BinderItem ID="48" UUID="ACC50DFD-072F-4B2E-9CD7-D41E517DCC6F" Created="2019-06-28 15:47:19 +1200" Modified="2019-07-18 12:10:26 +1200" Type="Text">
+                                                                                    <Title>[C1,1,1,1,3,1,2,1]</Title>
+                                                                                    <MetaData>
+                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                    </MetaData>
+                                                                                    <TextSettings>
+                                                                                        <TextSelection>98,0</TextSelection>
+                                                                                        <Target Type="Words">0</Target>
+                                                                                    </TextSettings>
+                                                                                </BinderItem>
+                                                                                <BinderItem ID="49" UUID="99CC1008-AD43-4FFC-A6C7-F7E75B07E7DD" Created="2019-06-28 15:47:36 +1200" Modified="2019-07-31 12:28:33 +1200" Type="Text">
+                                                                                    <Title>[C1,1,1,1,3,1,2,2]</Title>
+                                                                                    <MetaData>
+                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                    </MetaData>
+                                                                                    <TextSettings>
+                                                                                        <TextSelection>251,0</TextSelection>
+                                                                                        <Target Type="Words">0</Target>
+                                                                                    </TextSettings>
+                                                                                </BinderItem>
+                                                                                <BinderItem ID="50" UUID="466BAF31-E837-468D-87F6-83484E7FE345" Created="2019-06-28 15:47:45 +1200" Modified="2019-07-18 12:10:45 +1200" Type="Text">
+                                                                                    <Title>[C1,1,1,1,3,1,2,3]</Title>
+                                                                                    <MetaData>
+                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                    </MetaData>
+                                                                                    <TextSettings>
+                                                                                        <TextSelection>339,0</TextSelection>
+                                                                                        <Target Type="Words">0</Target>
+                                                                                    </TextSettings>
+                                                                                </BinderItem>
+                                                                            </Children>
+                                                                        </BinderItem>
                                                                     </Children>
                                                                 </BinderItem>
                                                                 <BinderItem ID="29" UUID="5D01BEC5-A311-4265-A6A9-6C1C4A3F541B" Created="2019-04-18 12:27:39 +1200" Modified="2019-07-18 12:09:53 +1200" Type="Text">
@@ -298,63 +344,17 @@
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
                                                                     <Children>
-                                                                        <BinderItem ID="47" UUID="524E9008-3CFE-444A-8898-4799CDD9AAB0" Created="2019-06-24 13:03:46 +1200" Modified="2019-07-18 12:10:05 +1200" Type="Text">
+                                                                        <BinderItem ID="47" UUID="524E9008-3CFE-444A-8898-4799CDD9AAB0" Created="2019-06-24 13:03:46 +1200" Modified="2019-07-31 12:22:45 +1200" Type="Text">
                                                                             <Title>[C1,1,1,1,3,2,2]</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                 <FileExtension>rtf</FileExtension>
                                                                             </MetaData>
                                                                             <TextSettings>
-                                                                                <TextSelection>3479,0</TextSelection>
+                                                                                <TextSelection>3350,0</TextSelection>
                                                                                 <Target Type="Words">0</Target>
                                                                             </TextSettings>
                                                                             <Children>
-                                                                                <BinderItem ID="30" UUID="68A7C490-4041-4C09-946D-4BDB473BBE44" Created="2019-04-18 12:27:50 +1200" Modified="2019-07-18 12:10:15 +1200" Type="Text">
-                                                                                    <Title>[C1,1,1,1,3,1,2]</Title>
-                                                                                    <MetaData>
-                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                                                                        <FileExtension>rtf</FileExtension>
-                                                                                    </MetaData>
-                                                                                    <TextSettings>
-                                                                                        <TextSelection>859,0</TextSelection>
-                                                                                        <Target Type="Words">0</Target>
-                                                                                    </TextSettings>
-                                                                                    <Children>
-                                                                                        <BinderItem ID="48" UUID="ACC50DFD-072F-4B2E-9CD7-D41E517DCC6F" Created="2019-06-28 15:47:19 +1200" Modified="2019-07-18 12:10:26 +1200" Type="Text">
-                                                                                            <Title>[C1,1,1,1,3,1,2,1]</Title>
-                                                                                            <MetaData>
-                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                                                                <FileExtension>rtf</FileExtension>
-                                                                                            </MetaData>
-                                                                                            <TextSettings>
-                                                                                                <TextSelection>98,0</TextSelection>
-                                                                                                <Target Type="Words">0</Target>
-                                                                                            </TextSettings>
-                                                                                        </BinderItem>
-                                                                                        <BinderItem ID="49" UUID="99CC1008-AD43-4FFC-A6C7-F7E75B07E7DD" Created="2019-06-28 15:47:36 +1200" Modified="2019-07-18 12:10:34 +1200" Type="Text">
-                                                                                            <Title>[C1,1,1,1,3,1,2,2]</Title>
-                                                                                            <MetaData>
-                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                                                                <FileExtension>rtf</FileExtension>
-                                                                                            </MetaData>
-                                                                                            <TextSettings>
-                                                                                                <TextSelection>251,0</TextSelection>
-                                                                                                <Target Type="Words">0</Target>
-                                                                                            </TextSettings>
-                                                                                        </BinderItem>
-                                                                                        <BinderItem ID="50" UUID="466BAF31-E837-468D-87F6-83484E7FE345" Created="2019-06-28 15:47:45 +1200" Modified="2019-07-18 12:10:45 +1200" Type="Text">
-                                                                                            <Title>[C1,1,1,1,3,1,2,3]</Title>
-                                                                                            <MetaData>
-                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                                                                <FileExtension>rtf</FileExtension>
-                                                                                            </MetaData>
-                                                                                            <TextSettings>
-                                                                                                <TextSelection>339,0</TextSelection>
-                                                                                                <Target Type="Words">0</Target>
-                                                                                            </TextSettings>
-                                                                                        </BinderItem>
-                                                                                    </Children>
-                                                                                </BinderItem>
                                                                                 <BinderItem ID="51" UUID="E631A10E-77B4-45EA-8E36-D11A0D878AB5" Created="2019-07-01 13:13:43 +1200" Modified="2019-07-18 12:10:57 +1200" Type="Text">
                                                                                     <Title>[C1,1,1,1,3,2,2,1]</Title>
                                                                                     <MetaData>
@@ -366,7 +366,7 @@
                                                                                         <Target Type="Words">0</Target>
                                                                                     </TextSettings>
                                                                                 </BinderItem>
-                                                                                <BinderItem ID="52" UUID="B9A8AB29-1C25-4189-BBFA-46548428EA28" Created="2019-07-01 13:14:13 +1200" Modified="2019-07-18 12:11:07 +1200" Type="Text">
+                                                                                <BinderItem ID="52" UUID="B9A8AB29-1C25-4189-BBFA-46548428EA28" Created="2019-07-01 13:14:13 +1200" Modified="2019-07-31 12:29:25 +1200" Type="Text">
                                                                                     <Title>[C1,1,1,1,3,2,2,2]</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -787,7 +787,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="684" Characters="3672" Date="2019-07-30 11:56:27 +1200"/>
+        <PreviousSession Words="0" Characters="3" Date="2019-07-31 11:59:42 +1200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="380EC639-26CC-4690-AFE4-C748DA8E7741" Color="0.901961 0.917647 0.933333">
