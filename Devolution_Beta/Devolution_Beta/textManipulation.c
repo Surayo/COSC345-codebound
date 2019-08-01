@@ -22,36 +22,12 @@ char *clean_block_text = NULL;
 struct choice* choice1;
 struct choice* choice2;
 struct choice* choice3;
-int choiceNum = 0, choiceTextNum = 0;
-char *startIndexes[20];
-char *endIndexes[20];
+
+char *startIndexes[50];
+char *endIndexes[50];
+int choiceAmount = 0, bracketAmount = 0;
 
 void freeChoices(){
-    choice1->choice_file = NULL;
-    choice1->choice_text = NULL;
-    free(choice1->choice_file);
-    free(choice1->choice_text);
-    choice1 = NULL;
-    free(choice1);
-    
-    choice2->choice_file = NULL;
-    choice2->choice_text = NULL;
-    free(choice2->choice_file);
-    free(choice2->choice_text);
-    choice2 = NULL;
-    free(choice2);
-    
-    choice3->choice_file = NULL;
-    choice3->choice_text = NULL;
-    free(choice3->choice_file);
-    free(choice3->choice_text);
-    choice3 = NULL;
-    free(choice3);
-    
-    choiceNum = 0;
-    choiceTextNum = 0;
-    clean_block_text = NULL;
-    free(clean_block_text);
 }
 
 // Gets the cleaned text file
@@ -59,73 +35,20 @@ char* getCleanText(){
     return clean_block_text;
 }
 
-char* getNextFile(int num){
+struct choice* getChoice(int num){
     if (num == 1){
-        return choice1->choice_file;
+        return choice1;
     } else if (num == 2){
-        return choice2->choice_file;
+        return choice2;
     } else if (num == 3){
-        return choice3->choice_file;
+        return choice3;
     } else{
         return NULL;
     }
 }
 
-char* getChoiceText(int num){
-    if (num == 1){
-        return choice1->choice_text;
-    } else if (num == 2){
-        return choice2->choice_text;
-    } else if (num == 3){
-        return choice3->choice_text;
-    } else{
-        return NULL;
-    }
-}
-
-char* removeFirstAndLast(char *file_choice, char *output, unsigned long len){
-    if (len > 0){
-        strcpy(output, ++file_choice);
-    }
-    if (len > 1){
-        output[len - 2] = '\0';
-    }
-    return output;
-}
-
-void removeBrackets(char *filetext, char *target, char *start, char *end){
-    char *storyText = NULL;
-    if (clean_block_text == NULL){
-        clean_block_text = emalloc (strlen(filetext) * sizeof(char));
-    }
-    
-    long bytes = ((char *)end) - ((char *)start);
-    storyText = emalloc(bytes * sizeof(char));
-    strncpy(storyText, start, bytes);
-    
-    if (strcmp(target, "[NAME]") == 0){
-        strcat(clean_block_text, "Greg");
-    }
-    
-    strcat(clean_block_text, storyText);
-    
-    storyText = NULL;
-    free(storyText);
-}
-
-int getBracketAmount(char *filetext){
-    int amount = 0;
-    int i = 0;
-    while (filetext[i] != '\0'){
-        if(filetext[i] == '['){
-            amount += 1;
-        }
-        i ++;
-    }
-    return amount;
-}
-
-// Adds all of the pointers to the array
+/* Adds all of the pointers to the array
+ */
 void setBracketPoints(char *filetext){
     int currentIndex = 0;
     int storeIndex = 0;
@@ -133,6 +56,10 @@ void setBracketPoints(char *filetext){
     while (filetext[currentIndex] != '\0'){
         if (filetext[currentIndex] == '['){
             startIndexes[storeIndex] = &filetext[currentIndex];
+            bracketAmount ++;
+            if (filetext[currentIndex + 1] == 'C'){
+                choiceAmount ++;
+            }
         } else if (filetext[currentIndex] == ']'){
             endIndexes[storeIndex] = &filetext[currentIndex];
             storeIndex++;
@@ -140,7 +67,15 @@ void setBracketPoints(char *filetext){
         
         currentIndex++;
     }
+    printf("Test1: %c\n", *startIndexes[1]);
+    printf("Test2: %c\n", *endIndexes[2]);
+    printf("Brackets: %d\n", bracketAmount);
+    printf("Choices: %d\n", choiceAmount);
 }
+
+/*Get the current file
+ */
+
 
 // Sets the file into a string
 char* setFile(FILE *file){

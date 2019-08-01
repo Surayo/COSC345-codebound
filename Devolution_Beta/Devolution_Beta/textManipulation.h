@@ -12,10 +12,8 @@
 typedef struct choice *choices;
 
 extern char* setFile(FILE *fptr);
-extern void store_brackets(char *filetext);
-extern char* getCleanText();
-extern char* getNextFile(int num);
-extern char* getChoiceText(int num);
+extern void setBracketPoints(char *filetext);
+extern struct choice* getChoice(int num);
 extern void freeChoices();
 
 #endif /* textManipulation_h */

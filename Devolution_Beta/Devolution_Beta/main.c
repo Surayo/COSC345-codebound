@@ -16,14 +16,17 @@
 
 int main(int argc, const char * argv[]) {
     char *cwd = NULL;
+    char *text = NULL;
     char file_location[50];
+    char **story_path = emalloc(sizeof(char*));
     FILE *fptr;
+    int path_count = 0;
     
     cwd = emalloc(150 * sizeof(char));
     //file_location = emalloc(50 * sizeof(char));
     
     cwd = current_directory(cwd);
-    strcpy(file_location, "/Devolution/C0.txt");
+    strcpy(file_location, "/Devolution/[C0].txt");
     //fptr is a pointer to the story text
     
     while (true){
@@ -31,8 +34,15 @@ int main(int argc, const char * argv[]) {
         if (fptr == NULL){
             break;
         }
-        
-    }
+        text = setFile(fptr);
+        setBracketPoints(text);
     
+        //Add to the current path
+        
+        //story_path = erealloc();
+        
+        break;
+    }
+    free(story_path);
     return 0;
 }
