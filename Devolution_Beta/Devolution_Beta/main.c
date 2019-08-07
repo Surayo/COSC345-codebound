@@ -36,6 +36,8 @@ int main(int argc, const char * argv[]) {
         }
         text = setFile(fptr);
         setBracketPoints(text);
+        char* currentPosition = currentFile();
+        printf("Test: %s\n", currentPosition);
     
         //Add to the current path
         

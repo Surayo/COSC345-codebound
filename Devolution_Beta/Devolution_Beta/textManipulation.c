@@ -75,6 +75,18 @@ void setBracketPoints(char *filetext){
 
 /*Get the current file
  */
+char* currentFile(){
+    if (bracketAmount < 1){
+        return NULL;
+    }
+    long bytes = (((char *)endIndexes[0]) + 1) - ((char *)startIndexes[0]); //3
+    printf("Num: %ld\n", bytes);
+    char* file = emalloc(bytes * sizeof(char));
+    printf("Size of filepiece: %ld\n", sizeof(file));
+    strncpy(file, startIndexes[0], bytes);
+    
+    return file;
+}
 
 
 // Sets the file into a string
