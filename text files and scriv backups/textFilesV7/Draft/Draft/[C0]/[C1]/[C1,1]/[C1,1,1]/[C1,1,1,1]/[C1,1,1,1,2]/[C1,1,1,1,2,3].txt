@@ -18,6 +18,7 @@ If only you had a useful aspect, like your friend Liaba’s bursts of energy aft
 
 Plants have started sprouting around the buildings, and the sky is clearing. You must be getting to the edge of The Factory’s reach. Up above you can see the first signs of stars against the growing glow of the Bioforms.
 
+//
 
 [C1.1.1.1.2.3.1]Enter the forest of Bioforms. 
 

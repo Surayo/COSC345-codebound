@@ -18,6 +18,7 @@ Rasputin chuckles. “I can’t give the game away. With your disposition you wo
 
 [C2.1]”Why then.” You ask. He motions for you to follow. You follow.
 
+//
 [C2.2.1]”Why then.” You ask. He motions for you to follow. You don’t trust him in any way. “What? I’m not going with you.”
 
 [C2.2.2]Whatever they’re planning maybe you can stop it right here and now. You thumb the flick knife in your pocket.

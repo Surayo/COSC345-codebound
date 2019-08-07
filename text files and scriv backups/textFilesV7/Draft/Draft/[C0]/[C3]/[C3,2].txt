@@ -18,6 +18,7 @@ Eve interjects, “What the shit, [Name]!? What is with you today? I know what I
 
 “It does though.” You say, conscious of your bubbling emotions. Eve always knows how to rile you up. 
 
+//
 “What exactly is it that you think we’re doing?” Rasputin asks. He motions and the hands holding you back drop away. You realize the Vagabonds are surrounding you now, with you, Eve, and Rasputin in the center.
 
 You are the only one who looks concerned with this arrangement.
@@ -38,6 +39,7 @@ Rasputin motions for you to follow, “I think it best if I show you.”
 [C2.1]Intrigued, you follow.
 
 [C3.1.2.2]”I’m not going to go with you? Are you insane?” You take a step back.
+//
 
 
 

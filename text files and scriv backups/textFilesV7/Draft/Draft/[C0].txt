@@ -18,6 +18,7 @@ Time passed for the survivors and the remaining people of Dirth clustered togeth
 
 ***
 
+//
 Your name is [Name] and you are walking home from work. The air is heavy with smog and the streets are cracked and filthy. Dust clings to your drab work clothes as it always does - a remnant of The Factory. It’s the end of another grueling shift and after twelve long hours in front of the furnaces it’s all you can do to put one foot in front of the other. 
 
 Your route home takes you through The Fringes - an abandoned part of this sprawling city you call home. It’s quiet. This isn’t the part of your city that your people are allowed to occupy but if the odd shadow or creek disturbs your walk you never stop to acknowledge it. It’s better to just keep your head down and get home.
@@ -38,12 +39,10 @@ Most of them don’t even glance your way. You grip the handy flick knife in you
 
 A tall sort of gaunt looking Vagabond glances at you. “On your way, worker.” he says, his words barely louder than the banter of the crew around him. Tense but relieved, You go to duck your head down and do as he says but a pair of familiar circular glasses eclipsing shocked wide eyes stop you. 
 
+//
 It can’t be. Your sister.
 
 What is Eve doing?
-
-
-[Choices0]
 
 
 [C1]There is no point provoking this gang of bastards. You catch and hold your sisters eye before you turn around and walk away. There is always another route home.
