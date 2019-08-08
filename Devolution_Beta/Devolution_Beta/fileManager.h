@@ -1,10 +1,8 @@
-//
 //  fileManager.h
 //  Assignment
 //
 //  Created by Marcus Anderson on 5/2/19.
 //  Copyright © 2019 CodeBound. All rights reserved.
-//
 
 #ifndef fileManager_h
 #define fileManager_h

@@ -1,10 +1,9 @@
-//
 //  textManipulation.c
 //  Assignment
 //
 //  Created by Marcus Anderson on 5/9/19.
 //  Copyright © 2019 CodeBound. All rights reserved.
-//
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -47,8 +46,7 @@ struct choice* getChoice(int num){
     }
 }
 
-/* Adds all of the pointers to the array
- */
+// Adds all of the pointers to the array
 void setBracketPoints(char *filetext){
     int currentIndex = 0;
     int storeIndex = 0;
@@ -73,16 +71,13 @@ void setBracketPoints(char *filetext){
     printf("Choices: %d\n", choiceAmount);
 }
 
-/*Get the current file
- */
+// Get the current file
 char* getCurrentFile(){
     if (bracketAmount < 1){
         return NULL;
     }
     long bytes = (((char *)endIndexes[0]) + 1) - ((char *)startIndexes[0]); //3
-    printf("Num: %ld\n", bytes);
     char* file = emalloc(bytes * sizeof(char));
-    printf("Size of filepiece: %ld\n", sizeof(file));
     strncpy(file, startIndexes[0], bytes);
     
     return file;

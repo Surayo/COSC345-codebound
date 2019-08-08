@@ -1,10 +1,9 @@
-//
 //  fileManager.c
 //  Assignment
 //
 //  Created by Marcus Anderson on 5/2/19.
 //  Copyright © 2019 CodeBound. All rights reserved.
-//
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

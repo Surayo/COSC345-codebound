@@ -1,10 +1,8 @@
-//
 //  mylib.c
 //  Assignment
 //
 //  Created by Marcus Anderson on 5/24/19.
 //  Copyright © 2019 CodeBound. All rights reserved.
-//
 
 #include <stdio.h>
 #include <stdlib.h>
