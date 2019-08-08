@@ -38,6 +38,9 @@ int main(int argc, const char * argv[]) {
         story_path[path_count] = currentPosition;
         path_count ++;
         
+        //Set the text
+        setStoryText(text);
+        
         /* That's how you save the shit
         save_path(cwd, story_path, path_count);
         story_path = open_save(cwd, story_path);

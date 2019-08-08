@@ -78,11 +78,21 @@ char* getCurrentFile(){
     }
     long bytes = (((char *)endIndexes[0]) + 1) - ((char *)startIndexes[0]); //3
     char* file = emalloc(bytes * sizeof(char));
-    strncpy(file, startIndexes[0], bytes);
+    strlcpy(file, startIndexes[0], bytes);
     
     return file;
 }
 
+// Get the text blocks
+void setStoryText(char *filetext){
+    int endIndex = 0;
+    int startIndex = 1;
+    
+    size_t bytes = (((char *)startIndexes[startIndex]) - ((char *)endIndexes[endIndex])) - 1;
+    char* file = emalloc(bytes * sizeof(char));
+    strlcpy(file, (endIndexes[endIndex] + 1), bytes);
+    printf("%s\n", file);
+}
 
 // Sets the file into a string
 char* setFile(FILE *file){
