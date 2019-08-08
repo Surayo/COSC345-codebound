@@ -74,20 +74,6 @@ Several delivery drones - robots from before the pandemic - exit from the multip
 The stream of delivery drones finally tapers off and dissapears between two buildings.
 
 
-[Choices]
-
-
 [C2.1.1]”I want to see for myself.” You say. Rasputin nods and gestures towards where the robots disappeared as if to say ‘After you.’
 
 [C2.1.2]”If the robots were a dead end what about just getting on the ship and seeing where it goes?” Rasputin nods. “We did try that, yes.”
-
-//
-
-
-
-
-
-
-
-
-

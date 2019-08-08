@@ -29,8 +29,6 @@ You hit the ground hard, on hands and knees, and feel the palms of your hands te
 [I1]You have lost SISTERS RING
 
 
-[Choices]
-
 
 [C1.1.1.1.2.1.1]The soft ping of Eve’s ring hitting the street somewhere out in the dark shocks the anger out of you. Your emotions clog in your throat.
 
