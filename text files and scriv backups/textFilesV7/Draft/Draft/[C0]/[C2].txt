@@ -14,6 +14,7 @@ If he knows why he’s wrong then why is he still doing it. “I don’t underst
 
 “Our actions aren’t without cause. We are the rebellion as you rightly know. But do you know who we are rebelling against?” You had always thought they were against working in The Factory. That they were lazy and selfish and would rather have an easy life without toil and pain then protect their people. 
 
+//
 You glance from one face to another and spot another familiar face in the crowd. Rush. An older guy who used to work alongside you at the furnaces. He had been hardworking and committed to keeping your city alive. Rush had been a guiding force in your early days of working in the factory after your parents deaths.
 
 Rush had disappeared one day. He never said anything before he was just gone. It had been a crushing blow.
@@ -23,24 +24,9 @@ You don’t know what he’s rebelling against, or what bought your sister over 
 Rasputin speaks again. “There is good reason we rebel.”
 
 
-[Choices]
-
 
 [C2.1]”Explain it to me then.” You say. Rasputin nods, satisfied and motions for you to follow him. You follow.
 
 [C2.2]”Everyone has to work. It’s the only way to keep the Bioforms out of the city. You need to stop this.” You say
 
 [C2.3]You look at Eve. “Please, come back home. You shouldn’t be doing this no matter what fucked up reasons they’ve given you to make you think it’s OK.”
-
-
-
-
-
-
-
-
-
-
-
-
-

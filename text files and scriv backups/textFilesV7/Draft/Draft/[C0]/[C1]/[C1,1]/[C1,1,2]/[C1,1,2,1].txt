@@ -13,9 +13,6 @@ You tense and try to throw off the people holding you down, your yelling muffled
 You manage to get an arm free.
 
 
-[Choices]
-
-
 [C1.1.2.1.1]Aim high.
 
 [C1.1.2.1.2]Aim low.
