@@ -1,25 +1,17 @@
 language: C
-compiler: clang
+install: make get-deps
+compiler:
+  - clang
+  - gcc
 matrix:
   include:
     - os: osx
       osx_image: xcode10.1
     
-    - os: osx
-      osx_image: xcode9.3
-#before_script: cd Assignment
-#env:
-  #- XCWORKSPACE="Assignment.xcodeproj"
+     - os: osx
+      osx_image: xcode10.1
+      env:
+        - MATRIX_EVAL="brew install gcc && CC=gcc-8 && CXX=g++-8"
+
 before_install:
-    - brew update
-    - brew upgrade xctool
-script:
-    xctool -project Assignment.xcodeproj -scheme Assignment -destination platform=macOS #CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
-#xcode_project: Assignment.xcodeproj # path to your xcodeproj folder
-#xcode_scheme: Assignment
-#xcode_destination: platform=macOS
-#build: cc main.c fileLoader.c textManipulation.c mylib.c graphics.c titleScreen.c gameScreen.c displayText.c
-#osx_image: xode10.1
-#xcode_project: Assignment.xcodeproj
-#xcode_scheme: Assignment
- 
+    - eval "${MATRIX_EVAL}"

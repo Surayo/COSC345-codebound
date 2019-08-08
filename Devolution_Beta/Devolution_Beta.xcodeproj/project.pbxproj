@@ -7,22 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F003146522FB959F003778B1 /* fileManager.c in Sources */ = {isa = PBXBuildFile; fileRef = F003146322FB959F003778B1 /* fileManager.c */; };
+		F062578B22EFC7BC00808061 /* textManipulation.c in Sources */ = {isa = PBXBuildFile; fileRef = F062578522EFC7BC00808061 /* textManipulation.c */; };
+		F062578D22EFC7BC00808061 /* mylib.c in Sources */ = {isa = PBXBuildFile; fileRef = F062578922EFC7BC00808061 /* mylib.c */; };
 		F0C4143622DEC43D000363DE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F0C4143522DEC43D000363DE /* main.c */; };
+		F0ED04B622EFC92A00678A78 /* Devolution in CopyFiles */ = {isa = PBXBuildFile; fileRef = F062578422EFC7BC00808061 /* Devolution */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		F0C4143022DEC43D000363DE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				F0ED04B622EFC92A00678A78 /* Devolution in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F003146322FB959F003778B1 /* fileManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileManager.c; sourceTree = "<group>"; };
+		F003146422FB959F003778B1 /* fileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileManager.h; sourceTree = "<group>"; };
+		F062578422EFC7BC00808061 /* Devolution */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Devolution; sourceTree = "<group>"; };
+		F062578522EFC7BC00808061 /* textManipulation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = textManipulation.c; sourceTree = "<group>"; };
+		F062578622EFC7BC00808061 /* textManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textManipulation.h; sourceTree = "<group>"; };
+		F062578822EFC7BC00808061 /* mylib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mylib.h; sourceTree = "<group>"; };
+		F062578922EFC7BC00808061 /* mylib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mylib.c; sourceTree = "<group>"; };
 		F0C4143222DEC43D000363DE /* Devolution_Beta */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Devolution_Beta; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C4143522DEC43D000363DE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +69,14 @@
 		F0C4143422DEC43D000363DE /* Devolution_Beta */ = {
 			isa = PBXGroup;
 			children = (
+				F062578422EFC7BC00808061 /* Devolution */,
+				F003146322FB959F003778B1 /* fileManager.c */,
+				F003146422FB959F003778B1 /* fileManager.h */,
 				F0C4143522DEC43D000363DE /* main.c */,
+				F062578922EFC7BC00808061 /* mylib.c */,
+				F062578822EFC7BC00808061 /* mylib.h */,
+				F062578522EFC7BC00808061 /* textManipulation.c */,
+				F062578622EFC7BC00808061 /* textManipulation.h */,
 			);
 			path = Devolution_Beta;
 			sourceTree = "<group>";
@@ -118,7 +137,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F062578D22EFC7BC00808061 /* mylib.c in Sources */,
+				F003146522FB959F003778B1 /* fileManager.c in Sources */,
 				F0C4143622DEC43D000363DE /* main.c in Sources */,
+				F062578B22EFC7BC00808061 /* textManipulation.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
