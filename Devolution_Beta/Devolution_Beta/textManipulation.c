@@ -67,15 +67,15 @@ void setBracketPoints(char *filetext){
         
         currentIndex++;
     }
-    printf("Test1: %c\n", *startIndexes[1]);
-    printf("Test2: %c\n", *endIndexes[2]);
+    printf("Test1: %c\n", *startIndexes[4]);
+    printf("Test2: %c\n", *endIndexes[4]);
     printf("Brackets: %d\n", bracketAmount);
     printf("Choices: %d\n", choiceAmount);
 }
 
 /*Get the current file
  */
-char* currentFile(){
+char* getCurrentFile(){
     if (bracketAmount < 1){
         return NULL;
     }

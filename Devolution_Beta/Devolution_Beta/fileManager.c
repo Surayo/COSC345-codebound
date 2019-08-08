@@ -1,5 +1,5 @@
 //
-//  fileLoader.c
+//  fileManager.c
 //  Assignment
 //
 //  Created by Marcus Anderson on 5/2/19.
@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
-#include "fileLoader.h"
+#include "fileManager.h"
 #include "mylib.h"
 
 char* concat(const char *s1, const char *s2){
@@ -23,6 +23,35 @@ char* concat(const char *s1, const char *s2){
         strcat(result, s2);
         return result;
     }
+}
+
+//Save current story path to a save file
+void save_path(char *cwd, char **story, int storyDepth){
+    FILE *fp;
+    
+    cwd = concat(cwd, "/savefile.txt");
+    fp = fopen (cwd, "w");
+    for (int i = 0; i < storyDepth; i++){
+        fprintf(fp, "%s\n", story[i]);
+    }
+    fclose(fp);
+}
+
+//Open the save file
+char** open_save(char *cwd, char **story_path){
+    FILE *fp;
+    const size_t line_size = 50;
+    char* line = malloc(line_size);
+    int i = 0;
+    
+    fp = openfile(cwd, "/savefile.txt");
+    while (fgets(line, line_size, fp) != NULL) {
+        story_path[i] = line;
+        i++;
+    }
+    fclose(fp);
+    free(line);
+    return story_path;
 }
 
 //Get the current directory
@@ -42,9 +71,8 @@ FILE* openfile(char *cwd, char *filename){
     cwd = concat(cwd, filename);
     
     fptr = fopen(cwd,"r");
-    //printf("%s\n", cwd);
     if(fptr == NULL){
-        perror("To Be Continued\n");
+        perror("Error: cannot find file\n");
         return NULL;
     }
     return fptr;

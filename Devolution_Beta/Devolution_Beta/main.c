@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
-#include "fileLoader.h"
+#include "fileManager.h"
 #include "textManipulation.h"
 #include "mylib.h"
 
@@ -27,7 +27,6 @@ int main(int argc, const char * argv[]) {
     
     cwd = current_directory(cwd);
     strcpy(file_location, "/Devolution/[C0].txt");
-    //fptr is a pointer to the story text
     
     while (true){
         fptr = openfile(cwd, file_location);
@@ -36,10 +35,15 @@ int main(int argc, const char * argv[]) {
         }
         text = setFile(fptr);
         setBracketPoints(text);
-        char* currentPosition = currentFile();
-        printf("Test: %s\n", currentPosition);
+        char* currentPosition = getCurrentFile();
     
         //Add to the current path
+        story_path[path_count] = currentPosition;
+        printf("CurrentPosition in the story: %s\n", story_path[path_count]);
+        path_count ++;
+        save_path(cwd, story_path, path_count);
+        story_path = open_save(cwd, story_path);
+        printf("Reading the savefile: %s\n", story_path[0]);
         
         //story_path = erealloc();
         
