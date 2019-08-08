@@ -40,6 +40,8 @@ int main(int argc, const char * argv[]) {
         
         //Set the text
         setStoryText(text);
+        text = getCleanText();
+        printf("%s\n", text);
         
         /* That's how you save the shit
         save_path(cwd, story_path, path_count);
