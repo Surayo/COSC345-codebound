@@ -13,6 +13,9 @@
 #include "fileLoader.h"
 #include "textManipulation.h"
 #include "mylib.h"
+#include "graphics.h"
+
+
 
 int main(int argc, const char * argv[]) {
     char *cwd = NULL;
@@ -44,5 +47,8 @@ int main(int argc, const char * argv[]) {
         break;
     }
     free(story_path);
+    
+    createWindow(1);
+    
     return 0;
 }
