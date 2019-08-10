@@ -74,17 +74,16 @@ char* getCurrentFile(){
 
 // Will take a character sex input as well as character name
 void characterInserts(int endIndex, int startIndex){
-    char* inserts[] = {"Xe", "Xer", "Xis", "Xers", "Xself", "Xther", "Xm", "Xoy"};
+    /*char* inserts[] = {"Xe", "Xer", "Xis", "Xers", "Xself", "Xther", "Xm", "Xoy"};
     char* male[] = {"he", "him", "his", "his", "himself", "brother", "em", "boy"};
-    char* female[] = {"she", "her", "her", "hers", "herself", "sister", "er", "girl"};
+    char* female[] = {"she", "her", "her", "hers", "herself", "sister", "er", "girl"};*/
     
     size_t bytes = ((((char *)endIndexes[endIndex])) - ((char *)startIndexes[startIndex]));
     char* test = emalloc(bytes * sizeof(char));
     strlcpy(test, (startIndexes[startIndex] + 1), bytes);
-    //printf("%s\n", test);
     if (strcmp(test, "NAME") == 0){
         strcat(clean_block_text, " Nathorn");
-        return;
+        //return;
     }
 }
 

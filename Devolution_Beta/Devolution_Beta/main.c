@@ -11,7 +11,7 @@
 #include "fileManager.h"
 #include "textManipulation.h"
 #include "mylib.h"
-#include "graphics.h"
+//#include "graphics.h"
 
 
 
@@ -58,7 +58,7 @@ int main(int argc, const char * argv[]) {
     }
     free(story_path);
     
-    createWindow(1);
+    //createWindow(1);
     
     return 0;
 }
