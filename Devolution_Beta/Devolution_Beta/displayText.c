@@ -16,7 +16,7 @@
 #include "graphics.h"
 
 #include "textManipulation.h"
-#include "fileLoader.h"
+#include "fileManager.h"
 #include "mylib.h"
 
 void init_display_text(GameState *game){
