@@ -18,9 +18,8 @@ struct choice{
 };
 
 char *clean_block_text = NULL;
-struct choice* choice1;
-struct choice* choice2;
-struct choice* choice3;
+struct choice story_choices[3];
+
 
 char *startIndexes[50];
 char *endIndexes[50];
@@ -34,16 +33,8 @@ char* getCleanText(){
     return clean_block_text;
 }
 
-struct choice* getChoice(int num){
-    if (num == 1){
-        return choice1;
-    } else if (num == 2){
-        return choice2;
-    } else if (num == 3){
-        return choice3;
-    } else{
-        return NULL;
-    }
+struct choice getChoice(int num){
+    return story_choices[num];
 }
 
 // Adds all of the pointers to the array
@@ -93,7 +84,7 @@ void characterInserts(int endIndex, int startIndex){
     //printf("%s\n", test);
     if (strcmp(test, "NAME") == 0){
         strcat(clean_block_text, " Nathorn");
-        //return;
+        return;
     }
 }
 
@@ -116,6 +107,19 @@ void setStoryText(char *filetext){
             checkCount++;
         }
     }
+}
+
+// Set the choices
+void setChoices(char* filetext){
+    int startIndex = 1, endIndex = 1;
+    char* check = startIndexes[startIndex];
+    while ((check[1]) != 'C'){
+        startIndex++;
+        endIndex++;
+        check = startIndexes[startIndex];
+    }
+    
+    
 }
 
 // Sets the file into a string

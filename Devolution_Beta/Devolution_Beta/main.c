@@ -50,6 +50,9 @@ int main(int argc, const char * argv[]) {
         
         break;
     }
+    for (int i = 0; i < path_count; i++){
+        free(story_path[i]);
+    }
     free(story_path);
     return 0;
 }
