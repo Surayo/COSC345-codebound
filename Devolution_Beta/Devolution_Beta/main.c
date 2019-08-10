@@ -11,6 +11,9 @@
 #include "fileManager.h"
 #include "textManipulation.h"
 #include "mylib.h"
+#include "graphics.h"
+
+
 
 int main(int argc, const char * argv[]) {
     char *cwd = NULL;
@@ -54,5 +57,8 @@ int main(int argc, const char * argv[]) {
         free(story_path[i]);
     }
     free(story_path);
+    
+    createWindow(1);
+    
     return 0;
 }
