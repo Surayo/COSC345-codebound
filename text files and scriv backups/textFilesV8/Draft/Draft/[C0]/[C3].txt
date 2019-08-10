@@ -1,0 +1,16 @@
+[3]”What the fuck, Eve!?” you shout. “I can’t believe you’ve done this. After all we’ve been through together.”
+
+“You know this [Xoy], Eve?” the tall man directs to Eve. 
+
+Her eyes haven’t left yours but she ignores your shouted question to answer his. “Yeah I do, Rasputin. [Name]’s my shitty little [Xther].” Her shock has turned to disgruntled annoyance.
+
+“Oi!” you shout, marching towards the group, your knife gripped tight in in the hand still hidden in your pocket.
+
+“Piss off!” Eve yells back, finally breaking eye contact to turn her back on you in dismissal.
+
+
+[C3.1]You pull the knife on Eve and aim for the throat in a blind sweep of rage.
+
+[C3.2]You pull the knife on Eve, but hesitate. She’s your sister. No mater what she’s done she won’t stop being your sister.
+
+[C1]You fuck off, seething. It isn’t worth causing a scene here. There are too many Vagabonds for you to win this fight.

@@ -9,8 +9,6 @@ You hear something moving further up in the distance. Eve. You switch directions
 You slow back down to a walk. Past the beat of your own heartbeat you hear it again - laughter. Too deep to be Eve. 
 
 
-[Choices]
-
 
 [C1.1.1.2.1]Run.
 
