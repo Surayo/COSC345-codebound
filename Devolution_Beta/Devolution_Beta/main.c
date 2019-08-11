@@ -15,6 +15,8 @@
 #include "graphics.h"
 
 int main(int argc, const char * argv[]) {
+    
+    /**
     //char *cwd = NULL;
     char *filetext = NULL, *cleantext = NULL;
     char file_location[50];
@@ -51,10 +53,10 @@ int main(int argc, const char * argv[]) {
         printf("%s\n", cleantext);
         setChoices(filetext);
         
-        /* That's how you save the shit
-           save_path(cwd, story_path, path_count);*/
-        /*story_path = open_save(cwd, story_path);
-          printf("Reading the savefile: %s\n", story_path[0]);*/
+        //That's how you save the shit
+        //save_path(cwd, story_path, path_count);
+        //story_path = open_save(cwd, story_path);
+        //printf("Reading the savefile: %s\n", story_path[0]);
 
         
         
@@ -70,6 +72,7 @@ int main(int argc, const char * argv[]) {
     free(cleantext);
     closefile(fptr);
     freeText();
+    */
     
     createWindow(1);
     

@@ -71,10 +71,10 @@ int processEvents(SDL_Window *window, GameState *game){
             }
                 break;
             case SDL_KEYDOWN: {
-                switch(event.key.keysym.sym) {                              //keyboard events go here
-                    case SDLK_ESCAPE:                                       //check to see if escape key has been pressed
-                        if (game->statusState == STATUS_STATE_GAME) {       //if the SELECTOR is hovered over NEWGAME
-                            game->statusState = STATUS_STATE_TITLE;         //begin a new game - load the game screen
+                switch(event.key.keysym.sym) {
+                    case SDLK_ESCAPE:
+                        if (game->statusState == STATUS_STATE_GAME) {
+                            game->statusState = STATUS_STATE_TITLE;
                             shutdown_game_screen(game);
                             init_title_screen(game);
                             break;
@@ -101,7 +101,7 @@ int processEvents(SDL_Window *window, GameState *game){
                             break;
                         }
                         // MOVE CHOICE SELECTOR
-                        if (game->scenarioStatus == SCENARIO_PAGE1) {
+                        if (game->scenarioStatus == SCENARIO_LASTPAGE) {
                             if (game->selectorStatus == SELECTOR_HOVER_C1) {
                                 game->selector.y = game->screenCenterY+250;
                                 game->selectorStatus = SELECTOR_HOVER_C2;
@@ -156,23 +156,15 @@ int processEvents(SDL_Window *window, GameState *game){
                         break;
                     }
                     case SDLK_LEFT: {
-                        if (game->scenarioStatus == SCENARIO_PAGE1) {
-                            game->scenarioStatus = SCENARIO_PAGE2;
-                            break;
-                        }
-                        if (game->scenarioStatus == SCENARIO_PAGE2) {
-                            game->scenarioStatus = SCENARIO_PAGE3;
+                        if (game->scenarioStatus == SCENARIO_STORY) {
+                            nextPage(game);
                             break;
                         }
                         break;
                     }
                     case SDLK_RIGHT: {
-                        if (game->scenarioStatus == SCENARIO_PAGE3) {
-                            game->scenarioStatus = SCENARIO_PAGE2;
-                            break;
-                        }
-                        if (game->scenarioStatus == SCENARIO_PAGE2) {
-                            game->scenarioStatus = SCENARIO_PAGE1;
+                        if (game->scenarioStatus == SCENARIO_STORY) {
+                            nextPage(game);
                             break;
                         }
                         break;
@@ -186,9 +178,14 @@ int processEvents(SDL_Window *window, GameState *game){
                             init_game_screen(game);
                             break;
                         }
-                        /**  */
-                        if (game->selectorStatus == SELECTOR_HOVER_C1) {
+                        /** continue from intro */
+                        if (game->scenarioStatus == SCENARIO_INTRO) {
                             nextPage(game);
+                            game->pageStatus = PAGE1;
+                        }
+                        /** SELECT FIRST CHOICE */
+                        if (game->selectorStatus == SELECTOR_HOVER_C1) {
+                            
                             break;
                         }
                         /** quit game is pressed */
@@ -199,7 +196,7 @@ int processEvents(SDL_Window *window, GameState *game){
                 }
             }
                 break;
-            case SDL_QUIT: //quit out of the game
+            case SDL_QUIT:
                 done = 1;
                 break;
         }
@@ -264,8 +261,8 @@ void createWindow(int boolean){
             SDL_DestroyTexture(gameState.loadGame);
         if(gameState.quitGame != NULL)
             SDL_DestroyTexture(gameState.quitGame);
-        if(gameState.storyText != NULL)
-            SDL_DestroyTexture(gameState.storyText);
+        if(gameState.mainText != NULL)
+            SDL_DestroyTexture(gameState.mainText);
         if(gameState.choice1Text != NULL)
             SDL_DestroyTexture(gameState.choice1Text);
         if(gameState.choice2Text != NULL)
