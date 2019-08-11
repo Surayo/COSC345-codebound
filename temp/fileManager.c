@@ -58,7 +58,6 @@ char* current_directory(char *cwd){
 //Open file
 FILE* openfile(char *cwd, char *filename){
     FILE *fptr;
-    
     cwd = concat(cwd, filename);
     
     fptr = fopen(cwd,"r");

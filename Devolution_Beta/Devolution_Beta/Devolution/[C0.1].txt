@@ -1,0 +1,30 @@
+[0.1]Your name is [NAME] and you are walking home from work. The air is heavy with smog and the streets are cracked and filthy. Dust clings to your drab work clothes as it always does - a remnant of The Factory. It's the end of another gruelling shift and after twelve long hours in front of the furnaces it’s all you can do to put one foot in front of the other. 
+
+Your route home takes you through The Fringes - an abandoned part of this sprawling city you call home. It’s quiet. This isn’t the part of your city that your people are allowed to occupy but if the odd shadow or creek disturbs your walk you never stop to acknowledge it. It’s better to just keep your head down and get home.
+
+A heavy cloud of exhaustion has settled over you like the familiar old blanket that greets you at the end of every work day. Except instead of comfort it’s weight carries with it only bone weary dread. This is just another day in an endless stretch of days. You sigh. 
+
+A rustle of noise. A shadow shifts out of your peripheral vision. You are suddenly very alert. Somehow you manage not to stop even as you get closer to the source. Another quiet noise - this one almost sounds like a muffled echoey bark. It came from the alley up ahead, a side path that leads to deeper parts of the city. Sprawling underground structures and streets no worker like yourself ever walks down. 
+
+You peer into the gloom but see nothing. If that was voices you heard it’s bad news for you. Only outcasts and rebels spend any time in these streets. Maybe you should take another route home. 
+
+You hear that muffled noise again, louder and more distinct. Definitely voices. You hardly have time to freeze before a group of people walk out into the smog filtered daylight. 
+
+Vagabonds. They are Vagabonds. All of them. You know this immediately by the black stained clothes of their crew. The Vagabonds are a group of self proclaimed outcasts who refuse to work in the Factory. They have rebelled and they scare the fuck out of you.
+
+This time you stutter to a stop. Shit. This is a bad place to be caught. Your eyes flick from one face to another as they saunter out of the alley. More than a dozen Vagabonds and one of you. Icy fear flows down your spine. They’re rebels, no one knows exactly how dangerous they are but from the stories you’ve heard they are vicious in their cause. 
+
+Most of them don’t even glance your way. You grip the handy flick knife in your pocket and avoid the eyes of the trailing two Vagabonds who are jostling each other and pointing at you frozen in place. 
+
+A tall sort of gaunt looking Vagabond glances at you. “On your way, worker.” he says, his words barely louder than the banter of the crew around him. Tense but relieved, You go to duck your head down and do as he says but a pair of familiar circular glasses eclipsing shocked wide eyes stop you. 
+
+It can’t be. Your sister.
+
+What is Eve doing?
+
+
+[C1]There is no point provoking this gang of bastards. You catch and hold your sisters eye before you turn around and walk away. There is always another route home.
+
+[C2]”Eve?” You say, your sister tenses up as you call her out, “What are you doing with them?” The tall man who addressed you glances back at her, expression faintly curious. 
+
+[C3]That fucking shit-head. What the hell is Eve doing with a bunch of traitorous rebels? Your hand clenches down on the flick knife in your pocket.

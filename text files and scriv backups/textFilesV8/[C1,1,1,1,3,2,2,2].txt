@@ -1,4 +1,4 @@
-[C1.1.1.1.3.2.2.2]Someone who isn’t Greg - Greg himself is still holding you up by the wrists - grabs your legs and starts wrapping them up with a rope. Before you can think to struggle they pull the knot tight and start to work doing the same on your wrists.
+[1.1.1.1.3.2.2.2]Someone who isn’t Greg - Greg himself is still holding you up by the wrists - grabs your legs and starts wrapping them up with a rope. Before you can think to struggle they pull the knot tight and start to work doing the same on your wrists.
 
 You are fully hog-tied and still have no idea what is going on. What do these Vagabonds want with you? Unless they’re in the habit of kidnapping every person they come across who’s stupid enough to wander around alone at night.
 
@@ -18,12 +18,7 @@ With every step Greg takes his shoulder digs further into your stomach, forming 
 
 You wished you had a good aspect. Something that was actually helpful. Greg get something that helps him tackle good apparently and all you get is immunity to toxins. It protects you against the Bioforms, sure, but the city does that already! It’s functionally useless. 
 
-Greg’s painful walking continues. 
 
-After a while you start hear more voices, and feel your blood run cold. “Who’ve you got there, Greg?” one asks
+[C1.1.1.1.3.2.2.2.a]Continue.
 
-
-[C1.1.2.1.1.1.1]Be dumped on the floor by Greg.
-
-
-
+[END]
