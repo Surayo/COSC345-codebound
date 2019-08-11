@@ -20,7 +20,6 @@ char* concat(char *s1, char *s2){
 //Save current story path to a save file
 void save_path(char *cwd, char **story, int storyDepth){
     FILE *fp;
-    
     cwd = concat(cwd, "/savefile.txt");
     fp = fopen (cwd, "w");
     for (int i = 0; i < storyDepth; i++){

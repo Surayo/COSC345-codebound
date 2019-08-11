@@ -48,11 +48,14 @@ int main(int argc, const char * argv[]) {
         setStoryText(filetext);
         cleantext = getCleanText();
         printf("%s\n", cleantext);
+        setChoices(filetext);
         
         /* That's how you save the shit
-        save_path(cwd, story_path, path_count);
-        story_path = open_save(cwd, story_path);
-        printf("Reading the savefile: %s\n", story_path[0]);*/
+           save_path(cwd, story_path, path_count);*/
+        /*story_path = open_save(cwd, story_path);
+          printf("Reading the savefile: %s\n", story_path[0]);*/
+
+        
         
         break;
     }

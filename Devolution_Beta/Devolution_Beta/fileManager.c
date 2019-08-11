@@ -11,23 +11,15 @@
 #include "fileManager.h"
 #include "mylib.h"
 
-char* concat(const char *s1, const char *s2){
-    char *result = emalloc(strlen(s1) + strlen(s2) + 1); // +1 for the null-terminator
-    if(result == NULL){
-        perror("Error! Can't malloc\n");
-        exit(1);
-    }else {
-        // in real code you would check for errors in malloc here
-        strcpy(result, s1);
-        strcat(result, s2);
-        return result;
-    }
+char* concat(char *s1, char *s2){
+    strncat(s1, s2, (sizeof(s1) - strlen(s2)));
+    printf("Filename is %s\n", s1);
+    return s1;
 }
 
 //Save current story path to a save file
 void save_path(char *cwd, char **story, int storyDepth){
     FILE *fp;
-    
     cwd = concat(cwd, "/savefile.txt");
     fp = fopen (cwd, "w");
     for (int i = 0; i < storyDepth; i++){
@@ -55,7 +47,7 @@ char** open_save(char *cwd, char **story_path){
 
 //Get the current directory
 char* current_directory(char *cwd){
-    if (getcwd(cwd, sizeof(char) * 200) != NULL) {
+    if (getcwd(cwd, sizeof(cwd) * 256) != NULL) {
         return cwd;
     } else {
         perror("getcwd() error");
