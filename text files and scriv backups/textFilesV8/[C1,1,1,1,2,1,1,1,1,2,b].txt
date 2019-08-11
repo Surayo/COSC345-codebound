@@ -14,5 +14,6 @@ Eve purses her lips, looking at you, then squints. “How big is your radius aga
 [C1.1.1.1.2.1.1.1.1.2.1]”Got it.” You say, and start walking in the direction she pointed. It’s not like the Bioforms can hurt you anyway.
 
 [C1.1.1.1.2.1.1.1.1.1.2]”Hey. How about fuck that idea. I’m going home.” You say, backing away. 
+[END]
 
 

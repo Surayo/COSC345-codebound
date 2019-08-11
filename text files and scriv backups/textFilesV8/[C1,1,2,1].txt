@@ -15,4 +15,5 @@ You manage to get an arm free.
 
 [C1.1.2.1.1]Aim high.
 
-[C1.1.2.1.2]Aim low.[END]
+[C1.1.2.1.2]Aim low.
+[END]

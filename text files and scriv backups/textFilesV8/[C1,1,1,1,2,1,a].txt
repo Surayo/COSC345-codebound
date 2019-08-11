@@ -11,4 +11,5 @@ You have lost SISTERS RING.
 [C1.1.1.1.2.1.1]The soft ping of Eve’s ring hitting the street somewhere out in the dark shocks the anger out of you. Your emotions clog in your throat.
 
 [C1.1.1.1.2.1.2]Fuck this. And fuck Eve’s ring. You haul yourself back to your feet, turn, and start walking in the direction you hope leads home.
+[END]
 

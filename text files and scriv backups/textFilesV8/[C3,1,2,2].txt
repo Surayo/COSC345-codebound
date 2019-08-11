@@ -7,4 +7,5 @@ Instead of answering he just smiles and turns to leave. “You’ll find out soo
 
 [C1]Go home. There is no war.
 
-[C2.1]”Wait.” You say. “I’ve changed my mind. Show me. I’ll go with you.” [END]
+[C2.1]”Wait.” You say. “I’ve changed my mind. Show me. I’ll go with you.” 
+[END]

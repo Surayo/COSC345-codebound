@@ -18,3 +18,4 @@ Time passed for the survivors and the remaining people of Dirth clustered togeth
 
 
 [C0.a]Continue.
+[END]

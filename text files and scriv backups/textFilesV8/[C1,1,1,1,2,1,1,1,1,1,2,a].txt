@@ -19,3 +19,4 @@ She hums as if considering, “Nice try punk. If I let you up, are you going to 
 “Wait you’ve been with the Vagabonds for a whole week?” you ask Eve. How did you not notice? Most days Eve walks with you and Liaba to The Factory for work though it’s just as likely that she’ll leave before you. Now that you think about it, you hadn’t seen Eve for most of the week, walked with her less then usual, and on more than one occasion you had slept without noticing her steady breathing in the same room as yours.
 
 [C1.1.1.1.2.1.1.1.1.1.2.b]Continue.
+[END]

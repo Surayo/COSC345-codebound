@@ -13,4 +13,5 @@ Her eyes haven’t left yours but she ignores your shouted question to answer hi
 
 [C3.2]You pull the knife on Eve, but hesitate. She’s your sister. No mater what she’s done she won’t stop being your sister.
 
-[C1]You fuck off, seething. It isn’t worth causing a scene here. There are too many Vagabonds for you to win this fight.[END]
+[C1]You fuck off, seething. It isn’t worth causing a scene here. There are too many Vagabonds for you to win this fight.
+[END]
