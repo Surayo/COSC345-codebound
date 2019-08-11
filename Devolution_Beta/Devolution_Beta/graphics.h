@@ -16,18 +16,20 @@
 #define STATUS_STATE_GAME 1
 #define STATUS_STATE_GAMEOVER 2
 
-#define SELECTOR_HOVER_NONE 0
+#define SELECTOR_HOVER_CONTINUE 0
+//#define SELECTOR_HOVER_NONE
 #define SELECTOR_HOVER_C1 1
 #define SELECTOR_HOVER_C2 2
 #define SELECTOR_HOVER_C3 3
 #define SELECTOR_HOVER_NEWGAME 4
 #define SELECTOR_HOVER_LOADGAME 5
 #define SELECTOR_HOVER_QUITGAME 6
-#define SELECTOR_HOVER_BACK 7
+//#define SELECTOR_HOVER_BACK 7
 
-#define SCENARIO_C0     0
-#define SCENARIO_C0_1   1
-#define SCENARIO_C0_2   2
+#define SCENARIO_INTRO 0
+#define SCENARIO_PAGE1 1
+#define SCENARIO_PAGE2 2
+#define SCENARIO_PAGE3 3
 
 #define SELECT_CHOICE_NONE 0
 #define SELECT_CHOICE_1 1
@@ -63,12 +65,16 @@ typedef struct {
     int subtitleW, subtitleH;
     SDL_Texture *footer;
     int footerW, footerH;
+    SDL_Texture *instructions;
+    int instructionsW, instructionsH;
+    
     SDL_Texture *newGame;
     int newGameW, newGameH;
     SDL_Texture *loadGame;
     int loadGameW, loadGameH;
     SDL_Texture *quitGame;
     int quitGameW, quitGameH;
+    
     SDL_Texture *storyText;
     int storyTextW, storyTextH;
     SDL_Texture *choice1Text;
@@ -83,9 +89,6 @@ typedef struct {
     int scenarioStatus;
     int selectorStatus;
     int choiceStatus;
-    
-    //Time
-    int time;
     
     //Renderer
     SDL_Renderer *renderer;
