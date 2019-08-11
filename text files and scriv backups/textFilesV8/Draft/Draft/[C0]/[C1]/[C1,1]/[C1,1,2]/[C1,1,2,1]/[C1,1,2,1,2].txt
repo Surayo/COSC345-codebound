@@ -18,6 +18,7 @@ Patrick clings tighter to you, attempting to pin down your other arm and you str
 
 “[XE]’s a wiley one, boss.” Patrick replies. You manage to elbow him in the stomach with the last of your draining strength. Somehow he still hasn’t managed to pin your free arm down even as your struggling grows weaker with your growing exhaustion. “A little help would be appreciated?” He wheezes. 
 
+//
 You barley see her move before she grabs your flailing wrist in her strong grip. You tug but she doesn’t budge, she just pulls your other arm out of Patrick’s hold and pulls you to your feet, crushing your back against her front. “Get the rucksack on [XER].” She says to Patrick who has found himself suddenly bereft of a job.
 
 You struggle against her grip but she just holds you tighter, digging her fingers into the skin of your arms. No. You can’t let her win. You heave in a breath through your nose and redouble your attempt to get free. 
@@ -38,3 +39,4 @@ Someone hauls you onto their shoulders - Greg from the size of him - and starts 
 
 
 [1.1.2.1.1.1]Be carried.
+//
