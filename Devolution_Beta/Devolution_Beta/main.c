@@ -15,8 +15,6 @@
 
 #include "graphics.h"
 
-
-
 int main(int argc, const char * argv[]) {
     /**
     char *cwd = NULL;

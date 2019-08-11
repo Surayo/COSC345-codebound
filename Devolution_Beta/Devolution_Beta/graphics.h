@@ -17,19 +17,18 @@
 #define STATUS_STATE_GAMEOVER 2
 
 #define SELECTOR_HOVER_CONTINUE 0
-//#define SELECTOR_HOVER_NONE
 #define SELECTOR_HOVER_C1 1
 #define SELECTOR_HOVER_C2 2
 #define SELECTOR_HOVER_C3 3
 #define SELECTOR_HOVER_NEWGAME 4
 #define SELECTOR_HOVER_LOADGAME 5
 #define SELECTOR_HOVER_QUITGAME 6
-//#define SELECTOR_HOVER_BACK 7
 
 #define SCENARIO_INTRO 0
 #define SCENARIO_PAGE1 1
 #define SCENARIO_PAGE2 2
 #define SCENARIO_PAGE3 3
+#define SCENARIO_LASTPAGE 4
 
 #define SELECT_CHOICE_NONE 0
 #define SELECT_CHOICE_1 1
@@ -37,7 +36,7 @@
 #define SELECT_CHOICE_3 3
 
 typedef struct {
-    int x, y, w, h;
+    int x, y;
 } Selector;
 
 typedef struct {
@@ -45,11 +44,13 @@ typedef struct {
 } Choice;
 
 typedef struct {
-    //Screen Center coordinates
     int screenCenterX, screenCenterY;
     
     //Selector
     Selector selector;
+    
+    //Images
+    SDL_Texture *select;
     
     //Fonts
     TTF_Font *titleFont;
@@ -95,7 +96,9 @@ typedef struct {
 } GameState;
 
 //prototypes (function references)
-extern void createWindow(int boolean);
+void loadGame(SDL_Renderer *renderer, GameState *game);
+int processEvents(SDL_Window *window, GameState *game);
 void doRender(SDL_Renderer *renderer, GameState *game);
+extern void createWindow(int boolean);
 
 #endif /* graphics_h */

@@ -20,9 +20,9 @@
 const int WINDOW_W = 1366, WINDOW_H = 768;
 
 /** When game first launches, load in any required resources and start with the title screen. */
-void loadGame(GameState *game) {
+void loadGame(SDL_Renderer *renderer, GameState *game) {
     
-    // Load fonts & report an error if a font cannot be located
+    // Load fonts & report an error if a font cannot be located.
     game->titleFont = TTF_OpenFont("Perfect DOS VGA 437.ttf", 156);
     game->subtitleFont = TTF_OpenFont("VCR_OSD_MONO.ttf", 42);
     game->footerFont = TTF_OpenFont("Perfect DOS VGA 437.ttf", 26);
@@ -34,7 +34,16 @@ void loadGame(GameState *game) {
         exit(1);
     }
     
-    
+    // Load images & report an error if an image cannot be located.
+    SDL_Surface *selectSurface;
+    selectSurface = IMG_Load("selector.png");
+    if(selectSurface == NULL) {
+        printf("Cannot find selector.png!\n");
+        SDL_Quit();
+        exit(1);
+    }
+    game->select = SDL_CreateTextureFromSurface(renderer, selectSurface);
+    SDL_FreeSurface(selectSurface);
     
     //set the window center coordinates
     game->screenCenterX = WINDOW_W/2;
@@ -75,43 +84,36 @@ int processEvents(SDL_Window *window, GameState *game){
                         }
                         break;
                     case SDLK_DOWN:
+                        /** menu screen */
                         if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {
-                            game->selector.x = game->screenCenterX-game->loadGameW/2-25;
-                            game->selector.y = game->screenCenterY+85;
-                            game->selector.w = game->loadGameW+50;
-                            game->selector.h = game->loadGameH+30;
+                            game->selector.y = game->screenCenterY+75;
                             game->selectorStatus = SELECTOR_HOVER_LOADGAME;
                             break;
                         }
                         if (game->selectorStatus == SELECTOR_HOVER_LOADGAME) {
-                            game->selector.x = game->screenCenterX-game->quitGameW/2-25;
-                            game->selector.y = game->screenCenterY+185;
-                            game->selector.w = game->quitGameW+50;
-                            game->selector.h = game->quitGameH+30;
+                            game->selector.y = game->screenCenterY+155;
                             game->selectorStatus = SELECTOR_HOVER_QUITGAME;
                             break;
                         }
                         if (game->selectorStatus == SELECTOR_HOVER_QUITGAME) {
-                            game->selector.x = game->screenCenterX-game->newGameW/2-25;
                             game->selector.y = game->screenCenterY-15;
-                            game->selector.w = game->newGameW+50;
-                            game->selector.h = game->newGameH+30;
                             game->selectorStatus = SELECTOR_HOVER_NEWGAME;
                             break;
                         }
+                        // MOVE CHOICE SELECTOR
                         if (game->scenarioStatus == SCENARIO_PAGE1) {
                             if (game->selectorStatus == SELECTOR_HOVER_C1) {
-                                game->selector.y = game->screenCenterY+248;
+                                game->selector.y = game->screenCenterY+250;
                                 game->selectorStatus = SELECTOR_HOVER_C2;
                                 break;
                             }
                             if (game->selectorStatus == SELECTOR_HOVER_C2) {
-                                game->selector.y = game->screenCenterY+298;
+                                game->selector.y = game->screenCenterY+300;
                                 game->selectorStatus = SELECTOR_HOVER_C3;
                                 break;
                             }
                             if (game->selectorStatus == SELECTOR_HOVER_C3) {
-                                game->selector.y = game->screenCenterY+198;
+                                game->selector.y = game->screenCenterY+200;
                                 game->selectorStatus = SELECTOR_HOVER_C1;
                                 break;
                             }
@@ -119,60 +121,74 @@ int processEvents(SDL_Window *window, GameState *game){
                         break;
                     case SDLK_UP: {
                         if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {
-                            game->selector.x = game->screenCenterX-game->quitGameW/2-25;
-                            game->selector.y = game->screenCenterY+185;
-                            game->selector.w = game->quitGameW+50;
-                            game->selector.h = game->quitGameH+30;
+                            game->selector.y = game->screenCenterY+155;
                             game->selectorStatus = SELECTOR_HOVER_QUITGAME;
                             break;
                         }
                         if (game->selectorStatus == SELECTOR_HOVER_LOADGAME) {
-                            game->selector.x = game->screenCenterX-game->newGameW/2-25;
                             game->selector.y = game->screenCenterY-15;
-                            game->selector.w = game->newGameW+50;
-                            game->selector.h = game->newGameH+30;
                             game->selectorStatus = SELECTOR_HOVER_NEWGAME;
                             break;
                         }
                         if (game->selectorStatus == SELECTOR_HOVER_QUITGAME) {
-                            game->selector.x = game->screenCenterX-game->loadGameW/2-25;
-                            game->selector.y = game->screenCenterY+85;
-                            game->selector.w = game->loadGameW+50;
-                            game->selector.h = game->loadGameH+30;
+                            game->selector.y = game->screenCenterY+75;
                             game->selectorStatus = SELECTOR_HOVER_LOADGAME;
                             break;
                         }
-                        if (game->scenarioStatus == SCENARIO_PAGE1) {
+                        // MOVE CHOICE SELECTOR
+                        if (game->scenarioStatus == SCENARIO_LASTPAGE) {
                             if (game->selectorStatus == SELECTOR_HOVER_C1) {
-                                game->selector.y = game->screenCenterY+298;
+                                game->selector.y = game->screenCenterY+300;
                                 game->selectorStatus = SELECTOR_HOVER_C3;
                                 break;
                             }
                             if (game->selectorStatus == SELECTOR_HOVER_C2) {
-                                game->selector.y = game->screenCenterY+198;
+                                game->selector.y = game->screenCenterY+200;
                                 game->selectorStatus = SELECTOR_HOVER_C1;
                                 break;
                             }
                             if (game->selectorStatus == SELECTOR_HOVER_C3) {
-                                game->selector.y = game->screenCenterY+248;
+                                game->selector.y = game->screenCenterY+250;
                                 game->selectorStatus = SELECTOR_HOVER_C2;
                                 break;
                             }
                         }
                         break;
                     }
-                    case SDLK_SPACE:                                                //spacebar is pressed
-                        /** new game is pressed */
-                        if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {       //if the SELECTOR is hovered over NEWGAME
-                            game->statusState = STATUS_STATE_GAME;                  //begin a new game - load the game screen
+                    case SDLK_LEFT: {
+                        if (game->scenarioStatus == SCENARIO_PAGE1) {
+                            game->scenarioStatus = SCENARIO_PAGE2;
+                            break;
+                        }
+                        if (game->scenarioStatus == SCENARIO_PAGE2) {
+                            game->scenarioStatus = SCENARIO_PAGE3;
+                            break;
+                        }
+                        break;
+                    }
+                    case SDLK_RIGHT: {
+                        if (game->scenarioStatus == SCENARIO_PAGE3) {
+                            game->scenarioStatus = SCENARIO_PAGE2;
+                            break;
+                        }
+                        if (game->scenarioStatus == SCENARIO_PAGE2) {
+                            game->scenarioStatus = SCENARIO_PAGE1;
+                            break;
+                        }
+                        break;
+                    }
+                    case SDLK_SPACE:
+                        /** select NEWGAME */
+                        if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {
+                            game->statusState = STATUS_STATE_GAME;
                             game->scenarioStatus = SCENARIO_INTRO;
                             shutdown_title_screen(game);
                             init_game_screen(game);
                             break;
                         }
-                        /** continue is pressed */
-                        if (game->selectorStatus == SELECTOR_HOVER_CONTINUE) {
-                            nextScenario(game);
+                        /**  */
+                        if (game->selectorStatus == SELECTOR_HOVER_C1) {
+                            nextPage(game);
                             break;
                         }
                         /** quit game is pressed */
@@ -195,13 +211,10 @@ int processEvents(SDL_Window *window, GameState *game){
 void doRender(SDL_Renderer *renderer, GameState *game){
     if(game->statusState == STATUS_STATE_TITLE) {
         draw_title_screen(game);
-        if (game->selector.y == 540-game->newGameH) {
-            game->selectorStatus = SELECTOR_HOVER_NEWGAME;
-        }
     } else if (game->statusState == STATUS_STATE_GAME) {
         draw_game_screen(game);
     } else if (game->statusState == STATUS_STATE_GAMEOVER){
-        //gameOverScreen(game);
+        //draw_end_screen(game); (game over screen)
     }
 }
 
@@ -229,23 +242,16 @@ void createWindow(int boolean){
         
         TTF_Init();                             //initialise font library
         
-        loadGame(&gameState);                   //load the game with necessary resources & begin with title screen
+        loadGame(renderer, &gameState);         //load the game with necessary resources & begin with title screen
         
-        //at this point the window is open: enter program loop (using SDL_PollEvent)
+        /** Event loop: constantly checks for events */
         int done = 0;
-        //Event loop: constantly checks for events (tied to fps, but I used a delay in case VSYNC doesn't work)
         while(!done) {
-            //check for events:
-            done = (processEvents(window, &gameState));
-            
-            //render the display:
-            doRender(renderer, &gameState);
-            
-            //wait 100 milliseconds for every frame (so we don't burn out CPU)
-            //SDL_Delay(100);
+            done = (processEvents(window, &gameState));     //check for events
+            doRender(renderer, &gameState);                 //render the display
         }
         
-        // Shutdown the game and unload all memory //
+        /** Shutdown the game and unload all memory */
         if(gameState.title != NULL)
             SDL_DestroyTexture(gameState.title);
         if(gameState.subtitle != NULL)
@@ -266,11 +272,13 @@ void createWindow(int boolean){
             SDL_DestroyTexture(gameState.choice2Text);
         if(gameState.choice3Text != NULL)
             SDL_DestroyTexture(gameState.choice3Text);
+        
         TTF_CloseFont(gameState.titleFont);
         TTF_CloseFont(gameState.subtitleFont);
         TTF_CloseFont(gameState.footerFont);
         TTF_CloseFont(gameState.menuFont);
         TTF_CloseFont(gameState.gameFont);
+        SDL_DestroyTexture(gameState.select);
         
         //close and destroy the window:
         SDL_DestroyWindow(window);
