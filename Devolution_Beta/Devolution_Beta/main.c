@@ -8,11 +8,17 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
+
 #include "fileManager.h"
 #include "textManipulation.h"
 #include "mylib.h"
 
+#include "graphics.h"
+
+
+
 int main(int argc, const char * argv[]) {
+    /**
     char *cwd = NULL;
     char *text = NULL;
     char file_location[50];
@@ -38,13 +44,24 @@ int main(int argc, const char * argv[]) {
         story_path[path_count] = currentPosition;
         path_count ++;
         
-        /* That's how you save the shit
-        save_path(cwd, story_path, path_count);
-        story_path = open_save(cwd, story_path);
-        printf("Reading the savefile: %s\n", story_path[0]);*/
+        //Set the text
+        setStoryText(text);
+        text = getCleanText();
+        printf("%s\n", text);
+        
+        //That's how you save the shit
+        //save_path(cwd, story_path, path_count);
+        //story_path = open_save(cwd, story_path);
+        //printf("Reading the savefile: %s\n", story_path[0]);
         
         break;
     }
+    for (int i = 0; i < path_count; i++){
+        free(story_path[i]);
+    }
     free(story_path);
+    */
+    createWindow(1);
+    
     return 0;
 }

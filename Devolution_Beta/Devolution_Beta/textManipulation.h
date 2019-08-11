@@ -12,5 +12,7 @@ typedef struct choice *choices;
 extern char* setFile(FILE *fptr);
 extern void setBracketPoints(char *filetext);
 extern char* getCurrentFile(void);
+extern void setStoryText(char *filetext);
+extern char* getCleanText(void);
 
 #endif /* textManipulation_h */

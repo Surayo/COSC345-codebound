@@ -18,9 +18,8 @@ struct choice{
 };
 
 char *clean_block_text = NULL;
-struct choice* choice1;
-struct choice* choice2;
-struct choice* choice3;
+struct choice story_choices[3];
+
 
 char *startIndexes[50];
 char *endIndexes[50];
@@ -34,16 +33,8 @@ char* getCleanText(){
     return clean_block_text;
 }
 
-struct choice* getChoice(int num){
-    if (num == 1){
-        return choice1;
-    } else if (num == 2){
-        return choice2;
-    } else if (num == 3){
-        return choice3;
-    } else{
-        return NULL;
-    }
+struct choice getChoice(int num){
+    return story_choices[num];
 }
 
 // Adds all of the pointers to the array
@@ -65,8 +56,6 @@ void setBracketPoints(char *filetext){
         
         currentIndex++;
     }
-    printf("Test1: %c\n", *startIndexes[4]);
-    printf("Test2: %c\n", *endIndexes[4]);
     printf("Brackets: %d\n", bracketAmount);
     printf("Choices: %d\n", choiceAmount);
 }
@@ -78,11 +67,59 @@ char* getCurrentFile(){
     }
     long bytes = (((char *)endIndexes[0]) + 1) - ((char *)startIndexes[0]); //3
     char* file = emalloc(bytes * sizeof(char));
-    strncpy(file, startIndexes[0], bytes);
+    strlcpy(file, startIndexes[0], bytes);
     
     return file;
 }
 
+// Will take a character sex input as well as character name
+void characterInserts(int endIndex, int startIndex){
+    /*char* inserts[] = {"Xe", "Xer", "Xis", "Xers", "Xself", "Xther", "Xm", "Xoy"};
+    char* male[] = {"he", "him", "his", "his", "himself", "brother", "em", "boy"};
+    char* female[] = {"she", "her", "her", "hers", "herself", "sister", "er", "girl"};*/
+    
+    size_t bytes = ((((char *)endIndexes[endIndex])) - ((char *)startIndexes[startIndex]));
+    char* test = emalloc(bytes * sizeof(char));
+    strlcpy(test, (startIndexes[startIndex] + 1), bytes);
+    if (strcmp(test, "NAME") == 0){
+        strcat(clean_block_text, " Nathorn");
+        //return;
+    }
+}
+
+// Set the text blocks
+void setStoryText(char *filetext){
+    int endIndex = 0, startIndex = 1, checkCount = 0;
+    
+    while (checkCount < 2){
+        size_t bytes = (((char *)startIndexes[startIndex]) - ((char *)endIndexes[endIndex])) - 1;
+        char* copyText = emalloc(bytes * sizeof(char));
+        strlcpy(copyText, (endIndexes[endIndex] + 1), bytes);
+        strcat(clean_block_text, copyText);
+        free(copyText);
+        
+        endIndex++;
+        characterInserts(endIndex, startIndex);
+        startIndex++;
+        char* check = startIndexes[startIndex];
+        if (check[1] == 'C'){
+            checkCount++;
+        }
+    }
+}
+
+// Set the choices
+void setChoices(char* filetext){
+    int startIndex = 1, endIndex = 1;
+    char* check = startIndexes[startIndex];
+    while ((check[1]) != 'C'){
+        startIndex++;
+        endIndex++;
+        check = startIndexes[startIndex];
+    }
+    
+    
+}
 
 // Sets the file into a string
 char* setFile(FILE *file){
@@ -105,6 +142,9 @@ char* setFile(FILE *file){
     
     // Copy text of file into filetext and prints text
     fread(filetext, sizeof(char), bytes, file);
+    
+    // Sets the clean block text
+    clean_block_text = emalloc(sizeof(filetext) * sizeof(char));
     
     return filetext;
 }
