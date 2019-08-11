@@ -22,4 +22,4 @@ Plants have started sprouting around the buildings, and the sky is clearing. You
 
 [C1.1.1.1.2.3.1]Enter the forest of Bioforms. 
 
-[C1.1.1.1.2.3.2]Make your way back to the center of the city where the Factory sits. You should be able to find your way home from there.
+[C1.1.1.1.2.3.2]Make your way back to the center of the city where the Factory sits. You should be able to find your way home from there.[END]

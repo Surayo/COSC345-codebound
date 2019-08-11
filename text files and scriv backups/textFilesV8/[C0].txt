@@ -47,3 +47,4 @@ What is Eve doing?
 [C2]”Eve?” You say, your sister tenses up as you call her out, “What are you doing with them?” The tall man who addressed you glances back at her, expression faintly curious. 
 
 [C3]That fucking shit-head. What the hell is Eve doing with a bunch of traitorous rebels? Your hand clenches down on the flick knife in your pocket.
+[END]

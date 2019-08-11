@@ -5,4 +5,4 @@ A huge glowing animal pins you down to the forest floor, colours a mix of the gl
 You do not get a chance to yell before the animal Bioform tears your throat out.
 
 
-[GAME OVER]
+[GAME OVER][END]

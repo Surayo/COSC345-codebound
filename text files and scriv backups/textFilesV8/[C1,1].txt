@@ -35,3 +35,4 @@ It’s the ring you gave her as a gift when she started her first day in The Fac
 [C1.1.1]You can’t let her do this. You slap yourself to back awake and pull yourself back to your feet. Then before you can second guess your sudden resolve you run out into the night to look for Eve.
 
 [C1.1.2]She can look after herself for one night. You pull yourself to your feet just long enough to strip your uniform off and crawl into bed. You are so tired.
+[END]

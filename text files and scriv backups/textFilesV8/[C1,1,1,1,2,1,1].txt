@@ -9,4 +9,4 @@ You sit back on the ground, gasping and lost.
 
 [C1.1.1.1.2.1.1.1]Sit there.
 
-[C1.1.1.1.2.1.2]Go home.
+[C1.1.1.1.2.1.2]Go home.[END]

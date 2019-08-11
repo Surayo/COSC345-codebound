@@ -26,4 +26,4 @@ She stomps off in a direction you are sure is the opposite of where you want to 
 
 [C1.1.1.1.2.1.1.1.1.1]”No. I can’t. I have to go home.” You say, “Can you just point me in the right direction?” 
 
-[C1.1.1.1.2.1.1.1.1.2]Follow her.
+[C1.1.1.1.2.1.1.1.1.2]Follow her.[END]
