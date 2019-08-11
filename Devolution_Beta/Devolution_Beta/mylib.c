@@ -17,10 +17,19 @@ void *emalloc(size_t s){
     return result;
 }
 
+void *ecalloc(size_t p, size_t s){
+    void *result = calloc(p, s);
+    if(NULL == result){
+        fprintf(stderr, "Memory allocation failed. \n");
+        exit(EXIT_FAILURE);
+    }
+    return result;
+}
+
 void *erealloc(void *p, size_t s){
     void *result = realloc(p, s);
     if(NULL == result){
-        fprintf(stderr, "memory reallocation failed. \n");
+        fprintf(stderr, "Memory reallocation failed. \n");
         exit(EXIT_FAILURE);
     }
     return result;

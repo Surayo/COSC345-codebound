@@ -81,7 +81,7 @@ void characterInserts(int endIndex, int startIndex){
     char name[] = "Nathorn";
 
     size_t bytes = ((((char *)endIndexes[endIndex])) - ((char *)startIndexes[startIndex]));
-    char* test = ecalloc(bytes, sizeof(char));
+    char* test = ecalloc(bytes + 1, sizeof(char));
     strncpy(test, (startIndexes[startIndex] + 1), bytes);
     
     if (strcmp(test, "NAME]") == 0){
@@ -118,12 +118,19 @@ void setStoryText(char *filetext){
 void setChoices(char* filetext){
     int startIndex = 1, endIndex = 1;
     char* check = startIndexes[startIndex];
+    char* copyText = NULL;
+    
     while ((check[1]) != 'C'){
         startIndex++;
         endIndex++;
         check = startIndexes[startIndex];
     }
-    //This is where I am upto
+    size_t bytes = (((char *)endIndexes[endIndex]) - ((char *)startIndexes[startIndex]));
+    copyText = ecalloc(bytes, sizeof(char));
+    strncpy(copyText, (startIndexes[startIndex] + 1), bytes - 1);
+    printf("Test choice: %s\n", copyText);
+
+    free(copyText);
 }
 
 // Sets the file into a string
@@ -150,8 +157,6 @@ char* setFile(FILE *file){
     
     // Sets the clean block text
     clean_block_text = ecalloc(strlen(filetext), sizeof(filetext[0]));
-
-    //printf("FUCKTHIS: %ld\n", strlen(filetext));
     
     return filetext;
 }
