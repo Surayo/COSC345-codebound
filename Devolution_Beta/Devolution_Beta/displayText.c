@@ -20,30 +20,32 @@
 //#include "mylib.h"
 
 void init_display_text(GameState *game){
-    
-    // Intro text: //
-    char *intro = NULL;
-    intro = "Welcome to DEVOLUTION\n\nAs a text-based adventure, the player chooses how the story unfolds.\n\n\n\nBefore we begin, please choose your main characters name and gender:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPress continue to begin the story...";
-    
-    // Continue text: //
-    char *continueText = NULL;
-    continueText = "Continue";
-    
-    //create any text to be used on the game screen//
-    //Story text:
     SDL_Color white = { 255, 255, 255, 255 };
-    SDL_Surface *tmp0 = TTF_RenderText_Blended_Wrapped(game->gameFont, intro, white, 900);
-    game->storyTextW = tmp0->w;
-    game->storyTextH = tmp0->h;
-    game->storyText = SDL_CreateTextureFromSurface(game->renderer, tmp0);
-    SDL_FreeSurface(tmp0);
-    //CHOICES text:
-    //INITIAL continue text:
-    SDL_Surface *tmp1 = TTF_RenderText_Blended_Wrapped(game->gameFont, continueText, white, 800);
-    game->choice3TextW = tmp1->w;
-    game->choice3TextH = tmp1->h;
-    game->choice3Text = SDL_CreateTextureFromSurface(game->renderer, tmp1);
-    SDL_FreeSurface(tmp1);
+    
+    if (game->scenarioStatus == SCENARIO_INTRO) {
+        char *intro = NULL;
+        intro = "PUT INTRODUCTION HERE!\n\nSPACEBAR TO CONTINUE";
+        
+        // create any text to be used on the game screen //
+        SDL_Surface *tmp0 = TTF_RenderText_Blended_Wrapped(game->gameFont, intro, white, 900);
+        game->storyTextW = tmp0->w;
+        game->storyTextH = tmp0->h;
+        game->storyText = SDL_CreateTextureFromSurface(game->renderer, tmp0);
+        SDL_FreeSurface(tmp0);
+    }
+    /**
+    if (game->scenarioStatus == SCENARIO_LASTPAGE) {
+        char *C1 = NULL;
+        C1 = "PUT INTRODUCTION HERE!\n\nSPACEBAR TO CONTINUE";
+        //CHOICES text:
+        SDL_Surface *tmp1 = TTF_RenderText_Blended_Wrapped(game->gameFont, continueText, white, 800);
+        game->choice3TextW = tmp1->w;
+        game->choice3TextH = tmp1->h;
+        game->choice3Text = SDL_CreateTextureFromSurface(game->renderer, tmp1);
+        SDL_FreeSurface(tmp1);
+     
+    }
+     */
 }
 
 void draw_display_text(GameState *game){
@@ -63,22 +65,39 @@ void draw_display_text(GameState *game){
     } 
 }
 
-void nextScenario(GameState *game){
-    /** intro to story */
+void nextPage(GameState *game){
     if (game->scenarioStatus == SCENARIO_INTRO) {
         game->scenarioStatus = SCENARIO_PAGE1;
         init_display_text(game);
         return;
     }
-    
-    /** next page */ /**
+
     if (game->scenarioStatus == SCENARIO_PAGE1) {
         game->scenarioStatus = SCENARIO_PAGE2;
         init_display_text(game);
         return;
-    } */
+    }
+    
+    if (game->scenarioStatus == SCENARIO_PAGE2) {
+        game->scenarioStatus = SCENARIO_PAGE3;
+        init_display_text(game);
+        return;
+    }
 }
 
+void prevPage(GameState *game) {
+    if (game->scenarioStatus == SCENARIO_PAGE3) {
+        game->scenarioStatus = SCENARIO_PAGE2;
+        init_display_text(game);
+        return;
+    }
+    
+    if (game->scenarioStatus == SCENARIO_PAGE2) {
+        game->scenarioStatus = SCENARIO_PAGE1;
+        init_display_text(game);
+        return;
+    }
+}
 
 void shutdown_display_text(GameState *game){
     SDL_DestroyTexture(game->storyText);

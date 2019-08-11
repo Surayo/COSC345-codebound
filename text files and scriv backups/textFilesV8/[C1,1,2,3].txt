@@ -18,6 +18,6 @@ Fuck. You breathe, feeling you face over for bruises.
 
 Fuck.
 
-Someone barges into your room and you scream, cowering back into your bed.
 
-“Bloody heaving fuck, [Name]. It’s just me.
+[C1.1.2.3.a]Continue.
+[END]

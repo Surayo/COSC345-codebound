@@ -1,0 +1,7 @@
+[C3.1.a]“I think I’ll be the one doing the talking here, [Name]. That was an idiotic stunt you pulled back there. If you look like you’re going to attack one of my people again I’ll let Borris and Jene put you under again. Consider your next action carefully now. By now you’ll know how unpleasant it could be for you.”
+
+
+[C3.1.1]Struggle in anger.
+
+[C3.1.2]Calm down.
+[END]
