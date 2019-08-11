@@ -17,7 +17,7 @@ struct choice{
     char *choice_file;
 };
 
-char *clean_block_text;
+char *clean_block_text = NULL;
 struct choice story_choices[3];
 
 
@@ -26,7 +26,7 @@ char *endIndexes[50];
 int choiceAmount = 0, bracketAmount = 0;
 
 void freeText(){
-    free(clean_block_text);
+    //free(clean_block_text);
 }
 
 // Gets the cleaned text file
@@ -78,13 +78,15 @@ void characterInserts(int endIndex, int startIndex){
     /*char* inserts[] = {"Xe", "Xer", "Xis", "Xers", "Xself", "Xther", "Xm", "Xoy"};
     char* male[] = {"he", "him", "his", "his", "himself", "brother", "em", "boy"};
     char* female[] = {"she", "her", "her", "hers", "herself", "sister", "er", "girl"};*/
-    
+    char name[] = "Nathorn";
+
     size_t bytes = ((((char *)endIndexes[endIndex])) - ((char *)startIndexes[startIndex]));
-    char* test = emalloc(bytes * sizeof(char));
+    char* test = ecalloc(bytes, sizeof(char));
     strncpy(test, (startIndexes[startIndex] + 1), bytes);
-    if (strcmp(test, "NAME") == 0){
-        strcat(clean_block_text, " Nathorn");
-        return;
+    
+    if (strcmp(test, "NAME]") == 0){
+        clean_block_text = erealloc(clean_block_text, (strlen(clean_block_text) * strlen(name)));
+        strncat(clean_block_text, name, strlen(name));
     }
     free(test);
 }
@@ -96,13 +98,9 @@ void setStoryText(char *filetext){
     
     while (checkCount < 2){
         size_t bytes = (((char *)startIndexes[startIndex]) - ((char *)endIndexes[endIndex])) - 1;
-        printf("Test1\n");
-        copyText = emalloc(bytes * sizeof(char));
-        printf("Test2\n");
+        copyText = ecalloc(bytes, sizeof(char));
         strncpy(copyText, (endIndexes[endIndex] + 1), bytes);
-        printf("Test3\n");
-        strcat(clean_block_text, copyText);
-        printf("Test4\n");
+        strncat(clean_block_text, copyText, bytes);
         
         endIndex++;
         characterInserts(endIndex, startIndex);
@@ -141,7 +139,7 @@ char* setFile(FILE *file){
     fseek(file, 0L, SEEK_SET);
     
     // Allocate memory for the entire file
-    filetext = (char*)calloc(bytes, sizeof(char));
+    filetext = (char*)ecalloc(bytes, sizeof(char));
     if (filetext == NULL){
         perror("Error! Allocating memory\n");
         exit(1);
@@ -151,7 +149,7 @@ char* setFile(FILE *file){
     fread(filetext, sizeof(char), bytes-1, file);
     
     // Sets the clean block text
-    clean_block_text = emalloc(strlen(filetext) * sizeof(filetext[0]));
+    clean_block_text = ecalloc(strlen(filetext), sizeof(filetext[0]));
 
     //printf("FUCKTHIS: %ld\n", strlen(filetext));
     

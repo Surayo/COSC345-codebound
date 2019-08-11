@@ -15,7 +15,7 @@
 
 int main(int argc, const char * argv[]) {
     //char *cwd = NULL;
-    char *text = NULL;
+    char *filetext = NULL, *cleantext = NULL;
     char file_location[50];
     char **story_path = emalloc(sizeof(char*));
     char* currentPosition = NULL;
@@ -36,8 +36,8 @@ int main(int argc, const char * argv[]) {
         if (fptr == NULL){
             break;
         }
-        text = setFile(fptr);
-        setBracketPoints(text);
+        filetext = setFile(fptr);
+        setBracketPoints(filetext);
         currentPosition = getCurrentFile();
     
         //Add to the current path
@@ -45,9 +45,9 @@ int main(int argc, const char * argv[]) {
         path_count ++;
         
         //Set the text
-        setStoryText(text);
-        text = getCleanText();
-        printf("%s\n", text);
+        setStoryText(filetext);
+        cleantext = getCleanText();
+        printf("%s\n", cleantext);
         
         /* That's how you save the shit
         save_path(cwd, story_path, path_count);
@@ -62,8 +62,8 @@ int main(int argc, const char * argv[]) {
         free(story_path[i]);
     }
     free(story_path);
-    free(text);
-    text = NULL;
+    free(filetext);
+    free(cleantext);
     closefile(fptr);
     freeText();
     
