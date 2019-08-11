@@ -10,14 +10,13 @@
 #include "graphics.h"
 #include "displayText.h"
 
-const int DISPLAY_W = 1000, DISPLAY_H = 710, CHOICE_W =900, CHOICE_H =40;
-
 void init_game_screen(GameState *game){
+    const int CHOICE_W =900, CHOICE_H =40;
     
     //move selector to right place and set the right dimensions//
-    game->selectorStatus = SELECTOR_HOVER_C1;
+    game->selectorStatus = SELECTOR_HOVER_CONTINUE;
     game->selector.x = game->screenCenterX-CHOICE_W/2-2;
-    game->selector.y = game->screenCenterY+198;
+    game->selector.y = game->screenCenterY+298;
     game->selector.w = CHOICE_W+4;
     game->selector.h = CHOICE_H+4;
     
@@ -25,6 +24,7 @@ void init_game_screen(GameState *game){
 }
 
 void draw_game_screen(GameState *game){
+    const int DISPLAY_W = 1000, DISPLAY_H = 710, CHOICE_W =900, CHOICE_H =40;
     SDL_Renderer *renderer = game->renderer;
     
     // set the background //

@@ -8,14 +8,14 @@
 
 #include "SDL.h"
 #include "SDL_ttf.h"
+#include "SDL_image.h"
+
+#include <stdio.h>
 
 #include "graphics.h"
 #include "titleScreen.h"
 #include "gameScreen.h"
 #include "displayText.h"
-
-#include <stdio.h>
-#include <time.h>
 
 const int WINDOW_W = 1366, WINDOW_H = 768;
 
@@ -34,6 +34,8 @@ void loadGame(GameState *game) {
         exit(1);
     }
     
+    
+    
     //set the window center coordinates
     game->screenCenterX = WINDOW_W/2;
     game->screenCenterY = WINDOW_H/2;
@@ -49,7 +51,7 @@ int processEvents(SDL_Window *window, GameState *game){
     int done = 0;
     
     //check for events: this while loop will process all the events through PollEvent
-    while(SDL_PollEvent(&event)) {
+    while(SDL_PollEvent(&event) != 0) {
         switch(event.type) {
             case SDL_WINDOWEVENT_CLOSE: {
                 if(window) {
@@ -97,7 +99,7 @@ int processEvents(SDL_Window *window, GameState *game){
                             game->selectorStatus = SELECTOR_HOVER_NEWGAME;
                             break;
                         }
-                        if (game->scenarioStatus == SCENARIO_C0_2) {
+                        if (game->scenarioStatus == SCENARIO_PAGE1) {
                             if (game->selectorStatus == SELECTOR_HOVER_C1) {
                                 game->selector.y = game->screenCenterY+248;
                                 game->selectorStatus = SELECTOR_HOVER_C2;
@@ -140,7 +142,7 @@ int processEvents(SDL_Window *window, GameState *game){
                             game->selectorStatus = SELECTOR_HOVER_LOADGAME;
                             break;
                         }
-                        if (game->scenarioStatus == SCENARIO_C0_2) {
+                        if (game->scenarioStatus == SCENARIO_PAGE1) {
                             if (game->selectorStatus == SELECTOR_HOVER_C1) {
                                 game->selector.y = game->screenCenterY+298;
                                 game->selectorStatus = SELECTOR_HOVER_C3;
@@ -159,18 +161,21 @@ int processEvents(SDL_Window *window, GameState *game){
                         }
                         break;
                     }
-                    case SDLK_RETURN:                                               //return key is pressed
+                    case SDLK_SPACE:                                                //spacebar is pressed
+                        /** new game is pressed */
                         if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {       //if the SELECTOR is hovered over NEWGAME
                             game->statusState = STATUS_STATE_GAME;                  //begin a new game - load the game screen
-                            game->scenarioStatus = SCENARIO_C0;
+                            game->scenarioStatus = SCENARIO_INTRO;
                             shutdown_title_screen(game);
                             init_game_screen(game);
                             break;
                         }
-                        if (game->selectorStatus == SELECTOR_HOVER_C1) {
-                            changeScenario(game);
+                        /** continue is pressed */
+                        if (game->selectorStatus == SELECTOR_HOVER_CONTINUE) {
+                            nextScenario(game);
                             break;
                         }
+                        /** quit game is pressed */
                         if (game->selectorStatus == SELECTOR_HOVER_QUITGAME) {
                             done = 1;
                             break;
@@ -178,8 +183,7 @@ int processEvents(SDL_Window *window, GameState *game){
                 }
             }
                 break;
-            case SDL_QUIT:
-                //quit out of the game
+            case SDL_QUIT: //quit out of the game
                 done = 1;
                 break;
         }
@@ -242,8 +246,26 @@ void createWindow(int boolean){
         }
         
         // Shutdown the game and unload all memory //
+        if(gameState.title != NULL)
+            SDL_DestroyTexture(gameState.title);
+        if(gameState.subtitle != NULL)
+            SDL_DestroyTexture(gameState.subtitle);
+        if(gameState.footer != NULL)
+            SDL_DestroyTexture(gameState.footer);
+        if(gameState.newGame != NULL)
+            SDL_DestroyTexture(gameState.newGame);
+        if(gameState.loadGame != NULL)
+            SDL_DestroyTexture(gameState.loadGame);
+        if(gameState.quitGame != NULL)
+            SDL_DestroyTexture(gameState.quitGame);
         if(gameState.storyText != NULL)
             SDL_DestroyTexture(gameState.storyText);
+        if(gameState.choice1Text != NULL)
+            SDL_DestroyTexture(gameState.choice1Text);
+        if(gameState.choice2Text != NULL)
+            SDL_DestroyTexture(gameState.choice2Text);
+        if(gameState.choice3Text != NULL)
+            SDL_DestroyTexture(gameState.choice3Text);
         TTF_CloseFont(gameState.titleFont);
         TTF_CloseFont(gameState.subtitleFont);
         TTF_CloseFont(gameState.footerFont);
