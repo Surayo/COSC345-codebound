@@ -25,7 +25,8 @@ char *startIndexes[50];
 char *endIndexes[50];
 int choiceAmount = 0, bracketAmount = 0;
 
-void freeChoices(){
+void freeText(){
+    //free(clean_block_text);
 }
 
 // Gets the cleaned text file
@@ -40,9 +41,10 @@ struct choice getChoice(int num){
 // Adds all of the pointers to the array
 void setBracketPoints(char *filetext){
     int currentIndex = 0;
+    int filelength = strlen(filetext);
     int storeIndex = 0;
     
-    while (filetext[currentIndex] != '\0'){
+    while ((filetext[currentIndex]) != '\0' && currentIndex < (filelength - 1)){
         if (filetext[currentIndex] == '['){
             startIndexes[storeIndex] = &filetext[currentIndex];
             bracketAmount ++;
@@ -53,7 +55,6 @@ void setBracketPoints(char *filetext){
             endIndexes[storeIndex] = &filetext[currentIndex];
             storeIndex++;
         }
-        
         currentIndex++;
     }
     printf("Brackets: %d\n", bracketAmount);
@@ -67,7 +68,7 @@ char* getCurrentFile(){
     }
     long bytes = (((char *)endIndexes[0]) + 1) - ((char *)startIndexes[0]); //3
     char* file = emalloc(bytes * sizeof(char));
-    strlcpy(file, startIndexes[0], bytes);
+    strncpy(file, startIndexes[0], bytes);
     
     return file;
 }
@@ -77,26 +78,29 @@ void characterInserts(int endIndex, int startIndex){
     /*char* inserts[] = {"Xe", "Xer", "Xis", "Xers", "Xself", "Xther", "Xm", "Xoy"};
     char* male[] = {"he", "him", "his", "his", "himself", "brother", "em", "boy"};
     char* female[] = {"she", "her", "her", "hers", "herself", "sister", "er", "girl"};*/
-    
+    char name[] = "Nathorn";
+
     size_t bytes = ((((char *)endIndexes[endIndex])) - ((char *)startIndexes[startIndex]));
-    char* test = emalloc(bytes * sizeof(char));
-    strlcpy(test, (startIndexes[startIndex] + 1), bytes);
-    if (strcmp(test, "NAME") == 0){
-        strcat(clean_block_text, " Nathorn");
-        //return;
+    char* test = ecalloc(bytes + 1, sizeof(char));
+    strncpy(test, (startIndexes[startIndex] + 1), bytes);
+    
+    if (strcmp(test, "NAME]") == 0){
+        clean_block_text = erealloc(clean_block_text, (strlen(clean_block_text) * strlen(name)));
+        strncat(clean_block_text, name, strlen(name));
     }
+    free(test);
 }
 
 // Set the text blocks
 void setStoryText(char *filetext){
     int endIndex = 0, startIndex = 1, checkCount = 0;
+    char* copyText = NULL;
     
     while (checkCount < 2){
         size_t bytes = (((char *)startIndexes[startIndex]) - ((char *)endIndexes[endIndex])) - 1;
-        char* copyText = emalloc(bytes * sizeof(char));
-        strlcpy(copyText, (endIndexes[endIndex] + 1), bytes);
-        strcat(clean_block_text, copyText);
-        free(copyText);
+        copyText = ecalloc(bytes, sizeof(char));
+        strncpy(copyText, (endIndexes[endIndex] + 1), bytes);
+        strncat(clean_block_text, copyText, bytes);
         
         endIndex++;
         characterInserts(endIndex, startIndex);
@@ -105,6 +109,8 @@ void setStoryText(char *filetext){
         if (check[1] == 'C'){
             checkCount++;
         }
+        free(copyText);
+        copyText = NULL;
     }
 }
 
@@ -112,19 +118,25 @@ void setStoryText(char *filetext){
 void setChoices(char* filetext){
     int startIndex = 1, endIndex = 1;
     char* check = startIndexes[startIndex];
+    char* copyText = NULL;
+    
     while ((check[1]) != 'C'){
         startIndex++;
         endIndex++;
         check = startIndexes[startIndex];
     }
-    
-    
+    size_t bytes = (((char *)endIndexes[endIndex]) - ((char *)startIndexes[startIndex]));
+    copyText = ecalloc(bytes, sizeof(char));
+    strncpy(copyText, (startIndexes[startIndex] + 1), bytes - 1);
+    printf("Test choice: %s\n", copyText);
+
+    free(copyText);
 }
 
 // Sets the file into a string
 char* setFile(FILE *file){
-    char *filetext;
-    long bytes;
+    char *filetext = NULL;
+    long bytes = 0;
     
     // Number of bytes in file
     fseek(file, 0L, SEEK_END);
@@ -134,17 +146,17 @@ char* setFile(FILE *file){
     fseek(file, 0L, SEEK_SET);
     
     // Allocate memory for the entire file
-    filetext = (char*)calloc(bytes, sizeof(char));
+    filetext = (char*)ecalloc(bytes, sizeof(char));
     if (filetext == NULL){
         perror("Error! Allocating memory\n");
         exit(1);
     }
     
     // Copy text of file into filetext and prints text
-    fread(filetext, sizeof(char), bytes, file);
+    fread(filetext, sizeof(char), bytes-1, file);
     
     // Sets the clean block text
-    clean_block_text = emalloc(sizeof(filetext) * sizeof(char));
+    clean_block_text = ecalloc(strlen(filetext), sizeof(filetext[0]));
     
     return filetext;
 }

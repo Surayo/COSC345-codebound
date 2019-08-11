@@ -14,5 +14,7 @@ extern void setBracketPoints(char *filetext);
 extern char* getCurrentFile(void);
 extern void setStoryText(char *filetext);
 extern char* getCleanText(void);
+extern void freeText(void);
+extern void setChoices(char *filetext);
 
 #endif /* textManipulation_h */

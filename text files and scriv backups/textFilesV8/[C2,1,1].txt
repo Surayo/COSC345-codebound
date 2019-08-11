@@ -1,0 +1,46 @@
+[2.1.1]”Go get the others.” Rasputin says to Eve. She nods and peels off from your party. You hesitate, not wanting to be alone with Rasputin. He arches an eyebrow at the look you are giving him then head off after the Robots himself.
+
+You follow.
+
+The first thing the Robots do is head underground. They dip down into the gloom of an old subway system and disappear out of sight. “They don’t surface again until they return to the ship.” Rasputin says. 
+
+“I still want to see for myself.” He nods at your words.
+
+“Your sister was the same way - lacking trust. It’s admirable. I know you are committed to doing the right thing.”
+
+“Yeah I’m still not sure on that. Like the Flytecraft is cool and all but why exactly is it important? The Factory still needs to run if we want to keep out people alive.”
+
+“Ah, I should have explained further. What is important about the Flytecraft isn’t that it still exists. It is that if it exists, that means that there are people on the other side who survived the pandemic. Not only that, wherever they are, they are thriving. Now I only want what’s best for this city and I believe that if we can transport everyone from here to wherever there is, everyone will be better off.”
+
+Suddenly the connection is clear to you. He is desperately trying to find out where the food is coming from, because wherever there is, you will thrive. You get it. Why just survive when you could all live in prosperity?
+
+The Flytecraft is the connection.
+
+The other Vagabonds meet up with you at the entrance and you all head down, several of them pulling out flashlights to light the way. The Robots have mad their way onto the tracks and are heading in the direction of Town.
+
+It’s a slow walk.  
+
+You did your fair share of exploring back in your youth with Eve, before you both had to start work in the Factory. You even went all the way to the edge. That was where you discovered your Aspect. Both you and Eve were immune to toxins. Though there is a slight difference. Your Aspect manifests itself as a sort of invisible shield, a barrier that protects anyone inside whereas Eve herself is immune to the toxins and though she has breathed in the Bioforms poison she has never gotten sick.
+
+People still go to the edge of the city even though they know of the dangers of the Bioforms poison. You know because kids still come home teary-eyed and sneezing and are rushed inside by their mothers to get the yellow dust cleaned out of their clothes. 
+
+Most of them don’t die.
+
+Most of them stay in bed for a few days and shake until the small amount of poisonous pollen clears through their system.
+
+You and your sister though had gone deep into the trees and never caught their sickness. 
+
+Your friends had stuck by your side and been safe too. Your shield had grown as you aged and as long as they stayed close, they stayed healthy.
+
+Your party of Vagabonds come to a halt as the Robots stop ahead of you. You watch as they lower their packages, lining them up in a neat pile.
+
+There are no obvious landmarks you can see in the darkness. You’ve passed several side passages and the tracks have widened and shrunk as paths have converged. If your estimations are correct you have been heading towards town and should now be close to its center if you haven't passed under it entirely.
+
+“The Robots will head back the way they came if you want to confirm that too.” Eve says, looking bored. 
+
+
+[C2.1.1.1]You want to get back to the Flytecraft. “Maybe I do. Maybe I want to see where they go after they get back.” You say to Eve.
+
+[C2.1.1.2]”Who comes down to collect the packages?” You ask Rasputin, ignoring your sister’s remark. 
+
+[C2.1.1.3]”I think I’ve seen enough of these Robots. I believe you.” You say to Rasputin. He nods, looking satisfied.

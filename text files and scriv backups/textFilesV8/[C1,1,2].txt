@@ -1,0 +1,12 @@
+[1.1.2]You turn over in bed, drowsy and only half conscious. It’s not unusual for you to wake up in the middle of the night. Your sister is a restless sleeper so you drift, listening to the sounds of her moving on the other side of the room. 
+
+You hear her light boot-steps as she moves closer to the two mattresses on the floor that serve as your beds. 
+
+You feel her looming over you and stir, confused. A rough hand covers your mouth and you snap awake. 
+
+
+[C1.1.2.1]Struggle and scream.
+
+[C1.1.2.2]Go limp. 
+
+[C1.1.2.3]Bite.

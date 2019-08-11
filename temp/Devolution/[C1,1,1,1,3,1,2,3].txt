@@ -1,0 +1,8 @@
+[1.1.1.1.3.1.2.3]The laser handgun explodes in your face blasting a hole through your skull. The gun falls from your slack grip, hitting the floor with a clatter of metal. Your body wavers for a second, then follows it.
+
+You lay prone on the floor, the hole in your skull has been cauterized by the laser and does not bleed.
+
+You are dead.
+
+
+[GAME OVER]
