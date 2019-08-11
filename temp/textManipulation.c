@@ -25,8 +25,11 @@ char *startIndexes[50];
 char *endIndexes[50];
 int choiceAmount = 0, bracketAmount = 0;
 
-void freeText(){
-    //free(clean_block_text);
+void freeChoices(){
+    for(int i = 0; i < choiceAmount; i++){
+        free(story_choices[i].choice_file);
+        free(story_choices[i].choice_text);
+    }
 }
 
 // Gets the cleaned text file
@@ -34,8 +37,14 @@ char* getCleanText(){
     return clean_block_text;
 }
 
-struct choice getChoice(int num){
-    return story_choices[num];
+//Gets a specified choice text
+char* getChoiceText(int num){
+    return story_choices[num].choice_text;
+}
+
+//Gets next file
+char* getChoiceFile(int num){
+    return story_choices[num].choice_file;
 }
 
 // Adds all of the pointers to the array
@@ -116,21 +125,32 @@ void setStoryText(char *filetext){
 
 // Set the choices
 void setChoices(char* filetext){
-    int startIndex = 1, endIndex = 1;
+    int startIndex = 1, endIndex = 1, num = 0;
     char* check = startIndexes[startIndex];
-    char* copyText = NULL;
+    char *nextFile = NULL, *choiceText = NULL;
     
     while ((check[1]) != 'C'){
         startIndex++;
         endIndex++;
         check = startIndexes[startIndex];
     }
-    size_t bytes = (((char *)endIndexes[endIndex]) - ((char *)startIndexes[startIndex]));
-    copyText = ecalloc(bytes, sizeof(char));
-    strncpy(copyText, (startIndexes[startIndex] + 1), bytes - 1);
-    printf("Test choice: %s\n", copyText);
+    while(num < choiceAmount){
+        size_t bytes = (((char *)endIndexes[endIndex]) - ((char *)startIndexes[startIndex]));
+        nextFile = ecalloc(bytes, sizeof(char));
+        strncpy(nextFile, (startIndexes[startIndex] + 1), bytes - 1);
 
-    free(copyText);
+        startIndex++;
+
+        size_t bytes2 = (((char *)startIndexes[startIndex]) - ((char *)endIndexes[endIndex]));
+        choiceText = ecalloc(bytes2, sizeof(char));
+        strncpy(choiceText, (endIndexes[endIndex] + 1), bytes2 - 1);
+
+        endIndex++;
+
+        story_choices[num].choice_file = nextFile;
+        story_choices[num].choice_text = choiceText;
+        num++;
+    }
 }
 
 // Sets the file into a string
