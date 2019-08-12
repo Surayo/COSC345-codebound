@@ -107,7 +107,7 @@ void characterInserts(int endIndex, int startIndex){
         char *replace = inserts[i];
         if (strcmp(test, replace) == 0){
             char *proNoun = male[i];
-            clean_block_text = erealloc(clean_block_text, (strlen(clean_block_text) * strlen(proNoun)));
+            clean_block_text = erealloc(clean_block_text, (strlen(clean_block_text) * strlen(proNoun) * 10));
             strncat(clean_block_text, proNoun, strlen(proNoun));
         }
     }
