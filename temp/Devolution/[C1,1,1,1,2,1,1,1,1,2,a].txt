@@ -1,0 +1,24 @@
+[1.1.1.1.2.1.1.1.1.2.a]“-some other people’s Aspects.” Eve continues, “So we’re going to see if she can become immune to toxins too.”
+
+“You’re going to expose her to the toxins and see if doesn’t she die? Is that it?” You ask.
+
+“No, stupid, She has a monitor on.” At this Ellie-May pulls out a small handheld device that you can see is wired into her arm. It’s what the doctor uses to check Bioform pollen levels in blood to determine if a patient is doomed or just caught a cold. 
+
+“Huh.” You say. “Smart.”
+
+“Come on. We’re near the edge.” 
+
+
+It’s only a few minutes before you start seeing green. The glow reflecting off the smog clouds has grown steadily stronger as you get closer to the Bioforms. Soon specks of light start showing up, clinging to buildings and in cracks in the road. For anyone else this would be terrifying, your worst nightmare, but both you and Eve have been immune to toxins your whole lives and so have had no need to fear for your own lives out here.
+
+You briefly wonder if your own Aspect will interfere with the data Eve and Ellie-May are trying to gather. Your immunity is like a barrier that spreads out from your body, neutralising any toxins that enter into it. 
+
+You don’t think Eve has realised her mistake.
+
+“This is stupid.” You say. Eve glares at you.
+
+“And why, pray tell, is this stupid.”
+
+
+[C1.1.1.1.2.1.1.1.1.2.b]Continue.
+[END]

@@ -17,10 +17,7 @@ int main(int argc, const char * argv[]) {
     char *filetext = NULL, *cleantext = NULL;
     char *choiceText = NULL, *choiceFile = NULL;
     char file_location[100], prefix[] = "/Devolution/[", suffix[] = "].txt";
-    char **story_path = emalloc(sizeof(char*));
-    char* currentPosition = NULL;
     FILE *fptr = NULL;
-    int path_count = 0;
     char cwd[300];
     
     strcpy(file_location, "/Devolution/[C0].txt");
@@ -39,17 +36,12 @@ int main(int argc, const char * argv[]) {
         }
         filetext = setFile(fptr);
         setBracketPoints(filetext);
-        currentPosition = getCurrentFile();
-    
-        //Add to the current path
-        story_path[path_count] = currentPosition;
-        path_count ++;
         
         //Set the text
-        setStoryText(filetext);
+        setStoryText();
         cleantext = getCleanText();
         printf("%s\n", cleantext);
-        setChoices(filetext);
+        setChoices();
         
         /* That's how you save the shit
            save_path(cwd, story_path, path_count);*/
@@ -71,15 +63,11 @@ int main(int argc, const char * argv[]) {
 
 
         //Freeing memory
-        for (int i = 0; i < path_count; i++){
-            free(story_path[i]);
-        }
-        free(story_path);
         free(filetext);
         free(cleantext);
         closefile(fptr);
-        freeChoices();
-        break;
+        freeAndReset();
+        //break;
     }
     
     return 0;

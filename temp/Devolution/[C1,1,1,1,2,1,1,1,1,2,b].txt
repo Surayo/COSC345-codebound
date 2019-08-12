@@ -1,0 +1,19 @@
+[1.1.1.1.2.1.1.1.1.2.b]“My Aspect dummy. Even if you didn’t have the Aspects you have, you would all be immune anyway.”
+
+Eve purses her lips, looking at you, then squints. “How big is your radius again?” She asks.
+
+“Dunno. Big.” You say. You would estimate it to be enough to cover the whole house you live in seeing as no one gets sick as long as you’re home. It’s at least big enough to cover the furnace floor at The Factory. No one has gotten black lung since you started working there and that used to be rampant.
+
+“You’re useless. Go stand over there. We have testing to do.” She says.
+
+“I don’t think that’ll be far enough. When I said big I meant fucking huge.”
+
+“Urgh.” She groans. “Fucking hell. Why did you have to be out here. Ok. New plan. Me and Ellie-May are going to test if her Aspect can absorb mine from here - there should be enough pollen here where we’re standing to get a reading - and you are going to keep walking in that direction-” She points towards the edge where green glowing Bioforms start growing in thicker and thicker. “- until you’re out of range. Got it?”
+
+
+[C1.1.1.1.2.1.1.1.1.2.1]”Got it.” You say, and start walking in the direction she pointed. It’s not like the Bioforms can hurt you anyway.
+
+[C1.1.1.1.2.1.1.1.1.1.2]”Hey. How about fuck that idea. I’m going home.” You say, backing away. 
+[END]
+
+
