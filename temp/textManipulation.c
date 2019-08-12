@@ -119,7 +119,7 @@ void setStoryText(){
     int endIndex = 0, startIndex = 1, checkCount = 0;
     char* copyText = NULL;
 
-    while (checkCount < choiceAmount){
+    while (checkCount < 1){
         size_t bytes = (((char *)startIndexes[startIndex]) - ((char *)endIndexes[endIndex])) - 1;
         copyText = ecalloc(bytes, sizeof(char));
         strncpy(copyText, (endIndexes[endIndex] + 1), bytes);
