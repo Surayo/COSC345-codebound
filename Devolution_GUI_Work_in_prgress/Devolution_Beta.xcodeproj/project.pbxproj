@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D0601F6D22FE5A4A007CE5F0 /* fileManager.c in Sources */ = {isa = PBXBuildFile; fileRef = D0601F6C22FE5A4A007CE5F0 /* fileManager.c */; };
+		D066954B2301502E0070CC34 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06695492301502E0070CC34 /* SDL2.framework */; };
+		D066954C2301502E0070CC34 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D066954A2301502E0070CC34 /* SDL2_ttf.framework */; };
+		D066954D2301503A0070CC34 /* SDL2_ttf.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D066954A2301502E0070CC34 /* SDL2_ttf.framework */; };
+		D066954E2301503A0070CC34 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D06695492301502E0070CC34 /* SDL2.framework */; };
 		D091D0C722F7BDB700701D36 /* graphics.c in Sources */ = {isa = PBXBuildFile; fileRef = D091D0C622F7BDB700701D36 /* graphics.c */; };
 		D091D0CA22F7BEDF00701D36 /* titleScreen.c in Sources */ = {isa = PBXBuildFile; fileRef = D091D0C922F7BEDF00701D36 /* titleScreen.c */; };
 		D091D0D022F7BF3A00701D36 /* displayText.c in Sources */ = {isa = PBXBuildFile; fileRef = D091D0CF22F7BF3A00701D36 /* displayText.c */; };
-		D091D0DB22F7C07E00701D36 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D091D0D922F7C07E00701D36 /* SDL2.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		D091D0DC22F7C07E00701D36 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D091D0DA22F7C07E00701D36 /* SDL2_ttf.framework */; };
-		D091D0DD22F7C09100701D36 /* SDL2_ttf.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D091D0DA22F7C07E00701D36 /* SDL2_ttf.framework */; };
-		D091D0DE22F7C09100701D36 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D091D0D922F7C07E00701D36 /* SDL2.framework */; };
 		D091D10222F7C5E900701D36 /* Perfect DOS VGA 437.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D091D0FE22F7C5E800701D36 /* Perfect DOS VGA 437.ttf */; };
 		D091D10322F7C5E900701D36 /* Arial.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D091D0FF22F7C5E800701D36 /* Arial.ttf */; };
 		D091D10422F7C5E900701D36 /* VCR_OSD_MONO.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = D091D10022F7C5E800701D36 /* VCR_OSD_MONO.ttf */; };
@@ -36,14 +36,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				D066954D2301503A0070CC34 /* SDL2_ttf.framework in CopyFiles */,
+				D066954E2301503A0070CC34 /* SDL2.framework in CopyFiles */,
 				D0F6C3A922FFAC7300E4F42F /* selector.png in CopyFiles */,
 				D0F6C3A422FF9E8C00E4F42F /* SDL2_image.framework in CopyFiles */,
 				D091D10222F7C5E900701D36 /* Perfect DOS VGA 437.ttf in CopyFiles */,
 				D091D10322F7C5E900701D36 /* Arial.ttf in CopyFiles */,
 				D091D10422F7C5E900701D36 /* VCR_OSD_MONO.ttf in CopyFiles */,
 				D091D10522F7C5E900701D36 /* Nasalization.ttf in CopyFiles */,
-				D091D0DE22F7C09100701D36 /* SDL2.framework in CopyFiles */,
-				D091D0DD22F7C09100701D36 /* SDL2_ttf.framework in CopyFiles */,
 				F0ED04B622EFC92A00678A78 /* Devolution in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +53,8 @@
 /* Begin PBXFileReference section */
 		D0601F6B22FE5A4A007CE5F0 /* fileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileManager.h; sourceTree = "<group>"; };
 		D0601F6C22FE5A4A007CE5F0 /* fileManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileManager.c; sourceTree = "<group>"; };
+		D06695492301502E0070CC34 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+		D066954A2301502E0070CC34 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_ttf.framework; sourceTree = "<group>"; };
 		D091D0C522F7BDB700701D36 /* graphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
 		D091D0C622F7BDB700701D36 /* graphics.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = graphics.c; sourceTree = "<group>"; };
 		D091D0C822F7BEDF00701D36 /* titleScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = titleScreen.h; sourceTree = "<group>"; };
@@ -60,8 +62,6 @@
 		D091D0CB22F7BF0B00701D36 /* gameScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gameScreen.h; sourceTree = "<group>"; };
 		D091D0CE22F7BF3A00701D36 /* displayText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = displayText.h; sourceTree = "<group>"; };
 		D091D0CF22F7BF3A00701D36 /* displayText.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = displayText.c; sourceTree = "<group>"; };
-		D091D0D922F7C07E00701D36 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = "/home/cshome/j/jbode/COSC345-codebound/Devolution_Beta/SDL2.framework"; sourceTree = "<absolute>"; };
-		D091D0DA22F7C07E00701D36 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = "/home/cshome/j/jbode/COSC345-codebound/Devolution_Beta/SDL2_ttf.framework"; sourceTree = "<absolute>"; };
 		D091D0FE22F7C5E800701D36 /* Perfect DOS VGA 437.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Perfect DOS VGA 437.ttf"; path = "fonts/Perfect DOS VGA 437.ttf"; sourceTree = "<group>"; };
 		D091D0FF22F7C5E800701D36 /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Arial.ttf; path = fonts/Arial.ttf; sourceTree = "<group>"; };
 		D091D10022F7C5E800701D36 /* VCR_OSD_MONO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = VCR_OSD_MONO.ttf; path = fonts/VCR_OSD_MONO.ttf; sourceTree = "<group>"; };
@@ -84,8 +84,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F6C3A322FF9E8600E4F42F /* SDL2_image.framework in Frameworks */,
-				D091D0DB22F7C07E00701D36 /* SDL2.framework in Frameworks */,
-				D091D0DC22F7C07E00701D36 /* SDL2_ttf.framework in Frameworks */,
+				D066954C2301502E0070CC34 /* SDL2_ttf.framework in Frameworks */,
+				D066954B2301502E0070CC34 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,9 +95,9 @@
 		D091D0B122F7BD0100701D36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D066954A2301502E0070CC34 /* SDL2_ttf.framework */,
+				D06695492301502E0070CC34 /* SDL2.framework */,
 				D0F6C3A222FF9E8600E4F42F /* SDL2_image.framework */,
-				D091D0DA22F7C07E00701D36 /* SDL2_ttf.framework */,
-				D091D0D922F7C07E00701D36 /* SDL2.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
