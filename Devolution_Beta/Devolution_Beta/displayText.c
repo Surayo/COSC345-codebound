@@ -93,7 +93,6 @@ void init_display_text(GameState *game){
     free(filetext);
     free(cleantext);
     closefile(fptr);
-    freeText(); 
 }
 
 void draw_display_text(GameState *game){
