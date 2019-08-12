@@ -19,48 +19,56 @@
 #include "fileManager.h"
 #include "mylib.h"
 
+char *filetext = NULL, *cleantext = NULL;
+char *choiceText = NULL, *choiceFile = NULL;
+char file_location[100], prefix[] = "/Devolution/[", suffix[] = "].txt";
+FILE *fptr = NULL;
+char cwd[300];
+
 void init_display_text(GameState *game){
     SDL_Color white = { 255, 255, 255, 255 };
-    char *story = NULL;
+    char *story = NULL, *choice1 = NULL, *choice2 = NULL, *choice3 = NULL;
     
-    // FROM TEXT FILES //
-    char *filetext = NULL, *cleantext = NULL;
-    char *choice1 = NULL, *choice2 = NULL, *choice3 = NULL;
-    char file_location[50];
-    char* currentPosition = NULL;
-    FILE *fptr = NULL;
-    
-    char cwd[300];
-    if (getcwd(cwd, sizeof(cwd)) != NULL) {
-        printf("Current working dir: %s\n", cwd);
-    } else {
-        perror("getcwd() error");
-        exit(1);
+    if (game->scenarioStatus == SCENARIO_INTRO) {
+        strcpy(file_location, "/Devolution/[C0].txt");
     }
-    strcpy(file_location, "/Devolution/[C0].txt");
     
-    if(game->scenarioStatus == SCENARIO_STORY){
+    if (game->scenarioStatus == SCENARIO_STORY) {
+        printf("\n\n\nI GOT HERE\n\n\n");
+        if (getcwd(cwd, sizeof(cwd)) != NULL) {
+            printf("Current working dir: %s\n", cwd);
+        } else {
+            perror("getcwd() error");
+            exit(1);
+        }
+        
         fptr = openfile(cwd, file_location);
         if (fptr == NULL){
             exit(1);
         }
         filetext = setFile(fptr);
         setBracketPoints(filetext);
-        currentPosition = getCurrentFile();
         
         //Set the text
-        setStoryText(filetext);
-        cleantext = getCleanText();
+        setStoryText();
+        story = getCleanText();
         printf("%s\n", cleantext);
-        setChoices(filetext);
+        setChoices();
+        
+        choiceText = getChoiceText(0);
+        choiceFile = getChoiceFile(0);
+        
+        //Setting up next file
+        memset(cwd, 0, sizeof(cwd));
+        memset(file_location, 0, sizeof(file_location));
+        strcpy(file_location, prefix);
+        strcat(file_location, choiceFile);
+        strcat(file_location, suffix);
     }
+    
     
     if (game->scenarioStatus == SCENARIO_INTRO) {
         story = "PUT INTRODUCTION HERE!\n\nSPACEBAR TO CONTINUE";
-    }
-    
-    if (game->scenarioStatus == SCENARIO_STORY) {
-        story = cleantext;
     }
     
     // create any text to be used as the main body of the game screen //
@@ -88,11 +96,11 @@ void init_display_text(GameState *game){
         game->choice3Text = SDL_CreateTextureFromSurface(game->renderer, tmp3);
         SDL_FreeSurface(tmp3);
     }
-    
     //Freeing memory
     free(filetext);
     free(cleantext);
     closefile(fptr);
+    freeAndReset();
 }
 
 void draw_display_text(GameState *game){

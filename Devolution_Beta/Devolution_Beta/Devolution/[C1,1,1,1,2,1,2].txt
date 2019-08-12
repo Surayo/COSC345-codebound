@@ -1,10 +1,10 @@
-[1.1.1.1.2.1.2]You are in a haze as you stumble back through the streets. You aren’t paying attention at all to where you’re going. And for a while you manage to keep moving forward even if you aren’t quite sure it’s in the direction of home.
+[1.1.1.1.2.1.2]You are in a haze as you stumble back through the streets. You aren't paying attention at all to where you're going. And for a while you manage to keep moving forward even if you aren't quite sure it's in the direction of home.
 
-Your head hurts and you lean against a building for a moment to catch your breath. You don’t know where you are but you know it’s far from home. You walked for so long just to get here, not thinking of how hard it would be to get back.
+Your head hurts and you lean against a building for a moment to catch your breath. You don't know where you are but you know it's far from home. You walked for so long just to get here, not thinking of how hard it would be to get back.
 
-You pull yourself up and back to walking. It’s slow going though but you can’t bring yourself to walk faster. Your legs tremble as it is. 
+You pull yourself up and back to walking. It's slow going though but you can't bring yourself to walk faster. Your legs tremble as it is. 
 
-The light has changed since you’ve been out here, brightening. Is it near daybreak already?
+The light has changed since you've been out here, brightening. Is it near daybreak already?
 
 Fuck. You sink down into a crouch, just for a second, you tell yourself. But you ache to just rest here. You can feel your whole body trembling with the fatigue of this adventure.
 
@@ -12,7 +12,7 @@ The solid concrete at your back feels like bliss compared to standing.
 
 You will get up in a second, you tell yourself.
 
-You can’t stay here. You have to get home, you tell yourself.
+You can't stay here. You have to get home, you tell yourself.
 
 
 [C1.1.1.1.2.1.2.1]Sleep.

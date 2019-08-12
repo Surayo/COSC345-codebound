@@ -1,6 +1,6 @@
-[1.1.1]You can’t let her do this. You slap your face to try and startle yourself back awake then stumble back to your  feet. Before you can second guess your sudden resolve you head out into the streets to look for Eve.
+[1.1.1]You can't let her do this. You slap your face to try and startle yourself back awake then stumble back to your  feet. Before you can second guess your sudden resolve you head out into the streets to look for Eve.
 
-It’s fully dark out and a harsh chill has settled over the town center. You must have been asleep at the table for longer than you thought. 
+It's fully dark out and a harsh chill has settled over the town center. You must have been asleep at the table for longer than you thought. 
 
 You shiver and pull your work coat closer around yourself and peer both ways down the street. To the left lies the Factory, you know that path like the unwavering aftertaste of canned Nutritious Food Staple. To the right lies deeper parts of the Fringes, crumbling skyscrapers and the sprawling roads of a city long abandoned. 
 
@@ -10,6 +10,6 @@ Which way did she go?
 
 [C1.1.1.1]You quickly pull yourself together and run to the left towards The Factory. Eve will be headed towards the Vagabonds and that is near where you saw them last.
 
-[C1.1.1.2]You turn to the right. From how rarely you’ve ever seen the Vagabonds they must operate far away from the usual paths to The Factory.
+[C1.1.1.2]You turn to the right. From how rarely you've ever seen the Vagabonds they must operate far away from the usual paths to The Factory.
 
-[C1.1.1.3]You can’t decide where to go. You glance left and right and feel the familiar pull of exhaustion drag at you.
+[C1.1.1.3]You can't decide where to go. You glance left and right and feel the familiar pull of exhaustion drag at you.

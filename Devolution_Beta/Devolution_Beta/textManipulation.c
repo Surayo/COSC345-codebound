@@ -70,8 +70,6 @@ void setBracketPoints(char *filetext){
         }
         currentIndex++;
     }
-    printf("Brackets: %d\n", bracketAmount);
-    printf("Choices: %d\n", choiceAmount);
 }
 
 // Get the current file
@@ -91,7 +89,7 @@ void characterInserts(int endIndex, int startIndex){
     char* inserts[] = {"Xe]", "Xer]", "Xis]", "Xers]", "Xself]", "Xther]", "Xm]", "Xoy]"};
     char* male[] = {"he", "him", "his", "his", "himself", "brother", "em", "boy"};
     /*char* female[] = {"she", "her", "her", "hers", "herself", "sister", "er", "girl"};*/
-    char name[] = "Nathorn";
+    char name[] = "Andrew T";
 
     size_t bytes = ((((char *)endIndexes[endIndex])) - ((char *)startIndexes[startIndex]));
     char* test = ecalloc(bytes + 1, sizeof(char));
