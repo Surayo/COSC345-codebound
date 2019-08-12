@@ -42,6 +42,7 @@ int main(int argc, const char * argv[]) {
         setStoryText();
         cleantext = getCleanText();
         printf("%s\n", cleantext);
+        printf("***************\n");
         setChoices();
 
         int choiceAmount = getChoiceAmount();
@@ -59,6 +60,7 @@ int main(int argc, const char * argv[]) {
                 break;
             }
         }
+        printf("***************\n");
         
         //Setting up next file
         memset(cwd, 0, sizeof(cwd));
