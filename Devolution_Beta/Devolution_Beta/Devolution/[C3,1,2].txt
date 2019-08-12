@@ -1,22 +1,22 @@
 [3.1.2]The confusion, the slowed world, the pain - That must have been their aspects. Your heart is beating fast, fuelled by adrenalin, but not nearly that sickening rapid-fire speed it was just a few seconds ago. Stupid. What just came over you?
 
-“OK.” You breathe out, calming yourself down. “OK. I’m listening.”
+"OK." You breathe out, calming yourself down. "OK. I'm listening."
 
-“Do you know why your sister defected?” Rasputin asks.
+"Do you know why your sister defected?" Rasputin asks.
 
-You seethe but manage to hold the anger in. “No.” Your heart is still pounding faster than it ought to be and you resist against the instinct to struggle against the remaining hands on you.
+You seethe but manage to hold the anger in. "No." Your heart is still pounding faster than it ought to be and you resist against the instinct to struggle against the remaining hands on you.
 
-“She asked us why we were fighting. She asked us what our cause was. And when she found out, she asked how she could help. The answer to that was simple in her case. She has the most intriguing aspect, you see, as I assume you know quite well. That, my dear [Name], is why Eve defected.”
+"She asked us why we were fighting. She asked us what our cause was. And when she found out, she asked how she could help. The answer to that was simple in her case. She has the most intriguing aspect, you see, as I assume you know quite well. That, my dear [Name], is why Eve defected."
 
-You are quiet for a second. Eve has always been more curious than is healthy, always pulling you into trouble, going where she shouldn’t go. But she is also smart. Smarter than you if you’re being honest (Which you may as well be seeing as it’s your own head). 
+You are quiet for a second. Eve has always been more curious than is healthy, always pulling you into trouble, going where she shouldn't go. But she is also smart. Smarter than you if you're being honest (Which you may as well be seeing as it's your own head). 
 
-You have always trusted her before to have good reason for doing what she does even if you don’t agree.
+You have always trusted her before to have good reason for doing what she does even if you don't agree.
 
-“What was your answer?” you finally ask. 
+"What was your answer?" you finally ask. 
 
-Rasputin smiles, “Good question. But I think it's best if I show you.”
+Rasputin smiles, "Good question. But I think it's best if I show you."
 
 
-[C2.1]”OK.” You say. The hands release you. You follow when Rasputin starts walking.
+[C2.1]"OK." You say. The hands release you. You follow when Rasputin starts walking.
 
-[C3.1.2.2]”Fuck that. I’m not going anywhere with you.” You say.
+[C3.1.2.2]"Fuck that. I'm not going anywhere with you." You say.
