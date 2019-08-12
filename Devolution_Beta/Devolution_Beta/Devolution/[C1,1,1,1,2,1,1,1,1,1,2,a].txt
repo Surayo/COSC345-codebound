@@ -1,0 +1,22 @@
+[1.1.1.1.2.1.1.1.1.1.2.a]“Can’t breathe.” You manage.
+
+She hums as if considering, “Nice try punk. If I let you up, are you going to run again? You know I can’t let you do that. You are too deep in this shit now. I’m gonna have to take you with me.”
+
+“Are you kidnapping me?” you ask.
+
+“I guess, now get up and stay close. I still have things to do. Ellie-May!” She shouts. 
+
+“Yeah?” Ellie-May says from much closer then Eve must have assumed she was.
+
+“Oh. You’re right there. Could you keep an eye on [NAME]. Don’t let [Xer] run away. You know the Boss wont like that.
+
+“Sure! I can do that. [Xe] doesn’t look like much anyway. Like, [Xe] couldn’t outrun you. Even I’m faster then you.”
+
+“Shut up. I’m fast.”
+
+“Nuh uh. You’ve been with the vagabonds for what, a week? It takes a while to build your stamina back up after working in the Factory for so long.”
+
+“Wait you’ve been with the Vagabonds for a whole week?” you ask Eve. How did you not notice? Most days Eve walks with you and Liaba to The Factory for work though it’s just as likely that she’ll leave before you. Now that you think about it, you hadn’t seen Eve for most of the week, walked with her less then usual, and on more than one occasion you had slept without noticing her steady breathing in the same room as yours.
+
+[C1,1,1,1,2,1,1,1,1,1,2,b]Continue.
+[END]
