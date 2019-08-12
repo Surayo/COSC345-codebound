@@ -15,57 +15,82 @@
 #include "graphics.h"
 
 int main(int argc, const char * argv[]) {
-    /*
     char *filetext = NULL, *cleantext = NULL;
-    char *choiceText = NULL, *choiceFile = NULL;
+    char *choiceText = NULL, *choiceFile = "C0";
     char file_location[100], prefix[] = "/Devolution/[", suffix[] = "].txt";
     FILE *fptr = NULL;
     char cwd[300];
-    
-    strcpy(file_location, "/Devolution/[C0].txt");
-    
-    while (true){
-        if (getcwd(cwd, sizeof(cwd)) != NULL) {
-            printf("Current working dir: %s\n", cwd);
-        } else {
-            perror("getcwd() error");
-            return 1;
-        }
-        
-        fptr = openfile(cwd, file_location);
-        if (fptr == NULL){
-            break;
-        }
-        filetext = setFile(fptr);
-        setBracketPoints(filetext);
-        
-        //Set the text
-        setStoryText();
-        cleantext = getCleanText();
-        printf("%s\n", cleantext);
-        setChoices();
+    int choiceNum, runType, check;
 
-
-        choiceText = getChoiceText(0);
-        choiceFile = getChoiceFile(0);
-
-        //Setting up next file
-        memset(cwd, 0, sizeof(cwd));
-        memset(file_location, 0, sizeof(file_location));
-        strcpy(file_location, prefix);
-        strcat(file_location, choiceFile);
-        strcat(file_location, suffix);
-
-
-        //Freeing memory
-        free(filetext);
-        free(cleantext);
-        closefile(fptr);
-        freeAndReset();
+    printf("To run with the GUI enter 1, to run without, enter 2\n");
+    check = scanf("%d", &runType);
+    if (check != 1){
+        printf("scanf returned code %d\n", check);
+        return EXIT_FAILURE;
     }
-     */
+    if (runType == 1){
+        createWindow(1);
+    } else {
+        strcpy(file_location, "/Devolution/[C0].txt");
     
-    createWindow(1);
+        while (true){
+            if (getcwd(cwd, sizeof(cwd)) != NULL) {
+                printf("\n");
+            } else {
+                perror("getcwd() error");
+                return 1;
+            }
+        
+            fptr = openfile(cwd, file_location);
+            if (fptr == NULL){
+                return EXIT_SUCCESS;
+            }
+            filetext = setFile(fptr);
+            setBracketPoints(filetext);
+        
+            //Set the text
+            setStoryText();
+            cleantext = getCleanText();
+            printf("%s\n", cleantext);
+            printf("***************\n");
+            setChoices();
+
+            int choiceAmount = getChoiceAmount();
+            printf("Choices:\n");
+            for (int i = 0; i < choiceAmount; i++){   
+                choiceText = getChoiceText(i);
+                printf("%d: %s", (i + 1), choiceText);
+            }
+            choiceNum = 0;
+
+            printf("Please enter the corresponding number to make your decision.\n");
+            while (1 == scanf("%d", &choiceNum)){
+                if (choiceNum <= choiceAmount && choiceNum > 0){
+                    choiceFile = getChoiceFile(choiceNum - 1);
+                    break;
+                }
+            }
+            printf("***************\n");
+        
+            //Setting up next file
+            memset(cwd, 0, sizeof(cwd));
+            memset(file_location, 0, sizeof(file_location));
+            strcpy(file_location, prefix);
+            strcat(file_location, choiceFile);
+            strcat(file_location, suffix);
+
+            //Freeing memory
+            free(filetext);
+            free(cleantext);
+            closefile(fptr);
+            freeAndReset();
+            //break;
+        }
+    }
     
-    return 0;
+    return EXIT_SUCCESS;
 }
+
+
+
+

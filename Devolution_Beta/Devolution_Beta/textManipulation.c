@@ -51,10 +51,14 @@ char* getChoiceFile(int num){
     return story_choices[num].choice_file;
 }
 
+int getChoiceAmount(){
+    return choiceAmount;
+}
+
 // Adds all of the pointers to the array
 void setBracketPoints(char *filetext){
     int currentIndex = 0;
-    int filelength = strlen(filetext);
+    int filelength = (int) strlen(filetext);
     int storeIndex = 0;
     
     while ((filetext[currentIndex]) != '\0' && currentIndex < (filelength - 1)){
@@ -89,7 +93,7 @@ void characterInserts(int endIndex, int startIndex){
     char* inserts[] = {"Xe]", "Xer]", "Xis]", "Xers]", "Xself]", "Xther]", "Xm]", "Xoy]"};
     char* male[] = {"he", "him", "his", "his", "himself", "brother", "em", "boy"};
     /*char* female[] = {"she", "her", "her", "hers", "herself", "sister", "er", "girl"};*/
-    char name[] = "Andrew T";
+    char name[] = "Nathorn";
 
     size_t bytes = ((((char *)endIndexes[endIndex])) - ((char *)startIndexes[startIndex]));
     char* test = ecalloc(bytes + 1, sizeof(char));
@@ -103,7 +107,7 @@ void characterInserts(int endIndex, int startIndex){
         char *replace = inserts[i];
         if (strcmp(test, replace) == 0){
             char *proNoun = male[i];
-            clean_block_text = erealloc(clean_block_text, (strlen(clean_block_text) * strlen(proNoun)));
+            clean_block_text = erealloc(clean_block_text, (strlen(clean_block_text) * strlen(proNoun) * 10));
             strncat(clean_block_text, proNoun, strlen(proNoun));
         }
     }
@@ -115,7 +119,7 @@ void setStoryText(){
     int endIndex = 0, startIndex = 1, checkCount = 0;
     char* copyText = NULL;
 
-    while (checkCount < choiceAmount){
+    while (checkCount < 1){
         size_t bytes = (((char *)startIndexes[startIndex]) - ((char *)endIndexes[endIndex])) - 1;
         copyText = ecalloc(bytes, sizeof(char));
         strncpy(copyText, (endIndexes[endIndex] + 1), bytes);
@@ -147,13 +151,16 @@ void setChoices(){
     }
     while(num < choiceAmount){
         size_t bytes = (((char *)endIndexes[endIndex]) - ((char *)startIndexes[startIndex]));
+        printf("Test1\n");
         nextFile = ecalloc(bytes, sizeof(char));
+        printf("Test2\n");
         strncpy(nextFile, (startIndexes[startIndex] + 1), bytes - 1);
 
         startIndex++;
 
         size_t bytes2 = (((char *)startIndexes[startIndex]) - ((char *)endIndexes[endIndex]));
         choiceText = ecalloc(bytes2, sizeof(char));
+        printf("Test3\n");
         strncpy(choiceText, (endIndexes[endIndex] + 1), bytes2 - 1);
 
         endIndex++;

@@ -1,0 +1,23 @@
+[1.1.2.1.1.1]The group of you walk for a long while. No one stops you. For a while you squirm and kick against Greg but it drains you faster than you would like. For the longest part of the walk you hang limp where you are slumped over Greg’s shoulder, trying not to wince at he digs bruises into your leg and breathing pitifully through each painful thump of his footsteps. 
+
+Patrick starts chattering again once you assume the four of you have made it out past the main cluster of occupied houses. They must be taking you into the Fringes. It’s the only other place to go around here that isn’t The Factory.
+
+Either that or they plan to dump you out in the shrub-lands where the Bioforms start to grow around the city’s edge. 
+
+You don’t know why they would do that though. That would be fucked up. And they would get exposed too.
+
+Not that you have anything to fear from the shrub-lands yourself. You’re immune. 
+
+“How are you holding up Greg? Do you need to take a break? I would offer to carry [Xer] myself but [Xe] probably weighs more than me.” Patrick barks out a laugh.
+
+“I’m fine.” Greg replies. 
+
+You yourself are not fine. Greg’s stomach is digging into your stomach and it hurts like a bitch. You can feel the bruise worsening with every heavy step he takes.
+
+“Ye’know that’s what I like about ’chu, Greg. You have stamina. Can really take a few punches and come right back at ‘em.”
+
+“’Preciate the kind words, Patrick.”
+
+
+[C1,1,2,1,1,1,a]Continue.
+[END]
