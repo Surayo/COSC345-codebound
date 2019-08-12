@@ -25,15 +25,12 @@
 #define SELECTOR_HOVER_QUITGAME 6
 
 #define SCENARIO_INTRO 0
-#define SCENARIO_PAGE1 1
-#define SCENARIO_PAGE2 2
-#define SCENARIO_PAGE3 3
-#define SCENARIO_LASTPAGE 4
+#define SCENARIO_STORY 1
+#define SCENARIO_LASTPAGE 2
 
-#define SELECT_CHOICE_NONE 0
-#define SELECT_CHOICE_1 1
-#define SELECT_CHOICE_2 2
-#define SELECT_CHOICE_3 3
+#define PAGE1 1
+#define PAGE2 2
+#define PAGE3 3
 
 typedef struct {
     int x, y;
@@ -76,8 +73,8 @@ typedef struct {
     SDL_Texture *quitGame;
     int quitGameW, quitGameH;
     
-    SDL_Texture *storyText;
-    int storyTextW, storyTextH;
+    SDL_Texture *mainText;
+    int mainTextW, mainTextH;
     SDL_Texture *choice1Text;
     int choice1TextW, choice1TextH;
     SDL_Texture *choice2Text;
@@ -89,7 +86,7 @@ typedef struct {
     int statusState;
     int scenarioStatus;
     int selectorStatus;
-    int choiceStatus;
+    int pageStatus;
     
     //Renderer
     SDL_Renderer *renderer;
