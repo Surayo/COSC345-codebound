@@ -20,7 +20,7 @@ void init_title_screen(GameState *game){
     game->title = SDL_CreateTextureFromSurface(game->renderer, tmp0);                       //create texture from text surface
     SDL_FreeSurface(tmp0);                                                                  //destroy surface
     //Subtitle text:
-    SDL_Surface *tmp1 = TTF_RenderText_Blended(game->subtitleFont, "Cool game, nice", white);
+    SDL_Surface *tmp1 = TTF_RenderText_Blended(game->subtitleFont, "A text based adventure . . .", white);
     game->subtitleW = tmp1->w;
     game->subtitleH = tmp1->h;
     game->subtitle = SDL_CreateTextureFromSurface(game->renderer, tmp1);
