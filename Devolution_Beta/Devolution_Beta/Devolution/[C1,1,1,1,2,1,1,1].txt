@@ -7,6 +7,7 @@ You can feel the tear tracks falling down your cheeks and paw at your face with 
 Your other hand holds the rock but no matter how hard you grip it, feeling it dig into your scraped up palm, the pain of losing your sister is greater.
 
 
-[C1.1.1.1.2.1.1.1.1]Calm the fuck down already.
+[C1,1,1,1,2,1,1,1,1]Calm the fuck down already.
 
-[C1.1.1.1.2.1.1.1.2]Don’t. Continue the angst.
+[C1,1,1,1,2,1,1,1,2]Don’t. Continue the angst.
+[END]

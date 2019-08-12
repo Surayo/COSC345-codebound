@@ -13,8 +13,8 @@
 void init_game_screen(GameState *game){
     //Initialise selector
     game->selectorStatus = SELECTOR_HOVER_C1;
-    game->selector.x = game->screenCenterX-400;
-    game->selector.y = game->screenCenterY+300;
+    game->selector.x = game->screenCenterX-450;
+    game->selector.y = game->screenCenterY+280;
     
     init_display_text(game);
 }
@@ -35,11 +35,9 @@ void draw_game_screen(GameState *game){
     SDL_Rect displayRect = { game->screenCenterX-DISPLAY_W/2, game->screenCenterY-DISPLAY_H/2, DISPLAY_W, DISPLAY_H };
     SDL_RenderFillRect(renderer, &displayRect);
     
-    // draw the SELECTOR if at last page
-    if (game->scenarioStatus == SCENARIO_LASTPAGE) {
-        SDL_Rect selectRect = { game->selector.x, game->selector.y, 20, 20 };
-        SDL_RenderCopy(renderer, game->select, NULL, &selectRect);
-    }
+    // draw the SELECTOR 
+    SDL_Rect selectRect = { game->selector.x, game->selector.y, 20, 20 };
+    SDL_RenderCopy(renderer, game->select, NULL, &selectRect);
     
     // draw the TEXT
     draw_display_text(game);

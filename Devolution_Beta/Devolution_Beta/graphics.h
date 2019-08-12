@@ -32,6 +32,11 @@
 #define PAGE2 2
 #define PAGE3 3
 
+#define SELECT_NON 0
+#define SELECT_C1 1
+#define SELECT_C2 2
+#define SELECT_C3 3
+
 typedef struct {
     int x, y;
 } Selector;
@@ -87,6 +92,7 @@ typedef struct {
     int scenarioStatus;
     int selectorStatus;
     int pageStatus;
+    int selectedChoice;
 
     //Renderer
     SDL_Renderer *renderer;

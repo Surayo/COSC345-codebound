@@ -101,19 +101,19 @@ int processEvents(SDL_Window *window, GameState *game){
                             break;
                         }
                         // MOVE CHOICE SELECTOR
-                        if (game->scenarioStatus == SCENARIO_LASTPAGE) {
+                        if (game->scenarioStatus == SCENARIO_STORY) {
                             if (game->selectorStatus == SELECTOR_HOVER_C1) {
-                                game->selector.y = game->screenCenterY+250;
+                                game->selector.y = game->screenCenterY+220;
                                 game->selectorStatus = SELECTOR_HOVER_C2;
                                 break;
                             }
                             if (game->selectorStatus == SELECTOR_HOVER_C2) {
-                                game->selector.y = game->screenCenterY+300;
+                                game->selector.y = game->screenCenterY+280;
                                 game->selectorStatus = SELECTOR_HOVER_C3;
                                 break;
                             }
                             if (game->selectorStatus == SELECTOR_HOVER_C3) {
-                                game->selector.y = game->screenCenterY+200;
+                                game->selector.y = game->screenCenterY+160;
                                 game->selectorStatus = SELECTOR_HOVER_C1;
                                 break;
                             }
@@ -136,19 +136,19 @@ int processEvents(SDL_Window *window, GameState *game){
                             break;
                         }
                         // MOVE CHOICE SELECTOR
-                        if (game->scenarioStatus == SCENARIO_LASTPAGE) {
+                        if (game->scenarioStatus == SCENARIO_STORY) {
                             if (game->selectorStatus == SELECTOR_HOVER_C1) {
-                                game->selector.y = game->screenCenterY+300;
+                                game->selector.y = game->screenCenterY+280;
                                 game->selectorStatus = SELECTOR_HOVER_C3;
                                 break;
                             }
                             if (game->selectorStatus == SELECTOR_HOVER_C2) {
-                                game->selector.y = game->screenCenterY+200;
+                                game->selector.y = game->screenCenterY+160;
                                 game->selectorStatus = SELECTOR_HOVER_C1;
                                 break;
                             }
                             if (game->selectorStatus == SELECTOR_HOVER_C3) {
-                                game->selector.y = game->screenCenterY+250;
+                                game->selector.y = game->screenCenterY+220;
                                 game->selectorStatus = SELECTOR_HOVER_C2;
                                 break;
                             }
@@ -185,7 +185,7 @@ int processEvents(SDL_Window *window, GameState *game){
                         }
                         /** SELECT FIRST CHOICE */
                         if (game->selectorStatus == SELECTOR_HOVER_C1) {
-                            
+                            game->selectedChoice = SELECT_C1;
                             break;
                         }
                         /** quit game is pressed */

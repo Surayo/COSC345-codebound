@@ -7,6 +7,7 @@ You strain your hearing. Should you go back home? Or explore The Factory as it s
 You hear the faint murmur of voices coming from the direction of home. Fuck. Vagabonds. 
 
 
-[C1.1.1.1.3.1]Go inside The Factory until you think it’s safe.
+[C1,1,1,1,3,1]Go inside The Factory until you think it’s safe.
 
-[C1.1.1.1.3.2.2]Try to sneak past the Vagabonds. You just want to get home as quickly as possible.
+[C1,1,1,1,3,2,2]Try to sneak past the Vagabonds. You just want to get home as quickly as possible.
+[END]

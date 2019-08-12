@@ -1,0 +1,11 @@
+[2.a]You don’t know what he’s rebelling against, or what bought your sister over to the Vagabonds side.
+
+Rasputin speaks again. “There is good reason we rebel.”
+
+
+[C2,1]”Explain it to me then.” You say. Rasputin nods, satisfied and motions for you to follow him. You follow.
+
+[C2,2]”Everyone has to work. It’s the only way to keep the Bioforms out of the city. You need to stop this.” You say
+
+[C2,3]You look at Eve. “Please, come back home. You shouldn’t be doing this no matter what fucked up reasons they’ve given you to make you think it’s OK.”
+[END]
