@@ -1,0 +1,11 @@
+[3.1.2.2]”Your loss.” Rasputin says. “But know this; we are aiming to win this war.”
+
+“What war?” you ask, confused. What is he talking about? A war?
+
+Instead of answering he just smiles and turns to leave. “You’ll find out soon enough.”
+
+
+[C1]Go home. There is no war.
+
+[C2.1]”Wait.” You say. “I’ve changed my mind. Show me. I’ll go with you.” 
+[END]

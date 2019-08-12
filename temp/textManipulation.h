@@ -12,10 +12,10 @@ typedef struct choice *choices;
 extern char* setFile(FILE *fptr);
 extern void setBracketPoints(char *filetext);
 extern char* getCurrentFile(void);
-extern void setStoryText(char *filetext);
+extern void setStoryText(void);
 extern char* getCleanText(void);
-extern void freeChoices(void);
-extern void setChoices(char *filetext);
+extern void freeAndReset(void);
+extern void setChoices(void);
 extern char* getChoiceText(int num);
 extern char* getChoiceFile(int num);
 

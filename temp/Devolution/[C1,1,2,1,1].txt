@@ -1,6 +1,6 @@
 [1.1.2.1.1]You punch the closest one right in the chin, the highest you can reach. They let out a deep grunt but don’t budge from on top of you.
 
-“Tie [Xer] up. We need to get out of here.” A woman's voice says from the other side of the room near the door. Oh fuck no. Fuck this. There is no way you’re going anywhere with these people. 
+“Tie [Xer] up. We need to get out of here.” A woman’s voice says from the other side of the room near the door. Oh fuck no. Fuck this. There is no way you’re going anywhere with these people. 
 
 “Little busy here.” Says the man holding you down. He has grabbed your free arm but you are not making it easy for him.
 
@@ -18,11 +18,6 @@
 
 Greg finally shifts off you and you gasp out a deep breath, panting through your nose into the inside of the sack. 
 
-“Right. We ready boys?” says the boss.
 
-“All tied up and ready to go, Boss.” Patrick replies, slightly too loudly. He is shushed promptly by the Boss lady but you can only hope someone heard him anyway.
-
-In a rush you are picked up and hauled over someone's shoulder - Greg from the size of them. You have been thoroughly acquainted by his bulk at this point.
-
-
-[C1.1.2.1.1.1]Be carried.
+[C1.1.2.1.1.a]Continue.
+[END]

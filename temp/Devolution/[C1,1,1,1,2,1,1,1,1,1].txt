@@ -1,0 +1,11 @@
+[1.1.1.1.2.1.1.1.1.1]”I can’t let you go back now. You’ve seen us. You’ll tell them what we’re up to.” Eve says, looking back at you like you’re stupid.
+
+“No I won’t,” you say reflexively
+
+“Yes you fucking will, [Name], I know you. Now come on. I have things to do and if you’re coming along you may as well help me do them”
+
+
+[C1.1.1.1.2.1.1.1.1.2]”What things?” You ask, following after her and the girl with her.
+
+[C1.1.1.1.2.1.1.1.1.1.2]”Hey, you know what? Fuck that. And fuck you. I’m not going with you” You say, backing away. 
+[END]
