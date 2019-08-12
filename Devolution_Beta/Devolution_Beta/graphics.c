@@ -100,7 +100,6 @@ int processEvents(SDL_Window *window, GameState *game){
                             game->selectorStatus = SELECTOR_HOVER_NEWGAME;
                             break;
                         }
-                        // MOVE CHOICE SELECTOR
                         if (game->scenarioStatus == SCENARIO_STORY) {
                             if (game->selectorStatus == SELECTOR_HOVER_C1) {
                                 game->selector.y = game->screenCenterY+220;
@@ -135,7 +134,6 @@ int processEvents(SDL_Window *window, GameState *game){
                             game->selectorStatus = SELECTOR_HOVER_LOADGAME;
                             break;
                         }
-                        // MOVE CHOICE SELECTOR
                         if (game->scenarioStatus == SCENARIO_STORY) {
                             if (game->selectorStatus == SELECTOR_HOVER_C1) {
                                 game->selector.y = game->screenCenterY+280;
@@ -183,10 +181,22 @@ int processEvents(SDL_Window *window, GameState *game){
                             nextPage(game);
                             game->pageStatus = PAGE1;
                         }
-                        /** SELECT FIRST CHOICE */
-                        if (game->selectorStatus == SELECTOR_HOVER_C1) {
-                            game->selectedChoice = SELECT_C1;
-                            break;
+                        if (game->scenarioStatus == SCENARIO_STORY) {
+                            if (game->selectorStatus == SELECTOR_HOVER_C1) {
+                                game->selectedChoice = SELECT_C1;
+                                nextPage(game);
+                                break;
+                            }
+                            if (game->selectorStatus == SELECTOR_HOVER_C2) {
+                                game->selectedChoice = SELECT_C2;
+                                nextPage(game);
+                                break;
+                            }
+                            if (game->selectorStatus == SELECTOR_HOVER_C3) {
+                                game->selectedChoice = SELECT_C3;
+                                nextPage(game);
+                                break;
+                            }
                         }
                         /** quit game is pressed */
                         if (game->selectorStatus == SELECTOR_HOVER_QUITGAME) {

@@ -57,18 +57,7 @@ void init_display_text(GameState *game){
         choice1 = getChoiceText(2);
         choice2 = getChoiceText(1);
         choice3 = getChoiceText(0);
-        
-        
-        choiceFile = getChoiceFile(0);
-        
-        //Setting up next file
-        memset(cwd, 0, sizeof(cwd));
-        memset(file_location, 0, sizeof(file_location));
-        strcpy(file_location, prefix);
-        strcat(file_location, choiceFile);
-        strcat(file_location, suffix);
     }
-    
     
     if (game->scenarioStatus == SCENARIO_INTRO) {
         story = "PUT INTRODUCTION HERE!\n\nSPACEBAR TO CONTINUE";
@@ -105,6 +94,27 @@ void init_display_text(GameState *game){
         SDL_FreeSurface(tmp3);
     }
     
+    if (game->scenarioStatus == SCENARIO_STORY) {
+        game->selectedChoice = SELECT_NONE;
+        while (game->selectedChoice == SELECT_NONE) {
+            if (game->selectedChoice == SELECT_C1){
+                choiceFile = getChoiceFile(0);
+            }
+            if (game->selectedChoice == SELECT_C2){
+                choiceFile = getChoiceFile(1);
+            }
+            if (game->selectedChoice == SELECT_C3){
+                choiceFile = getChoiceFile(2);
+            }
+        }
+        //Setting up next file
+        memset(cwd, 0, sizeof(cwd));
+        memset(file_location, 0, sizeof(file_location));
+        strcpy(file_location, prefix);
+        strcat(file_location, choiceFile);
+        strcat(file_location, suffix);
+    }
+    
     //Freeing memory
     free(filetext);
     free(cleantext);
@@ -136,16 +146,7 @@ void nextPage(GameState *game){
         init_display_text(game);
         return;
     }
-    if (game->pageStatus == PAGE1) {
-        game->pageStatus = PAGE2;
-        init_display_text(game);
-        return;
-    }
-    if (game->pageStatus == PAGE2) {
-        game->pageStatus = PAGE3;
-        init_display_text(game);
-        return;
-    }
+    init_display_text(game);
 }
 
 void prevPage(GameState *game) {
