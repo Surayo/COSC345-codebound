@@ -1,4 +1,4 @@
-[C2.1.c]“How don’t you know. Haven’t you asked? I’m not confused am I? This isn’t the first time the flytecraft has come here. From what you were insinuating I assumed this flytecraft is what’s been supplying the food and shit.”
+[2.1.c]“How don’t you know. Haven’t you asked? I’m not confused am I? This isn’t the first time the flytecraft has come here. From what you were insinuating I assumed this flytecraft is what’s been supplying the food and shit.”
 
 “Yes that part is correct.” The flytecraft touches down with barley a whisper and doors open on several sides. “But we can’t exactly ask the pilots.”
 
@@ -11,7 +11,7 @@ Several delivery drones - robots from before the pandemic - exit from the multip
 The stream of delivery drones finally tapers off and dissapears between two buildings.
 
 
-[C2.1.1]”I want to see for myself.” You say. Rasputin nods and gestures towards where the robots disappeared as if to say ‘After you.’
+[C2,1,1]”I want to see for myself.” You say. Rasputin nods and gestures towards where the robots disappeared as if to say ‘After you.’
 
-[C2.1.2]”If the robots were a dead end what about just getting on the ship and seeing where it goes?” Rasputin nods. “We did try that, yes.”
+[C2,1,2]”If the robots were a dead end what about just getting on the ship and seeing where it goes?” Rasputin nods. “We did try that, yes.”
 [END]

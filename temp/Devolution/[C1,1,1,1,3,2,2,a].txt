@@ -19,7 +19,7 @@ You thrash and try to push the cloth out but he ties another one around your mou
 Greg shifts his weight off of you, pulling you up by your wrists which he still has gripped tight in his fists. He has pulled you up so high your feet don’t touch the ground.
 
 
-[C1.1.1.1.3.2.2.1]Kick him as you dangle from his hands.
+[C1,1,1,1,3,2,2,1]Kick him as you dangle from his hands.
 
-[C1.1.1.1.3.2.2.2]Let them take you. 
+[C1,1,1,1,3,2,2,2]Let them take you. 
 [END]

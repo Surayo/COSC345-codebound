@@ -19,5 +19,5 @@ You yourself are not fine. Greg’s stomach is digging into your stomach and it 
 “’Preciate the kind words, Patrick.”
 
 
-[C1.1.2.1.1.1.a]Continue.
+[C1,1,2,1,1,1,a]Continue.
 [END]

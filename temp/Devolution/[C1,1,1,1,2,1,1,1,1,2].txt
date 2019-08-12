@@ -19,5 +19,5 @@ Eve continues, “Who would have thunk it, eh? We always thought our Aspects wer
 “Some people’s Aspects.” Ellie-May interjects.
 
 
-[C1.1.1.1.2.1.1.1.1.2.a]Continue.
+[C1,1,1,1,2,1,1,1,1,2,a]Continue.
 [END]

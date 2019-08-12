@@ -14,10 +14,10 @@ You gape at it, shocked at how fast the situation dissolved out of your control.
 
 “Well, I’m glad we stopped you then.”
 
-Eve interjects, “What the shit, [Name]!? What is with you today? I know what I’m doing. You don’t have to follow me and keep me in line like you’re always trying to do. This doesn’t concern you.”
+Eve interjects, “What the shit, [NAME]!? What is with you today? I know what I’m doing. You don’t have to follow me and keep me in line like you’re always trying to do. This doesn’t concern you.”
 
 “It does though.” You say, conscious of your bubbling emotions. Eve always knows how to rile you up. 
 
 
-[C3.2.a]Continue.
+[C3,2,a]Continue.
 [END]

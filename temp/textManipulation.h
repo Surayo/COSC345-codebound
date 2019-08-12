@@ -18,5 +18,6 @@ extern void freeAndReset(void);
 extern void setChoices(void);
 extern char* getChoiceText(int num);
 extern char* getChoiceFile(int num);
+extern int getChoiceAmount(void);
 
 #endif /* textManipulation_h */

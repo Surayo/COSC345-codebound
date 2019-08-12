@@ -19,5 +19,5 @@ The buildings on the other side of the bridge are in an even worse state, half s
 Why did the other Vagabonds stay back? Why are they weary of this place? It’s the same as the rest of this crumbling city. 
 
 
-[C2.1.a]Continue.
+[C2,1,a]Continue.
 [END]

@@ -51,6 +51,10 @@ char* getChoiceFile(int num){
     return story_choices[num].choice_file;
 }
 
+int getChoiceAmount(){
+    return choiceAmount;
+}
+
 // Adds all of the pointers to the array
 void setBracketPoints(char *filetext){
     int currentIndex = 0;

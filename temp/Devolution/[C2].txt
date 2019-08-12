@@ -1,6 +1,6 @@
 [2]Eve opens her mouth to reply to you then clamps it shut, glancing at the tall man. Did he force her to join? He looks between you and her. “A friend, is it Eve?”
 
-“My [XTHER] actually.” Eve replies but she isn’t looking at him, she’s looking at you. You don’t know what your face is doing right now but it incites her into saying, “I’m sorry, [NAME]. You wouldn’t understand. The Vagabonds aren’t trying to hurt anyone.”
+“My [Xther] actually.” Eve replies but she isn’t looking at him, she’s looking at you. You don’t know what your face is doing right now but it incites her into saying, “I’m sorry, [NAME]. You wouldn’t understand. The Vagabonds aren’t trying to hurt anyone.”
 
 “Of course we aren’t, Eve. That you even feel the need to state it-” He looks at you. It’s about at that time that you remember that these Vagabonds have committed an unknown number of atrocities against your city. You tense, taking your eyes from Eve’s to meet his. “Ah, but of course. [NAME] was it? I don’t think we’ve met before. I go by Rasputin, myself. I won’t presume your sister has had the forethought to tell you but I am the leader of the Vagabonds.”
 
@@ -19,5 +19,5 @@ You glance from one face to another and spot another familiar face in the crowd.
 Rush had disappeared one day. He never said anything before he was just gone. It had been a crushing blow.
 
 
-[C2.a]Continue.
+[C2,a]Continue.
 [END]

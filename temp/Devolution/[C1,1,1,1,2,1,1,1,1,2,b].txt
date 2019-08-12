@@ -11,9 +11,9 @@ Eve purses her lips, looking at you, then squints. “How big is your radius aga
 “Urgh.” She groans. “Fucking hell. Why did you have to be out here. Ok. New plan. Me and Ellie-May are going to test if her Aspect can absorb mine from here - there should be enough pollen here where we’re standing to get a reading - and you are going to keep walking in that direction-” She points towards the edge where green glowing Bioforms start growing in thicker and thicker. “- until you’re out of range. Got it?”
 
 
-[C1.1.1.1.2.1.1.1.1.2.1]”Got it.” You say, and start walking in the direction she pointed. It’s not like the Bioforms can hurt you anyway.
+[C1,1,1,1,2,1,1,1,1,2,1]”Got it.” You say, and start walking in the direction she pointed. It’s not like the Bioforms can hurt you anyway.
 
-[C1.1.1.1.2.1.1.1.1.1.2]”Hey. How about fuck that idea. I’m going home.” You say, backing away. 
+[C1,1,1,1,2,1,1,1,1,1,2]”Hey. How about fuck that idea. I’m going home.” You say, backing away. 
 [END]
 
 

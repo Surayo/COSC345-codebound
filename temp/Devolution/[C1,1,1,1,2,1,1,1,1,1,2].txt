@@ -1,6 +1,6 @@
 [1.1.1.1.2.1.1.1.1.1.2]Before either of them can stop you, you break into a sprint, hoping the girl with Eve doesn’t have an Aspect that can catch you.
 
-Eve yells after you and you can hear the heavy footfalls of her chasing you down. “Get back here, [name], you piece of shit!”
+Eve yells after you and you can hear the heavy footfalls of her chasing you down. “Get back here, [NAME], you piece of shit!”
 
 It takes you a few more pounding gasping steps before you realise your mistake. You ran out of energy a long time ago. You can’t run.
 
@@ -16,8 +16,8 @@ She has always been stronger then you. You wheeze into the ground.
 
 You just groan into the ground, still trying to get you breath back.
 
-“What, did I break something, [Name]? You alright?” She leans further over you, pressing your chest further into the ground.
+“What, did I break something, [NAME]? You alright?” She leans further over you, pressing your chest further into the ground.
 
 
-[C1.1.1.1.2.1.1.1.1.1.2.a]Continue.
+[C1,1,1,1,2,1,1,1,1,1,2,a]Continue.
 [END]

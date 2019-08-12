@@ -1,4 +1,4 @@
-[C2.1.a]Then, as you walk further out, you spot it, growing in the cracks of a building - A Bioform.
+[2.1.a]Then, as you walk further out, you spot it, growing in the cracks of a building - A Bioform.
 
 You take a half step back. The Bioforms are everything your community has ever feared. They are why you work so hard - you pump out smog to keep the Bioforms out of your sanctuary, Fragos, your city. For Bioforms to be growing here you must have come right out to the edge of the smogs killing reach. 
 
@@ -19,5 +19,5 @@ You wonder if Rasputin has an Aspect similar to yours and your sisters? Your Asp
 This is the first wide open space you have seen in a while. There are Bioforms growing all over the place, poking through the cracks and along rusted wire fences, a smear of green, vivid as poison against the grey tones of the city.
 
 
-[C2.1.b]Continue.
+[C2,1,b]Continue.
 [END]

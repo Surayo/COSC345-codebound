@@ -19,5 +19,5 @@ Greg shrugs and glances behind you. You look up to see the women they call ‘Bo
 “Are you almost done there Patrick.” The Boss says. “It’s late and I still need to report to Rasputin.”
 
 
-[C1.1.2.1.1.1.1.a]Continue.
+[C1,1,2,1,1,1,1,a]Continue.
 [END]

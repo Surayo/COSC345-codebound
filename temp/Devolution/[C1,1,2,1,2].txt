@@ -16,8 +16,8 @@ Patrick clings tighter to you, attempting to pin down your other arm and you str
 
 “Can you not subdue one half-starved worker, Patrick?” the boss says.
 
-“[XE]’s a wiley one, boss.” Patrick replies. You manage to elbow him in the stomach with the last of your draining strength. Somehow he still hasn’t managed to pin your free arm down even as your struggling grows weaker with your growing exhaustion. “A little help would be appreciated?” He wheezes. 
+“[Xe]’s a wiley one, boss.” Patrick replies. You manage to elbow him in the stomach with the last of your draining strength. Somehow he still hasn’t managed to pin your free arm down even as your struggling grows weaker with your growing exhaustion. “A little help would be appreciated?” He wheezes. 
 
 
-[C1.1.2.1.2.a]Continue.
+[C1,1,2,1,2,a]Continue.
 [END]
