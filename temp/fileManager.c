@@ -13,7 +13,6 @@
 
 char* concat(char *s1, char *s2){
     strncat(s1, s2, (sizeof(s1) - strlen(s2)));
-    printf("Filename is %s\n", s1);
     return s1;
 }
 
@@ -62,7 +61,7 @@ FILE* openfile(char *cwd, char *filename){
     
     fptr = fopen(cwd,"r");
     if(fptr == NULL){
-        perror("Error: cannot find file\n");
+        perror("Thanks for playing\n");
         return NULL;
     }
     return fptr;

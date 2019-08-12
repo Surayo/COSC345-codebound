@@ -1,0 +1,5 @@
+[1,1,1,1,1,3] Path not finished
+
+[CGO] Game Over
+
+[END]

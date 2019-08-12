@@ -1,13 +1,12 @@
 [1.1.1.1.3.2]What are you doing out here? 
 
-No one sane comes out here at night, and for good reason. The Vagabonds live in the Fringes and it isn’t safe to be out here alone. The Factory is just far enough away from the workers part of the city that if you screamed no one would hear you, despite the dead silence surrounding you.
+No one sane comes out here at night, and for good reason. The Vagabonds live in the Fringes and it isn't safe to be out here alone. The Factory is just far enough away from the workers part of the city that if you screamed no one would hear you, despite the dead silence surrounding you.
 
 You strain your hearing. Should you go back home? Or explore The Factory as it sits dark and empty?
 
 You hear the faint murmur of voices coming from the direction of home. Fuck. Vagabonds. 
 
 
-[C1,1,1,1,3,1]Go inside The Factory until you think it’s safe.
+[C1.1.1.1.3.1]Go inside The Factory until you think it's safe.
 
-[C1,1,1,1,3,2,2]Try to sneak past the Vagabonds. You just want to get home as quickly as possible.
-[END]
+[C1.1.1.1.3.2.2]Try to sneak past the Vagabonds. You just want to get home as quickly as possible.
