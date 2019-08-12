@@ -1,4 +1,8 @@
-[0.b]What is Eve doing?
+[0.b]A tall sort of gaunt looking Vagabond glances at you. “On your way, worker.” he says, his words barely louder than the banter of the crew around him. Tense but relieved, You go to duck your head down and do as he says but a pair of familiar circular glasses eclipsing shocked wide eyes stop you. 
+
+It can’t be. Your sister.
+
+What is Eve doing?
 
 
 [C1]There is no point provoking this gang of bastards. You catch and hold your sisters eye before you turn around and walk away. There is always another route home.
@@ -6,3 +10,4 @@
 [C2]"Eve?" You say, your sister tenses up as you call her out, "What are you doing with them?" The tall man who addressed you glances back at her, expression faintly curious. 
 
 [C3]That fucking shit-head. What the hell is Eve doing with a bunch of traitorous rebels? Your hand clenches down on the flick knife in your pocket.
+[END]
