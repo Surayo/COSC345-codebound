@@ -153,20 +153,6 @@ int processEvents(SDL_Window *window, GameState *game){
                         }
                         break;
                     }
-                    case SDLK_LEFT: {
-                        if (game->scenarioStatus == SCENARIO_STORY) {
-                            prevPage(game);
-                            break;
-                        }
-                        break;
-                    }
-                    case SDLK_RIGHT: {
-                        if (game->scenarioStatus == SCENARIO_STORY) {
-                            nextPage(game);
-                            break;
-                        }
-                        break;
-                    }
                     case SDLK_SPACE:
                         /** select NEWGAME */
                         if (game->selectorStatus == SELECTOR_HOVER_NEWGAME) {
@@ -179,21 +165,17 @@ int processEvents(SDL_Window *window, GameState *game){
                         /** continue from intro */
                         if (game->scenarioStatus == SCENARIO_INTRO) {
                             nextPage(game);
-                            game->pageStatus = PAGE1;
                         }
                         if (game->scenarioStatus == SCENARIO_STORY) {
                             if (game->selectorStatus == SELECTOR_HOVER_C1) {
-                                game->selectedChoice = SELECT_C1;
                                 nextPage(game);
                                 break;
                             }
                             if (game->selectorStatus == SELECTOR_HOVER_C2) {
-                                game->selectedChoice = SELECT_C2;
                                 nextPage(game);
                                 break;
                             }
                             if (game->selectorStatus == SELECTOR_HOVER_C3) {
-                                game->selectedChoice = SELECT_C3;
                                 nextPage(game);
                                 break;
                             }
