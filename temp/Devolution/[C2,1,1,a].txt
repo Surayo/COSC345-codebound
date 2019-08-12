@@ -1,4 +1,4 @@
-[C2.1.1.a]It’s a slow walk.  
+[2.1.1.a]It’s a slow walk.  
 
 You did your fair share of exploring back in your youth with Eve, before you both had to start work in the Factory. You even went all the way to the edge. That was where you discovered your Aspect. Both you and Eve were immune to toxins. Though there is a slight difference. Your Aspect manifests itself as a sort of invisible shield, a barrier that protects anyone inside whereas Eve herself is immune to the toxins and though she has breathed in the Bioforms poison she has never gotten sick.
 
@@ -19,9 +19,9 @@ There are no obvious landmarks you can see in the darkness. You’ve passed seve
 “The Robots will head back the way they came if you want to confirm that too.” Eve says, looking bored. 
 
 
-[C2.1.1.1]You want to get back to the Flytecraft. “Maybe I do. Maybe I want to see where they go after they get back.” You say to Eve.
+[C2,1,1,1]You want to get back to the Flytecraft. “Maybe I do. Maybe I want to see where they go after they get back.” You say to Eve.
 
-[C2.1.1.2]”Who comes down to collect the packages?” You ask Rasputin, ignoring your sister’s remark. 
+[C2,1,1,2]”Who comes down to collect the packages?” You ask Rasputin, ignoring your sister’s remark. 
 
-[C2.1.1.3]”I think I’ve seen enough of these Robots. I believe you.” You say to Rasputin. He nods, looking satisfied.
+[C2,1,1,3]”I think I’ve seen enough of these Robots. I believe you.” You say to Rasputin. He nods, looking satisfied.
 [END]

@@ -19,5 +19,5 @@ Between one blink and the next you feel your mind pull itself back together from
 You breathe out heavily. “What was that? That felt… bad.” 
 
 
-[C3.1.a]Continue.
+[C3,1,a]Continue.
 [END]

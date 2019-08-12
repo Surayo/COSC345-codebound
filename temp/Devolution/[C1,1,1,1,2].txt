@@ -7,9 +7,9 @@ The street sways under your feet. You are dizzy from lack of sleep and the stres
 What if you don’t find her?
 
 
-[C1.1.1.1.2.1]Be overcome with emotions. The stress has taken its toll on you. You will never get your sister back.
+[C1,1,1,1,2,1]Be overcome with emotions. The stress has taken its toll on you. You will never get your sister back.
 
-[C1.1.1.1.2.1.2]You are lost. Try and find you way back home.
+[C1,1,1,1,2,1,2]You are lost. Try and find you way back home.
 
-[C1.1.1.1.2.3]Keep going. You can’t give up yet. You can still find her.
+[C1,1,1,1,2,3]Keep going. You can’t give up yet. You can still find her.
 [END]

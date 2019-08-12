@@ -13,5 +13,5 @@ You have a second of wide-eyed fear, “Oh, shit.” You say before it pounces o
 Your barrier only stops toxins, not claws.
 
 
-[GAME OVER]
+[CGO] Game Over
 [END]

@@ -15,5 +15,5 @@ You will get up in a second, you tell yourself.
 You can’t stay here. You have to get home, you tell yourself.
 
 
-[C1.1.1.1.2.1.2.1]Sleep.
+[C1,1,1,1,2,1,2,1]Sleep.
 [END]

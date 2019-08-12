@@ -20,5 +20,5 @@ You hear Eve stand. “Yeah, well, hit me up when you want to feel alive again. 
 You fume for a second as Eve starts gathering her stuff from around the room. You don’t understand why she can trust them when everything they’re doing goes against the greater good. By not working in The Factory the Vagabonds just put their share of the work onto everyone else. 
 
 
-[C1.2.a]Continue.
+[C1,2,a]Continue.
 [END]

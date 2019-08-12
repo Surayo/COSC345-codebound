@@ -5,9 +5,9 @@ You hear her light boot-steps as she moves closer to the two mattresses on the f
 You feel her looming over you and stir, confused. A rough hand covers your mouth and you snap awake. 
 
 
-[C1.1.2.1]Struggle and scream.
+[C1,1,2,1]Struggle and scream.
 
-[C1.1.2.2]Go limp. 
+[C1,1,2,2]Go limp. 
 
-[C1.1.2.3]Bite.
+[C1,1,2,3]Bite.
 [END]

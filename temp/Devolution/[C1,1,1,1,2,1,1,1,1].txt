@@ -2,7 +2,7 @@
 
 It’s in the brief span of silence that you hear the footsteps coming up from behind you.
 
-“[Name]?”
+“[NAME]?”
 
 You turn, “Eve?” you ask.
 
@@ -14,10 +14,10 @@ You turn, “Eve?” you ask.
 
 Despite her forceful voice she looks more concerned for you than angry that you lost her ring. You breathe out, stealing yourself, “I was looking for you. I can’t let you do this. The Vagabonds are - are…” You glance at the girl beside her again. She awkwardly looks away.
 
-“Fuck off. I’m fine. Just, Just go home [Name]. I don’t have time for this.” 
+“Fuck off. I’m fine. Just, Just go home [NAME]. I don’t have time for this.” 
 
 “I can’t. I can’t just let you leave like that. Also, I don’t know where I am.” 
 
 
-[C1.1.1.1.2.1.1.1.1.a]continue.
+[C1,1,1,1,2,1,1,1,1,a]continue.
 [END]

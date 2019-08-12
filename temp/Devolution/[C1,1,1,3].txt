@@ -19,5 +19,5 @@ You walk with other workers but feel too tired to join in with their banter, you
 It sucks. Why did she have to abandon you like that? You’ve been together since your parents died years ago. She was a constant presence in your life and sure she has always been a little flighty but fuck. Why did she have to up and become a fucking Vagabond sympathiser?
 
 
-[C1.1.1.3.a]Continue.
+[C1,1,1,3,a]Continue.
 [END]

@@ -19,6 +19,6 @@ With every step Greg takes his shoulder digs further into your stomach, forming 
 You wished you had a good aspect. Something that was actually helpful. Greg get something that helps him tackle good apparently and all you get is immunity to toxins. It protects you against the Bioforms, sure, but the city does that already! It’s functionally useless. 
 
 
-[C1.1.1.1.3.2.2.2.a]Continue.
+[C1,1,1,1,3,2,2,2,a]Continue.
 
 [END]

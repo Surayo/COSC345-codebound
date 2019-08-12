@@ -19,5 +19,5 @@ Two more shapes come into your line of sight - more people. “Whoop!” one of 
 You finally pull in a painful breath to shout, “Get the fuck off me!” - hoping someone will hear you. But you know you are still too far away from home. No one but Vagabonds would dare be out this far this late at night. 
 
 
-[C1.1.1.1.3.2.2.a]Continue.
+[C1,1,1,1,3,2,2,a]Continue.
 [END]

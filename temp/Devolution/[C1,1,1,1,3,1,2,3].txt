@@ -4,6 +4,5 @@ You lay prone on the floor, the hole in your skull has been cauterized by the la
 
 You are dead.
 
-
-[GAME OVER]
+[CGO]Game Over
 [END]

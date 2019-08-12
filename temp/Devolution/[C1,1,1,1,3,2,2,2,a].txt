@@ -3,7 +3,7 @@
 After a while you start hear more voices, and feel your blood run cold. “Who’ve you got there, Greg?” one asks
 
 
-[C1.1.2.1.1.1.1]Be dumped on the floor by Greg.
+[C1,1,2,1,1,1,1]Be dumped on the floor by Greg.
 [END]
 
 
