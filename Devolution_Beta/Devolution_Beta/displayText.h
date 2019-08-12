@@ -17,6 +17,7 @@
 void init_display_text(GameState *game);
 void draw_display_text(GameState *game);
 void nextPage(GameState *game);
+void prevPage(GameState *game);
 void shutdown_display_text(GameState *game);
 
 #endif /* displayText_h */

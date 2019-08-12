@@ -12,8 +12,10 @@
 #include "fileManager.h"
 #include "textManipulation.h"
 #include "mylib.h"
+#include "graphics.h"
 
 int main(int argc, const char * argv[]) {
+    /*
     char *filetext = NULL, *cleantext = NULL;
     char *choiceText = NULL, *choiceFile = NULL;
     char file_location[100], prefix[] = "/Devolution/[", suffix[] = "].txt";
@@ -42,21 +44,14 @@ int main(int argc, const char * argv[]) {
         cleantext = getCleanText();
         printf("%s\n", cleantext);
         setChoices();
-        
-        /* That's how you save the shit
-           save_path(cwd, story_path, path_count);*/
-        /*story_path = open_save(cwd, story_path);
-          printf("Reading the savefile: %s\n", story_path[0]);*/
+
 
         choiceText = getChoiceText(0);
         choiceFile = getChoiceFile(0);
-        printf("Test1: %s\n", choiceFile);
-        printf("Test2: %s\n", choiceText);
 
         //Setting up next file
         memset(cwd, 0, sizeof(cwd));
         memset(file_location, 0, sizeof(file_location));
-        printf("%s\n", file_location);
         strcpy(file_location, prefix);
         strcat(file_location, choiceFile);
         strcat(file_location, suffix);
@@ -67,12 +62,10 @@ int main(int argc, const char * argv[]) {
         free(cleantext);
         closefile(fptr);
         freeAndReset();
-        //break;
     }
+     */
+    
+    createWindow(1);
     
     return 0;
 }
-
-
-
-

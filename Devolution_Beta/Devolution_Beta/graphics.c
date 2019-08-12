@@ -157,7 +157,7 @@ int processEvents(SDL_Window *window, GameState *game){
                     }
                     case SDLK_LEFT: {
                         if (game->scenarioStatus == SCENARIO_STORY) {
-                            nextPage(game);
+                            prevPage(game);
                             break;
                         }
                         break;

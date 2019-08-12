@@ -87,7 +87,7 @@ typedef struct {
     int scenarioStatus;
     int selectorStatus;
     int pageStatus;
-    
+
     //Renderer
     SDL_Renderer *renderer;
 } GameState;
