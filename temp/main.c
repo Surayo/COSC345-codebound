@@ -19,12 +19,13 @@ int main(int argc, const char * argv[]) {
     char file_location[100], prefix[] = "/Devolution/[", suffix[] = "].txt";
     FILE *fptr = NULL;
     char cwd[300];
+    int choiceNum;
     
     strcpy(file_location, "/Devolution/[C0].txt");
     
     while (true){
         if (getcwd(cwd, sizeof(cwd)) != NULL) {
-            printf("Current working dir: %s\n", cwd);
+            printf("\n");
         } else {
             perror("getcwd() error");
             return 1;
@@ -32,7 +33,7 @@ int main(int argc, const char * argv[]) {
         
         fptr = openfile(cwd, file_location);
         if (fptr == NULL){
-            break;
+            return EXIT_SUCCESS;
         }
         filetext = setFile(fptr);
         setBracketPoints(filetext);
@@ -44,14 +45,21 @@ int main(int argc, const char * argv[]) {
         setChoices();
 
         int choiceAmount = getChoiceAmount();
+        printf("Choices:\n");
         for (int i = 0; i < choiceAmount; i++){   
             choiceText = getChoiceText(i);
-            printf("Choice %d: %s\n", i, choiceText);
-        };
+            printf("%d: %s", (i + 1), choiceText);
+         }
+        choiceNum = 0;
 
-        printf("Please enter the corresponding number to make your decision.");
+        printf("Please enter the corresponding number to make your decision.\n");
+        while (1 == scanf("%d", &choiceNum)){
+            if (choiceNum <= choiceAmount && choiceNum > 0){
+                choiceFile = getChoiceFile(choiceNum - 1);
+                break;
+            }
+        }
         
-
         //Setting up next file
         memset(cwd, 0, sizeof(cwd));
         memset(file_location, 0, sizeof(file_location));
@@ -59,15 +67,15 @@ int main(int argc, const char * argv[]) {
         strcat(file_location, choiceFile);
         strcat(file_location, suffix);
 
-
         //Freeing memory
         free(filetext);
         free(cleantext);
         closefile(fptr);
         freeAndReset();
+        //break;
     }
     
-    return 0;
+    return EXIT_SUCCESS;
 }
 
 

@@ -74,8 +74,6 @@ void setBracketPoints(char *filetext){
         }
         currentIndex++;
     }
-    printf("Brackets: %d\n", bracketAmount);
-    printf("Choices: %d\n", choiceAmount);
 }
 
 // Get the current file
