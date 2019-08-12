@@ -1,8 +1,4 @@
-[0.1]Your name is [NAME] and you are walking home from work. The air is heavy with smog and the streets are cracked and filthy. Dust clings to your drab work clothes as it always does - a remnant of The Factory. It's the end of another gruelling shift and after twelve long hours in front of the furnaces it’s all you can do to put one foot in front of the other. 
-
-Your route home takes you through The Fringes - an abandoned part of this sprawling city you call home. It’s quiet. This isn’t the part of your city that your people are allowed to occupy but if the odd shadow or creek disturbs your walk you never stop to acknowledge it. It’s better to just keep your head down and get home.
-
-A heavy cloud of exhaustion has settled over you like the familiar old blanket that greets you at the end of every work day. Except instead of comfort it’s weight carries with it only bone weary dread. This is just another day in an endless stretch of days. You sigh. 
+[0.a]A heavy cloud of exhaustion has settled over you like the familiar old blanket that greets you at the end of every work day. Except instead of comfort it’s weight carries with it only bone weary dread. This is just another day in an endless stretch of days. You sigh. 
 
 A rustle of noise. A shadow shifts out of your peripheral vision. You are suddenly very alert. Somehow you manage not to stop even as you get closer to the source. Another quiet noise - this one almost sounds like a muffled echoey bark. It came from the alley up ahead, a side path that leads to deeper parts of the city. Sprawling underground structures and streets no worker like yourself ever walks down. 
 
@@ -20,11 +16,5 @@ A tall sort of gaunt looking Vagabond glances at you. “On your way, worker.”
 
 It can’t be. Your sister.
 
-What is Eve doing?
-
-
-[C1]There is no point provoking this gang of bastards. You catch and hold your sisters eye before you turn around and walk away. There is always another route home.
-
-[C2]”Eve?” You say, your sister tenses up as you call her out, “What are you doing with them?” The tall man who addressed you glances back at her, expression faintly curious. 
-
-[C3]That fucking shit-head. What the hell is Eve doing with a bunch of traitorous rebels? Your hand clenches down on the flick knife in your pocket.
+[C0,b]Continue
+[END]
