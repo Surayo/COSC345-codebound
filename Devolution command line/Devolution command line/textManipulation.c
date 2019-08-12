@@ -58,7 +58,7 @@ int getChoiceAmount(){
 // Adds all of the pointers to the array
 void setBracketPoints(char *filetext){
     int currentIndex = 0;
-    int filelength = strlen(filetext);
+    int filelength = (int) strlen(filetext);
     int storeIndex = 0;
     
     while ((filetext[currentIndex]) != '\0' && currentIndex < (filelength - 1)){
