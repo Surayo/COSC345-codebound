@@ -14,3 +14,4 @@ You grumble something even you know isn’t words and plod on, head down.
 [C1.1.1.1.1.2]Dread and guilt washes over you. You should tell her. She’s as much Eve’s friend as yours. She needs to know what Eve has done.
 
 [C1.1.1.1.1.3][I1]You pull Eve’s ring out of your pocket. “Eve is gone.” Liaba looks at you quizzically. 
+[END]

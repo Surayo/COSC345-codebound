@@ -19,3 +19,4 @@ The flytecraft is closer now and getting closer still. Fuck. How is it still run
 “We don’t know.” You look away from the flytecrafts decent to give Rasputin a sharp confused look.
 
 [C2.1.c]Continue.
+[END]

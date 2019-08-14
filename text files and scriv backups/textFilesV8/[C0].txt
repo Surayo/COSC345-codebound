@@ -1,4 +1,4 @@
-There was a stretch of history where Humans were the most powerful beings on Dirth. They had magic on their side that Dirth had never seen before - the power of their Aspects. And when that failed they developed technology.
+[C0]There was a stretch of history where Humans were the most powerful beings on Dirth. They had magic on their side that Dirth had never seen before - the power of their Aspects. And when that failed they developed technology.
 
 The humans adapted faster than anything before. They thrived.
 
@@ -17,4 +17,5 @@ Still, even in these cities, few survived.
 Time passed for the survivors and the remaining people of Dirth clustered together in their protective cities, for outside those walls were the Bioforms. In this game of adaptation only time would tell who would survive.  
 
 
-[C0.a]Continue.
+[C0,a]Continue.
+[END]

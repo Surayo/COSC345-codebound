@@ -1,0 +1,5 @@
+[1.1.1.1.3.2.1]You hear a grunt as you kick out wildly, your foot making solid contact with something soft. Unfortunately, you haven't hit him anywhere important and Greg just tightens his hold on your wrists.
+
+
+[C1,1,1,1,3,2,2,2]Be tied up further.
+[END]

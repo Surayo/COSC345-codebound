@@ -24,3 +24,4 @@ There are no obvious landmarks you can see in the darkness. You’ve passed seve
 [C2.1.1.2]”Who comes down to collect the packages?” You ask Rasputin, ignoring your sister’s remark. 
 
 [C2.1.1.3]”I think I’ve seen enough of these Robots. I believe you.” You say to Rasputin. He nods, looking satisfied.
+[END]

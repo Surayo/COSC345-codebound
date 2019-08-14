@@ -20,3 +20,4 @@ Rush had disappeared one day. He never said anything before he was just gone. It
 
 
 [C2.a]Continue.
+[END]

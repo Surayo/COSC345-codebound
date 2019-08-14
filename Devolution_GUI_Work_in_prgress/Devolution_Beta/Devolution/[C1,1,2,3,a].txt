@@ -1,0 +1,6 @@
+[1.1.2.3.a]Someone barges into your room and you scream, cowering back into your bed.
+
+“Bloody heaving fuck, [NAME]. It’s just me.
+
+[CGO] Game Over
+[END]
