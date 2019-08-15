@@ -1070,7 +1070,7 @@ Rasputin motions for you to follow, “I think it best if I show you.”
 
 Your head hurts and you lean against a building for a moment to catch your breath. You don’t know where you are but you know it’s far from home. You walked for so long just to get here, not thinking of how hard it would be to get back.
 
-You pull yourself up and back to walking. It’s slow going though but you can’t bring yourself to walk faster. Your legs tremble as it is. 
+You pull yourself up and back to walking. It’s slow going but you can’t bring yourself to walk faster. Your legs tremble as it is. 
 
 The light has changed since you’ve been out here, brightening. Is it near daybreak already?
 
@@ -1078,7 +1078,7 @@ Fuck. You sink down into a crouch, just for a second, you tell yourself. But you
 
 The solid concrete at your back feels like bliss compared to standing.
 
-You will get up in a second, you tell yourself.
+You’ll get up in a second, you tell yourself.
 
 You can’t stay here. You have to get home, you tell yourself.
 
@@ -1234,20 +1234,20 @@ After a beat, you walk forward again.
 
 This far out, you won’t find your sister. The Vagabonds wouldn’t dare come this close to the edge of the city least they succumb of the sickness of the Bioforms. 
 
-But you and your sister are immune to toxins. That immunity is your aspect. You yourself emit a sort of toxin neutralizing force field. Anyone within it is protected as well. While your sister herself is immune to toxins. 
+But you and your sister are immune to toxins. That immunity is your Aspect. You yourself emit a sort of toxin neutralising force field. Anyone within it is protected as well. While your sister is immune to toxins themselves. 
 
-It means you will never get sick from the Bioforms. 
+It means neither of you will ever get sick from the Bioforms. 
 
-It does shit all to help you in everyday life though. The reason you’ve been assigned to the furnaces is that you keep yourself and everyone around you safe from any toxins generated from the burning material. But even if you don’t get sick, you are still exhausted every day. The work takes its toll on you.
+Your Aspect does shit-all to help you in everyday life though. The reason you were assigned to the furnaces is that you keep yourself and everyone around you safe from any toxins generated from the burning material. But even if you don’t get sick, you are still exhausted every day. The work takes its toll on you.
 
-If only you had a useful aspect, like your friend Liaba’s bursts of energy after eating, or Reginald’s tough, heat-proof skin. That’s the sort of aspect that helps with everyday life in The Factory.
+If only you had a useful Aspect, like your friend Liaba’s bursts of energy after eating, or Reginald’s tough, heat-proof skin. That’s the sort of Aspect that helps with everyday life in The Factory.
 
-Plants have started sprouting around the buildings, and the sky is clearing. You must be getting to the edge of where The Factory’s smog reaches. Up above you can see the first signs of stars against the growing glow of the Bioforms.
+Bioforms have started sprouting around the buildings, and the sky is clearing. You must be getting to the edge of where The Factory’s smog reaches. Up above you can see the first signs of stars through the growing glow of the Bioforms.
 
 
 [C1.1.1.1.2.3.1]Enter the forest of Bioforms. 
 
-[C1.1.1.1.2.3.2]Make your way back to the center of the city where the Factory sits. You should be able to find your way home from there.</Text>
+[C1.1.1.1.2.3.2]Make your way back to the centre of the city where the Factory sits. You should be able to find your way home from there.</Text>
         </Document>
         <Document ID="56">
             <Title>[C1,1,1,1,2,1,1,1]</Title>
@@ -1303,10 +1303,47 @@ She stomps off in a direction you are sure is the opposite of where you want to 
             <Title>[C1,1,1,1,2,1,2,1]</Title>
             <Text>[C1.1.1.1.2.1.2.1]Dispite what you tell yourself, you don’t get back up.
 
-You drift in and out as the sky brightens around you, slumped against the side of a building. </Text>
+You drift in and out of sleep as the sky brightens around where you are slumped against the side of a building. 
+
+Between one blink and the next the smog has changed from a deep electric green - reflecting the glow of the Bioforms - to a dusty light blue as the light from the sun shines through the layers of smog and drowns out the green of the Bioforms’ glow.
+
+Your legs ache. You aren’t sure exactly how many hours you wandered out here in the city but after your long day at work it was more than your body could take. 
+
+Still, You don’t manage to pull yourself back to your feet until well after daybreak.
+
+
+[C1.1.1.1.2.1.2.1.1]Wander aimlessly.
+
+[C1.1.1.1.2.1.2.1.1]Wander purposefully.</Text>
         </Document>
         <Document ID="60">
             <Title>[C1,1,1,1,2,3,1]</Title>
+            <Text>[1.1.1.1.2.3.1]The Bioforms multiply startlingly quickly, you have only walked the length of a street and the Bioforms have already transformed from glowing green moss clinging to cracks, to vines winding up the sides of buildings, to bright trunks with buds like light bulbs, the streets turning from an urban sprawl to a deep forest within a few short strides.
+
+The flat streets start to buckle in places as the concrete is warped where the Bioforms have burrowed underneath it. 
+
+It’s been a long time since you’ve been this far out into the wilderness, even though you are still technically within the old walls of the of city Fragos.
+
+You can see ahead of you the pale glowing dust-like particles of the pollen falling from the Bioforms. The tiny lights hit your Aspect and go out, their poisons neutralised. 
+
+You have never seen the Bioforms growing this close before. Years ago, when you came to the edge of Fragos in the past, the glowing Bioform moss would stretch for streets before you saw even the first hint of vines starting to cling back to life. 
+
+You run your hand over a tree trunk and watch as the glow fades from its bark. 
+
+You are soon surrounded by trees. The concrete has fallen under the onslaught of mulch and dirt. The ground is soft and uneven with holes and mounds. Hidden Bioform roots try and trip you up - it is nothing like the city.
+
+You look up and through the foliage see streaks of starlight shining through - the night sky is brighter than you have ever seen it. 
+
+The ever pervasive smog wisps away and clumps together in the sky and you can see all the way up into the shape of the clouds and beyond.
+
+It’s like a distant dream - memories spark from your childhood. You had forgotten the sky. But with a snap you remember being here before with your sister Eve and your friends. 
+
+Above you is more points of light than you can count. 
+
+To think that your ancestors came from on of those stars - that they might be there still. It has been a long long time since humans came to Dirth. Most of the knowledge of those ancient people have been lost.
+
+
+[C1.1.1.1.2.3.1.1]Be eaten by a Bioform.</Text>
         </Document>
         <Document ID="61">
             <Title>[C1,1,1,1,2,3,2]</Title>
@@ -1527,6 +1564,35 @@ You usually get your nutrients out of a can, leaving the better options for the 
 He closes the door behind him and leaves you to his food. You blink down at your plate, still half asleep. It must be nice, having an Aspect that leaves him so energetic all the time. 
 
 </Text>
+        </Document>
+        <Document ID="70">
+            <Title>[C1,1,1,1,2,1,2,1,1]</Title>
+            <Text>[C1.1.1.1.2.1.2.1.1]You head in a direction you think will lead you home. By this time you have well worked off the nutritious food staple you ate before bed and your empty stomach churns in your throat. 
+
+It’s no use. None of the buildings will have food in them - it’s been a long time since Fragos had people outside of the town centre. Even the Vagabonds slink around nearby rather than out here where you’ve found yourself.
+
+By the time you’ve walked an hour your stomach has turned into a pit in your gut, you reach the edge of Fragos at one point where the Bioforms grow. Small patches of glowing moss cling to buildings. Above, streaks of sun can be seen through the smog as it thins this close to the edge of the city.
+
+Pollen floats through the air, hitting the barrier that is your Aspect and dissipating into nothing. Your Aspect protects you from toxins and the Bioform pollen is no exception. 
+
+You calculate that you must have been walking at an angle towards the edge for a while now and adjust your course. 
+
+With your back to the Bioforms, you walk forward. At the centre of the smog cloud is The Factory and if you can find The Factory then you can find home.
+
+But before you find home, you find the Vagabonds.
+
+</Text>
+        </Document>
+        <Document ID="71">
+            <Title>[C1,1,1,1,2,3,2,1,1]</Title>
+            <Text>[C1.1.1.1.2.3.2.1.1]You hardly hear a rustle of leaves. It knocks you to the ground hard and pins you there - face down in the dirt. Before you can even think to move sharp hot agony pierces through your shoulder and you yell out from the white hot pain.
+
+It rips through your clothes and skin, tearing both open. Through the haze of fear and pain you see blood dripping into the dirt near your face.
+
+The Bioform bites you and pulls your skin open and you let out another weaker scream before you lose consciousness.
+
+
+[GAME OVER] </Text>
         </Document>
     </Documents>
 </SearchIndexes>
