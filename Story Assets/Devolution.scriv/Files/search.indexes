@@ -1063,6 +1063,32 @@ Rasputin motions for you to follow, “I think it best if I show you.”
         </Document>
         <Document ID="45">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1]</Title>
+            <Text>[1.1.1.1.2.1.1.1.1.1.2.1]Once you have decided to go with them you don’t try and fight them. They take through a fairly direct path to their base, almost taking no turns to get there.
+
+“Yeah we just had to get out to the edge of the city,” Eve explains, “The edge of the city is in every direction. Why the fuck would I take a complicated path to get there. It’s lucky we found you actually. What are the chances?” She grins.
+
+“Sure, yeah. Lucky.” You say rolling your eyes.
+
+It doesn’t take long for you to approach the Vagabond’s hideout. You know you’re close when you see someone rush past your group without galsing back. An older guy with a scruffy beard you think you recognise but can’t quite place is leaning up against a wall. With a deep voice he says, “Evening, Eve.” As you walk past.
+
+“That joke’s getting old, Tom.” Eve replies as Eve pulls you into a doorway of the nondescript building he’s leaning against. You are pulled down a short entryway and through another door at the end.
+
+You are somewhat shocked to find the next room crawling with vagabonds. Your eyes dart around, trying to take in all the people milling about. People in nightcaps and stripy pyjamas sit around with hot drinks in their hands while others in the usual black Vagabond clothes move around and through more doorways.
+
+Eve doesn’t let you linger though, pulling you through the throng of people and towards another door.
+
+Some lanky dude steps in front of your group before Eve can get where she is hauling you though.
+
+“How the shite did you fucking find ‘[Xm]. We were the one out looking for ‘[Xm]!” the random dude says, aghast for some reason. They were looking for you?
+
+“Wait you were looking for my [Xther]? And I wasn’t told? Why the hell not?”
+
+“Oi. Don’t yell at me. I was just doing a job. You know how it is in this business. The ones on top give you orders and you follow through. Where did you find ‘[Xm] anyway?” He says peering at you curiously.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,1]You cut your sister off before she can reply again like you’re not in the fucking room.
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2]”I don’t even know how the fuck I found him.” Eve replies.</Text>
         </Document>
         <Document ID="46">
             <Title>[C1,1,1,1,2,1,2]</Title>
@@ -1489,12 +1515,12 @@ Eve gets up off of you and you flip over. “Either way you’re coming with me.
 
 “Hey, wait a second. I’m not going with you.” You say. Eve looks at you, unimpressed.
 
-“Uh, yeah you are. It’s two verses one, less then one by my estimates. Don’t fight me on this.” 
+“Uh, yeah you are.” She says, “It’s two verses one - less then one by my estimates. Don’t fight me on this.” 
 
 
-[C1.1.1.1.2.1.1.1.1.1.2.1]You sigh and get up off the ground. Their is no point fighting her on this.
+[C1.1.1.1.2.1.1.1.1.1.2.1]You sigh and get up off the ground. There is no point fighting her on this.
 
-[C1.1.1.1.2.1.1.1.1.1.2.2]”Yeah their fucking is. I’m not going with you,” you say.
+[C1.1.1.1.2.1.1.1.1.1.2.2]”Yeah there fucking is. I’m not going with you,” you say.
 
 </Text>
         </Document>
@@ -1593,6 +1619,18 @@ The Bioform bites you and pulls your skin open and you let out another weaker sc
 
 
 [GAME OVER] </Text>
+        </Document>
+        <Document ID="72">
+            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,1]</Title>
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,1]“She found my because I was out in the streets looking for her. I regret that now.” You say.
+
+He laughs. “No joke! Well, I guess alls well that ends well. In the end it didn’t actually matter if our group kidnapped you or not! You turned up here anyway!” He claps you on the shoulder and wanders off before you can ask him about what he meant by ‘kidnapped’.
+
+“Come on.” Eve says and hauls you through another door. </Text>
+        </Document>
+        <Document ID="73">
+            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2]</Title>
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2]</Text>
         </Document>
     </Documents>
 </SearchIndexes>
