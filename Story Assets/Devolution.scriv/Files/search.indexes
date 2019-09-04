@@ -232,9 +232,7 @@ Boss - attacker, lead kidnapper woman
         </Document>
         <Document ID="10">
             <Title>[C1,1,1]</Title>
-            <Text>[1.1.1]You can’t let her do this. You slap your face to try and startle yourself back awake then stumble back to your feet. Before you can second guess your sudden resolve you head out into the streets to look for Eve.
-
-It’s fully dark out and a harsh chill has settled over the town center. You must have been asleep at the table for longer than you thought. 
+            <Text>[1.1.1]It’s fully dark out and a harsh chill has settled over the town centre. You must have been asleep at the table for longer than you thought. 
 
 You shiver and pull your work coat closer around yourself and peer both ways down the street. To the left lies the Factory, you know that path like the unwavering aftertaste of canned Nutritious Food Staple. To the right lies deeper parts of the Fringes, crumbling skyscrapers and the sprawling roads of a city long abandoned. 
 
@@ -362,7 +360,7 @@ Your steps slow as The Factory looms up ahead, unnaturally quiet in the night.
         </Document>
         <Document ID="15">
             <Title>[C1,1,1,2]</Title>
-            <Text>[1.1.1.2]Even still within the walls of the city the streets are unfamiliar. You never walk this way. You have no reason to. But exploration isn’t on your agenda tonight. You delve deeper into the unknown and out into the fringes until the lights of the city fade behind you. You are left with the drab semi-darkness of night under the smog. 
+            <Text>[1,1,1,2]Even still within the walls of the city the streets are unfamiliar. You never walk this way. You have no reason to. But exploration isn’t on your agenda tonight. You delve deeper into the unknown and out into the fringes until the lights of the city fade behind you. You are left with the drab semi-darkness of night under the smog. 
 
 A pale glow seeps in from all directions - a sign of the forest of unmoving Bioforms that surround the city. 
 
@@ -373,7 +371,7 @@ You hear something moving further up in the distance. Eve. You switch directions
 You slow back down to a walk. Past the beat of your own heartbeat you hear it again - laughter. Too deep to be Eve. 
 
 
-[C1.1.1.2.1]Run.
+[C1,1,1,2,1]Run.
 
 [C1.1.1.2.2]Your heart is in your throat. You freeze in place.
 
@@ -398,40 +396,11 @@ Then all so suddenly the pain is back and you gasp with it. Your heart flutters 
             <Title>[C1,1,1,3]</Title>
             <Text>[1.1.1.3]It’s a quiet walk home. Your feet drag along the cracked pavement and by the time your house comes back into view you are wavering on your feet. 
 
-You sleep roughly for far fewer hours than you need. The day starts like every other. Banging at your room's door and the sounds of shuffling feet. Drew hollers outside the door something indecipherable and then moves on. 
-
-It’s the same wake-up call every morning.
-
-You pull yourself out of bed where you managed to pass out last night. Eve’s bed still sits in the corner - stripped of its blankets. 
-
-You eat your vaguely nutritious gloop like you do every morning while listening to the rest of the house as the workers all get ready for the early shift. Somewhere on the far side of the house Agnes’s baby, Sally is crying, as she is wont to do. 
-
-It isn't long before Drew is making the rounds again, your ears prick up at the sound of his yelling. “We got ten minutes, Brian, if ye want grub before yur shif’ ye gotta get up and eat it!” a pause, “Ye’ll be bloody sorry when yur half staved slaving away at the tiller.” It’s honestly a life-send that you have Drew in your house. He makes sure all the workers get up every day and checks in on you all as he does. He’s invaluable.
-
-Doors start opening throughout the house, other workers making their way out of the house and towards The Factory. That’s your queue.
-
-The smog heavier in the air, more so than usual. The air is unnaturally still.
-
-You walk with other workers but feel too tired to join in with their banter, your sisters' absence sits heavy on your shoulders.
-
-It sucks. Why did she have to abandon you like that? You’ve been together since your parents died years ago. She was a constant presence in your life and sure she has always been a little flighty but fuck. Why did she have to up and become a fucking Vagabond sympathiser?
-
-Liaba glances back at you, “Where’s your sister? Is she skipping out again.” She asks, falling back from the group to walk with you.
-
-You grumble something even you know isn’t words and plod on, head down.
-
-“Come on, [NAME]. Talk to me.” She bumps into your side. “Did you two fight? I heard something last night waaay after your fucking bedtime.”
-
-“I don’t want to talk about it.” You don’t want to have to lie to her but your sister left you for the fucking Vagabonds last night and you are trying not to stay pissed about it. 
-
-“Hmmmmm. Alright. But you are moping way more than usual. If your sister’s gotten into some shit again talk to me. Her stressing you out stresses me out and I’m not about that life.”
+You barely remember closing the door behind you and crawling into bed.
 
 
-[C1.1.1.1.1.1]You give her a friendly punch on the shoulder. You feel better knowing she’s there for you.
-
-[C1.1.1.1.1.2]Dread and guilt washes over you. You should tell her. She’s as much Eve’s friend as yours. She needs to know what Eve has done.
-
-[C1.1.1.1.1.3][I1]You pull Eve’s ring out of your pocket. “Eve is gone.” Liaba looks at you quizzically. 
+[C1,1,1,3,1]Wake up.
+ 
 
 
 
@@ -463,7 +432,7 @@ What if you don’t find her?
 You walk up to the entrance. 
 
 
-[C1.1.1.1.3.1]Go inside.
+[C1.1.1.1.3.1]You go inside.
 
 [C1.1.1.1.3.2]You stand there for a few more minutes - indecisive.
 
@@ -471,6 +440,21 @@ You walk up to the entrance.
         </Document>
         <Document ID="20">
             <Title>[C1,1,1,2,1]</Title>
+            <Text>[1,1,1,2,1]You dart down another side street, away from the sounds of voices. Someone lets out a short shout and then there are footsteps pounding after you. 
+
+Fuck. Why did you run. You stumble and almost fall. 
+
+If it weren’t for the heavy work-boots the exhausted tremble in your legs would slow you down anyway. As it is it’s only a few more pounding steps before you trip and fall heavily, catching yourself with your arms.
+
+“Fuck.” You say. The footsteps get closer, more than one set. You try to get up.
+
+Someone stumbles to a stop in front of you. “Well I’ll be tied up and cooked in a broiler. It’s [name]! The one we were lookin’ for!” a mans voice says. 
+
+Another body slams into you, knocking you back down to the harsh pavement. 
+
+“That is a relief,” A womans voice says,” Come on then. Tie [Xer] up. We have to get [Xer] back to the base.”
+
+“Hey! No!” you say, pushing up against the weight on your back - one one who hasn’t said anything yet. There must be at least three vagabonds.</Text>
         </Document>
         <Document ID="21">
             <Title>[C1,1,1,2,2]</Title>
@@ -479,13 +463,47 @@ You walk up to the entrance.
             <Title>[C1,1,1,2,3]</Title>
         </Document>
         <Document ID="23">
-            <Title>[C1,1,1,1,1,1]</Title>
+            <Title>[C1,1,1,3,1]</Title>
+            <Text>[C1,1,1,3,1]You sleep roughly for far fewer hours than you need. The day starts like every other. Banging at your room's door and the sounds of shuffling feet. Drew hollers outside the door something indecipherable and then moves on. 
+
+It’s the same wake-up call every morning.
+
+You pull yourself out of bed where you managed to pass out last night. Eve’s bed still sits in the corner - stripped of its blankets. 
+
+You eat your vaguely nutritious gloop like you do every morning while listening to the rest of the house as the workers all get ready for the early shift. Somewhere on the far side of the house Agnes’s baby, Sally is crying, as she is wont to do. 
+
+It isn't long before Drew is making the rounds again, your ears prick up at the sound of his yelling. “We got ten minutes, Brian, if ye want grub before yur shif’ ye gotta get up and eat it!” a pause, “Ye’ll be bloody sorry when yur half staved slaving away at the tiller.” It’s honestly a life-send that you have Drew in your house. He makes sure all the workers get up every day and checks in on you all as he does. He’s invaluable.
+
+Doors start opening throughout the house, other workers making their way out of the house and towards The Factory. That’s your queue.
+
+The smog heavier in the air, more so than usual. The air is unnaturally still.
+
+You walk with other workers but feel too tired to join in with their banter, your sisters' absence sits heavy on your shoulders.
+
+It sucks. Why did she have to abandon you like that? You’ve been together since your parents died years ago. She was a constant presence in your life and sure she has always been a little flighty but fuck. Why did she have to up and become a fucking Vagabond sympathiser?
+
+Liaba glances back at you, “Where’s your sister? Is she skipping out again.” She asks, falling back from the group to walk with you.
+
+You grumble something even you know isn’t words and plod on, head down.
+
+“Come on, [NAME]. Talk to me.” She bumps into your side. “Did you two fight? I heard something last night waaay after your fucking bedtime.”
+
+“I don’t want to talk about it.” You don’t want to have to lie to her but your sister left you for the fucking Vagabonds last night and you are trying not to stay pissed about it. 
+
+“Hmmmmm. Alright. But you are moping way more than usual. If your sister’s gotten into some shit again talk to me. Her stressing you out stresses me out and I’m not about that life.”
+
+
+[C1.1.1.3,1,1]You give her a friendly punch on the shoulder. You feel better knowing she’s there for you.
+
+[C1.1.1.3,1,2]Dread and guilt washes over you. You should tell her. She’s as much Eve’s friend as yours. She needs to know what Eve has done.
+
+[C1.1.1.3,1,3][I1]You pull Eve’s ring out of your pocket. “Eve is gone.” Liaba looks at you quizzically.</Text>
         </Document>
         <Document ID="24">
-            <Title>[C1,1,1,1,1,2]</Title>
+            <Title>[C1,1,1,3,1,1]</Title>
         </Document>
         <Document ID="25">
-            <Title>[C1,1,1,1,1,3]</Title>
+            <Title>[C1,1,1,3,1,2]</Title>
         </Document>
         <Document ID="26">
             <Title>[C1,1,1,1,2,1]</Title>
@@ -540,9 +558,9 @@ You wander between the chimneys, something you don’t often get a chance to do.
         </Document>
         <Document ID="28">
             <Title>[C1,1,1,1,3,1]</Title>
-            <Text>[1.1.1.1.3.1]You go inside. You have walked through these halls every day for years but the stark emptiness of The Factory during the night-shift is staggering. 
+            <Text>[1.1.1.1.3.1]You have walked through these halls every day for years but the stark emptiness of The Factory during the night-shift is staggering. 
 
-You start towards the furnaces, following the corridors you always walk.
+You start towards the furnaces, following corridors you always walk.
 
 
 [C1.1.1.1.3.1.1]You see a side corridor you have never been down. You ignore it and keep going towards your station.
@@ -572,18 +590,16 @@ You hear the faint murmur of voices coming from the direction of home. Fuck. Vag
 
 Crates are piled around a half dozen forklifts and along the back wall you see four old trucks lined up in front of huge shutter doors. The room glows green from the light coming in from outside.
 
-What is this place? A few crates are propped open near you and you look inside. Dark metal contraptions line the crates. They look like machines - handheld tools - though you have no idea what they do just from looking at them. 
+What is this place? A few crates are propped open near you and you look inside. Dark metal contraptions line the crates. They look like machines - handheld tools - though you have no idea what they do. 
 
-They have large cylindrical red chambers over what looks like a hand grip. You pick it up, surprised by how little is weighs for its size. It must be mostly hollow inside.
+The machines have large cylindrical red chambers over what looks like a hand grip. You pick it up, surprised by how little it weighs for its size. It must be mostly hollow inside.
 
 It sits neatly in your hand and your finger settles automatically on a small leaver under the red chamber.
 
 
-[C1.1.1.1.3.1.2.1]Take the gun.
+[C1.1.1.1.3.1.2.1]Put it back and get the hell out of there.
 
-[C1.1.1.1.3.1.2.2]Put the gun back and get the hell out of there.
-
-[C1.1.1.1.3.1.2.3]Looking into the tube thing at the end of the machine you pull the leaver. You have no idea what this thing does and want to find out.</Text>
+[C1.1.1.1.3.1.2.2]Looking into the tube thing at the end of the machine you pull the leaver. You have no idea what this thing does and want to find out.</Text>
         </Document>
         <Document ID="31">
             <Title>[C2,1]</Title>
@@ -1171,6 +1187,10 @@ Greg shifts his weight off of you, pulling you up by your wrists which he still 
             <Title>[C1,1,1,1,3,1,2,2]</Title>
             <Text>[1.1.1.1.3.1.2.2]You manage to backtrack through The Factory and make it back out into the street. The glow of the Bioforms is dimmest here around The Factory - the source of the cities smog. Still, the streets glow brighter here than it did inside.
 
+
+[C1,1,1,3]Go home.
+
+[C1,1,1,1,2,3]You still need to find your sister, you pick a direction and walk. You still might stumble into her
 </Text>
         </Document>
         <Document ID="50">
@@ -1331,7 +1351,7 @@ She stomps off in a direction you are sure is the opposite of where you want to 
             <Title>[C1,1,1,1,2,1,2,1]</Title>
             <Text>[C1.1.1.1.2.1.2.1]Dispite what you tell yourself, you don’t get back up.
 
-You drift in and out of sleep as the sky brightens around where you are slumped against the side of a building. 
+You drift in and out of sleep as the sky brightens around where you’re slumped against the side of a building. 
 
 Between one blink and the next the smog has changed from a deep electric green - reflecting the glow of the Bioforms - to a dusty light blue as the light from the sun shines through the layers of smog and drowns out the green of the Bioforms’ glow.
 
@@ -1375,6 +1395,25 @@ To think that your ancestors came from on of those stars - that they might be th
         </Document>
         <Document ID="61">
             <Title>[C1,1,1,1,2,3,2]</Title>
+            <Text>[C1,1,1,1,2,3,2]Within an hour of walking your head is throbbing from exhaustion. Your pace has slowed to a crawl and the green glow of the Bioforms light has deepened as the night draws on. 
+
+At one point you hear distant footsteps and duck into a side street to hide. Your heart is pounding, compounding the pain in your head.
+
+It must be Vagabonds. They are the only ones that roam these streets at night - or even during the day if you’re honest.
+
+But they the sound soon fades away and you continue your long trek home.
+
+Finally, You see streets you recognise. You have wavered from your path towards the Factory, dizzy and dead on your feet. But somehow, miraculously, you have come out on the side of the Factory closer to home.
+
+You sway, relief sweeping through you. You just want to rest. 
+
+It isn’t a long walk after that. You stumble through the front door of the House and into your room. Your sister’s mattress is still bare but fuck her.
+
+You fall into bed and sleep.
+
+
+[C1,1,1,3,1]Wake up.
+</Text>
         </Document>
         <Document ID="62">
             <Title>[C1,1,1,1,2,1,1,1,1,1]</Title>
@@ -1597,23 +1636,46 @@ He closes the door behind him and leaves you to the food. You blink down at your
             <Title>[C1,1,1,1,2,1,2,1,1]</Title>
             <Text>[C1.1.1.1.2.1.2.1.1]You head in a direction you think will lead you home. By this time you have well worked off the nutritious food staple you ate before bed and your empty stomach churns in your throat. 
 
-It’s no use. None of the buildings will have food in them - it’s been a long time since Fragos had people outside of the town centre. Even the Vagabonds slink around nearby rather than out here where you’ve found yourself.
+It’s no use. None of the buildings will have food in them - it’s been a long time since Fragos had people outside of the town centre. Even the Vagabonds slink around near the town rather than out here where you’ve found yourself.
 
 By the time you’ve walked an hour your stomach has turned into a pit in your gut, you reach the edge of Fragos at one point where the Bioforms grow. Small patches of glowing moss cling to buildings. Above, streaks of sun can be seen through the smog as it thins this close to the edge of the city.
 
 Pollen floats through the air, hitting the barrier that is your Aspect and dissipating into nothing. Your Aspect protects you from toxins and the Bioform pollen is no exception. 
 
-You calculate that you must have been walking at an angle towards the edge for a while now and adjust your course. 
+But being here is good actually. Now that you have reached the edge, all you need to do is put your back towards the Bioforms and head towards the centre where The Factory lies. 
 
-With your back to the Bioforms, you walk forward. At the centre of the smog cloud is The Factory and if you can find The Factory then you can find home.
+With your back to the Bioforms, you walk forward. If you can find The Factory then you can find home.
 
 But before you find home, you find the Vagabonds.
+
+Your brief sleep just made you more exhausted and stiff and so you are slow to react when you hear footsteps coming closer.
+
+Someone steps into your view and you finally glace up. 
+
+Fuck. It’s that man again - the one leading the group Eve was with. 
+
+He’s still leading a group Eve is with only this group is smaller than the group you first ran into so many long hours ago - only six strong.
+
+The man looks pleased to see you. “After all that work we put into collecting you and you stumble across our path with only minutes to spare.”
+
+Eve doesn’t look impressed. “What the fuck are you doing out here? You were supposed to be at work. This is like the opposite direction of work!”
+
+“Ah. I went out looking for you.” You say.
+
+“Well, come on.” She says, gesturing for you to come towards her. “You found me. We have shit to do and you’re coming with us.” You eye the group of Vagabonds warily. 
+
+
+[C1,1,1,1,2,1,2,1,1,1]”N-No.” You say. Taking a step back. You’re not going to go with them. Who does Eve think she is?
+
+[C1,1,1,1,2,1,2,1,1,2]You walk over to the group, drawing in close to Eve’s side.
+
+[C1,1,1,1,2,1,2,1,1,2]”What.” You say, “You can’t be serious. I can’t join you guys. You’re the bad guys!”
 
 </Text>
         </Document>
         <Document ID="71">
-            <Title>[C1,1,1,1,2,3,2,1,1]</Title>
-            <Text>[C1.1.1.1.2.3.2.1.1]You hardly hear a rustle of leaves. It knocks you to the ground hard and pins you there - face down in the dirt. Before you can even think to move sharp hot agony pierces through your shoulder and you yell out from the white hot pain.
+            <Title>[C1,1,1,1,2,3,1,1]</Title>
+            <Text>[C1.1.1.1.2.3.1.1]You hardly hear a rustle of leaves. It knocks you to the ground hard and pins you there - face down in the dirt. Before you can even think to move sharp hot agony pierces through your shoulder and you yell out from the white hot pain.
 
 It rips through your clothes and skin, tearing both open. Through the haze of fear and pain you see blood dripping into the dirt near your face.
 
@@ -1738,6 +1800,18 @@ He looks up and then does a double take. “The last person who I saw just finis
 [C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1]”-Sleepwalking?” you say. Not wanting to admit you were out looking for Eve.
 
 [C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1]”OK. I’ll admit. I was out looking for Eve.”</Text>
+        </Document>
+        <Document ID="79">
+            <Title>[C1,1,1,3,1,3]</Title>
+        </Document>
+        <Document ID="80">
+            <Title>[C1,1,1,1,2,1,2,1,1,1]</Title>
+        </Document>
+        <Document ID="81">
+            <Title>[C1,1,1,1,2,1,2,1,1,3]</Title>
+        </Document>
+        <Document ID="82">
+            <Title>[C1,1,1,1,2,1,2,1,1,2]</Title>
         </Document>
     </Documents>
 </SearchIndexes>
