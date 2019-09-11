@@ -1,0 +1,33 @@
+[1,1,1,2,1]You dart down another side street, away from the sounds of voices. Someone lets out a short shout and then there are footsteps pounding after you. 
+
+Fuck. Why did you run. You stumble and almost fall. 
+
+If it weren’t for the heavy work-boots the exhausted tremble in your legs would slow you down anyway. As it is it’s only a few more pounding steps before you trip and fall heavily, catching yourself with your arms.
+
+“Fuck.” You say. The footsteps get closer, more than one set. You try to get up.
+
+Someone stumbles to a stop in front of you. “Well I’ll be tied up and cooked in a broiler. It’s [name]! The one we were lookin’ for!” a mans voice says. 
+
+Another body slams into you, knocking you back down to the pavement. 
+
+“That is a relief,” A womans voice says, ”Come on then, tie [Xer] up. We have to get [Xer] back to the base.”
+
+“Hey! No!” you say, pushing up against the weight on your back - one one who hasn’t said anything yet. There must be at least three vagabonds surrounding you.
+
+You panic, twisting desperately against the one holding you down. A tall lanky man crouches down in front of you and when you open your mouth to shout he stuffs a rag in your mouth. You head-butt his hands away - it’s all you can reach with the other Vagabond holding you down - and try and push the cloth out of your mouth.
+
+It’s no use. He grabs you by the chin and wraps another cloth around your face, tying it off and securing the gag in place.
+
+“Could you lift ‘[Xm] up a bit, Greg? It’s hard to reach ‘[Xs] arms from here.” The one on top of you shifts, pulling your arms up and behind your back where your struggling just pulls against your shoulders. “’Preciate it, Greg.” The one in front of you says.
+
+He ties your hands up promptly and you’re hauled up to your to your feet by your now tied wrists.
+
+Your legs are still free.
+
+
+[C1,1,1,2,1,1]Kick the tall one in the stomach.
+
+[C1,1,1,2,1,2]Kick Greg in the balls.
+
+[C1,1,1,2,1,3]Let them take you.
+[END]

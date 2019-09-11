@@ -1,0 +1,15 @@
+[1,1,1,3,1,1,2]”After last night, I didn’t think I’d see you again.” You say.
+
+“Well, here I am.” Eve grins. A bag is shoved over your head and strong arms grab you from behind. You’re dragged off your feet before you can even gasp and pulled further into the alley.
+
+You try to get your feet under you but they’re pulling you back too fast.
+
+“That went smoother than expected.” Eve says.
+
+
+[C1,1,1,3,1,1,1,1]Struggle.
+
+[C1,1,1,3,1,1,2,1]Yell.
+
+[C1,1,1,3,1,1,1,3]Go limp.
+[END]

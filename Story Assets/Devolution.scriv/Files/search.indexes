@@ -3,18 +3,19 @@
     <Documents>
         <Document ID="3">
             <Title>[C1,1,2]</Title>
-            <Text>[1.1.2]You turn over in bed, drowsy and only half conscious. It’s not unusual for you to wake up in the middle of the night. Your sister is a restless sleeper so you drift, listening to the sounds of her moving on the other side of the room. 
+            <Text>[1,1,2]You turn over in bed, drowsy and only half conscious. It’s not unusual for you to wake up in the middle of the night. Your sister is a restless sleeper so you drift, listening to the sounds of her moving on the other side of the room. 
 
 You hear her light boot-steps as she moves closer to the two mattresses on the floor that serve as your beds. 
 
 You feel her looming over you and stir, confused. A rough hand covers your mouth and you snap awake. 
 
 
-[C1.1.2.1]Struggle and scream.
+[C1,1,2,1]Struggle and scream.
 
-[C1.1.2.2]Go limp. 
+[C1,1,2,2]Go limp. 
 
-[C1.1.2.3]Bite.</Text>
+[C1,1,2,3]Bite.
+[END]</Text>
         </Document>
         <Document ID="4">
             <Title>[C3]</Title>
@@ -29,15 +30,16 @@ Her eyes haven’t left yours but she ignores your shouted question to answer hi
 “Piss off!” Eve yells back, finally breaking eye contact to turn her back on you in dismissal.
 
 
-[C3.1]You pull the knife on Eve and aim for the throat in a blind sweep of rage.
+[C3,1]You pull the knife on Eve and aim for the throat in a blind sweep of rage.
 
-[C3.2]You pull the knife on Eve, but hesitate. She’s your sister. No mater what she’s done she won’t stop being your sister.
+[C3,2]You pull the knife on Eve, but hesitate. She’s your sister. No mater what she’s done she won’t stop being your sister.
 
-[C1]You fuck off, seething. It isn’t worth causing a scene here. There are too many Vagabonds for you to win this fight.</Text>
+[C1]You fuck off, seething. It isn’t worth causing a scene here. There are too many Vagabonds for you to win this fight.
+[END]</Text>
         </Document>
         <Document ID="5">
             <Title>[C1,2]</Title>
-            <Text>[1.2]”OK.” You say rubbing a hand down your face. How do you even begin to address what your sister had done. “I saw you with the rebels today…” you glance up at her. “Bad choice on your part I’m afraid.”
+            <Text>[1,2]”OK.” You say rubbing a hand down your face. How do you even begin to address what your sister had done. “I saw you with the rebels today…” you glance up at her. “Bad choice on your part I’m afraid.”
 
 
 She chuckles weakly and looks away. “Yeah. Well… Staying at the factory is the shittier option. It hurt me to work there - it’s hurting you! Look at you, you’re falling asleep as we talk.” You straighten your spine and try to look more awake from where you were slumped down in your seat. Eve frowns at your apparent recovery. “Do you have any idea how much better I’m feeling? I get to sleep!”
@@ -71,11 +73,12 @@ She doesn’t say anything else, just drops something on the table with a clank,
 Sitting on the table is the ring you gave her her first day in The Factory.
 
 
-[C1.1.1]You can’t let her do this. You slap yourself to back awake and pull yourself back to your feet. Then before you can second guess your sudden resolve you run out into the night to look for Eve.
+[C1,1,1]You can’t let her do this. You slap yourself to back awake and pull yourself back to your feet. Then before you can second guess your sudden resolve you run out into the night to look for Eve.
 
-[C1.1.2]She can look after herself for one night. You pull yourself to your feet just long enough to strip your uniform off and crawl into bed. You are so tired.
+[C1,1,2]She can look after herself for one night. You pull yourself to your feet just long enough to strip your uniform off and crawl into bed. You are so tired.
 
-[C1.1.3]Sleep drags your eyes back closed. You fall asleep at the table.</Text>
+[C1,1,3]Sleep drags your eyes back closed. You fall asleep at the table.
+[END]</Text>
         </Document>
         <Document ID="6">
             <Title>[C2] </Title>
@@ -104,29 +107,16 @@ You don’t know what he’s rebelling against, or what bought your sister over 
 Rasputin speaks again. “There is good reason we rebel.”
 
 
-[C2.1]”Explain it to me then.” You say. Rasputin nods, satisfied and motions for you to follow him. You follow.
+[C2,1]”Explain it to me then.” You say. Rasputin nods, satisfied and motions for you to follow him. You follow.
 
-[C2.2]”Everyone has to work. It’s the only way to keep the Bioforms out of the city. You need to stop this.” You say
+[C2,2]”Everyone has to work. It’s the only way to keep the Bioforms out of the city. You need to stop this.” You say
 
-[C2.3]You look at Eve. “Please, come back home. You shouldn’t be doing this no matter what fucked up reasons they’ve given you to make you think it’s OK.”
-
-
-
-
-
-
-
-
-
-
-
-
-
-</Text>
+[C2,3]You look at Eve. “Please, come back home. You shouldn’t be doing this no matter what fucked up reasons they’ve given you to make you think it’s OK.”
+[END]</Text>
         </Document>
         <Document ID="7">
             <Title>[C1,1]</Title>
-            <Text>[1.1]Your sister appears in the doorway looking as angry as you are. She opens her mouth to retort but you aren’t finished. “Dad didn’t work his fucking bones to the ground for you to skive off work to go hang out with rebel scum like them. Did you even fucking stop to consider who you were hurting?” 
+            <Text>[1,1]Your sister appears in the doorway looking as angry as you are. She opens her mouth to retort but you aren’t finished. “Dad didn’t work his fucking bones to the ground for you to skive off work to go hang out with rebel scum like them. Did you even fucking stop to consider who you were hurting?” 
 
 “You don’t know what you’re talking about, [NAME]. Do you even have any idea who I was with!? No. Of course not. You don’t think.”
 
@@ -159,10 +149,10 @@ You sit up and stretch the crick out of your back. The empty silence of the room
 It’s the ring you gave her as a gift when she started her first day in The Factory.
 
 
-[C1.1.1]You can’t let her do this. You slap yourself to back awake and pull yourself back to your feet. Then before you can second guess your sudden resolve you run out into the night to look for Eve.
+[C1,1,1]You can’t let her do this. You slap yourself to back awake and pull yourself back to your feet. Then before you can second guess your sudden resolve you run out into the night to look for Eve.
 
-[C1.1.2]She can look after herself for one night. You pull yourself to your feet just long enough to strip your uniform off and crawl into bed. You are so tired.
-</Text>
+[C1,1,2]She can look after herself for one night. You pull yourself to your feet just long enough to strip your uniform off and crawl into bed. You are so tired.
+[END]</Text>
         </Document>
         <Document ID="9">
             <Title>story ideas</Title>
@@ -232,23 +222,23 @@ Boss - attacker, lead kidnapper woman
         </Document>
         <Document ID="10">
             <Title>[C1,1,1]</Title>
-            <Text>[1.1.1]It’s fully dark out and a harsh chill has settled over the town centre. You must have been asleep at the table for longer than you thought. 
+            <Text>[1,1,1]It’s fully dark out and a harsh chill has settled over the town centre. You must have been asleep at the table for longer than you thought. 
 
 You shiver and pull your work coat closer around yourself and peer both ways down the street. To the left lies the Factory, you know that path like the unwavering aftertaste of canned Nutritious Food Staple. To the right lies deeper parts of the Fringes, crumbling skyscrapers and the sprawling roads of a city long abandoned. 
 
 Which way did she go?
  
 
-[C1.1.1.1]You quickly pull yourself together and run to the left towards The Factory. Eve will be headed towards the Vagabonds and that is near where you saw them last.
+[C1,1,1,1]You quickly pull yourself together and run to the left towards The Factory. Eve will be headed towards the Vagabonds and that is near where you saw them last.
 
-[C1.1.1.2]You turn to the right. From how rarely you’ve ever seen the Vagabonds they must operate far away from the usual paths to The Factory.
+[C1,1,1,2]You turn to the right. From how rarely you’ve ever seen the Vagabonds they must operate far away from the usual paths to The Factory.
 
-[C1.1.1.3]You can’t decide where to go. You glance left and right and feel the familiar pull of exhaustion drag at you.
-</Text>
+[C1,1,1,3]You can’t decide where to go. You glance left and right and feel the familiar pull of exhaustion drag at you.
+[END]</Text>
         </Document>
         <Document ID="11">
             <Title>[C0]</Title>
-            <Text>There was a stretch of history where Humans were the most powerful beings on Dirth. They had magic on their side that Dirth had never seen before - the power of their Aspects. And when that failed they developed technology.
+            <Text>[0]There was a stretch of history where Humans were the most powerful beings on Dirth. They had magic on their side that Dirth had never seen before - the power of their Aspects. And when that failed they developed technology.
 
 The humans adapted faster than anything before. They thrived.
 
@@ -266,7 +256,8 @@ Still, even in these cities, few survived.
 
 Time passed for the survivors and the remaining people of Dirth clustered together in their protective cities, for outside those walls were the Bioforms. In this game of adaptation only time would tell who would survive.  
 
-//Your name is [Name] and you are walking home from work. The air is heavy with smog and the streets are cracked and filthy. Dust clings to your drab work clothes as it always does - a remnant of The Factory. It’s the end of another grueling shift and after twelve long hours in front of the furnaces it’s all you can do to put one foot in front of the other. 
+
+Your name is [Name] and you are walking home from work. The air is heavy with smog and the streets are cracked and filthy. Dust clings to your drab work clothes as it always does - a remnant of The Factory. It’s the end of another grueling shift and after twelve long hours in front of the furnaces it’s all you can do to put one foot in front of the other. 
 
 Your route home takes you through The Fringes - an abandoned part of this sprawling city you call home. It’s quiet. This isn’t the part of your city that your people are allowed to occupy but if the odd shadow or creek disturbs your walk you never stop to acknowledge it. It’s better to just keep your head down and get home.
 
@@ -295,7 +286,8 @@ What is Eve doing?
 
 [C2]”Eve?” You say, your sister tenses up as you call her out, “What are you doing with them?” The tall man who addressed you glances back at her, expression faintly curious. 
 
-[C3]That fucking shit-head. What the hell is Eve doing with a bunch of traitorous rebels? Your hand clenches down on the flick knife in your pocket.</Text>
+[C3]That fucking shit-head. What the hell is Eve doing with a bunch of traitorous rebels? Your hand clenches down on the flick knife in your pocket.
+[END]</Text>
         </Document>
         <Document ID="12">
             <Title>[C1]</Title>
@@ -310,13 +302,14 @@ The sound of the front door clicking shut startles you out of your doze. Soft pa
 The footsteps stop and a quiet “Shit” breaks the stillness of the house. Yep. That’s your sister, alright. “Go back to sleep.” her harsh whisper calls back to you.
 
 
-[C1.1]”Don’t tell me to go to sleep. I saw you with those fucking Vagabonds. What were you thinking?” You say back angrily, your voice still low and hushed.
+[C1,1]”Don’t tell me to go to sleep. I saw you with those fucking Vagabonds. What were you thinking?” You say back angrily, your voice still low and hushed.
 
-[C1.2]”Come in here for a second. We need to talk” You say instead. Her head pokes into the room before she creeps inside to sit next to you at the table.</Text>
+[C1,2]”Come in here for a second. We need to talk” You say instead. Her head pokes into the room before she creeps inside to sit next to you at the table.
+[END]</Text>
         </Document>
         <Document ID="13">
             <Title>[C3,1,2]</Title>
-            <Text>[3.1.2]The confusion, the slowed world, the pain - That must have been their aspects. Your heart is beating fast, fuelled by adrenaline, but not nearly that sickening rapid-fire speed it was just a few seconds ago. Stupid. What just came over you?
+            <Text>[3,1,2]The confusion, the slowed world, the pain - That must have been their aspects. Your heart is beating fast, fuelled by adrenaline, but not nearly that sickening rapid-fire speed it was just a few seconds ago. Stupid. What just came over you?
 
 “OK.” You breathe out, calming yourself down. “OK. I’m listening.”
 
@@ -335,13 +328,14 @@ You have always trusted her before to have good reason for doing what she does e
 Rasputin smiles, “Good question. But I think it best if I show you.”
 
 
-[C2.1]”OK.” You say. The hands release you. You follow when Rasputin starts walking.
+[C2,1]”OK.” You say. The hands release you. You follow when Rasputin starts walking.
 
-[C3.1.2.2]”Fuck that. I’m not going anywhere with you.” You say.</Text>
+[C3,1,2,2]”Fuck that. I’m not going anywhere with you.” You say.
+[END]</Text>
         </Document>
         <Document ID="14">
             <Title>[C1,1,1,1]</Title>
-            <Text>[1.1.1.1]It doesn’t take long for you to leave the protective walls of the city. As you approach the edge more and more buildings sit dark, crumbling, and empty. The buildings loom, deep shadows stretching out from them where they aren’t during the day. 
+            <Text>[1,1,1,1]It doesn’t take long for you to leave the protective walls of the city. As you approach the edge more and more buildings sit dark, crumbling, and empty. The buildings loom, deep shadows stretching out from them where they aren’t during the day. 
 
 You never come out here at night, and shouldn’t be out here now. But you have no time to second guess yourself as you hurry towards The Factory. 
 
@@ -352,35 +346,36 @@ You don’t catch sight of Eve nor anyone else.
 Your steps slow as The Factory looms up ahead, unnaturally quiet in the night. 
 
 
-[C1.1.1.3]You slump, exhausted. You should head back home. There is always the possibility that Eve will just come back if you wait long enough.
+[C1,1,1,3]You slump, exhausted. You should head back home. There is always the possibility that Eve will just come back if you wait long enough.
 
-[C1.1.1.1.2]You can’t give up now. You pick a random direction and head further into the Fringes, towards paths you’ve never taken.
+[C1,1,1,1,2]You can’t give up now. You pick a random direction and head further into the Fringes, towards paths you’ve never taken.
 
-[C1.1.1.1.3]You shiver looking at The Factory. It is the only thing keeping your city from the Bioforms and to have it powered down like this leaves you with a feeling of dread.</Text>
+[C1,1,1,1,3]You shiver looking at The Factory. It is the only thing keeping your city from the Bioforms and to have it powered down like this leaves you with a feeling of dread.
+[END]</Text>
         </Document>
         <Document ID="15">
             <Title>[C1,1,1,2]</Title>
             <Text>[1,1,1,2]Even still within the walls of the city the streets are unfamiliar. You never walk this way. You have no reason to. But exploration isn’t on your agenda tonight. You delve deeper into the unknown and out into the fringes until the lights of the city fade behind you. You are left with the drab semi-darkness of night under the smog. 
 
-A pale glow seeps in from all directions - a sign of the forest of unmoving Bioforms that surround the city. 
+A pale green glow seeps in from all directions - a sign of the forest of unmoving Bioforms that surround the city. 
 
 You wind through the streets, picking directions at the whims of your gut.
 
-You hear something moving further up in the distance. Eve. You switch directions and start heading towards her as fast as your tired legs can carry you. Another noise and the shifting of a shadow. The sound of deep laughter. 
+You hear something moving further up in the distance. Eve? You switch directions and start heading towards her as fast as your tired legs can carry you. Another noise and the shifting of a shadow. The sound of deep laughter. 
 
 You slow back down to a walk. Past the beat of your own heartbeat you hear it again - laughter. Too deep to be Eve. 
 
 
 [C1,1,1,2,1]Run.
 
-[C1.1.1.2.2]Your heart is in your throat. You freeze in place.
+[C1,1,1,2,2]Your heart is in your throat. You freeze in place.
 
-[C1.1.1.2.3]You keep heading towards the sound of laughter, moving quieter than before. Maybe Eve is with them. 
-</Text>
+[C1,1,1,2,3]You keep heading towards the sound of laughter, moving quieter than before. Maybe Eve is with them. 
+[END]</Text>
         </Document>
         <Document ID="16">
             <Title>[C3,1,1]</Title>
-            <Text>[3.1.1]You lunge against the hands on you, aiming for your sister.
+            <Text>[3,1,1]You lunge against the hands on you, aiming for your sister.
 
 Fuck her. She can’t do this to you. For a second you pull the group forward, pull your arm free, knife still gripped in your hand.
 
@@ -388,28 +383,21 @@ Then all so suddenly the pain is back and you gasp with it. Your heart flutters 
 
 
 [GAME OVER]
-
-
-</Text>
+[END]</Text>
         </Document>
         <Document ID="17">
             <Title>[C1,1,1,3]</Title>
-            <Text>[1.1.1.3]It’s a quiet walk home. Your feet drag along the cracked pavement and by the time your house comes back into view you are wavering on your feet. 
+            <Text>[1,1,1,3]It’s a quiet walk home. Your feet drag along the cracked pavement and by the time your house comes back into view you are wavering on your feet. 
 
 You barely remember closing the door behind you and crawling into bed.
 
 
 [C1,1,1,3,1]Wake up.
- 
-
-
-
-
-</Text>
+[END]</Text>
         </Document>
         <Document ID="18">
             <Title>[C1,1,1,1,2]</Title>
-            <Text>[1.1.1.1.2]The night draws on as you stumble through unfamiliar streets. The pale green glow reflecting off of the smog enough to light your wavering path. The light is a sign of the Bioforms that surround this vast city. They glow. 
+            <Text>[1,1,1,1,2]The night draws on as you stumble through unfamiliar streets. The pale green glow reflecting off of the smog enough to light your wavering path. The light is a sign of the Bioforms that surround this vast city. They glow. 
 
 You can’t bring yourself to run, exhausted as you are from your long day in the Factory, but you’re stubborn and refuse to turn back. 
 
@@ -418,25 +406,26 @@ The street sways under your feet. You are dizzy from lack of sleep and the stres
 What if you don’t find her?
 
 
-[C1.1.1.1.2.1]Be overcome with emotions. The stress has taken its toll on you. You will never get your sister back.
+[C1,1,1,1,2,1]Be overcome with emotions. The stress has taken its toll on you. You will never get your sister back.
 
-[C1.1.1.1.2.1.2]You are lost. Try and find you way back home.
+[C1,1,1,1,2,1,2]You are lost. Try and find you way back home.
 
-[C1.1.1.1.2.3]Keep going. You can’t give up yet. You can still find her.
-</Text>
+[C1,1,1,1,2,3]Keep going. You can’t give up yet. You can still find her.
+[END]</Text>
         </Document>
         <Document ID="19">
             <Title>[C1,1,1,1,3]</Title>
-            <Text>[1.1.1.1.3]You have never been to The Factory at night before. It sits unnervingly quiet. Nothing moves in its shadows, no wind blows to rattle the windows.
+            <Text>[1,1,1,1,3]You have never been to The Factory at night before. It sits unnervingly quiet. Nothing moves in its shadows, no wind blows to rattle the windows.
 
 You walk up to the entrance. 
 
 
-[C1.1.1.1.3.1]You go inside.
+[C1,1,1,1,3,1]You go inside.
 
-[C1.1.1.1.3.2]You stand there for a few more minutes - indecisive.
+[C1,1,1,1,3,2]You stand there for a few more minutes - indecisive.
 
-[C1.1.1.3]You shouldn’t be out here. Fuck finding Eve, you’re going home.</Text>
+[C1,1,1,3]You shouldn’t be out here. Fuck finding Eve, you’re going home.
+[END]</Text>
         </Document>
         <Document ID="20">
             <Title>[C1,1,1,2,1]</Title>
@@ -450,21 +439,42 @@ If it weren’t for the heavy work-boots the exhausted tremble in your legs woul
 
 Someone stumbles to a stop in front of you. “Well I’ll be tied up and cooked in a broiler. It’s [name]! The one we were lookin’ for!” a mans voice says. 
 
-Another body slams into you, knocking you back down to the harsh pavement. 
+Another body slams into you, knocking you back down to the pavement. 
 
-“That is a relief,” A womans voice says,” Come on then. Tie [Xer] up. We have to get [Xer] back to the base.”
+“That is a relief,” A womans voice says, ”Come on then, tie [Xer] up. We have to get [Xer] back to the base.”
 
-“Hey! No!” you say, pushing up against the weight on your back - one one who hasn’t said anything yet. There must be at least three vagabonds.</Text>
+“Hey! No!” you say, pushing up against the weight on your back - one one who hasn’t said anything yet. There must be at least three vagabonds surrounding you.
+
+You panic, twisting desperately against the one holding you down. A tall lanky man crouches down in front of you and when you open your mouth to shout he stuffs a rag in your mouth. You head-butt his hands away - it’s all you can reach with the other Vagabond holding you down - and try and push the cloth out of your mouth.
+
+It’s no use. He grabs you by the chin and wraps another cloth around your face, tying it off and securing the gag in place.
+
+“Could you lift ‘[Xm] up a bit, Greg? It’s hard to reach ‘[Xs] arms from here.” The one on top of you shifts, pulling your arms up and behind your back where your struggling just pulls against your shoulders. “’Preciate it, Greg.” The one in front of you says.
+
+He ties your hands up promptly and you’re hauled up to your to your feet by your now tied wrists.
+
+Your legs are still free.
+
+
+[C1,1,1,2,1,1]Kick the tall one in the stomach.
+
+[C1,1,1,2,1,2]Kick Greg in the balls.
+
+[C1,1,1,2,1,3]Let them take you.
+[END]</Text>
         </Document>
         <Document ID="21">
             <Title>[C1,1,1,2,2]</Title>
+            <Text>[1,1,1,2,2]
+[END]</Text>
         </Document>
         <Document ID="22">
             <Title>[C1,1,1,2,3]</Title>
+            <Text>[END]</Text>
         </Document>
         <Document ID="23">
             <Title>[C1,1,1,3,1]</Title>
-            <Text>[C1,1,1,3,1]You sleep roughly for far fewer hours than you need. The day starts like every other. Banging at your room's door and the sounds of shuffling feet. Drew hollers outside the door something indecipherable and then moves on. 
+            <Text>[1,1,1,3,1]You sleep roughly for far fewer hours than you need. The day starts like every other. Banging at your room's door and the sounds of shuffling feet. Drew hollers outside the door something indecipherable and then moves on. 
 
 It’s the same wake-up call every morning.
 
@@ -474,40 +484,62 @@ You eat your vaguely nutritious gloop like you do every morning while listening 
 
 It isn't long before Drew is making the rounds again, your ears prick up at the sound of his yelling. “We got ten minutes, Brian, if ye want grub before yur shif’ ye gotta get up and eat it!” a pause, “Ye’ll be bloody sorry when yur half staved slaving away at the tiller.” It’s honestly a life-send that you have Drew in your house. He makes sure all the workers get up every day and checks in on you all as he does. He’s invaluable.
 
-Doors start opening throughout the house, other workers making their way out of the house and towards The Factory. That’s your queue.
+Doors start opening throughout the house, other workers making their way out of the house and towards The Factory. That’s your queue to start moving.
 
-The smog heavier in the air, more so than usual. The air is unnaturally still.
+The smog is heavy in the air, more so than usual. The air is unnaturally still.
 
 You walk with other workers but feel too tired to join in with their banter, your sisters' absence sits heavy on your shoulders.
 
-It sucks. Why did she have to abandon you like that? You’ve been together since your parents died years ago. She was a constant presence in your life and sure she has always been a little flighty but fuck. Why did she have to up and become a fucking Vagabond sympathiser?
+It sucks. Why did she have to abandon you like that? You’ve been together since your parents died years ago. She was a constant presence in your life and, sure, she has always been a little flighty, but fuck. Why did she have to up and become a fucking Vagabond?
 
 Liaba glances back at you, “Where’s your sister? Is she skipping out again.” She asks, falling back from the group to walk with you.
 
 You grumble something even you know isn’t words and plod on, head down.
 
-“Come on, [NAME]. Talk to me.” She bumps into your side. “Did you two fight? I heard something last night waaay after your fucking bedtime.”
+“Come on, [NAME]. Talk to me.” She bumps into your side. “Did you two fight? I heard something last night waaay after your bedtime.”
 
-“I don’t want to talk about it.” You don’t want to have to lie to her but your sister left you for the fucking Vagabonds last night and you are trying not to stay pissed about it. 
+“I don’t want to talk about it.” You don’t want to have to lie to her but your sister left you for the fucking Vagabonds last night and you’re trying not to stay pissed about it. 
 
-“Hmmmmm. Alright. But you are moping way more than usual. If your sister’s gotten into some shit again talk to me. Her stressing you out stresses me out and I’m not about that life.”
+“Hmmmmm. Alright. But you’re moping way more than usual. If your sister’s gotten into some shit again talk to me. Her stressing you out stresses me out and I’m not about that life.”
 
 
-[C1.1.1.3,1,1]You give her a friendly punch on the shoulder. You feel better knowing she’s there for you.
+[C1,1,1,3,1,1]You give her a friendly punch on the shoulder. You feel better knowing she’s there for you.
 
-[C1.1.1.3,1,2]Dread and guilt washes over you. You should tell her. She’s as much Eve’s friend as yours. She needs to know what Eve has done.
+[C1,1,1,3,1,2]Dread and guilt washes over you. You should tell her. She’s as much Eve’s friend as yours. She needs to know what Eve has done.
 
-[C1.1.1.3,1,3][I1]You pull Eve’s ring out of your pocket. “Eve is gone.” Liaba looks at you quizzically.</Text>
+[C1,1,1,3,1,3][I1]You pull Eve’s ring out of your pocket. “Eve is gone.” Liaba looks at you quizzically.
+[END]</Text>
         </Document>
         <Document ID="24">
             <Title>[C1,1,1,3,1,1]</Title>
+            <Text>[1,1,1,3,1,1]”She’s just back on her bullshit again - you know how she gets.” You say.
+
+Liaba laughs. “Don’t I know it.” 
+
+It’s easy. You can push thoughts of your sister to the side for a minute. The crowd gets thicker as you walk, people bunching up as other workers trickle in from other houses. You settle into the walk, into the routine of heading to work just like any other day.
+
+Someone pushes in between you and Liaba and Liaba gives them the stink eye. “Oh!” She says. You glance over at them yourself.
+
+Oh.
+
+“Eve?” you say, “What are you-” she cuts you off, grabbing you by the arm and tugging you to the side.
+
+“Can I talk to you for a second?” she asks. She doesn’t wait for an answer, just pulls you away  from the crowd and into a side alley. 
+
+
+[C1,1,1,3,1,1,1]”Wait.” You say pulling your arm out of her grip. She groans.
+
+[C1,1,1,3,1,1,2]”What are you doing back?” you ask, finishing your though from before now that she’s finished moving you.
+
+[END]</Text>
         </Document>
         <Document ID="25">
             <Title>[C1,1,1,3,1,2]</Title>
+            <Text>[END]</Text>
         </Document>
         <Document ID="26">
             <Title>[C1,1,1,1,2,1]</Title>
-            <Text>[1.1.1.1.2.1]No sound jumps out at you, no twitch of movement calls your attention. Nothing. Your knees almost buckle on your next step.
+            <Text>[1,1,1,1,2,1]No sound jumps out at you, no twitch of movement calls your attention. Nothing. Your knees almost buckle on your next step.
 
 Where is she?
 
@@ -533,45 +565,45 @@ Your eyes are blurring too much so see the street in front of you. You blindly s
 
 You hit the ground hard, on hands and knees, and feel the palms of your hands tear. Eve’s Ring goes flying out into the street.
 
+You lost your sisters ring.
 
-[I1]You have lost SISTERS RING
 
+[C1,1,1,1,2,1,1]The soft ping of Eve’s ring hitting the street somewhere out in the dark shocks the anger out of you. Your emotions clog in your throat.
 
-[C1.1.1.1.2.1.1]The soft ping of Eve’s ring hitting the street somewhere out in the dark shocks the anger out of you. Your emotions clog in your throat.
-
-[C1.1.1.1.2.1.2]Fuck this. And fuck Eve’s ring. You haul yourself back to your feet, turn, and start walking in the direction you hope leads home.
-
-</Text>
+[C1,1,1,1,2,1,2]Fuck this. And fuck Eve’s ring. You haul yourself back to your feet, turn, and start walking in the direction you hope leads home.
+[END]</Text>
         </Document>
         <Document ID="27">
             <Title>[C1,1,1,1,3,1,1]</Title>
-            <Text>[1.1.1.1.3.1.1]You come to an open room. Huge cylindrical towers rise up out of the stone floor and through the ceiling above. This is where you stock the furnaces. 
+            <Text>[1,1,1,1,3,1,1]You come to an open room. Huge cylindrical towers rise up out of the stone floor and through the ceiling above. This is where you stock the furnaces. 
 
 Without the usual bustle of activity on the furnace floor, a feeling of dread permeates throughout. The furnaces have cooled considerably since the end of your shift. Even so, you know they will still be lit by morning when the next shift comes in to stock them back up to full blaze. The Factory hasn’t been turned off fully in recent memory. 
 
 You wander between the chimneys, something you don’t often get a chance to do.
 
 
-[C1.1.1.3]Get bored. Go home.
+[C1,1,1,3]Get bored. Go home.
 
-[C1.1.1.1.3.1.2]You wander back out. On the way you spot the unknown corridor again. This time you decide to explore it.</Text>
+[C1,1,1,1,3,1,2]You wander back out. On the way you spot the unknown corridor again. This time you decide to explore it.
+[END]</Text>
         </Document>
         <Document ID="28">
             <Title>[C1,1,1,1,3,1]</Title>
-            <Text>[1.1.1.1.3.1]You have walked through these halls every day for years but the stark emptiness of The Factory during the night-shift is staggering. 
+            <Text>[1,1,1,1,3,1]You have walked through these halls every day for years but the stark emptiness of The Factory during the night-shift is staggering. 
 
 You start towards the furnaces, following corridors you always walk.
 
 
-[C1.1.1.1.3.1.1]You see a side corridor you have never been down. You ignore it and keep going towards your station.
+[C1,1,1,1,3,1,1]You see a side corridor you have never been down. You ignore it and keep going towards your station.
 
-[C1.1.1.1.3.1.2]Go down the unknown corridor.
+[C1,1,1,1,3,1,2]Go down the unknown corridor.
 
-[C1.1.1.3]Why the fuck did you decide to come in here? You abruptly turn around, exit The Factory, and head back home.</Text>
+[C1,1,1,3]Why the fuck did you decide to come in here? You abruptly turn around, exit The Factory, and head back home.
+[END]</Text>
         </Document>
         <Document ID="29">
             <Title>[C1,1,1,1,3,2]</Title>
-            <Text>[1.1.1.1.3.2]What are you doing out here? 
+            <Text>[1,1,1,1,3,2]What are you doing out here? 
 
 No one sane comes out here at night, and for good reason. The Vagabonds live in the Fringes and it isn’t safe to be out here alone. The Factory is just far enough away from the workers part of the city that if you screamed no one would hear you, despite the dead silence surrounding you.
 
@@ -580,13 +612,14 @@ You strain your hearing. Should you go back home? Or explore The Factory as it s
 You hear the faint murmur of voices coming from the direction of home. Fuck. Vagabonds. 
 
 
-[C1.1.1.1.3.1]Go inside The Factory until you think it’s safe.
+[C1,1,1,1,3,1]Go inside The Factory until you think it’s safe.
 
-[C1.1.1.1.3.2.2]Try to sneak past the Vagabonds. You just want to get home as quickly as possible.</Text>
+[C1,1,1,1,3,2,2]Try to sneak past the Vagabonds. You just want to get home as quickly as possible.
+[END]</Text>
         </Document>
         <Document ID="30">
             <Title>[C1,1,1,1,3,1,2]</Title>
-            <Text>[1.1.1.1.3.1.2]You pass through several sets of heavy doors before finally coming out into a room you have never seen before. The room is smaller then the furnace floor.
+            <Text>[1,1,1,1,3,1,2]You pass through several sets of heavy doors before finally coming out into a room you have never seen before. The room is smaller then the furnace floor.
 
 Crates are piled around a half dozen forklifts and along the back wall you see four old trucks lined up in front of huge shutter doors. The room glows green from the light coming in from outside.
 
@@ -597,13 +630,14 @@ The machines have large cylindrical red chambers over what looks like a hand gri
 It sits neatly in your hand and your finger settles automatically on a small leaver under the red chamber.
 
 
-[C1.1.1.1.3.1.2.1]Put it back and get the hell out of there.
+[C1,1,1,1,3,1,2,1]Put it back and get the hell out of there.
 
-[C1.1.1.1.3.1.2.2]Looking into the tube thing at the end of the machine you pull the leaver. You have no idea what this thing does and want to find out.</Text>
+[C1,1,1,1,3,1,2,2]Looking into the tube thing at the end of the machine you pull the leaver. You have no idea what this thing does and want to find out.
+[END]</Text>
         </Document>
         <Document ID="31">
             <Title>[C2,1]</Title>
-            <Text>[2.1]Eve sticks by your side and doesn’t say a word as the Vagabonds lead you away from your normal route home and deeper into the abandoned parts of the city. 
+            <Text>[2,1]Eve sticks by your side and doesn’t say a word as the Vagabonds lead you away from your normal route home and deeper into the abandoned parts of the city. 
 
 You wonder if this is how they recruited her, maybe this is how they recruit all their members. Just picking them up from the sidewalk and convincing them to go with them.
 
@@ -676,24 +710,14 @@ Several delivery drones - robots from before the pandemic - exit from the multip
 The stream of delivery drones finally tapers off and dissapears between two buildings.
 
 
-[C2.1.1]”I want to see for myself.” You say. Rasputin nods and gestures towards where the robots disappeared as if to say ‘After you.’
+[C2,1,1]”I want to see for myself.” You say. Rasputin nods and gestures towards where the robots disappeared as if to say ‘After you.’
 
-[C2.1.2]”If the robots were a dead end what about just getting on the ship and seeing where it goes?” Rasputin nods. “We did try that, yes.”
-
-
-
-
-
-
-
-
-
-
-</Text>
+[C2,1,2]”If the robots were a dead end what about just getting on the ship and seeing where it goes?” Rasputin nods. “We did try that, yes.”
+[END]</Text>
         </Document>
         <Document ID="32">
             <Title>[C2,2]</Title>
-            <Text>[2.2]Eve speaks up, “It’s not the only way you shitty little [XTHER]. Do you have any idea what we’re doing?”
+            <Text>[2,2]Eve speaks up, “It’s not the only way you shitty little [XTHER]. Do you have any idea what we’re doing?”
 
 “No. And I don’t want to know. If you could all just give up this little charade and come back, it would-” you let out a frustrated sound. “The other workers would have it so much better. There would be less pressure on the individual. I could work a fucking six hour shift instead of a fucking twelve!”
 
@@ -708,20 +732,20 @@ Rasputin motions for her to stop and you startle out of your tirade. You forgot 
 Rasputin chuckles. “I can’t give the game away. With your disposition you would go running to whatever authorities you think could do something to stop as and foil our plans. What’s more important then what we’re doing, is why.”
 
 
-[C2.1]”Why then.” You ask. He motions for you to follow. You follow.
+[C2,1]”Why then.” You ask. He motions for you to follow. You follow.
 
-[C2.2.1]”Why then.” You ask. He motions for you to follow. You don’t trust him in any way. “What? I’m not going with you.”
+[C2,2,1]”Why then.” You ask. He motions for you to follow. You don’t trust him in any way. “What? I’m not going with you.”
 
-[C2.2.2]Whatever they’re planning maybe you can stop it right here and now. You thumb the flick knife in your pocket.
-
-</Text>
+[C2,2,2]Whatever they’re planning maybe you can stop it right here and now. You thumb the flick knife in your pocket.
+[END]</Text>
         </Document>
         <Document ID="33">
             <Title>[C2,3]</Title>
+            <Text>[END]</Text>
         </Document>
         <Document ID="34">
             <Title>[C2,1,1]</Title>
-            <Text>[2.1.1]”Go get the others.” Rasputin says to Eve. She nods and peels off from your party. You hesitate, not wanting to be alone with Rasputin. He arches an eyebrow at the look you are giving him then head off after the Robots himself.
+            <Text>[2,1,1]”Go get the others.” Rasputin says to Eve. She nods and peels off from your party. You hesitate, not wanting to be alone with Rasputin. He arches an eyebrow at the look you are giving him then head off after the Robots himself.
 
 You follow.
 
@@ -762,32 +786,32 @@ There are no obvious landmarks you can see in the darkness. You’ve passed seve
 “The Robots will head back the way they came if you want to confirm that too.” Eve says, looking bored. 
 
 
-[C2.1.1.1]You want to get back to the Flytecraft. “Maybe I do. Maybe I want to see where they go after they get back.” You say to Eve.
+[C2,1,1,1]You want to get back to the Flytecraft. “Maybe I do. Maybe I want to see where they go after they get back.” You say to Eve.
 
-[C2.1.1.2]”Who comes down to collect the packages?” You ask Rasputin, ignoring your sister’s remark. 
+[C2,1,1,2]”Who comes down to collect the packages?” You ask Rasputin, ignoring your sister’s remark. 
 
-[C2.1.1.3]”I think I’ve seen enough of these Robots. I believe you.” You say to Rasputin. He nods, looking satisfied.</Text>
+[C2,1,1,3]”I think I’ve seen enough of these Robots. I believe you.” You say to Rasputin. He nods, looking satisfied.
+[END]</Text>
         </Document>
         <Document ID="35">
             <Title>[C2,1,2]</Title>
-            <Text>[2.1.2]”The first person we sent was my then second in command, Juniper. That was more then a year ago. We lost contact with her a few hours into her flight. A week after Juniper disappeared we sent a rescue party of 6 Vagabonds to try and retrieve her but they were met with the same fate, whatever that may be.” Rasputin frowns, looking up at the flytecraft sitting idle in front of you. “I would have sent more, but I don’t want to loose more of my people.”
+            <Text>[2,1,2]”The first person we sent was my then second in command, Juniper. That was more then a year ago. We lost contact with her a few hours into her flight. A week after Juniper disappeared we sent a rescue party of 6 Vagabonds to try and retrieve her but they were met with the same fate, whatever that may be.” Rasputin frowns, looking up at the flytecraft sitting idle in front of you. “I would have sent more, but I don’t want to loose more of my people.”
 
 Eve looks uncharacteristically somber, her eyes wide behind her large round glasses. “I didn’t know. I mean I knew something had happened to your previous second but I didn’t know that she had been… lost. Like that.”
 
 “Yes well, as great as Maxim is, he is no Juniper.”
 
 
-[C2.1.2.1]”I’ll go after her.” You say. Rasputin glances your way, surprised. “I’ll find out where she went and bring her back.”
+[C2,1,2,1]”I’ll go after her.” You say. Rasputin glances your way, surprised. “I’ll find out where she went and bring her back.”
 
-[C2.1.2.2]”Who’s Maxim?” you ask. Rasputin gestures again and starts walking. “Let’s walk while we talk. I think you are ready to see where we base ourselves.”
+[C2,1,2,2]”Who’s Maxim?” you ask. Rasputin gestures again and starts walking. “Let’s walk while we talk. I think you are ready to see where we base ourselves.”
 
-[C2.1.2.3]”Don’t think this excuses anything.” You say, “You should still be working in the Factory, all of you should be.”
-
- </Text>
+[C2,1,2,3]”Don’t think this excuses anything.” You say, “You should still be working in the Factory, all of you should be.”
+[END]</Text>
         </Document>
         <Document ID="36">
             <Title>[C1,1,2,1]</Title>
-            <Text>[1.1.2.1]You toss your head to the side and let out a strangled shout before strong hands push you down again. Foul tasting cloth is shoved in your mouth.
+            <Text>[1,1,2,1]You toss your head to the side and let out a strangled shout before strong hands push you down again. Foul tasting cloth is shoved in your mouth.
 
 “Keep [Xer] quiet.” Someone whispers - a woman’s voice.
 
@@ -802,13 +826,14 @@ You tense and try to throw off the people holding you down, your yelling muffled
 You manage to get an arm free.
 
 
-[C1.1.2.1.1]Aim high.
+[C1,1,2,1,1]Aim high.
 
-[C1.1.2.1.2]Aim low.</Text>
+[C1,1,2,1,2]Aim low.
+[END]</Text>
         </Document>
         <Document ID="37">
             <Title>[C1,1,2,2]</Title>
-            <Text>[1.1.2.2]You freeze, your eyes wide. 
+            <Text>[1,1,2,2]You freeze, your eyes wide. 
 
 “Quiet and we won’t hurt you.” A hushed male voice says. Another shadow looms over the firsts shoulder. Your blood is thrumming through your head, dread pooling in your stomach but you manage to nod into the hand covering your mouth. “Good.”
 
@@ -818,11 +843,12 @@ He uncovers your mouth only for the second figure to shove a balled up piece of 
 
 “I wish you would take [Xis] queue, Patrick.” A female voice says from over near the door. How many of these guys are there? It suddenly dawns on you that these must be Vagabonds and you feel yourself tense up with renewed fear. What the fuck do the Vagabonds want with you that they’ll go to all the trouble of kidnapping you over it?
 
-“Right you are, Boss.” Patrick replies in a quieter, yet no less enthusiastic, voice. He ties the gag in place with another strip of cloth. </Text>
+“Right you are, Boss.” Patrick replies in a quieter, yet no less enthusiastic, voice. He ties the gag in place with another strip of cloth. 
+[END]</Text>
         </Document>
         <Document ID="38">
             <Title>[C1,1,2,3]</Title>
-            <Text>[1.1.2.3]You bite hard into the hand covering your mouth and taste blood. The man yelps, startlingly high pitched. “[Xe] bit me.” He says.
+            <Text>[1,1,2,3]You bite hard into the hand covering your mouth and taste blood. The man yelps, startlingly high pitched. “[Xe] bit me.” He says.
 
 “Oi! That’s rude you piece of fuck.” A second male voice says from closer to the bed than you would like. You let out a shout of alarm and push yourself backwards away from the two attackers. 
 
@@ -844,11 +870,12 @@ Fuck.
 
 Someone barges into your room and you scream, cowering back into your bed.
 
-“Bloody heaving fuck, [Name]. It’s just me.</Text>
+“Bloody heaving fuck, [Name]. It’s just me.
+[END]</Text>
         </Document>
         <Document ID="39">
             <Title>[C1,1,2,1,1]</Title>
-            <Text>[1.1.2.1.1]You punch the closest one right in the chin, the highest you can reach. They let out a deep grunt but don’t budge from on top of you.
+            <Text>[1,1,2,1,1]You punch the closest one right in the chin, the highest you can reach. They let out a deep grunt but don’t budge from on top of you.
 
 “Tie [Xer] up. We need to get out of here.” A woman’s voice says from the other side of the room near the door. Oh fuck no. Fuck this. There is no way you’re going anywhere with these people. 
 
@@ -875,11 +902,12 @@ Greg finally shifts off you and you gasp out a deep breath, panting through your
 In a rush you are picked up and hauled over someone’s shoulder - Greg from the size of them. You have been throughly acquainted by his bulk at this point.
 
 
-[C1.1.2.1.1.1]Be carried.</Text>
+[C1,1,2,1,1,1]Be carried.
+[END]</Text>
         </Document>
         <Document ID="40">
             <Title>[C1,1,2,1,2]</Title>
-            <Text>[1.1.2.1.2]You punch the closest one right in the balls. He lets out a squeak and topples over sideways away from you. You feel a wash of bitter satisfaction from bringing your attachers down a peg.
+            <Text>[1,1,2,1,2]You punch the closest one right in the balls. He lets out a squeak and topples over sideways away from you. You feel a wash of bitter satisfaction from bringing your attachers down a peg.
 
 “Greg! No!” The person at your head yells. He stops where he was tying the gag in place over your mouth and you take the opportunity to head-butt him as hard as you can with the back of your skull. 
 
@@ -891,7 +919,7 @@ You scramble away from all of them, trying to get past and get to the door. If y
 
 The only thing between you and safety is a gag and four sets of hands. Your eyes dart to the door, trying to size up your escape route.
 
-The woman sighs and lightly thumps her boot against strong-man Greg where he is still clutching himself and slumped over. “At least he’s quiet about it.”
+The woman sighs and lightly thumps her boot against strong-man Greg where he’s still clutching himself and slumped over. “At least he’s quiet about it.”
 
 Patrick clings tighter to you, attempting to pin down your other arm and you struggle, kicking out desperately. You manage to hit Greg again and he grunts but Patrick just clings tighter. “Blimey fucking christ. Stay still!” Patrick hisses at you.
 
@@ -918,11 +946,12 @@ Someone hauls you onto their shoulders - Greg from the size of him - and starts 
 “I’ll live.” Greg grunts.
 
 
-[1.1.2.1.1.1]Be carried.</Text>
+[C1,1,2,1,1,1]Be carried.
+[END]</Text>
         </Document>
         <Document ID="41">
             <Title>[C1,1,2,1,1,1]</Title>
-            <Text>[1.1.2.1.1.1]The group of you walk for a long while. No one stops you. For a while you squirm and kick against Greg but it drains you faster than you would like. For the longest part of the walk you hang limp where you are slumped over Greg’s shoulder, trying not to wince at he digs bruises into your leg and breathing pitifully through each painful thump of his footsteps. 
+            <Text>[1,1,2,1,1,1]The group of you walk for a long while. No one stops you. For a while you squirm and kick against Greg but it drains you faster than you would like. For the longest part of the walk you hang limp where you are slumped over Greg’s shoulder, trying not to wince at he digs bruises into your leg and breathing pitifully through each painful thump of his footsteps. 
 
 Patrick starts chattering again once you assume the four of you have made it out past the main cluster of occupied houses. They must be taking you into the Fringes. It’s the only other place to go around here that isn’t The Factory.
 
@@ -955,11 +984,12 @@ To be fair to her you didn’t make it sound like you wanted to join her gang of
 “The cells. We can’t exactly host [Xer] with the rest of us. We might get stabbed in the night. We didn’t exactly bring [Xer] in on the best of terms.”
 
 
-[C1.1.2.1.1.1.1]Be dumped on the ground.</Text>
+[C1,1,2,1,1,1,1]Be dumped on the ground.
+[END]</Text>
         </Document>
         <Document ID="42">
             <Title>[C1,1,2,1,1,1,1]</Title>
-            <Text>[1.1.2.1.1.1.1]You are dumped on the ground surprisingly gently by Greg. The sack is pulled off your head and you squint against the sudden light. You are in a dark windowless room with a heavy metal door guarding the only way in or out. It’s currently open but Greg positions his bulk in the doorway in its stead.
+            <Text>[1,1,2,1,1,1,1]You are dumped on the ground surprisingly gently by Greg. The sack is pulled off your head and you squint against the sudden light. You are in a dark windowless room with a heavy metal door guarding the only way in or out. It’s currently open but Greg positions his bulk in the doorway in its stead.
 
 “Alright pipsqueak lets get these ropes off ‘a you.” Patrick says. He starts untying you, starting with the foul tasting gag in your mouth. 
 
@@ -998,11 +1028,12 @@ You have no idea what will happen in the morning, ahead of you stretches a field
 Before you can spiral too far into thoughts of ‘why you’ you fall asleep. It has been a long day.
 
 
-[C1.1.2.1.1.1.1.1]be woken up.</Text>
+[C1,1,2,1,1,1,1,1]be woken up.
+[END]</Text>
         </Document>
         <Document ID="43">
             <Title>[C3,1]</Title>
-            <Text>[3.1]”Fuck you!” You yell. You don’t think you just act, the knife in your hand aimed for her. She’s a traitorous shit-head and she’s acting like she’s better than you for it.
+            <Text>[3,1]”Fuck you!” You yell. You don’t think you just act, the knife in your hand aimed for her. She’s a traitorous shit-head and she’s acting like she’s better than you for it.
 
 You slash with a downward arc.
 
@@ -1025,14 +1056,14 @@ You breathe out heavily. “What was that? That felt… bad.”
 “I think I’ll be the one doing the talking here, [Name]. That was an idiotic stunt you pulled back there. If you look like you’re going to attack one of my people again I’ll let Borris and Jene put you under again. Consider your next action carefully now. By now you’ll know how unpleasant it could be for you.”
 
 
-[C3.1.1]Struggle in anger.
+[C3,1,1]Struggle in anger.
 
-[C3.1.2]Calm down.
-</Text>
+[C3,1,2]Calm down.
+[END]</Text>
         </Document>
         <Document ID="44">
             <Title>[C3,2]</Title>
-            <Text>[3.2]Almost immediately you feel the world go soft around you. The knife falls from your fingers and you feel your consciousness stretch apart and scatter. 
+            <Text>[3,2]Almost immediately you feel the world go soft around you. The knife falls from your fingers and you feel your consciousness stretch apart and scatter. 
 
 You stumble, your limbs disconnected.
 
@@ -1069,17 +1100,14 @@ Rasputin explains Eve’s rude comment further, “Despite her method of communi
 Rasputin motions for you to follow, “I think it best if I show you.”
 
 
-[C2.1]Intrigued, you follow.
+[C2,1]Intrigued, you follow.
 
-[C3.1.2.2]”I’m not going to go with you? Are you insane?” You take a step back.
-
-
-
-</Text>
+[C3,1,2,2]”I’m not going to go with you? Are you insane?” You take a step back.
+[END]</Text>
         </Document>
         <Document ID="45">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1]</Title>
-            <Text>[1.1.1.1.2.1.1.1.1.1.2.1]Once you have decided to go with them you don’t try and fight them. They take you through a fairly direct path to their base, almost taking no turns to get there.
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1]Once you have decided to go with them you don’t try and fight them. They take you through a fairly direct path to their base, almost taking no turns to get there.
 
 “Yeah we just had to get out to the edge of the city,” Eve explains, “The edge of the city is in every direction. Why the fuck would I take a complicated path to get there. It’s lucky we found you actually. What are the chances?” She grins.
 
@@ -1106,11 +1134,12 @@ Some lanky dude steps in front of your group before Eve can get where she is hau
 
 [C1,1,1,1,2,1,1,1,1,1,2,1,1]You cut your sister off before she can reply again like you’re not in the fucking room.
 
-[C1,1,1,1,2,1,1,1,1,1,2,1,2]”I don’t even know how the fuck I found him.” Eve replies.</Text>
+[C1,1,1,1,2,1,1,1,1,1,2,1,2]”I don’t even know how the fuck I found him.” Eve replies.
+[END]</Text>
         </Document>
         <Document ID="46">
             <Title>[C1,1,1,1,2,1,2]</Title>
-            <Text>[1.1.1.1.2.1.2]You are in a haze as you stumble back through the streets. You aren’t paying attention at all to where you’re going. And for a while you manage to keep moving forward even if you aren’t quite sure it’s in the direction of home.
+            <Text>[1,1,1,1,2,1,2]You are in a haze as you stumble back through the streets. You aren’t paying attention at all to where you’re going. And for a while you manage to keep moving forward even if you aren’t quite sure it’s in the direction of home.
 
 Your head hurts and you lean against a building for a moment to catch your breath. You don’t know where you are but you know it’s far from home. You walked for so long just to get here, not thinking of how hard it would be to get back.
 
@@ -1127,11 +1156,12 @@ You’ll get up in a second, you tell yourself.
 You can’t stay here. You have to get home, you tell yourself.
 
 
-[C1.1.1.1.2.1.2.1]Sleep.</Text>
+[C1,1,1,1,2,1,2,1]Sleep.
+[END]</Text>
         </Document>
         <Document ID="47">
             <Title>[C1,1,1,1,3,2,2]</Title>
-            <Text>[1.1.1.1.3.2.2]You head towards home, walking as quietly as you can. You can almost hear the voices if you stop and strain to listen to them. Every time you do you adjust your path home, taking detours that lead you further away from the group of voices.
+            <Text>[1,1,1,1,3,2,2]You head towards home, walking as quietly as you can. You can almost hear the voices if you stop and strain to listen to them. Every time you do you adjust your path home, taking detours that lead you further away from the group of voices.
 
 Luckily, they seem to be heading deeper into the Fringes away from your route home. You let out a sign of relief and stop once more to listen for them. They are so far away now that you can no longer hear them, even with how dead silent the night is. 
 
@@ -1172,9 +1202,10 @@ You thrash and try to push the cloth out but he ties another one around your mou
 Greg shifts his weight off of you, pulling you up by your wrists which he still has gripped tight in his fists. He has pulled you up so high your feet don’t touch the ground.
 
 
-[C1.1.1.1.3.2.2.1]Kick him as you dangle from his hands.
+[C1,1,1,1,3,2,2,1]Kick him as you dangle from his hands.
 
-[C1.1.1.1.3.2.2.2]Let them take you. </Text>
+[C1,1,1,1,3,2,2,2]Let them take you. 
+[END]</Text>
         </Document>
         <Document ID="48">
             <Title>[C1,1,1,1,3,1,2,1]</Title>
@@ -1185,35 +1216,37 @@ Greg shifts his weight off of you, pulling you up by your wrists which he still 
         </Document>
         <Document ID="49">
             <Title>[C1,1,1,1,3,1,2,2]</Title>
-            <Text>[1.1.1.1.3.1.2.2]You manage to backtrack through The Factory and make it back out into the street. The glow of the Bioforms is dimmest here around The Factory - the source of the cities smog. Still, the streets glow brighter here than it did inside.
+            <Text>[1,1,1,1,3,1,2,2]You manage to backtrack through The Factory and make it back out into the street. The glow of the Bioforms is dimmest here around The Factory - the source of the cities smog. Still, the streets glow brighter here than it did inside.
 
 
 [C1,1,1,3]Go home.
 
 [C1,1,1,1,2,3]You still need to find your sister, you pick a direction and walk. You still might stumble into her
-</Text>
+[END]</Text>
         </Document>
         <Document ID="50">
             <Title>[C1,1,1,1,3,1,2,3]</Title>
-            <Text>[1.1.1.1.3.1.2.3]The laser handgun explodes in your face blasting a hole through your skull. The gun falls from your slack grip, hitting the floor with a clatter of metal. Your body wavers for a second, then follows it.
+            <Text>[1,1,1,1,3,1,2,3]The laser handgun explodes in your face blasting a hole through your skull. The gun falls from your slack grip, hitting the floor with a clatter of metal. Your body wavers for a second, then follows it.
 
 You lay prone on the floor, the hole in your skull has been cauterized by the laser and does not bleed.
 
 You are dead.
 
 
-[GAME OVER]</Text>
+[GAME OVER]
+[END]</Text>
         </Document>
         <Document ID="51">
             <Title>[C1,1,1,1,3,2,2,1]</Title>
-            <Text>[1.1.1.1.3.2.1]You hear a grunt as you kick out wildly, your foot making solid contact with something soft. Unfortunately, you haven’t hit him anywhere important and Greg just tightens his hold on your wrists.
+            <Text>[1,1,1,1,3,2,1]You hear a grunt as you kick out wildly, your foot making solid contact with something soft. Unfortunately, you haven’t hit him anywhere important and Greg just tightens his hold on your wrists.
 
 
-[C1.1.1.1.3.2.2.2]Be tied up further.</Text>
+[C1,1,1,1,3,2,2,2]Be tied up further.
+[END]</Text>
         </Document>
         <Document ID="52">
             <Title>[C1,1,1,1,3,2,2,2]</Title>
-            <Text>[C1.1.1.1.3.2.2.2]Someone who isn’t Greg - Greg himself is still holding you up by the wrists - grabs your legs and starts wrapping them up with a rope. Before you can think to struggle they pull the knot tight and start to work doing the same on your wrists.
+            <Text>[1,1,1,1,3,2,2,2]Someone who isn’t Greg - Greg himself is still holding you up by the wrists - grabs your legs and starts wrapping them up with a rope. Before you can think to struggle they pull the knot tight and start to work doing the same on your wrists.
 
 You are fully hog-tied and still have no idea what is going on. What do these Vagabonds want with you? Unless they’re in the habit of kidnapping every person they come across who’s stupid enough to wander around alone at night.
 
@@ -1238,26 +1271,24 @@ Greg’s painful walking continues.
 After a while you start hear more voices, and feel your blood run cold. “Who’ve you got there, Greg?” one asks
 
 
-[C1.1.2.1.1.1.1]Be dumped on the floor by Greg.
-
-
-
-</Text>
+[C1,1,2,1,1,1,1]Be dumped on the floor by Greg.
+[END]</Text>
         </Document>
         <Document ID="53">
             <Title>[C1,1,1,1,2,1,1,1,1,2,1,1]</Title>
-            <Text>[1.1.1.1.2.1.1.1.1.2.1.1]”Hello?” you yell running towards the movement then are knocked off your feet. You hit the ground hard, cracking your head against the asphalt still present under the thin layer of mulch. 
+            <Text>[1,1,1,1,2,1,1,1,1,2,1,1]”Hello?” you yell running towards the movement then are knocked off your feet. You hit the ground hard, cracking your head against the asphalt still present under the thin layer of mulch. 
 
 A huge glowing animal pins you down to the forest floor, colours a mix of the glowing flora around you.
 
 You do not get a chance to yell before the animal Bioform tears your throat out.
 
 
-[GAME OVER]</Text>
+[GAME OVER]
+[END]</Text>
         </Document>
         <Document ID="54">
             <Title>[C1,1,1,1,2,1,1]</Title>
-            <Text>[1.1.1.1.2.1.1]Desperetly you start searching the ground for Eve’s ring. Your hands hurt and you couldn’t give less of a fuck. You scrabble at the pavement. 
+            <Text>[1,1,1,1,2,1,1]Desperately you start searching the ground for Eve’s ring. Your hands hurt and you couldn’t give less of a fuck. You scrabble at the pavement. 
 
 You gasp out a sob, scrabbling at the ground where you heard the ring fall. 
 
@@ -1266,13 +1297,14 @@ It hurts.
 You sit back on the ground, gasping and lost.
 
 
-[C1.1.1.1.2.1.1.1]Sit there.
+[C1,1,1,1,2,1,1,1]Sit there.
 
-[C1.1.1.1.2.1.2]Go home.</Text>
+[C1,1,1,1,2,1,2]Go home.
+[END]</Text>
         </Document>
         <Document ID="55">
             <Title>[C1,1,1,1,2,3]</Title>
-            <Text>[C1.1.1.1.2.3]Eventually, you reach the edge of the city.
+            <Text>[1,1,1,1,2,3]Eventually, you reach the edge of the city.
 
 The first sign is the moss, the buildings around you appear with patches of glowing green. It takes you a second to notice. Their glow isn’t much brighter then the natural reflection off the clouds but when you do notice you stumble to a stop.
 
@@ -1293,13 +1325,14 @@ If only you had a useful Aspect, like your friend Liaba’s bursts of energy aft
 Bioforms have started sprouting around the buildings, and the sky is clearing. You must be getting to the edge of where The Factory’s smog reaches. Up above you can see the first signs of stars through the growing glow of the Bioforms.
 
 
-[C1.1.1.1.2.3.1]Enter the forest of Bioforms. 
+[C1,1,1,1,2,3,1]Enter the forest of Bioforms. 
 
-[C1.1.1.1.2.3.2]Make your way back to the centre of the city where the Factory sits. You should be able to find your way home from there.</Text>
+[C1,1,1,1,2,3,2]Make your way back to the centre of the city where the Factory sits. You should be able to find your way home from there.
+[END]</Text>
         </Document>
         <Document ID="56">
             <Title>[C1,1,1,1,2,1,1,1]</Title>
-            <Text>[1.1.1.1.2.1.1.1]You sit there in the dirt. The night is utterly still as you sob. A rock is gripped in your hand, pressing into the wound there, but you don’t care.
+            <Text>[1,1,1,1,2,1,1,1]You sit there in the dirt. The night is utterly still as you sob. A rock is gripped in your hand, pressing into the wound there, but you don’t care.
 
 You hurt and you want to feel it.
 
@@ -1308,13 +1341,14 @@ You can feel the tear tracks falling down your cheeks and paw at your face with 
 Your other hand holds the rock but no matter how hard you grip it, feeling it dig into your scraped up palm, the pain of losing your sister is greater.
 
 
-[C1.1.1.1.2.1.1.1.1]Calm the fuck down already.
+[C1,1,1,1,2,1,1,1,1]Calm the fuck down already.
 
-[C1.1.1.1.2.1.1.1.2]Don’t. Continue the angst.</Text>
+[C1,1,1,1,2,1,1,1,2]Don’t. Continue the angst.
+[END]</Text>
         </Document>
         <Document ID="57">
             <Title>[C1,1,1,1,2,1,1,1,1]</Title>
-            <Text>[1.1.1.1.2.1.1.1.1]You take a deep breath in, calming your raging emotions. The rock drops from your hand, you don’t know why you’re still holding it. 
+            <Text>[1,1,1,1,2,1,1,1,1]You take a deep breath in, calming your raging emotions. The rock drops from your hand, you don’t know why you’re still holding it. 
 
 It’s in the brief span of silence that you hear the footsteps coming up from behind you.
 
@@ -1339,17 +1373,20 @@ Eve groans. “Why are you like this. Shit. OK. You’re coming with us then.”
 She stomps off in a direction you are sure is the opposite of where you want to go.
 
 
-[C1.1.1.1.2.1.1.1.1.1]”No. I can’t. I have to go home.” You say, “Can you just point me in the right direction?” 
+[C1,1,1,1,2,1,1,1,1,1]”No. I can’t. I have to go home.” You say, “Can you just point me in the right direction?” 
 
-[C1.1.1.1.2.1.1.1.1.2]Follow her.</Text>
+[C1,1,1,1,2,1,1,1,1,2]Follow her.
+[END]</Text>
         </Document>
         <Document ID="58">
             <Title>[C1,1,1,1,2,1,1,1,2]</Title>
-            <Text>[C1.1.1.1.2.1.1.1.2]You sob, still clutching the rock in your hand. You thump the other on the ground in frustrated anger.</Text>
+            <Text>[1,1,1,1,2,1,1,1,2]You sob, still clutching the rock in your hand. You thump the other on the ground in frustrated anger.
+
+[END]</Text>
         </Document>
         <Document ID="59">
             <Title>[C1,1,1,1,2,1,2,1]</Title>
-            <Text>[C1.1.1.1.2.1.2.1]Dispite what you tell yourself, you don’t get back up.
+            <Text>[C1,1,1,1,2,1,2,1]Despite what you tell yourself, you don’t get back up.
 
 You drift in and out of sleep as the sky brightens around where you’re slumped against the side of a building. 
 
@@ -1360,13 +1397,14 @@ Your legs ache. You aren’t sure exactly how many hours you wandered out here i
 Still, You don’t manage to pull yourself back to your feet until well after daybreak.
 
 
-[C1.1.1.1.2.1.2.1.1]Wander aimlessly.
+[C1,1,1,1,2,1,2,1,1]Wander aimlessly.
 
-[C1.1.1.1.2.1.2.1.1]Wander purposefully.</Text>
+[C1,1,1,1,2,1,2,1,1]Wander purposefully.
+[END]</Text>
         </Document>
         <Document ID="60">
             <Title>[C1,1,1,1,2,3,1]</Title>
-            <Text>[1.1.1.1.2.3.1]The Bioforms multiply startlingly quickly, you have only walked the length of a street and the Bioforms have already transformed from glowing green moss clinging to cracks, to vines winding up the sides of buildings, to bright trunks with buds like light bulbs, the streets turning from an urban sprawl to a deep forest within a few short strides.
+            <Text>[1,1,1,1,2,3,1]The Bioforms multiply startlingly quickly, you have only walked the length of a street and the Bioforms have already transformed from glowing green moss clinging to cracks, to vines winding up the sides of buildings, to bright trunks with buds like light bulbs, the streets turning from an urban sprawl to a deep forest within a few short strides.
 
 The flat streets start to buckle in places as the concrete is warped where the Bioforms have burrowed underneath it. 
 
@@ -1391,11 +1429,12 @@ Above you is more points of light than you can count.
 To think that your ancestors came from on of those stars - that they might be there still. It has been a long long time since humans came to Dirth. Most of the knowledge of those ancient people have been lost.
 
 
-[C1.1.1.1.2.3.1.1]Be eaten by a Bioform.</Text>
+[C1,1,1,1,2,3,1,1]Be eaten by a Bioform.
+[END]</Text>
         </Document>
         <Document ID="61">
             <Title>[C1,1,1,1,2,3,2]</Title>
-            <Text>[C1,1,1,1,2,3,2]Within an hour of walking your head is throbbing from exhaustion. Your pace has slowed to a crawl and the green glow of the Bioforms light has deepened as the night draws on. 
+            <Text>[1,1,1,1,2,3,2]Within an hour of walking your head is throbbing from exhaustion. Your pace has slowed to a crawl and the green glow of the Bioforms light has deepened as the night draws on. 
 
 At one point you hear distant footsteps and duck into a side street to hide. Your heart is pounding, compounding the pain in your head.
 
@@ -1413,24 +1452,25 @@ You fall into bed and sleep.
 
 
 [C1,1,1,3,1]Wake up.
-</Text>
+[END]</Text>
         </Document>
         <Document ID="62">
             <Title>[C1,1,1,1,2,1,1,1,1,1]</Title>
-            <Text>[1.1.1.1.2.1.1.1.1.1]”I can’t let you go back now. You’ve seen us. You’ll tell them what we’re up to.” Eve says, looking back at you like you’re stupid.
+            <Text>[1,1,1,1,2,1,1,1,1,1]”I can’t let you go back now. You’ve seen us. You’ll tell them what we’re up to.” Eve says, looking back at you like you’re stupid.
 
 “No I won’t,” you say reflexively
 
 “Yes you fucking will, [Name], I know you. Now come on. I have things to do and if you’re coming along you may as well help me do them”
 
 
-[C1.1.1.1.2.1.1.1.1.2]”What things?” You ask, following after her and the girl with her.
+[C1,1,1,1,2,1,1,1,1,2]”What things?” You ask, following after her and the girl with her.
 
-[C1.1.1.1.2.1.1.1.1.1.2]”Hey, you know what? Fuck that. And fuck you. I’m not going with you” You say, backing away. </Text>
+[C1,1,1,1,2,1,1,1,1,1,2]”Hey, you know what? Fuck that. And fuck you. I’m not going with you” You say, backing away. 
+[END]</Text>
         </Document>
         <Document ID="63">
             <Title>[C1,1,1,1,2,1,1,1,1,2]</Title>
-            <Text>[1.1.1.1.2.1.1.1.1.2]”This is a top secret Vagabond mission. It’s to do with my aspect. Apparently they’ve been looking for someone who can survive out where the Bioforms are for years now.” Eve is striding ahead almost faster than you can keep up. Neither you nor the other girl interjects. 
+            <Text>[1,1,1,1,2,1,1,1,1,2]”This is a top secret Vagabond mission. It’s to do with my aspect. Apparently they’ve been looking for someone who can survive out where the Bioforms are for years now.” Eve is striding ahead almost faster than you can keep up. Neither you nor the other girl interjects. 
 
 Eve continues, “Who would have thunk it, eh? We always thought our Aspects were so useless but it’s what they’ve been looking for the entire goddamn time!” Eve grins at you while the girl with her continues to stare at you, impassive. 
 
@@ -1484,16 +1524,14 @@ Eve purses her lips, looking at you, then squints. “How big is your radius aga
 “Urgh.” She groans. “Fucking hell. Why did you have to be out here. Ok. New plan. Me and Ellie-May are going to test if her Aspect can absorb mine from here - there should be enough pollen here where we’re standing to get a reading - and you are going to keep walking in that direction-” She points towards the edge where green glowing Bioforms start growing in thicker and thicker. “- until you’re out of range. Got it?”
 
 
-[C1.1.1.1.2.1.1.1.1.2.1]”Got it.” You say, and start walking in the direction she pointed. It’s not like the Bioforms can hurt you anyway.
+[C1,1,1,1,2,1,1,1,1,2,1]”Got it.” You say, and start walking in the direction she pointed. It’s not like the Bioforms can hurt you anyway.
 
-[C1.1.1.1.2.1.1.1.1.1.2]”Hey. How about fuck that idea. I’m going home.” You say, backing away. 
-
-
-</Text>
+[C1,1,1,1,2,1,1,1,1,1,2]”Hey. How about fuck that idea. I’m going home.” You say, backing away. 
+[END]</Text>
         </Document>
         <Document ID="64">
             <Title>[C3,1,2,2]</Title>
-            <Text>[3.1.2.2]”Your loss.” Rasputin says. “But know this; we are aiming to win this war.”
+            <Text>[3,1,2,2]”Your loss.” Rasputin says. “But know this; we are aiming to win this war.”
 
 “What war?” you ask, confused. What is he talking about? A war?
 
@@ -1502,11 +1540,12 @@ Instead of answering he just smiles and turns to leave. “You’ll find out soo
 
 [C1]Go home. There is no war.
 
-[C2.1]”Wait.” You say. “I’ve changed my mind. Show me. I’ll go with you.” </Text>
+[C2,1]”Wait.” You say. “I’ve changed my mind. Show me. I’ll go with you.” 
+[END]</Text>
         </Document>
         <Document ID="65">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2]</Title>
-            <Text>[1.1.1.1.2.1.1.1.1.1.2]Before either of them can stop you, you break into a sprint, hoping the girl with Eve doesn’t have an Aspect that can catch you.
+            <Text>[1,1,1,1,2,1,1,1,1,1,2]Before either of them can stop you, you break into a sprint, hoping the girl with Eve doesn’t have an Aspect that can catch you.
 
 Eve yells after you and you can hear the heavy footfalls of her chasing you down. “Get back here, [name], you piece of shit!”
 
@@ -1559,15 +1598,14 @@ Eve gets up off of you and you flip over. “Either way you’re coming with me.
 “Uh, yeah you are.” She says, “It’s two verses one - less then one by my estimates. Don’t fight me on this.” 
 
 
-[C1.1.1.1.2.1.1.1.1.1.2.1]You sigh and get up off the ground. There is no point fighting her on this.
+[C1,1,1,1,2,1,1,1,1,1,2,1]You sigh and get up off the ground. There is no point fighting her on this.
 
-[C1.1.1.1.2.1.1.1.1.1.2.2]”Yeah there fucking is. I’m not going with you,” you say.
-
-</Text>
+[C1,1,1,1,2,1,1,1,1,1,2,2]”Yeah there fucking is. I’m not going with you,” you say.
+[END]</Text>
         </Document>
         <Document ID="66">
             <Title>[C1,1,1,1,2,1,1,1,1,2,1]</Title>
-            <Text>[1.1.1.1.2.1.1.1.1.2.1]You walk towards the glowing green lights, looking back once to see Eve with her forehead pressed to Ellie-May’s and a steady red haze enveloping both of them. Huh. They step apart and the red haze recedes, settling back into Ellie-May’s shoulders. Maybe that means it worked?
+            <Text>[1,1,1,1,2,1,1,1,1,2,1]You walk towards the glowing green lights, looking back once to see Eve with her forehead pressed to Ellie-May’s and a steady red haze enveloping both of them. Huh. They step apart and the red haze recedes, settling back into Ellie-May’s shoulders. Maybe that means it worked?
 
 Whatever. They aren’t going to be able to test it with you still this close. You keep walking.
 
@@ -1588,13 +1626,14 @@ Further into the forest, you hear the sounds of a twig snapping.
 Is there a person out there? What are they doing!? They could get killed.
 
 
-[C1.1.1.1.2.1.1.1.1.2.1.1]You rush over to where you heard the sound. Your Aspect could save them if you can get to them in time.
+[C1,1,1,1,2,1,1,1,1,2,1,1]You rush over to where you heard the sound. Your Aspect could save them if you can get to them in time.
 
-[C1.1.1.1.2.1.1.1.1.2.1.2]You call out, “Eve?”</Text>
+[C1,1,1,1,2,1,1,1,1,2,1,2]You call out, “Eve?”
+[END]</Text>
         </Document>
         <Document ID="67">
             <Title>[C1,1,1,1,2,1,1,1,1,2,1,2]</Title>
-            <Text>[1.1.1.1.2.1.1.1.1.2.1.2]”Yeah, what?” she calls out from behind you, the opposite direction from where you heard the noise. 
+            <Text>[1,1,1,1,2,1,1,1,1,2,1,2]”Yeah, what?” she calls out from behind you, the opposite direction from where you heard the noise. 
 
 Well, shit. Whoever is out there, they are coming towards you now, brushing through the dense foliage. You may have gone a little too far into the forest. “Is anyone else out there?” You ask whoever it is that’s coming towards you. “Friend or foe?” 
 
@@ -1609,14 +1648,16 @@ You have a second of wide-eyed fear, “Oh, shit.” You say before it pounces o
 Your barrier only stops toxins, not claws
 
 
-[GAME OVER]</Text>
+[GAME OVER]
+[END]</Text>
         </Document>
         <Document ID="68">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,2]</Title>
+            <Text>[END]</Text>
         </Document>
         <Document ID="69">
             <Title>[C1,1,2,1,1,1,1,1]</Title>
-            <Text>[1.1.2.1.1.1.1.1]You wake up to the sound of a heavy door creaking open. It’s dark when you open your eyes. For a second you have no idea where you are or what time it is.
+            <Text>[1,1,2,1,1,1,1,1]You wake up to the sound of a heavy door creaking open. It’s dark when you open your eyes. For a second you have no idea where you are or what time it is.
 
 “Up and at ‘em sunshine. They bought down breakfast before you have to face Rasputin, whatever it is he wants but, hey! It shouldn’t be too bad. I remember when I was a new recruit and he greeted me then too!”
 
@@ -1630,11 +1671,11 @@ You usually get your nutrients out of a can, leaving the better options for the 
 
 He closes the door behind him and leaves you to the food. You blink down at your plate, still half asleep. It must be nice, having an Aspect that leaves him so energetic all the time.
 
-</Text>
+[END]</Text>
         </Document>
         <Document ID="70">
             <Title>[C1,1,1,1,2,1,2,1,1]</Title>
-            <Text>[C1.1.1.1.2.1.2.1.1]You head in a direction you think will lead you home. By this time you have well worked off the nutritious food staple you ate before bed and your empty stomach churns in your throat. 
+            <Text>[1,1,1,1,2,1,2,1,1]You head in a direction you think will lead you home. By this time you have well worked off the nutritious food staple you ate before bed and your empty stomach churns in your throat. 
 
 It’s no use. None of the buildings will have food in them - it’s been a long time since Fragos had people outside of the town centre. Even the Vagabonds slink around near the town rather than out here where you’ve found yourself.
 
@@ -1670,19 +1711,19 @@ Eve doesn’t look impressed. “What the fuck are you doing out here? You were 
 [C1,1,1,1,2,1,2,1,1,2]You walk over to the group, drawing in close to Eve’s side.
 
 [C1,1,1,1,2,1,2,1,1,2]”What.” You say, “You can’t be serious. I can’t join you guys. You’re the bad guys!”
-
-</Text>
+[END]</Text>
         </Document>
         <Document ID="71">
             <Title>[C1,1,1,1,2,3,1,1]</Title>
-            <Text>[C1.1.1.1.2.3.1.1]You hardly hear a rustle of leaves. It knocks you to the ground hard and pins you there - face down in the dirt. Before you can even think to move sharp hot agony pierces through your shoulder and you yell out from the white hot pain.
+            <Text>[C1,1,1,1,2,3,1,1]You hardly hear a rustle of leaves. It knocks you to the ground hard and pins you there - face down in the dirt. Before you can even think to move sharp hot agony pierces through your shoulder and you yell out from the white hot pain.
 
 It rips through your clothes and skin, tearing both open. Through the haze of fear and pain you see blood dripping into the dirt near your face.
 
 The Bioform bites you and pulls your skin open and you let out another weaker scream before you lose consciousness.
 
 
-[GAME OVER] </Text>
+[GAME OVER] 
+[END]</Text>
         </Document>
         <Document ID="72">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,1]</Title>
@@ -1691,7 +1732,8 @@ The Bioform bites you and pulls your skin open and you let out another weaker sc
 He laughs. “No joke! Well, all’s well that ends well. In the end it didn’t actually matter if me and mine kidnapped you or not! You turned up here anyway!” He claps you on the shoulder and wanders off before you can ask him about what he meant by ‘kidnapped’.
 
 
-[C1,1,1,1,2,1,1,1,1,1,2,1,2,1]“Come on.” Eve says and hauls you through another door.</Text>
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1]“Come on.” Eve says and hauls you through another door.
+[END]</Text>
         </Document>
         <Document ID="73">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2]</Title>
@@ -1706,11 +1748,12 @@ You frown. “Why would you know where I was supposed to be?” you ask.
 “Oh! Ahh. No reason.” He grins sheepishly. “I’ll see you later than eh Eve?” Then he wanders off.
 
 
-[C1,1,1,1,2,1,1,1,1,1,2,1,2,1]“Come on.” Eve says and hauls you through another door.</Text>
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1]“Come on.” Eve says and hauls you through another door.
+[END]</Text>
         </Document>
         <Document ID="74">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1]</Title>
-            <Text>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1]”But I have questions.” You say.
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1]”But I have questions.” You say.
 
 “Of course.” He stands, ”I can answer anything you like but first - there are six hours until we leave, if you want to rest, it may be best to do so now.” He ushers you out of the room. You bump into Eve as you step back - you had forgotten she was in here.
 
@@ -1731,11 +1774,12 @@ It’s darker in here than the other room, quieter too. With only the sounds of 
 You desperately want to ask more questions, but a fog has settled over your thoughts - thicker than your normal exhaustion. The room is too quiet to disturb with your query's anyway so when Eve hands you a pile of blankets and points to a bed you pull the blankets around yourself and you sleep.
 
 
-[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1]Wake up.</Text>
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1]Wake up.
+[END]</Text>
         </Document>
         <Document ID="75">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1]</Title>
-            <Text>[C1,1,1,1,2,1,1,1,1,1,2,1,1,1]”It doesn’t matter.” Rasputin says, waving your words aside. He stands up. “What matters is what you’re planning to do now. My vagabonds and I are in a difficult position. With you here we could complete our sole purpose before tomorrows end. The question is whether you are willing to join us.” Eve has stepped back with Ellie-May, letting Rasputin address you fully. 
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,1,1]”It doesn’t matter.” Rasputin says, waving your words aside. He stands up. “What matters is what you’re planning to do now. My vagabonds and I are in a difficult position. With you here we could complete our sole purpose before tomorrows end. The question is whether you are willing to join us.” Eve has stepped back with Ellie-May, letting Rasputin address you fully. 
 
 “What exactly is your goal?” You ask.
 
@@ -1754,11 +1798,12 @@ Rasputin turns away from both you and the map and settles back into his chair be
 
 [C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1]”OK.” You say, Rasputin lets out a breath and runs a hand through his hair.
 
-[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,2]”I - No.” You say. “What are you talking about. There is nothing out there for us - the factory is our only chance.”</Text>
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,2]”I - No.” You say. “What are you talking about. There is nothing out there for us - the factory is our only chance.”
+[END]</Text>
         </Document>
         <Document ID="76">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,2]</Title>
-            <Text>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,2]His stare hardens. “I was hoping it would not have to some to this. Ellie-May” he nods to her where she is still standing behind you, “Take [Xer] to the cells.”
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,2]His stare hardens. “I was hoping it would not have to some to this. Ellie-May” he nods to her where she is still standing behind you, “Take [Xer] to the cells.”
 
 Before you can do anything both your arms are grabbed from behind, one on each side. You struggle briefly and look back, shocked to see your sister holding you captive too. “Eve?” She stares, resolute.
 
@@ -1779,14 +1824,16 @@ You blink. It sounds like the same guy that interrupted Eve when she was taking 
 “Got it.” You say, relaxing back into your cot, your eyes closing again. Not much you can do with that message fully set in. You drift off before you can hear his reply.
 
 
-[C1.1.2.1.1.1.1.1]be woken up.</Text>
+[C1,1,2,1,1,1,1,1]be woken up.
+[END]</Text>
         </Document>
         <Document ID="77">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1]</Title>
+            <Text>[END]</Text>
         </Document>
         <Document ID="78">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1]</Title>
-            <Text>You recognise the man behind the desk immediately.
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1]You recognise the man behind the desk immediately.
 
 “Rasputin.” Ellie-May says, stepping forward from behind you. “We found something for you.”
 
@@ -1799,19 +1846,96 @@ He looks up and then does a double take. “The last person who I saw just finis
 
 [C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1]”-Sleepwalking?” you say. Not wanting to admit you were out looking for Eve.
 
-[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1]”OK. I’ll admit. I was out looking for Eve.”</Text>
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1]”OK. I’ll admit. I was out looking for Eve.”
+[END]</Text>
         </Document>
         <Document ID="79">
             <Title>[C1,1,1,3,1,3]</Title>
+            <Text>[END]</Text>
         </Document>
         <Document ID="80">
             <Title>[C1,1,1,1,2,1,2,1,1,1]</Title>
+            <Text>[END]</Text>
         </Document>
         <Document ID="81">
             <Title>[C1,1,1,1,2,1,2,1,1,3]</Title>
+            <Text>[END]</Text>
         </Document>
         <Document ID="82">
             <Title>[C1,1,1,1,2,1,2,1,1,2]</Title>
+            <Text>[END]</Text>
+        </Document>
+        <Document ID="83">
+            <Title>[C1,1,1,2,1,1]</Title>
+            <Text>[1,1,1,2,1,1]You flail your legs wide, catching the guy in front of you in the stomach.
+
+He lets out an, “Oof,” of breath and stumbles back, tripping over his own feet and landing heavily on his ass.
+
+“Hey!” the Greg holding you up by the arms says. He shakes you. “Calm down.”
+
+The third Vagabond is in front of you in a second, standing between you and the one on the ground. “That was a bad decision you just made there.”
+
+The vagabond on the ground opens his mouth but just lets out a wheeze of air.
+
+What. Like you’re supposed to feel sorry for these people? They’re kidnapping you!
+
+“I’m alright, Boss.” The one on the ground says. The Boss doesn’t turn around, just pulls out her own rope and grips you by the ankle - hard. You wince as her fingers dig in.
+
+She makes quick work of tying up your legs. You are dropped to the ground rather roughly and then a bag is being shoved over your head and tied around your neck. You choke for a second before the tie is loosened enough for you to breathe and tied off.
+
+“Right then, boys. Let’s get going. We have to take this one back to base before [Xe] can make any more of a nuisance of [Xself].” The Boss says. Someone picks you up - Greg by the feel of them - and hauls you over their shoulder.
+
+“Right you are, Boss.” A grunt. “Thanks for the hand.”
+
+“Anytime, Patrick.” She says. Greg shifts you on his shoulder and starts walking.
+
+
+[C1,1,2,1,1,1]be carried.
+[END]</Text>
+        </Document>
+        <Document ID="84">
+            <Title>[C1,1,1,2,1,2]</Title>
+            <Text>[1,1,1,2,1,2]You kick behind you as hard as your tired legs will let you. Greg lets out a grunt of pain and you’re dropped to the ground in a heap.
+
+“Hey! What the fuck!” the man in front of you says. You barley glance back to see Greg hunched over in pain. You stumble to your feet - hands and mouth still tied - and start running.
+
+You don’t get far.
+
+You feel something grab you by the ankle and are yanked off your feet. You hit the ground hard for a second time. Your elbows take most of the blow as your hands are still tied. 
+
+“Do I have to get my hands dirty or can you get [Xer] under control, Patrick?” the women says.
+
+You are pulled back and flipped over, both your ankles caught in the grip of the tall lanky man - Patrick. Greg is hunched over with both hands between his legs.
+
+“A hand would be appreciated, Boss.” You try and kick out of his grip or kick him but he twists with the force. The women comes over and you kick more franticly ,trying to get away before you have two people to fight off. It’s no use. Patrick, lanky as he is, is still stronger than you are after a long walk and a longer day. 
+
+The Boss grabs you by the ankles herself in a vice grip. “I’ll hold [Xer]. You get the ropes on [Xer] before [Xe] tries to run again.” 
+
+“On it, Boss.” Patrick pulls out more rope and efficiently lopes it around your struggling legs and ties it off. You don’t think you would be able to run like this, assuming you would’ve been able to run before.
+
+Behind them, Greg manages to get to his feet, still hunched over and cradling himself gingerly. He hands Patrick a sack who shoves it over your head, tyeing it off around your neck.
+
+“You alright over there, Greg.” Patrick asks, “You think you can handle carrying ‘[Xm] back to base?”
+
+“I’ll live.” Greg says and then you are hoisted over his shoulder.
+
+“Let’s get going, boys.” The Boss says.
+
+
+[C1,1,2,1,1,1]be carried.
+[END]</Text>
+        </Document>
+        <Document ID="85">
+            <Title>[C1,1,1,2,1,3]</Title>
+            <Text>[1,1,1,2,1,3]The man in front of you takes no time at all tyeing your feet together just like he did you hands. “Efficient work, Patrick, Greg.” The women says. “This was easier than I thought it would be.”
+
+“Thanks, Boss. I was honestly worried we wouldn’t find the fucker but there [Xe] was, stumbling through the same street we were.” Patrick says as Greg sets you back on your feet, “What are the chances, eh?” So they were trying to find  you?
+
+You want to ask why the fuck they were out doing something like that but the gag in your mouth prevents you from saying anything. Greg lets go of your wrists long enough to shove a bag over your head, tying it off around your neck and then you’re being hauled over his shoulder.
+
+
+[C1,1,2,1,1,1]be carried.
+[END]</Text>
         </Document>
     </Documents>
 </SearchIndexes>
