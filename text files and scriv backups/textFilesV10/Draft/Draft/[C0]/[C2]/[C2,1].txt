@@ -20,7 +20,7 @@ Why did the other Vagabonds stay back? Why are they weary of this place? It’s 
 
 Then, as you walk further out, you spot it, growing in the cracks of a building - A Bioform.
 
-You take a half step back. The Bioforms are everything your community has ever feared. They are why you work so hard - you pump out smog to keep the Bioforms out of your sanctuary, Fragos, your city. For Bioforms to be growing here you must have come right out to the edge of the smogs killing reach. 
+You take a half step back. The Bioforms are everything your community has ever feared. They are why you work so hard - you pump out smog to keep the Bioforms out of your sanctuary, Fragos, your city. For Bioforms to be growing here you must have come right out to the edge of the smog killing reach. 
 
 The tiny patches of flora you notice as you pass won’t produce enough pollen to kill anyone in these low numbers, and you and your sister have nothing to fear yourselves, but this must be why the other Vagabonds hung back. Bioforms are terrifying for a person who isn’t immune. Their presence means death.
 
@@ -68,7 +68,7 @@ Several delivery drones - robots from before the pandemic - exit from the multip
 
 “To a drop off point close to the city. We have followed them multiple times before, we’ve blocked them, taken their packages, kidnapped them so we can pull them apart, we’ve even destroyed them. None of it helped us find out who they answer to. They have a singular purpose, to drop off their assets and get back to the flytecraft. That is all they know.”
 
-The stream of delivery drones finally tapers off and dissapears between two buildings.
+The stream of delivery drones finally tapers off and disappears between two buildings.
 
 
 [C2,1,1]”I want to see for myself.” You say. Rasputin nods and gestures towards where the robots disappeared as if to say ‘After you.’

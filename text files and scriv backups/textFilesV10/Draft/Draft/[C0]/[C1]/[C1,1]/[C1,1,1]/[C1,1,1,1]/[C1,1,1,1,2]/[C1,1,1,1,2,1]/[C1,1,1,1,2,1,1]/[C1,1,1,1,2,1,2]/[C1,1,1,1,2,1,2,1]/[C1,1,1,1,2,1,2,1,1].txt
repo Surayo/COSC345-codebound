@@ -14,7 +14,7 @@ But before you find home, you find the Vagabonds.
 
 Your brief sleep just made you more exhausted and stiff and so you are slow to react when you hear footsteps coming closer.
 
-Someone steps into your view and you finally glace up. 
+Someone steps into your view and you finally glance up. 
 
 Fuck. It’s that man again - the one leading the group Eve was with. 
 
@@ -33,5 +33,5 @@ Eve doesn’t look impressed. “What the fuck are you doing out here? You were 
 
 [C1,1,1,1,2,1,2,1,1,2]You walk over to the group, drawing in close to Eve’s side.
 
-[C1,1,1,1,2,1,2,1,1,2]”What.” You say, “You can’t be serious. I can’t join you guys. You’re the bad guys!”
+[C1,1,1,1,2,1,2,1,1,3]”What.” You say, “You can’t be serious. I can’t join you guys. You’re the bad guys!”
 [END]
