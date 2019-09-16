@@ -431,41 +431,40 @@ You walk up to the entrance.
             <Title>[C1,1,1,2,1]</Title>
             <Text>[1,1,1,2,1]You dart down another side street, away from the sounds of voices. Someone lets out a short shout and then there are footsteps pounding after you. 
 
-Fuck. Why did you run. You stumble and almost fall. 
-
-If it weren’t for the heavy work-boots the exhausted tremble in your legs would slow you down anyway. As it is it’s only a few more pounding steps before you trip and fall heavily, catching yourself with your arms.
-
-“Fuck.” You say. The footsteps get closer, more than one set. You try to get up.
-
-Someone stumbles to a stop in front of you. “Well I’ll be tied up and cooked in a broiler. It’s [name]! The one we were lookin’ for!” a mans voice says. 
-
-Another body slams into you, knocking you back down to the pavement. 
-
-“That is a relief,” A womans voice says, ”Come on then, tie [Xer] up. We have to get [Xer] back to the base.”
-
-“Hey! No!” you say, pushing up against the weight on your back - one one who hasn’t said anything yet. There must be at least three vagabonds surrounding you.
-
-You panic, twisting desperately against the one holding you down. A tall lanky man crouches down in front of you and when you open your mouth to shout he stuffs a rag in your mouth. You head-butt his hands away - it’s all you can reach with the other Vagabond holding you down - and try and push the cloth out of your mouth.
-
-It’s no use. He grabs you by the chin and wraps another cloth around your face, tying it off and securing the gag in place.
-
-“Could you lift ‘[Xm] up a bit, Greg? It’s hard to reach ‘[Xs] arms from here.” The one on top of you shifts, pulling your arms up and behind your back where your struggling just pulls against your shoulders. “’Preciate it, Greg.” The one in front of you says.
-
-He ties your hands up promptly and you’re hauled up to your to your feet by your now tied wrists.
-
-Your legs are still free.
+Fuck. Why did you run. You stumble but catch yourself before you tumble.
 
 
-[C1,1,1,2,1,1]Kick the tall one in the stomach.
+[C1,1,1,2,1,1]Fall.
+[END]
 
-[C1,1,1,2,1,2]Kick Greg in the balls.
-
-[C1,1,1,2,1,3]Let them take you.
-[END]</Text>
+</Text>
         </Document>
         <Document ID="21">
             <Title>[C1,1,1,2,2]</Title>
-            <Text>[1,1,1,2,2]
+            <Text>[1,1,1,2,2]You slink into the doorway of a building, hoping they’ll pass you by. Your heart is beating double-time in your head as you press yourself up against the wall of the building behind you. 
+
+The voice are coming closer - shit. What are the chances you would run accross fucking Vagabonds out here at night. Because they are Vagabonds. You’re the only worker dumb enough to be out here at night. No one else but Vagabonds would still be wandering these streets this late.
+
+You hold your breath as they round the corner, trying not to make a sound, hoping the don’t see you in the shadows of your building. 
+
+“Where did you say you heard someone again? I don’t see anyone.” One of them says. Shit. Fuck. They heard you.
+
+You are in a out-of-the way nook so you can hardly see them yourself where they’re walking out in the middle of the street but you spot three sets of feet.
+
+That’s way more healthy young rebels than you could ever take on - not to insinuate you stand a chance against even one healthy young rebel but still. This is bad.
+
+You are holding your breath as they get closer, your head clouded with panic, all your senses turned towards the three people only metres away. One stops right in front of your hiding place. 
+
+They can’t have spotted you, can they!? Than again, you are sure the pounding of your heart is loud enough for anyone to hear.
+
+“They’re over there.” They point. Right to your hiding place.
+
+“Shit” you say.
+
+
+[C1,1,1,2,1,1]You dart out of your hiding place, trying to run past them before they catch you.
+
+[]you stay where you are, frozen.
 [END]</Text>
         </Document>
         <Document ID="22">
@@ -506,8 +505,6 @@ You grumble something even you know isn’t words and plod on, head down.
 [C1,1,1,3,1,1]You give her a friendly punch on the shoulder. You feel better knowing she’s there for you.
 
 [C1,1,1,3,1,2]Dread and guilt washes over you. You should tell her. She’s as much Eve’s friend as yours. She needs to know what Eve has done.
-
-[C1,1,1,3,1,3][I1]You pull Eve’s ring out of your pocket. “Eve is gone.” Liaba looks at you quizzically.
 [END]</Text>
         </Document>
         <Document ID="24">
@@ -516,7 +513,7 @@ You grumble something even you know isn’t words and plod on, head down.
 
 Liaba laughs. “Don’t I know it.” 
 
-It’s easy. You can push thoughts of your sister to the side for a minute. The crowd gets thicker as you walk, people bunching up as other workers trickle in from other houses. You settle into the walk, into the routine of heading to work just like any other day.
+It’s easy. You can push thoughts of your sister to the side for a minute. The crowd gets thicker as you walk, people bunching up as more workers trickle in from other houses. You settle into the walk, into the routine of heading to work just like any other day.
 
 Someone pushes in between you and Liaba and Liaba gives them the stink eye. “Oh!” She says. You glance over at them yourself.
 
@@ -529,13 +526,38 @@ Oh.
 
 [C1,1,1,3,1,1,1]”Wait.” You say pulling your arm out of her grip. She groans.
 
-[C1,1,1,3,1,1,2]”What are you doing back?” you ask, finishing your though from before now that she’s finished moving you.
-
+[C1,1,1,3,1,1,2]”What are you doing back?” you ask, finishing your thought from before, now that she’s finished moving you.
 [END]</Text>
         </Document>
         <Document ID="25">
             <Title>[C1,1,1,3,1,2]</Title>
-            <Text>[END]</Text>
+            <Text>[1,1,1,3,1,2]You get a grip on her arm, slowing the both of you down. She must see something concerning in your expression because she goes serious, waiting for you to talk. 
+
+You let out a breath and lower your voice so the people around you won’t hear. “Eve joined the Vagabonds.” You say.
+
+Liaba stops. “What!” she says louder than you would like. A few people look over.
+
+“Shhhhh.” You say, “That’s what all the ruckus was about last night. I was trying to stop her. She wouldn’t listen.”
+
+“Oh my god.” Liaba says, marginally quieter than before.
+
+The crowd has gotten thicker around you as more workers arrive from other houses. Someone pushes in between the two of you.
+
+“Oh my god!” Liaba says again. “Eve!?”
+
+“Yeah, Eve.” You say, glancing over.
+
+Oh.
+
+It’s Eve. She’s standing between the two of you, grinning in your direction.
+
+“That’s my name.” She says. She grabs you by the arm pulling you away from where Liaba is still gaping at her. “Can I talk to you for a second?” She doesn’t wait for an answer. Just pulls you away from the crowd and into a side alley.
+
+
+[C1,1,1,3,1,1,1]”Wait.” You say pulling your arm out of her grip. She groans.
+
+[C1,1,1,3,1,1,2]”What are you doing back?” you ask, finishing your thought from before, now that she’s finished moving you.
+[END]</Text>
         </Document>
         <Document ID="26">
             <Title>[C1,1,1,1,2,1]</Title>
@@ -839,24 +861,65 @@ You manage to get an arm free.
 
 He uncovers your mouth only for the second figure to shove a balled up piece of cloth into your mouth a second later. You let them, and shake. What the fuck? What is even happening? Are you being kidnapped or something?
 
-“[Xe]’s being awfully quite don’t you think, Greg?” the second figure says. The first one grunts and holds you still by the shoulders even as you don’t struggle against him. “I was expecting a real fight with this one but I guess you can never really tell.” 
+“[Xe]’s being awfully quite don’t you think, Greg?” the second figure says. The first one grunts and holds you still by the shoulders even as you don’t struggle against him. “I was expecting a real fight with this one but I guess you can never really tell. Not even making a peep or nothin’!” 
 
 “I wish you would take [Xis] queue, Patrick.” A female voice says from over near the door. How many of these guys are there? It suddenly dawns on you that these must be Vagabonds and you feel yourself tense up with renewed fear. What the fuck do the Vagabonds want with you that they’ll go to all the trouble of kidnapping you over it?
 
 “Right you are, Boss.” Patrick replies in a quieter, yet no less enthusiastic, voice. He ties the gag in place with another strip of cloth. 
+
+Patrick pulls out rope next and makes deft work of tying your hands and feet. “Hey, Greg. Have you got they rucksack?” Patrick asks of the larger man looming over you.
+
+Greg pulls a black bag out of his coat and hands it over. 
+
+“’Preciate it, Greg.” He pulls it over your head, blocking out the dim light around your and your sight with it.
+
+“Let’s get going, boys.” The boss says. “We have to get back to base and report this astounding success to Rasputin.”
+
+“Right you are.” Patrick says. “You got ‘[Xm], Greg?” 
+
+Greg heafts you up onto his shoulder and you settle with a ‘oof’ in place. “Got ‘[Xe].”
+
+
+[C1,1,2,1,1,1]Be carried.
 [END]</Text>
         </Document>
         <Document ID="38">
             <Title>[C1,1,2,3]</Title>
             <Text>[1,1,2,3]You bite hard into the hand covering your mouth and taste blood. The man yelps, startlingly high pitched. “[Xe] bit me.” He says.
 
-“Oi! That’s rude you piece of fuck.” A second male voice says from closer to the bed than you would like. You let out a shout of alarm and push yourself backwards away from the two attackers. 
+“Oi! That’s rude, you piece of fuck.” A second male voice says from closer to the bed than you would like. You let out a shout of alarm and push yourself backwards away from the two attackers. 
 
 “Shhhhhhh!” a female voice says from closer to the door, sounding angry. “Keep it down. We don’t want to be caught.” 
 
-Yes you fucking do. You shout out a strangled “Help!” before the same large hands are closing over your mouth. 
+Yes you fucking do. You open your mouth to shout “Oh no you don’t” the second male says and tackles you down onto the floor. You choke on your shout. He’s smaller than the first man but even still the force of him knocks the wind out of you.
 
-“Stop.” The man holding your mouth closed says. You strain and scratch at his hands. You hear and loud thud coming from the room next to yours and a voice muffled through the walls. 
+“Quickly, Greg. Tie [Xer] up.” The women says.
+
+The first man grunts. “I’m on it, Boss.”
+
+You struggle against the one on top of you, still not able to catch your breath. He grabs your hands, “Stop! Moving!” he lets out, sounding strained.
+
+Greg saved you trouble of trying to shout more by shoving a cloth in your mouth. His hand is red but not bleeding despite how hard you bit him. “Pass me the rope, Patrick. I didn’t bring any.” Greg says.
+
+“I’m a little busy here!” Patrick says. You spit the cloth out in his face.
+
+Greg just calmly picks it up and puts it back in your mouth before can make a noise. For fucks sake. He rifles through Patrick coat while Patrick struggles to hold you down and quickly finds some rope.
+
+“Hey, Greg. Do you think. Urgh. Do you think we could trade places. You being the strong one and all.” Patrick says. You buck up under him and kick out but you can’t get free.
+
+Greg drops the rope and grabs you by the wrists with much stronger hands than Patrick’s. You can hardly. Though, to be fair, your strength has been waining for a while now.
+
+Patrick makes quick work of securing the rope around your mouth, tying the cloth in place in your mouth.
+
+“Really, we should have done this from the start. We have a much better dynamic when you’re doing the heavy lifting with me as your wing-man.” He raises his voice a little, “Plus you as our leader and look-out, Boss.” He says looking over Greg’s shoulder to the women at the door.
+
+
+
+
+//////////
+
+
+“Stop.” The man holding your mouth closed says. You strain and scratch at his hands, trying to pull them away from your face. You hear a loud thud coming from the room next to yours and a voice muffled through the walls. 
 
 “Shit, boss. Abort?” the second male says, backing away from you.
 
@@ -870,7 +933,23 @@ Fuck.
 
 Someone barges into your room and you scream, cowering back into your bed.
 
-“Bloody heaving fuck, [Name]. It’s just me.
+“Bloody heaving fuck, [Name]. It’s just me.” It’s Drew. It’s just Drew. You let out a shaky breath.
+
+“Fuck.” You say.
+
+“What the hell happened? Why was there yelling?” He asks, coming to crouch down in front of you.
+
+“[Name]?” Liaba asks from the door. She rushes in. “I heard yelling. What’s going on?”
+
+
+[C1,1,2,3,1]”I - Nothing. Just a nightmare. I’m Ok.” You say, trying o steady your breathing and calm your racing heart.
+
+[C1,1,2,3,2]”There were Vagabonds! In my room. I think they were trying to kidnap me.” You say.
+
+
+//////////
+
+
 [END]</Text>
         </Document>
         <Document ID="39">
@@ -1208,15 +1287,26 @@ Greg shifts his weight off of you, pulling you up by your wrists which he still 
 [END]</Text>
         </Document>
         <Document ID="48">
-            <Title>[C1,1,1,1,3,1,2,1]</Title>
-            <Text>[C1.1.1.1.3.1.2.1][ITEM2]You receive LASER HANDGUN.
+            <Title>[C1,1,1,3,1,1,1]</Title>
+            <Text>[1,1,1,3,1,1,1]You can still see workers walking past over your sisters shoulder. Liaba has stopped and is waiting for you. “I didn’t think you’d be back. After last night-”
+
+“I’m not.” She glances to the side crowding you further into the alley. “I’m just here to pick you up.” She grins and winks to someone over your shoulder.
+
+You turn to look but before you catch a glimpse of their face a bag is shoved over your head. You yell out instinctively but it’s muffled by the bag. Arms grip you by the chest and pull you back.
+
+“[Name]? Eve what happened to [Name]?” you hear Liaba say, her voice growing more distant as you are dragged further from the site. 
 
 
-[C1.1.1.1.3.1.2.2]Get the hell out of there.</Text>
+[C1,1,1,3,1,1,1,1]Struggle.
+
+[C1,1,1,3,1,1,1,2]Yell.
+
+[C1,1,1,3,1,1,1,3]Go limp.
+[END]</Text>
         </Document>
         <Document ID="49">
-            <Title>[C1,1,1,1,3,1,2,2]</Title>
-            <Text>[1,1,1,1,3,1,2,2]You manage to backtrack through The Factory and make it back out into the street. The glow of the Bioforms is dimmest here around The Factory - the source of the cities smog. Still, the streets glow brighter here than it did inside.
+            <Title>[C1,1,1,1,3,1,2,1]</Title>
+            <Text>[1,1,1,1,3,1,2,1]You manage to backtrack through The Factory and make it back out into the street. The glow of the Bioforms is dimmest here around The Factory - the source of the cities smog. Still, the streets glow brighter here than it did inside.
 
 
 [C1,1,1,3]Go home.
@@ -1225,8 +1315,8 @@ Greg shifts his weight off of you, pulling you up by your wrists which he still 
 [END]</Text>
         </Document>
         <Document ID="50">
-            <Title>[C1,1,1,1,3,1,2,3]</Title>
-            <Text>[1,1,1,1,3,1,2,3]The laser handgun explodes in your face blasting a hole through your skull. The gun falls from your slack grip, hitting the floor with a clatter of metal. Your body wavers for a second, then follows it.
+            <Title>[C1,1,1,1,3,1,2,2]</Title>
+            <Text>[1,1,1,1,3,1,2,2]The laser handgun explodes in your face blasting a hole through your skull. The gun falls from your slack grip, hitting the floor with a clatter of metal. Your body wavers for a second, then follows it.
 
 You lay prone on the floor, the hole in your skull has been cauterized by the laser and does not bleed.
 
@@ -1710,7 +1800,7 @@ Eve doesn’t look impressed. “What the fuck are you doing out here? You were 
 
 [C1,1,1,1,2,1,2,1,1,2]You walk over to the group, drawing in close to Eve’s side.
 
-[C1,1,1,1,2,1,2,1,1,2]”What.” You say, “You can’t be serious. I can’t join you guys. You’re the bad guys!”
+[C1,1,1,1,2,1,2,1,1,3]”What.” You say, “You can’t be serious. I can’t join you guys. You’re the bad guys!”
 [END]</Text>
         </Document>
         <Document ID="71">
@@ -1850,8 +1940,22 @@ He looks up and then does a double take. “The last person who I saw just finis
 [END]</Text>
         </Document>
         <Document ID="79">
-            <Title>[C1,1,1,3,1,3]</Title>
-            <Text>[END]</Text>
+            <Title>[C1,1,1,3,1,1,2]</Title>
+            <Text>[1,1,1,3,1,1,2]”After last night, I didn’t think I’d see you again.” You say.
+
+“Well, here I am.” Eve grins. A bag is shoved over your head and strong arms grab you from behind. You’re dragged off your feet before you can even gasp and pulled further into the alley.
+
+You try to get your feet under you but they’re pulling you back too fast.
+
+“That went smoother than expected.” Eve says.
+
+
+[C1,1,1,3,1,1,1,1]Struggle.
+
+[C1,1,1,3,1,1,2,1]Yell.
+
+[C1,1,1,3,1,1,1,3]Go limp.
+[END]</Text>
         </Document>
         <Document ID="80">
             <Title>[C1,1,1,1,2,1,2,1,1,1]</Title>
@@ -1866,8 +1970,8 @@ He looks up and then does a double take. “The last person who I saw just finis
             <Text>[END]</Text>
         </Document>
         <Document ID="83">
-            <Title>[C1,1,1,2,1,1]</Title>
-            <Text>[1,1,1,2,1,1]You flail your legs wide, catching the guy in front of you in the stomach.
+            <Title>[C1,1,1,2,1,1,1]</Title>
+            <Text>[1,1,1,2,1,1,1]You flail your legs wide, catching the guy in front of you in the stomach.
 
 He lets out an, “Oof,” of breath and stumbles back, tripping over his own feet and landing heavily on his ass.
 
@@ -1894,8 +1998,8 @@ She makes quick work of tying up your legs. You are dropped to the ground rather
 [END]</Text>
         </Document>
         <Document ID="84">
-            <Title>[C1,1,1,2,1,2]</Title>
-            <Text>[1,1,1,2,1,2]You kick behind you as hard as your tired legs will let you. Greg lets out a grunt of pain and you’re dropped to the ground in a heap.
+            <Title>[C1,1,1,2,1,1,2]</Title>
+            <Text>[1,1,1,2,1,1,2]You kick behind you as hard as your tired legs will let you. Greg lets out a grunt of pain and you’re dropped to the ground in a heap.
 
 “Hey! What the fuck!” the man in front of you says. You barley glance back to see Greg hunched over in pain. You stumble to your feet - hands and mouth still tied - and start running.
 
@@ -1926,8 +2030,8 @@ Behind them, Greg manages to get to his feet, still hunched over and cradling hi
 [END]</Text>
         </Document>
         <Document ID="85">
-            <Title>[C1,1,1,2,1,3]</Title>
-            <Text>[1,1,1,2,1,3]The man in front of you takes no time at all tyeing your feet together just like he did you hands. “Efficient work, Patrick, Greg.” The women says. “This was easier than I thought it would be.”
+            <Title>[C1,1,1,2,1,1,3]</Title>
+            <Text>[1,1,1,2,1,1,3]The man in front of you takes no time at all tyeing your feet together just like he did you hands. “Efficient work, Patrick, Greg.” The women says. “This was easier than I thought it would be.”
 
 “Thanks, Boss. I was honestly worried we wouldn’t find the fucker but there [Xe] was, stumbling through the same street we were.” Patrick says as Greg sets you back on your feet, “What are the chances, eh?” So they were trying to find  you?
 
@@ -1935,6 +2039,120 @@ You want to ask why the fuck they were out doing something like that but the gag
 
 
 [C1,1,2,1,1,1]be carried.
+[END]</Text>
+        </Document>
+        <Document ID="86">
+            <Title>[C1,1,1,3,1,1,1,1]</Title>
+            <Text>[1,1,1,3,1,1,1,1]You thrash in their hold trying to get back you your feet and away from them. “Hold still.” A deep voice says. 
+
+“Fuck off!” you reply and struggle even harder. Their grip slips and you land with a thud on your back but they just lift you up and onto their shoulder.
+
+You knee them in the chest but they don’t stop moving. “[Xe] sure is a wiley one.” Another male voice says. “Just like Eve. You can tell they’re related just from the temperament!”
+
+“Actually [Xe]’s usually calmer than this.” Eve says. You didn’t even notice her join your group.
+
+“Not that it’s important but we should tie [Xer] up.” Another womens voice says, ”We don’t want [Xer] getting away now that we’ve caught [Xer].”
+
+
+[C1,1,1,3,1,1,1,1,1]Be tied up.
+[END]</Text>
+        </Document>
+        <Document ID="87">
+            <Title>[C1,1,1,3,1,1,1,2]</Title>
+            <Text>[1,1,1,3,1,1,1,2]”LIABA!” you yell as loud as you can through the cloth.
+
+“[Name]?!” you hear distantly before a hand clamps over your mouth and you are dragged further away.
+
+“Quick.” A womens voice says, “Someone heard. Let’s get out of here.”
+
+You let out as oof of breath as you’re hoisted over someones shoulder. They start off at a lopeing run and your breath leaves you with a grunt with every heavy step. “Li - aba” you say  between breathes.
+
+Someone thumps you on the head. “Shut up.” A deep voice says. 
+
+“I think we lost them.” A third voice, “That was one hell of a close call. I’m glad we though to bring Eve with us though. I don’t think the workers ‘av realised she’s with us!” 
+
+You can no longer hear the distant tread of workers. You strain your hearing over the pounding of your captors feet, but there is no sign that Liaba has followed you. “Help!” you yell, “I’m - oof - over here!” 
+
+Your kidnappers pay no mind to your yelling this time. They have slowed down their sprinting to just a steady jog.
+
+“Let’s put [Xer] down over there. We need to tie [Xer] up.” The women says.
+
+“Sure thing, Boss.”
+
+You hear pounding feet and return to your struggling at earnest. “What’d I miss?” Eve asks.
+
+
+[C1,1,1,3,1,1,1,1,1]Be tied up.
+[END]</Text>
+        </Document>
+        <Document ID="88">
+            <Title>[C1,1,1,3,1,1,1,3]</Title>
+            <Text>[1,1,1,3,1,1,1,3]You are hauled over someones shoulder and carried off further away from your people.
+
+Someone jogs over to your group “OK. No one is following us.” Eve says. “We’re probably safe to tie [Name] up now.”
+
+[C1,1,1,3,1,1,1,1,1]Be tied up.
+[END]</Text>
+        </Document>
+        <Document ID="89">
+            <Title>[C1,1,1,3,1,1,2,1]</Title>
+            <Text>[1,1,1,3,1,1,2,1]”LIABA!” you yell but you have been dragged too far away.  You can’t even hear the crowd of walkers anymore and it’s not like it’s a silant march. They chat and they chat loudly.
+
+“Let go of me!” you say, struggling against their hold. You can’t get your legs under you as you are dragged backwards.
+
+“No can do, [Name]. You’re coming with us weather you like it or not.” A voice to your right says. There must be more than one of them.
+
+You hear someone running over to you and double your efforts to get up. “Help!” you yell. “I’m over here!”
+
+“Shut up, [Name]. It’s just me.” Eve says. “We should tie [Xer] up before [Xe] gets away.”
+
+
+[C1,1,1,3,1,1,1,1,1]Be tied up.
+[END]</Text>
+        </Document>
+        <Document ID="90">
+            <Title>[C1,1,1,3,1,1,1,1,1]</Title>
+            <Text>[1,1,1,3,1,1,1,1,1]“What the fuck, Eve.” You say.
+[END]</Text>
+        </Document>
+        <Document ID="91">
+            <Title>[C1,1,2,3,1]</Title>
+            <Text>[1,1,2,3,1]”Are you sure?” Drew says. That must have been one hell of a nightmare
+[END]</Text>
+        </Document>
+        <Document ID="92">
+            <Title>[C1,1,1,2,2,2]</Title>
+        </Document>
+        <Document ID="93">
+            <Title>[C1,1,1,2,1,1]</Title>
+            <Text>[1,1,1,2,1,1]If it weren’t for the heavy work-boots the exhausted tremble in your legs would slow you down anyway. As it is it’s only a few pounding steps before you trip and fall heavily, catching yourself with your arms.
+
+“Fuck.” You say. The footsteps get closer, more than one set. You try to get up.
+
+Someone stumbles to a stop in front of you. “Well I’ll be tied up and cooked in a broiler. It’s [name]! The one we were lookin’ for!” a mans voice says. 
+
+Another body slams into you, knocking you back down to the pavement. 
+
+“That is a relief,” A womans voice says, ”Come on then, tie [Xer] up. We have to get [Xer] back to the base.”
+
+“Hey! No!” you say, pushing up against the weight on your back - one one who hasn’t said anything yet. There must be at least three vagabonds surrounding you.
+
+You panic, twisting desperately against the one holding you down. A tall lanky man crouches down in front of you and when you open your mouth to shout he stuffs a rag in your mouth. You head-butt his hands away - it’s all you can reach with the other Vagabond holding you down - and try and push the cloth out of your mouth.
+
+It’s no use. He grabs you by the chin and wraps another cloth around your face, tying it off and securing the gag in place.
+
+“Could you lift ‘[Xm] up a bit, Greg? It’s hard to reach ‘[Xs] arms from here.” The one on top of you shifts, pulling your arms up and behind your back where your struggling just pulls against your shoulders. “’Preciate it, Greg.” The one in front of you says.
+
+He ties your hands up promptly and you’re hauled up to your to your feet by your now tied wrists.
+
+Your legs are still free.
+
+
+[C1,1,1,2,1,1,1]Kick the tall one in the stomach.
+
+[C1,1,1,2,1,1,2]Kick Greg in the balls.
+
+[C1,1,1,2,1,1,3]Let them take you.
 [END]</Text>
         </Document>
     </Documents>
