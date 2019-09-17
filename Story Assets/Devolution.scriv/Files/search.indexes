@@ -443,11 +443,11 @@ Fuck. Why did you run. You stumble but catch yourself before you tumble.
             <Title>[C1,1,1,2,2]</Title>
             <Text>[1,1,1,2,2]You slink into the doorway of a building, hoping they’ll pass you by. Your heart is beating double-time in your head as you press yourself up against the wall of the building behind you. 
 
-The voice are coming closer - shit. What are the chances you would run accross fucking Vagabonds out here at night. Because they are Vagabonds. You’re the only worker dumb enough to be out here at night. No one else but Vagabonds would still be wandering these streets this late.
+The voices are coming closer - shit. What are the chances you would run across fucking Vagabonds out here at night. Because they are Vagabonds. You’re the only worker dumb enough to be out here at night. No one else but Vagabonds would still be wandering these streets this late.
 
 You hold your breath as they round the corner, trying not to make a sound, hoping the don’t see you in the shadows of your building. 
 
-“Where did you say you heard someone again? I don’t see anyone.” One of them says. Shit. Fuck. They heard you.
+Someone speaks, “Where did you say you heard someone again? I don’t see anyone.” Shit. Fuck. They heard you.
 
 You are in a out-of-the way nook so you can hardly see them yourself where they’re walking out in the middle of the street but you spot three sets of feet.
 
@@ -457,19 +457,29 @@ You are holding your breath as they get closer, your head clouded with panic, al
 
 They can’t have spotted you, can they!? Than again, you are sure the pounding of your heart is loud enough for anyone to hear.
 
-“They’re over there.” They point. Right to your hiding place.
+“They’re over there.” One points. Right to your hiding place.
 
 “Shit” you say.
 
 
 [C1,1,1,2,1,1]You dart out of your hiding place, trying to run past them before they catch you.
 
-[]you stay where you are, frozen.
+[C1,1,1,2,2,2]you stay where you are, frozen.
 [END]</Text>
         </Document>
         <Document ID="22">
             <Title>[C1,1,1,2,3]</Title>
-            <Text>[END]</Text>
+            <Text>[1,1,1,2,3]”Eve?” you yell out, moving towards the sounds of voices.
+
+“Who’s lookin’?” someone replies - Not Eve. You round the corner and come face to face with three vagabonds, none of them Eve.
+
+“Uhhh.” You say.
+
+
+[C1,1,1,2,1,1]Run.
+
+[C1,1,1,2,3,1]Talk to them.
+[END]</Text>
         </Document>
         <Document ID="23">
             <Title>[C1,1,1,3,1]</Title>
@@ -899,57 +909,32 @@ The first man grunts. “I’m on it, Boss.”
 
 You struggle against the one on top of you, still not able to catch your breath. He grabs your hands, “Stop! Moving!” he lets out, sounding strained.
 
-Greg saved you trouble of trying to shout more by shoving a cloth in your mouth. His hand is red but not bleeding despite how hard you bit him. “Pass me the rope, Patrick. I didn’t bring any.” Greg says.
+Greg saves you trouble of trying to shout more by shoving a cloth in your mouth. His hand is red but not bleeding despite how hard you bit him. “Pass me the rope, Patrick. I didn’t bring any.” Greg says.
 
 “I’m a little busy here!” Patrick says. You spit the cloth out in his face.
 
-Greg just calmly picks it up and puts it back in your mouth before can make a noise. For fucks sake. He rifles through Patrick coat while Patrick struggles to hold you down and quickly finds some rope.
+Greg just calmly picks it up and puts it back in your mouth before you can make a noise. For fucks sake. There are people sleeping in the rooms either side of you. If you could just make enough noise. Greg rifles through Patricks coat while Patrick struggles to hold you down and quickly finds some rope.
 
-“Hey, Greg. Do you think. Urgh. Do you think we could trade places. You being the strong one and all.” Patrick says. You buck up under him and kick out but you can’t get free.
+“Hey, Greg. Do you think. Urgh. Do you think we could trade places? You being the strong one and all.” Patrick says. You buck up under him and kick out but you can’t get free.
 
-Greg drops the rope and grabs you by the wrists with much stronger hands than Patrick’s. You can hardly. Though, to be fair, your strength has been waining for a while now.
+Greg drops the rope and grabs you by the wrists with much stronger hands than Patrick’s. You can hardly struggle. He is much stronger than the smaller Patrick. Though, to be fair, your strength has been waining for a while now.
 
-Patrick makes quick work of securing the rope around your mouth, tying the cloth in place in your mouth.
+Patrick makes quick work of securing the rope around your mouth, tying the cloth in place in your mouth. 
 
-“Really, we should have done this from the start. We have a much better dynamic when you’re doing the heavy lifting with me as your wing-man.” He raises his voice a little, “Plus you as our leader and look-out, Boss.” He says looking over Greg’s shoulder to the women at the door.
+“Really, we should have done this from the start.” Patrick says, ”We have a much better dynamic when you’re the one doing the heavy lifting with me as your right hand man.” He raises his voice a little, “Plus you as our leader and look-out, Boss.” He says looking over Greg’s shoulder to the women at the door.
 
+“Yes. Well.” She says, voice a harsh whisper, ”My job would be easier if you shut up and did yours. We are in enemy territory right now you know. It’s a mirical no one has woken up yet.”
 
+“Right you are, Boss.” Patrick says and salutes, dropping one end of the rope and letting the knot he had been working on around your legs unravel. You kick out at him and hit him in the shin but Greg grabs your leg before you can do any real damage. “Oof. Bugger.”
 
+They don’t take much longer tyeing you up and when Greg shoves a black bag over your head you don’t have room enough to fight. 
 
-//////////
+You get hauled over Greg’s shoulder. “Done are we?” the Boss asks.
 
-
-“Stop.” The man holding your mouth closed says. You strain and scratch at his hands, trying to pull them away from your face. You hear a loud thud coming from the room next to yours and a voice muffled through the walls. 
-
-“Shit, boss. Abort?” the second male says, backing away from you.
-
-“Agreed. There are more people waking up.” The woman says. “Let’s get out of here before the whole building comes down on us.” 
-
-The first and largest assailant immediately lets go of you and sprints out the door, his footfalls surprisingly light for his large frame. The second man falls back almost as quickly, stumbling over himself on the way out the door and then all three of them are gone, leaving the door clicked shut behind them.
-
-Fuck. You breathe, feeling you face over for bruises.
-
-Fuck.
-
-Someone barges into your room and you scream, cowering back into your bed.
-
-“Bloody heaving fuck, [Name]. It’s just me.” It’s Drew. It’s just Drew. You let out a shaky breath.
-
-“Fuck.” You say.
-
-“What the hell happened? Why was there yelling?” He asks, coming to crouch down in front of you.
-
-“[Name]?” Liaba asks from the door. She rushes in. “I heard yelling. What’s going on?”
+“[Xe]’s all wrapped up for you, Boss.” Patrick says. Greg pats you on the head the bag and you set off.
 
 
-[C1,1,2,3,1]”I - Nothing. Just a nightmare. I’m Ok.” You say, trying o steady your breathing and calm your racing heart.
-
-[C1,1,2,3,2]”There were Vagabonds! In my room. I think they were trying to kidnap me.” You say.
-
-
-//////////
-
-
+[C1,1,2,1,1,1]be carried.
 [END]</Text>
         </Document>
         <Document ID="39">
@@ -1855,9 +1840,9 @@ Ellie-May darts ahead through the crowd and disappears through another set of do
 
 Ellie-May pokes her head through the door she went through before you even get to it. “I found us a triple! She says. It’s pretty empty in here at the moment. Rasputin must have lots of people out on missions.”
 
-You and Eve slip into the room after Ellie-May and you a greeted with a large room lined with bunk beds. Most of them are mismatched, some wider or taller than others, some made of metal, others of wood. The Vagabonds must have scrounged these up from the surrounding empty buildings. 
+You and Eve slip into the room after Ellie-May and you are greeted with a large room lined with bunk beds. Most of them are mismatched, some wider or taller than others, some made of metal, others of wood. The Vagabonds must have scrounged these up from the surrounding empty buildings. 
 
-You’ve never slept in a proper bed before. You and your sister always just had your mattress’s. 
+You’ve never slept in a proper bed before. You and your sister always just had your mattresses. 
 
 It’s darker in here than the other room, quieter too. With only the sounds of sleeping filling the silence. Most of the beds near the door are filled with sleeping people and the three of you tip-toe through the throng until you reach the beds Ellie-May must have found. 
 
@@ -1919,7 +1904,51 @@ You blink. It sounds like the same guy that interrupted Eve when she was taking 
         </Document>
         <Document ID="77">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1]</Title>
-            <Text>[END]</Text>
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1]Eve shakes you awake. “Get up, dipshit. We’re going out” You blink up at her from your mattress. 
+
+Wait. This isn’t your room. Above your had you see the second story of a bunk bed you must be lying on. The room is dark but you can make out other people sleeping in more bunk beds around you. 
+
+Oh. You guess you’re a Vagabond now? You didn’t think this through.
+
+Ellie-May’s head pops down from the bunk bed above you, upside down will all her hair hanging loose. “Ooo. I wonder what Rasputin will get us to do today? We never did get to see if our Aspects were compatible.”
+
+“Yeah. Well if he does get as to go try that again we won’t be able to take this one with us” she jerks her thumb at you. You yawn and sit up in bed. “[Xis] Aspect would counter mine” You’re still tired but more refreshed that you were last night. You think you want to know what Rasputin has in store for you.
+
+Did he mention something about leaving? You’re not sure if you were awake enough to remember where if he did. 
+
+The three of you head out into the same crowded room you first saw when you came in last night. There are more people sitting around eating breakfast and coming in and out through multiple doors. 
+
+Eve leads you through one of the doors and you find a queue of people getting breakfast. There are a few tables dotted around but most people are getting food than eating. It seems the main eating room is the main hall behind you.
+
+It’s a fast queue and when you get to the front you are handed a plate piled with a hot meal. You can’t remember the last time your meal didn’t come out of a can. It smells delicious. 
+
+Eve pulls you over one of the tables and it’s only when you get there that you notice Rasputin is sitting there eating his own breakfast.
+
+“I didn’t get your report last night, Ellie-May.” He says, “How did the experiments go? Are you and Eve compatible?”
+
+Ellie-May and Eve sit down as if this isn’t the obvious leader of their group and they are not the obvious underlings. “We didn’t actually get around to it.” Ellie-May says. Eve tucks into her food and you follow suit, ”[Name] turned up before we got the chance to try anything.”
+
+“Well that’s a shame. No worried though. I have other plans for you today. Now that we have [Name] here we’re sending out another scouting mission on the flytecraft.”
+
+“Oh.” Ellie-may says. “Today?”
+
+“According to our watch, at it’s current progress it’s due to leave in two hours. The bots have dropped off their cargo and are well on their way back.”
+
+Ellie-May looks down at her plate. Eve has paused in her eating and is watching the two of them but has not interrupted. 
+
+“Who else is going?” Ellie-May finally asks.
+
+“Boss,-” He counts the names off on his fingers, ”-Greg, Patrick, Eve-” he nods in her direction. She nods back. “-[name]-” you look up and make brief eye contact, “-and me.”
+
+“Wait, really?” Ellie-May says. “But last time-”
+
+Rasputin interrupts, “Last time we didn’t have [Name] on our team. What happened last time won’t happen again.”
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1]“Me?” you say. “What can I do?”
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,2]”Where are we going?” you ask, “What happened last time?”
+[END]</Text>
         </Document>
         <Document ID="78">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1]</Title>
@@ -2116,12 +2145,33 @@ You hear someone running over to you and double your efforts to get up. “Help!
 [END]</Text>
         </Document>
         <Document ID="91">
-            <Title>[C1,1,2,3,1]</Title>
-            <Text>[1,1,2,3,1]”Are you sure?” Drew says. That must have been one hell of a nightmare
+            <Title>[C1,1,1,2,2,2]</Title>
+            <Text>[1,1,1,2,2,2]
 [END]</Text>
         </Document>
         <Document ID="92">
-            <Title>[C1,1,1,2,2,2]</Title>
+            <Title>[C1,1,1,2,3,1]</Title>
+            <Text>[1,1,1,2,3,1]”I’m looking for Eve. My sister? Do you know where I can find her?” you ask. The three Vagabonds got closer until you are almost in the middle of the group. They are all taller than you. You gulp nervously.
+
+“Yeah we know ‘er. Didn’t expect to see you wanderin’ around these parts though, [Name]. We expected you to be asleep in bed, like a good little worker.” The skinniest asks - the one who first called out to you. 
+
+“Ah. Right.” You say, ”Well I’m looking for Eve. I’m not quite sure why I though she’d be hear of all places but to be honest I have no idea where to find her.”
+
+“We could take you to her if you like.” The women says. “It’s not far back to our base. That’s where Eve is usually to be found.”
+
+“I’m Patrick by the way.”The smaller, talkative man says, “That’s Greg.” He shoves a thumb at the hulking figure beside him.
+
+“’Ello” Greg says in a deep voice.
+
+“And that there’s our Boss.” The women nods in acknowledgement.
+
+“Just follow us then and we’ll take you to your sister.” She says. 
+
+
+[C1,1,1,2,3,1,1]You follow them. It’s not as far as you would have thought to get back to the Vagabonds’ base.
+
+[C1,1,1,2,3,1,2]”No, I-” you say. “We weren’t asking.” The Boss says. Greg grabs you roughly by the arms. 
+[END]</Text>
         </Document>
         <Document ID="93">
             <Title>[C1,1,1,2,1,1]</Title>
@@ -2154,6 +2204,12 @@ Your legs are still free.
 
 [C1,1,1,2,1,1,3]Let them take you.
 [END]</Text>
+        </Document>
+        <Document ID="94">
+            <Title>[C1,1,1,2,3,1,1]</Title>
+        </Document>
+        <Document ID="95">
+            <Title>[C1,1,1,2,3,1,2]</Title>
         </Document>
     </Documents>
 </SearchIndexes>
