@@ -1,0 +1,25 @@
+[1,1,1,2,2]You slink into the doorway of a building, hoping they’ll pass you by. Your heart is beating double-time in your head as you press yourself up against the wall of the building behind you. 
+
+The voices are coming closer - shit. What are the chances you would run across fucking Vagabonds out here at night. Because they are Vagabonds. You’re the only worker dumb enough to be out here at night. No one else but Vagabonds would still be wandering these streets this late.
+
+You hold your breath as they round the corner, trying not to make a sound, hoping the don’t see you in the shadows of your building. 
+
+Someone speaks, “Where did you say you heard someone again? I don’t see anyone.” Shit. Fuck. They heard you.
+
+You are in a out-of-the way nook so you can hardly see them yourself where they’re walking out in the middle of the street but you spot three sets of feet.
+
+That’s way more healthy young rebels than you could ever take on - not to insinuate you stand a chance against even one healthy young rebel but still. This is bad.
+
+You are holding your breath as they get closer, your head clouded with panic, all your senses turned towards the three people only metres away. One stops right in front of your hiding place. 
+
+They can’t have spotted you, can they!? Than again, you are sure the pounding of your heart is loud enough for anyone to hear.
+
+“They’re over there.” One points. Right to your hiding place.
+
+“Shit” you say.
+
+
+[C1,1,1,2,1,1]You dart out of your hiding place, trying to run past them before they catch you.
+
+[C1,1,1,2,2,2]you stay where you are, frozen.
+[END]

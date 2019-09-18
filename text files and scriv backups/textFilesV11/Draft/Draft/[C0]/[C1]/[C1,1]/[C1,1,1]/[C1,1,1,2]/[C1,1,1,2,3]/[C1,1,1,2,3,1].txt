@@ -1,0 +1,21 @@
+[1,1,1,2,3,1]”I’m looking for Eve. My sister? Do you know where I can find her?” you ask. The three Vagabonds got closer until you are almost in the middle of the group. They are all taller than you. You gulp nervously.
+
+“Yeah we know ‘er. Didn’t expect to see you wanderin’ around these parts though, [Name]. We expected you to be asleep in bed, like a good little worker.” The skinniest asks - the one who first called out to you. 
+
+“Ah. Right.” You say, ”Well I’m looking for Eve. I’m not quite sure why I though she’d be hear of all places but to be honest I have no idea where to find her.”
+
+“We could take you to her if you like.” The women says. “It’s not far back to our base. That’s where Eve is usually to be found.”
+
+“I’m Patrick by the way.”The smaller, talkative man says, “That’s Greg.” He shoves a thumb at the hulking figure beside him.
+
+“’Ello” Greg says in a deep voice.
+
+“And that there’s our Boss.” The women nods in acknowledgement.
+
+“Just follow us then and we’ll take you to your sister.” She says. 
+
+
+[C1,1,1,2,3,1,1]You follow them. It’s not as far as you would have thought to get back to the Vagabonds’ base.
+
+[C1,1,1,2,3,1,2]”No, I-” you say. “We weren’t asking.” The Boss says. Greg grabs you roughly by the arms. 
+[END]

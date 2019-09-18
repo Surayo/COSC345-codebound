@@ -1906,29 +1906,29 @@ You blink. It sounds like the same guy that interrupted Eve when she was taking 
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1]</Title>
             <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1]Eve shakes you awake. “Get up, dipshit. We’re going out” You blink up at her from your mattress. 
 
-Wait. This isn’t your room. Above your had you see the second story of a bunk bed you must be lying on. The room is dark but you can make out other people sleeping in more bunk beds around you. 
+Wait. This isn’t your room. Above your head you see the second story of a bunk bed. The room is dark but you can make out other people sleeping in more bunk beds around you. 
 
 Oh. You guess you’re a Vagabond now? You didn’t think this through.
 
-Ellie-May’s head pops down from the bunk bed above you, upside down will all her hair hanging loose. “Ooo. I wonder what Rasputin will get us to do today? We never did get to see if our Aspects were compatible.”
+Ellie-May’s head pops down from the bunk bed above you, upside down will all her hair hanging loose. “Ooo. I wonder what Rasputin will get us to do today?” She says to Eve, ”We never did get to see if our Aspects were compatible.”
 
 “Yeah. Well if he does get as to go try that again we won’t be able to take this one with us” she jerks her thumb at you. You yawn and sit up in bed. “[Xis] Aspect would counter mine” You’re still tired but more refreshed that you were last night. You think you want to know what Rasputin has in store for you.
 
-Did he mention something about leaving? You’re not sure if you were awake enough to remember where if he did. 
+Did he mention something about leaving today? You’re not sure if you were awake enough to remember where you were going if he even did. 
 
-The three of you head out into the same crowded room you first saw when you came in last night. There are more people sitting around eating breakfast and coming in and out through multiple doors. 
+The three of you head out into the same crowded room you first saw when you came in last night. Though in the light of the morning there are more people sitting around eating breakfast and coming in and out through doors. 
 
-Eve leads you through one of the doors and you find a queue of people getting breakfast. There are a few tables dotted around but most people are getting food than eating. It seems the main eating room is the main hall behind you.
+Eve leads you through one of the doors and you find a queue of people getting breakfast. There are a few tables dotted around but most people are getting food and leaving. It seems the main eating room is the main hall behind you.
 
 It’s a fast queue and when you get to the front you are handed a plate piled with a hot meal. You can’t remember the last time your meal didn’t come out of a can. It smells delicious. 
 
-Eve pulls you over one of the tables and it’s only when you get there that you notice Rasputin is sitting there eating his own breakfast.
+Eve pulls you over to one of the tables and it’s only when you get there that you notice Rasputin is sitting there eating his own breakfast.
 
 “I didn’t get your report last night, Ellie-May.” He says, “How did the experiments go? Are you and Eve compatible?”
 
-Ellie-May and Eve sit down as if this isn’t the obvious leader of their group and they are not the obvious underlings. “We didn’t actually get around to it.” Ellie-May says. Eve tucks into her food and you follow suit, ”[Name] turned up before we got the chance to try anything.”
+Ellie-May and Eve sit down as if this isn’t the obvious leader of the Vagabonds and they’re not the obvious underlings. “We didn’t actually get around to it.” Ellie-May says. Eve tucks into her food and you follow suit, ”[Name] turned up before we got the chance to try anything.”
 
-“Well that’s a shame. No worried though. I have other plans for you today. Now that we have [Name] here we’re sending out another scouting mission on the flytecraft.”
+“Well that’s a shame. Don’t fret over it though. I have other plans for you today. Now that we have [Name] here we’re sending out another scouting mission on the flytecraft.”
 
 “Oh.” Ellie-may says. “Today?”
 
@@ -1942,7 +1942,7 @@ Ellie-May looks down at her plate. Eve has paused in her eating and is watching 
 
 “Wait, really?” Ellie-May says. “But last time-”
 
-Rasputin interrupts, “Last time we didn’t have [Name] on our team. What happened last time won’t happen again.”
+Rasputin interrupts, “Last time we didn’t have [Name] on our team. What happened then won’t happen again.”
 
 
 [C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1]“Me?” you say. “What can I do?”
@@ -2210,6 +2210,64 @@ Your legs are still free.
         </Document>
         <Document ID="95">
             <Title>[C1,1,1,2,3,1,2]</Title>
+        </Document>
+        <Document ID="96">
+            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1]</Title>
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1]”Your Aspect is unique - apart from that of your sister’s.” Rasputin says, ”If I’m not mistaken your toxin immunity protects you from the Bioforms, does it not?”
+
+Ellie-May starts eating now that she isn’t the one talking to Rasputin.
+
+“Uh, yeah.” You reply, ”It does. Though I don’t use it for that much. It’s not like I go out into the forest on a regular basis. I mostly use it in the furnace room to protect everyone from the soot and fumes.” 
+
+Rasputin nods his head. “And that is precisely the point. Your Aspect has a range, it can cover multiple people. Eve can protect herself but we weren’t about to send her on her own.”
+
+“Where exactly are we going? You said you had a flytecraft?” you ask.
+
+“The where is a long story and to tell you the truth - I don’t know. And in regards to the flytecraft, it’s best I show you.”  He stands up. “Finish up your meals. You should be ready to leave in an hour.”
+
+He turns to Eve, “And Eve. Round up Boss, Greg, and Patrick. Tell them the plans. I have more to organise before we leave.”
+
+Eve salutes, “Can do.”
+
+Rasputin leaves the three of you to your food and heads back out into the main hall. You go back to eating.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1]Leave with the party. You have a flytecraft to catch.
+[END]
+
+ </Text>
+        </Document>
+        <Document ID="97">
+            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,2]</Title>
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,2]”Ah.” Rasputin says, “to tell you the truth - I don’t know where we’re going.  We are hoping to find civilisation at the end of it.”
+
+Ellie-May starts eating now that she isn’t the one talking to Rasputin.
+
+“But what about last time? Have you sent people before?” you ask.
+
+“The last group we sent never came back. We assume Bioform poison was to blame. It was stupid for me to assume the flytecraft would protect them. But there is no way to truly know what happened.”
+
+“Oh.” You say. “That’s why you need me. I can protect us from the Bioform poison.”
+
+“Precisely.” He says. “Your sister has a similar aspect but hers would only protect herself. We weren’t willing to send her alone.” Rasputin stands. “Finish up your meals. You should be ready to leave in an hour.”
+
+He turns to Eve, “And Eve. Round up Boss, Greg, and Patrick. Tell them the plans. I have more to organise before we leave.”
+
+Eve salutes, “Can do.”
+
+Rasputin leaves the three of you to your food and heads back out into the main hall. You go back to eating.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1]Leave with the party. You have a flytecraft to catch.
+[END]</Text>
+        </Document>
+        <Document ID="98">
+            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1]</Title>
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1]The seven of you set off with little over an hour to spare. The other members of your party are a women names Boss, tall and serious looking who seems to defer only to Rasputin, a large man names Greg, who has only said two words in the half hour since you met him, and a shorter man named Patrick - the same one who had bumped into you last night - who more than makes up for Greg’s silence with his own chatter.
+
+“Welcome to the Vagabonds!” Patrick had said, vigorously shaking your hand after your sister had introduced you.
+
+It’s takes you less than half an hour before you are nearing the edge of the city. You pass under a large bridge which Patrick glances up at, looking nervous.</Text>
         </Document>
     </Documents>
 </SearchIndexes>
