@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.13.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-09-18 12:03:33 +1200" ModID="18A29709-2140-49AB-92B1-F39C7228971D">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.13.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-09-18 12:50:24 +1200" ModID="269C98CD-32AD-48E3-8BFA-A5755991A346">
     <Binder>
         <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-06-23 13:19:08 +1200" Type="Text">
             <Title>story ideas</Title>
@@ -231,21 +231,35 @@
                                                                                                                                                                     <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1]</Title>
                                                                                                                                                                     <MetaData>
                                                                                                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                                        <FileExtension>rtf</FileExtension>
                                                                                                                                                                     </MetaData>
                                                                                                                                                                     <TextSettings>
-                                                                                                                                                                        <TextSelection>1300,0</TextSelection>
+                                                                                                                                                                        <TextSelection>1226,0</TextSelection>
                                                                                                                                                                         <Target Type="Words">0</Target>
                                                                                                                                                                     </TextSettings>
                                                                                                                                                                     <Children>
-                                                                                                                                                                        <BinderItem ID="98" UUID="81EE8069-FAF0-4184-90B4-08A669BE09C5" Created="2019-09-17 12:41:29 +1200" Modified="2019-09-18 12:03:31 +1200" Type="Text">
+                                                                                                                                                                        <BinderItem ID="98" UUID="81EE8069-FAF0-4184-90B4-08A669BE09C5" Created="2019-09-17 12:41:29 +1200" Modified="2019-09-18 12:33:09 +1200" Type="Text">
                                                                                                                                                                             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1]</Title>
                                                                                                                                                                             <MetaData>
                                                                                                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                                                <FileExtension>rtf</FileExtension>
                                                                                                                                                                             </MetaData>
                                                                                                                                                                             <TextSettings>
-                                                                                                                                                                                <TextSelection>725,0</TextSelection>
+                                                                                                                                                                                <TextSelection>3247,0</TextSelection>
                                                                                                                                                                                 <Target Type="Words">0</Target>
                                                                                                                                                                             </TextSettings>
+                                                                                                                                                                            <Children>
+                                                                                                                                                                                <BinderItem ID="99" UUID="E3353F85-6A0A-49BC-8473-A4AB7A6E67B4" Created="2019-09-18 12:32:55 +1200" Modified="2019-09-18 12:50:22 +1200" Type="Text">
+                                                                                                                                                                                    <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1]</Title>
+                                                                                                                                                                                    <MetaData>
+                                                                                                                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                                                                                                                    </MetaData>
+                                                                                                                                                                                    <TextSettings>
+                                                                                                                                                                                        <Target Type="Words">0</Target>
+                                                                                                                                                                                    </TextSettings>
+                                                                                                                                                                                </BinderItem>
+                                                                                                                                                                            </Children>
                                                                                                                                                                         </BinderItem>
                                                                                                                                                                     </Children>
                                                                                                                                                                 </BinderItem>
@@ -253,6 +267,7 @@
                                                                                                                                                                     <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,2]</Title>
                                                                                                                                                                     <MetaData>
                                                                                                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                                        <FileExtension>rtf</FileExtension>
                                                                                                                                                                         <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                                                                                                     </MetaData>
                                                                                                                                                                     <TextSettings>
@@ -652,6 +667,7 @@
                                                                     <Title>[C1,1,1,2,1,1]</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                        <FileExtension>rtf</FileExtension>
                                                                         <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                     </MetaData>
                                                                     <TextSettings>
@@ -738,6 +754,7 @@
                                                                     <Title>[C1,1,1,2,3,1]</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                        <FileExtension>rtf</FileExtension>
                                                                     </MetaData>
                                                                     <TextSettings>
                                                                         <TextSelection>1136,0</TextSelection>
@@ -816,6 +833,7 @@
                                                                                     <Title>[C1,1,1,3,1,1,1,1]</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
                                                                                     </MetaData>
                                                                                     <TextSettings>
                                                                                         <TextSelection>483,0</TextSelection>
@@ -1046,7 +1064,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="31" UUID="78201881-B296-4C16-A1EE-6BECB808CF14" Created="2019-05-02 12:06:09 +1200" Modified="2019-09-05 12:45:08 +1200" Type="Text">
+                                <BinderItem ID="31" UUID="78201881-B296-4C16-A1EE-6BECB808CF14" Created="2019-05-02 12:06:09 +1200" Modified="2019-09-18 12:07:58 +1200" Type="Text">
                                     <Title>[C2,1]</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1225,7 +1243,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="2" Characters="6" Date="2019-09-18 12:00:33 +1200"/>
+        <PreviousSession Words="789" Characters="4287" Date="2019-09-18 12:00:33 +1200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="380EC639-26CC-4690-AFE4-C748DA8E7741" Color="0.901961 0.917647 0.933333">
