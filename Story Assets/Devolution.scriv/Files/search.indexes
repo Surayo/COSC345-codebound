@@ -275,7 +275,7 @@ This time you stutter to a stop. Shit. This is a bad place to be caught. Your ey
 
 Most of them don’t even glance your way. You grip the handy flick knife in your pocket and avoid the eyes of the trailing two Vagabonds who are jostling each other and pointing at you frozen in place. 
 
-A tall sort of gaunt looking Vagabond glances at you. “On your way, worker.” he says, his words barely louder than the banter of the crew around him. Tense but relieved, You go to duck your head down and do as he says but a pair of familiar circular glasses eclipsing shocked wide eyes stop you. 
+A tall sort of gaunt looking Vagabond glances at you. Ah, you know him. That’s Rasputin. The leader of the Vagabonds. “On your way, worker.” he says, his words barely louder than the banter of the crew around him. Tense but relieved, You go to duck your head down and do as he says but a pair of familiar circular glasses eclipsing shocked wide eyes stop you. 
 
 It can’t be. Your sister.
 
@@ -464,7 +464,7 @@ They can’t have spotted you, can they!? Than again, you are sure the pounding 
 
 [C1,1,1,2,1,1]You dart out of your hiding place, trying to run past them before they catch you.
 
-[C1,1,1,2,2,2]you stay where you are, frozen.
+[C1,1,1,2,3,1]Talk to them.
 [END]</Text>
         </Document>
         <Document ID="22">
@@ -673,7 +673,7 @@ It sits neatly in your hand and your finger settles automatically on a small lea
 
 You wonder if this is how they recruited her, maybe this is how they recruit all their members. Just picking them up from the sidewalk and convincing them to go with them.
 
-“Where are you taking me?” you ask after a few minutes of walking. You are heading straight for unknown roads. This is already further into the Fringes then you’ve walked before.
+“Where are you taking me?” you ask after a few minutes of walking. You’re heading straight for unknown roads. This is already further into the Fringes then you’ve walked before.
 
 “Taking you?” Rasputin replies, “No, no. You can go back at any time. This is just a demonstration. I thought it best I show you what exactly we rebel against.”
 
@@ -683,7 +683,7 @@ The other Vagabonds look nervous, eyeing up the crumbling buildings around you. 
 
 You hesitate for only a second before jogging to catch up with Eve and Rasputin.
 
-Rasputin starts talking again, “Have you ever wondered how the rations never run out? How you get new clothes when your old ones wear through with holes? Who makes those cans of food, who makes the clothes if all of us do? You all work in the Factory. Everyone works in the Factory.”
+Rasputin starts talking again, “Have you ever wondered how the rations never run out? How you get new clothes when your old ones wear through with holes? Who makes those cans of food, who makes the clothes if none of us do? You all work in the Factory. Everyone works in the Factory.”
 
 The buildings on the other side of the bridge are in an even worse state, half slumped into each other, with no signs that humans have lived here in a long time. At least the streets look walked, paths winding through the dust and rubble. 
 
@@ -1448,7 +1448,7 @@ Eve groans. “Why are you like this. Shit. OK. You’re coming with us then.”
 She stomps off in a direction you are sure is the opposite of where you want to go.
 
 
-[C1,1,1,1,2,1,1,1,1,1]”No. I can’t. I have to go home.” You say, “Can you just point me in the right direction?” 
+[C1,1,1,1,2,1,1,1,1,1]”No. I can’t. I have to go home.” You say, “We’re going home. You’re coming with me” 
 
 [C1,1,1,1,2,1,1,1,1,2]Follow her.
 [END]</Text>
@@ -1457,6 +1457,28 @@ She stomps off in a direction you are sure is the opposite of where you want to 
             <Title>[C1,1,1,1,2,1,1,1,2]</Title>
             <Text>[1,1,1,1,2,1,1,1,2]You sob, still clutching the rock in your hand. You thump the other on the ground in frustrated anger.
 
+“[Name]?” you hear Eve say. You still in your sobbing and turn. “God. What’s wrong with you? What are you even doing out here?”
+
+“Eve.” You say. There is another girl standing behind her eyes wide with shock. You wipe the tears from your face, ashamed at the state of yourself. “I… I was looking for you.”
+
+“Well, you found me.” She says. “Come on. Get up off the ground. You’re a disaster.” She walks over and lifts you up by the arm, brushing you down when you’re standing.
+
+You take in a deep breath, calming yourself. “Right. OK. I think I’m OK now. I don’t know what came over me.”
+
+“Good.” She says, looking steadier now that you’re not crying. “How did you even find me? I could have been anywhere in Fragos.”
+
+“Ah. Actually I have no idea. I’m quite lost.”
+
+She groans and the girl behind her giggles. “Great. So I can’t just tell you to go home and expect you to get then?”
+
+“What! I’m not leaving you now. I came out here to find you!” She groans louder.
+
+“Great. A tag along. OK so me and Ellie-May here have a job to do and you’re not going to ruin that for us.” She grabs you by the arm and pulls you after her. “Come with me.”
+
+
+[C1,1,1,1,2,1,1,1,1,1]”No. I can’t. I have to go home.” You say, “We’re going home. You’re coming with me” 
+
+[C1,1,1,1,2,1,1,1,1,2]Follow her.
 [END]</Text>
         </Document>
         <Document ID="59">
@@ -1531,11 +1553,11 @@ You fall into bed and sleep.
         </Document>
         <Document ID="62">
             <Title>[C1,1,1,1,2,1,1,1,1,1]</Title>
-            <Text>[1,1,1,1,2,1,1,1,1,1]”I can’t let you go back now. You’ve seen us. You’ll tell them what we’re up to.” Eve says, looking back at you like you’re stupid.
+            <Text>[1,1,1,1,2,1,1,1,1,1]”No. I am not going back with you are you shitting me right now.” Eve says, looking back at you like you’re stupid. “I’m a vagabond now.”
 
-“No I won’t,” you say reflexively
+“You don’t have to be,” you reply.
 
-“Yes you fucking will, [Name], I know you. Now come on. I have things to do and if you’re coming along you may as well help me do them”
+“Yes I fucking do, [Name], It can’t be undone. Now come on. I have things to do and if you’re coming along you may as well help me do them”
 
 
 [C1,1,1,1,2,1,1,1,1,2]”What things?” You ask, following after her and the girl with her.
@@ -1636,13 +1658,13 @@ She has always been stronger then you. You wheeze into the ground.
 
 “Fuck.” She doesn’t even seem out of breath. “That was stupid.” 
 
-You just groan into the ground, still trying to get you breath back.
+You just groan into the ground, still trying to get your breath back.
 
 “What, did I break something, [Name]? You alright?” She leans further over you, pressing your chest further into the ground.
 
 “Can’t breathe.” You manage.
 
-She hums as if considering, “Nice try punk. If I let you up, are you going to run again? You know I can’t let you do that. You are too deep in this shit now. I’m gonna have to take you with me.”
+She hums as if considering, “Nice try punk. If I let you up, are you going to run again? You know I can’t let you do that. You’re too deep in this shit now. I’m gonna have to take you with me.”
 
 “Are you kidnapping me?” you ask.
 
@@ -1670,7 +1692,7 @@ Eve gets up off of you and you flip over. “Either way you’re coming with me.
 
 “Hey, wait a second. I’m not going with you.” You say. Eve looks at you, unimpressed.
 
-“Uh, yeah you are.” She says, “It’s two verses one - less then one by my estimates. Don’t fight me on this.” 
+“Uh, yeah you are.” She says, “It’s two verses one - less then one by my estimates. Don’t fight me on this. There’s no point fighting.” 
 
 
 [C1,1,1,1,2,1,1,1,1,1,2,1]You sigh and get up off the ground. There is no point fighting her on this.
@@ -1728,7 +1750,17 @@ Your barrier only stops toxins, not claws
         </Document>
         <Document ID="68">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,2]</Title>
-            <Text>[END]</Text>
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,2]”We’re doing this the hard way then are we.” She says, grinning down at you.
+
+She turns to Ellie-May, “You still have that sleeping Aspect do you?”
+
+“Ah. No. Sorry. I swapped that for stamina. I didn’t think I’d need to make anyone fall asleep but I sure needed to stay awake myself.”
+
+Eve pouts. “Bad luck, [Name]. ”And then she thumps you over the back of the head with a rock.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,2,1]Wake up.
+[END]</Text>
         </Document>
         <Document ID="69">
             <Title>[C1,1,2,1,1,1,1,1]</Title>
@@ -1744,8 +1776,10 @@ You usually get your nutrients out of a can, leaving the better options for the 
 
 “All in a days work.” Patrick says, saluting you and heading back out the door. “Don’t take too long. I’m not sure when Rasputin wants to see you but you might want to be ready to go for a wander when he does.”
 
-He closes the door behind him and leaves you to the food. You blink down at your plate, still half asleep. It must be nice, having an Aspect that leaves him so energetic all the time.
+He closes the door behind him and leaves you to the food. You blink down at your plate, still half asleep. 
 
+
+[C1,1,2,1,1,1,1,1,1]You have hardly finished eating when six people enter your cell, Rasputin at the forefront.
 [END]</Text>
         </Document>
         <Document ID="70">
@@ -1768,7 +1802,7 @@ Your brief sleep just made you more exhausted and stiff and so you are slow to r
 
 Someone steps into your view and you finally glace up. 
 
-Fuck. It’s that man again - the one leading the group Eve was with. 
+Fuck. It’s that man again - the one from yesterday. The Vagabond leading the group Eve was with. 
 
 He’s still leading a group Eve is with only this group is smaller than the group you first ran into so many long hours ago - only six strong.
 
@@ -1781,11 +1815,9 @@ Eve doesn’t look impressed. “What the fuck are you doing out here? You were 
 “Well, come on.” She says, gesturing for you to come towards her. “You found me. We have shit to do and you’re coming with us.” You eye the group of Vagabonds warily. 
 
 
-[C1,1,1,1,2,1,2,1,1,1]”N-No.” You say. Taking a step back. You’re not going to go with them. Who does Eve think she is?
+[C1,1,1,1,2,1,2,1,1,1]”What.” You say, “You can’t be serious. I can’t join you guys. You’re the bad guys!”
 
 [C1,1,1,1,2,1,2,1,1,2]You walk over to the group, drawing in close to Eve’s side.
-
-[C1,1,1,1,2,1,2,1,1,3]”What.” You say, “You can’t be serious. I can’t join you guys. You’re the bad guys!”
 [END]</Text>
         </Document>
         <Document ID="71">
@@ -1988,7 +2020,8 @@ You try to get your feet under you but they’re pulling you back too fast.
         </Document>
         <Document ID="80">
             <Title>[C1,1,1,1,2,1,2,1,1,1]</Title>
-            <Text>[END]</Text>
+            <Text>[1,1,1,1,2,1,2,1,1,1]”
+[END]</Text>
         </Document>
         <Document ID="81">
             <Title>[C1,1,1,1,2,1,2,1,1,3]</Title>
@@ -1996,7 +2029,59 @@ You try to get your feet under you but they’re pulling you back too fast.
         </Document>
         <Document ID="82">
             <Title>[C1,1,1,1,2,1,2,1,1,2]</Title>
-            <Text>[END]</Text>
+            <Text>[1,1,1,1,2,1,2,1,1,2]”This is a nice surprise. I assume introductions are in order?” The leader of the vagabonds, Rasputin, says. “This is Boss-” He points to a tall woman beside him who nods in your direction, face stern, “-Greg, Patrick-” He points to a large, gruff looking man and the shorter lanky looking dude beside him. 
+
+The latter grins at you. “How do you do,” He says, shaking your hand vigorously. 
+
+Rasputin continues “-Eve, though of course you would already know her, and Ellie-May.” He says finally, pointing to a girl standing beside Eve. “My name is Rasputin, and you would be [Name], would you not?”
+
+“Uh, yeah.” You say. “That’s right. How did you know that?” The group has started walking again and you follow close beside Eve.
+
+“Eve told me all about you of course. You have the most intriguing Aspect.”
+
+You scoff. “She told you that. I can tell you it’s not that interesting. It’s only toxin immunity.”
+
+He hums, looking away. You have the suspension he’s not agreeing with you, “I assume she didn’t tell you of my Aspect?”
+
+Eve cuts in, scoffing, “Of course not. Do you think I’m an idiot. [Xe] wasn’t a Vagabond. I wasn’t going to trust [Xer] with Vagabond secrets.”
+
+“No. She didn’t.” You say, ignoring Eve.
+
+“I can sense significance. And you, my friend, are surrounded by it. Your Aspect glows with it.”
+
+“So you can see the boarder than?” you ask. You have always wondered how bit it’s gotten. The forcefield of toxin immunity that radiates from you have grown over the years but it is always hard to tell by how much without exposing people to toxins in your experimentations.
+
+“I can see the boarder, yes.”
+
+“Weird.” You say. You squint off into the distance, trying to see the edge of your Aspect yourself. Ellie-May, the younger vagabond, walks over and touches Rasputin’s hand. For a second they both glow with a faint haze of red and then it fades. 
+
+“Oh. That is pretty. Your Aspect looks so nice, [name].” She says.
+
+“Wait. What just happened.” You ask.
+
+Ellis-May giggles. “I can copy Aspects! I wanted to see what Rasputin was describing. It’s sort of like a shiny blue haze covering all of us-” she stretches her arms out, “-stretching like a hundred meters in all directions, even up into the sky.” She grins at you “Your Aspect must be pretty significant to put on this sort of light show.”
+
+“Wow.” Eve says, sarcasm heavy in her voice. “[Name] sure is special.”
+
+You scowl at her. “Shut up Eve.”
+
+“Oh, look.” Ellie-May says, pointing. “That’s glowing blue too. What is that it’s so bright.”
+
+“That’s the flytecraft.” Rasputin says. “We’re here.”
+
+“Wait. You guys have a flytecraft?” you ask, “We’re getting on a flytecraft?”
+
+“Yes.” Rasputin says, “Now might be a good time to drbrief you actually. Those-” he points to a line of delivery drones, their trollies empty of packages, “are delivery drones, they come here every month or so in that flytecraft and deliver food and resources to the city. Our job here today is to follow them and find out where they are getting these good from. 
+
+“In the best scenario, at the end of that flytecraft’s flight path will be another civilisation. Someone has to be providing us with food. For some reason they have just never come here themselves. They have always just sent the flytecraft, empty apart from the robots.”
+
+The aformentioned robots board the craft, stowing their trolleys away in the ship. 
+
+“Come on. We have to board before they leave.” Rasputin says. You all follow him onto the ship.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1]You all follow Rasputin onto the ship.
+[END]</Text>
         </Document>
         <Document ID="83">
             <Title>[C1,1,1,2,1,1,1]</Title>
@@ -2151,7 +2236,7 @@ You hear someone running over to you and double your efforts to get up. “Help!
         </Document>
         <Document ID="92">
             <Title>[C1,1,1,2,3,1]</Title>
-            <Text>[1,1,1,2,3,1]”I’m looking for Eve. My sister? Do you know where I can find her?” you ask. The three Vagabonds got closer until you are almost in the middle of the group. They are all taller than you. You gulp nervously.
+            <Text>[1,1,1,2,3,1]”I’m looking for Eve. My sister? Do you know where I can find her?” you ask. The three Vagabonds got closer until you are almost in the middle of the group. They’re all taller than you. You gulp nervously.
 
 “Yeah we know ‘er. Didn’t expect to see you wanderin’ around these parts though, [Name]. We expected you to be asleep in bed, like a good little worker.” The skinniest asks - the one who first called out to you. 
 
@@ -2263,11 +2348,168 @@ Rasputin leaves the three of you to your food and heads back out into the main h
         </Document>
         <Document ID="98">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1]</Title>
-            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1]The seven of you set off with little over an hour to spare. The other members of your party are a women names Boss, tall and serious looking who seems to defer only to Rasputin, a large man names Greg, who has only said two words in the half hour since you met him, and a shorter man named Patrick - the same one who had bumped into you last night - who more than makes up for Greg’s silence with his own chatter.
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1]The seven of you set off with little over an hour to spare. The other members of your party are a woman named Boss who is tall and serious looking and who seems to defer only to Rasputin, a large man names Greg, who has only said two words in the half hour since you met him, and a shorter man named Patrick - the same one who had bumped into you last night - who more than makes up for Greg’s silence with his own chatter.
 
 “Welcome to the Vagabonds!” Patrick had said, vigorously shaking your hand after your sister had introduced you.
 
-It’s takes you less than half an hour before you are nearing the edge of the city. You pass under a large bridge which Patrick glances up at, looking nervous.</Text>
+It’s takes you less than half an hour before you’re nearing the edge of the city. Bioforms start popping up in cracks in the sidewalk and clinging to buildings. It makes Greg and Patrick nervous though they seem to understand that you protect them from the Bioform poison as they stick close to your side after that.
+
+By the time you see the flytecraft Bioforms are everywhere. 
+
+So they do have a flytecraft. Great flying machines that could move as unimaginable speeds.
+
+And now you are getting on one. And not just the wreckage of a decaying beast. You are getting on a working one and expecting it to transport you somewhere.
+
+“Right on time.” Rasputin says. 
+
+You turn around from staring at the inside of the flytecraft - its pristine white walls stretching further into the ship - to see several delivery drones making their slow mechanical way back to the flytecraft.
+
+Their trolleys are empty. They must be back from delivering their cargo whatever that was.
+
+Your groups steps out of their way as they load their empty trolleys back onto the ship and head further inside. The light is bright in the ship - brighter than you are used to.
+
+Rasputin motions and you all follow the robots into the ship.
+
+“It makes so much sense.” Rasputin says, “That this ship would lead us to another civilisation. Look at how clean the walls are - do you see? Not even moss.” Surprisingly, even though the flytecraft is surrounded by Bioforms, there are none inside.
+
+The robots have tracked green Bioforms into the ship but the influence of your Aspect is already turning them brown and withered.
+
+The doors shut behind you.
+
+“I guess this is it, eh?” Patrick says,  staring at the closed door. “No turning back now, right Boss.”
+
+“We are in this for the long haul.” She says. “Right. New mission orders. You are to explore every inch of this flytecraft, learn more about it. We should try to deduce where it is taking us.”
+
+She turns to you. “What is the range of your Aspect. Do we all need to stick together or can I send some of you off?”
+
+“It more than covers the size of this ship.” You say. “Don’t even worry about it.”
+
+“Good.” She says, “Patrick, Greg, Eve, [Name]. You four start searching the flytecraft for signs of life. Provisions, sleeping chambers, records. Rasputin, Ellie-may and I will look for the bridge. We need to know where we are going.”
+
+Greg nods and starts off in a direction with Patrick trailing behind. Ellie-May gives Eve a sad look before slipping after Rasputin where he has already walked off with Boss. 
+
+Eve grabs you by the arm, and the two of you head off after Greg and Patrick.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1]Arrive.
+[END]</Text>
+        </Document>
+        <Document ID="99">
+            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1,1]</Title>
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1,1]You don’t get far into your search. Your group has mostly been opening and briefly searching empty room after empty room when you hear a rumbling sound from back near the entrance.
+
+“What was that?” Patrick says straitening from where he was looking inside a cupboard.
+
+“I don’t know.” Eve says, “But I’m going to find out.”
+
+She hurries out of the room and after a second of hesitation you head out after her with Greg and Patrick bringing up the rear.
+
+Eve lets out a shout from ahead of you. “What.” You say, “What is it?”
+
+“We made it!” Eve shouts back. “We’re there!”
+
+You break out into a sprint.
+
+Eve is standing at  the again open entryway, grinning back at you. Through the door you can see the remnants of another civilisation. 
+
+Except it is nothing like any you have seen before. 
+
+Green. It’s all green. It’s like the Bioforms grew into the shapes of buildings - all clean lines and paths all made from Bioforms.
+
+It’s also brighter than you have ever seen before. There is no smog to cover everything in its darkness. Just pure, unfiltered, sunlight.
+
+Rasputin, Ellie-May, and Boss rush into the room from another door. They must have heard the commotion. You see Rasputin’s eyes widen as Eve steps out into the open, unafraid.
+
+A figure looms out from a doorway. And for a second you think you’ve done it. You’ve found another city just like your Fragos, another sanctuary for the last humans on Dirth. 
+
+It’s not.
+
+The figure steps out and it’s green - just like the buildings. It is undoubtedly a Bioform from the rough mossy texture of its skin to way the mouth gapes with vines. And yet the shape can only be described as humanoid as it walks towards your sister upright with two legs.Greg gasps and falls back, shocked by the sight of it.
+
+“No.” Rasputin says, eyes wide. He stumbles forward as the figure looms on Eve. “Eve, get back here.” He says.
+
+Alert of the danger to Eve you step out after her and watch as the Bioform flinches, and steps back from you. 
+
+Oh.
+
+Your Aspect. That Bioform is toxic to humans.
+More figures step out from the surrounding buildings, dozens of humanoid Bioforms. Some are tall or wide or hunched but all of them are green with flora and life.
+
+Boss covers her mouth with a soft gasp. “Those are people.” She says. “All of them. Those are all humans.”
+
+Humans. These are all humans. You watch as the Bioforms stand about or step closer. One of them reaches out with a mitten-like hand and touches Eve’s arm but flinches back from her.
+
+A few get close enough to enter the reach of your Aspect but flinch back as if burned.
+
+“They look almost harmless.” Ellie-May says, tilting her head to the side.
+
+You watch as she steps out after Eve - out of the reach of your Aspect’s protection. She reaches out to a Bioform.
+
+Patrick whimpers. Green Bioform moss clings to her hand when she pulls away and you watch as it clings to her fingers - fusing them together into one mitten-hand.
+
+Eve shouts “No!” and grabs onto Ellie-Mays hand herself. Immediately a red haze envelopes the two of them and the moss shrinks and falls from Ellie-May’s hand.
+
+Eve laughs pulling Ellie-May into a hug. “I guess our Aspects are compatible.”
+
+Rasputin speaks for the first time in a while. “So this is what they found. If juniper even survived the trip, she would have been exposed to these, these.” He hesitates. “These people. These are the people who have been sending Fragos the rations. These Bioforms are the reason we have survived this long.”
+
+He steps out, standing just inside the edge of your protections where the Bioforms have stopped outside of. “Why.” 
+
+A Bioform reaches out, through the barrier of your Aspect, and touches Rasputin’s face. As you watch its the green of its hand browns and wilts. Rasputin, quieter than before says, “Why.”
+
+They don’t answer.
+[END]</Text>
+        </Document>
+        <Document ID="100">
+            <Title>[C1,1,1,1,2,1,1,1,1,1,2,2,1]</Title>
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,2,1]You groan, a headache pounding in your head. Your on a mattress in a dark room. 
+
+God. Fuck. What did you do last night. 
+
+You squint into the darkness but you don’t recognise the room. Are you even in your house?
+
+The door on the other side of the room opens with a loud groan revealing a skinny looking dude you’re never seen before and a hallway you don’t recognise. 
+
+Fuck. Fuck fuck fuck. You remember now. You were out looking for Eve and… Did she knock you out.Her own [Xther]? The Vagabonds have corrupted her more than you thought.
+
+“’Ello, there [name]. Now, you may be wondering what is happening right now, and with fair reasoning. I’m Patrick, and I will be your captor this morning.”
+
+He’s carrying a plate of something steaming. He pulls a panel down from the wall, turning it into a table shelf thing held up by chains and places on it a plate of what looks like surprisingly good quality re-hydrated food. 
+
+“Eat quickly. We have a big day ahead of us.” He says, shutting the door behind him as he leaves.
+
+
+[C1,1,2,1,1,1,1,1,1]You have hardly finished eating when six people enter your cell, Rasputin at the forefront.
+[END]</Text>
+        </Document>
+        <Document ID="101">
+            <Title>[C1,1,2,1,1,1,1,1,1]</Title>
+        </Document>
+        <Document ID="102">
+            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1]</Title>
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1]“It all makes so much sense.” Rasputin says, “That this ship would lead us to another civilisation. Look at how clean the walls are - do you see? Not even moss.” Surprisingly, even though the flytecraft is surrounded by Bioforms, there are none inside.
+
+The robots have tracked green Bioforms into the ship but the influence of your Aspect is already turning them brown and withered.
+
+The doors shut behind you.
+
+“I guess this is it, eh?” Patrick says,  staring at the closed door. “No turning back now, right Boss.”
+
+“We are in this for the long haul.” She says. “Right. New mission orders. You are to explore every inch of this flytecraft, learn more about it. We should try to deduce where it is taking us.”
+
+She turns to you. “What is the range of your Aspect. Do we all need to stick together or can I send some of you off?”
+
+“It more than covers the size of this ship.” You say. “Don’t even worry about it.”
+
+“Good.” She says, “Patrick, Greg, Eve, [Name]. You four start searching the flytecraft for signs of life. Provisions, sleeping chambers, records. Rasputin, Ellie-may and I will look for the bridge. We need to know where we are going.”
+
+Greg nods and starts off in a direction with Patrick trailing behind. Ellie-May gives Eve a sad look before slipping after Rasputin where he has already walked off with Boss. 
+
+Eve grabs you by the arm, and the two of you head off after Greg and Patrick.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1,1]Arrive.
+[END]</Text>
         </Document>
     </Documents>
 </SearchIndexes>
