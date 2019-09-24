@@ -14,13 +14,13 @@ Patrick pulls out rope next and makes deft work of tying your hands and feet. �
 
 Greg pulls a black bag out of his coat and hands it over. 
 
-“’Preciate it, Greg.” He pulls it over your head, blocking out the dim light around your and your sight with it.
+“’Preciate it, Greg.” He pulls it over your head, blocking out the dim light around you and your sight with it.
 
 “Let’s get going, boys.” The boss says. “We have to get back to base and report this astounding success to Rasputin.”
 
 “Right you are.” Patrick says. “You got ‘[Xm], Greg?” 
 
-Greg heafts you up onto his shoulder and you settle with a ‘oof’ in place. “Got ‘[Xe].”
+Greg hefts you up onto his shoulder and you settle with an ‘oof’ in place. “Got ‘[Xe].”
 
 
 [C1,1,2,1,1,1]Be carried.
