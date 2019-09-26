@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.12.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-08-09 09:55:32 +1200" ModID="FD4821C0-1DDE-4ED2-B1D9-056347AFEE1B">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.14.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-09-27 09:12:15 +1200" ModID="18B5455D-222E-4950-8E84-773E347FE5A5">
     <Binder>
         <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-06-23 13:19:08 +1200" Type="Text">
             <Title>story ideas</Title>
@@ -18,163 +18,355 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="11" UUID="DF2C9412-1067-477C-806B-06B011176CB0" Created="2019-04-12 11:47:59 +1200" Modified="2019-08-09 09:06:10 +1200" Type="Text">
+                <BinderItem ID="11" UUID="DF2C9412-1067-477C-806B-06B011176CB0" Created="2019-04-12 11:47:59 +1200" Modified="2019-09-27 08:54:46 +1200" Type="Text">
                     <Title>[C0]</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <FileExtension>rtf</FileExtension>
+                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>4542,0</TextSelection>
+                        <TextSelection>4606,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="12" UUID="41BC49E1-FA21-474F-9DC3-2B4C6DF3103F" Created="2019-04-12 11:48:23 +1200" Modified="2019-08-07 12:06:09 +1200" Type="Text">
+                        <BinderItem ID="12" UUID="41BC49E1-FA21-474F-9DC3-2B4C6DF3103F" Created="2019-04-12 11:48:23 +1200" Modified="2019-09-27 08:54:42 +1200" Type="Text">
                             <Title>[C1]</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <FileExtension>rtf</FileExtension>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                             </MetaData>
                             <TextSettings>
                                 <TextSelection>239,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="7" UUID="FBA756C5-6414-4A93-9F23-6255FD9DDDD1" Created="2019-04-12 11:38:57 +1200" Modified="2019-07-31 12:16:51 +1200" Type="Text">
+                                <BinderItem ID="7" UUID="FBA756C5-6414-4A93-9F23-6255FD9DDDD1" Created="2019-04-12 11:38:57 +1200" Modified="2019-09-26 12:46:32 +1200" Type="Text">
                                     <Title>[C1,1]</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <FileExtension>rtf</FileExtension>
+                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>3081,0</TextSelection>
+                                        <TextSelection>2453,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="10" UUID="46EBBD98-2E9D-4840-BF10-7E661EDC6AD0" Created="2019-04-12 11:43:54 +1200" Modified="2019-07-24 12:06:24 +1200" Type="Text">
+                                        <BinderItem ID="10" UUID="46EBBD98-2E9D-4840-BF10-7E661EDC6AD0" Created="2019-04-12 11:43:54 +1200" Modified="2019-09-26 12:33:50 +1200" Type="Text">
                                             <Title>[C1,1,1]</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                 <FileExtension>rtf</FileExtension>
+                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>118,0</TextSelection>
+                                                <TextSelection>816,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
-                                                <BinderItem ID="14" UUID="8D1096F8-ECF9-4C55-8661-D2AA764F8F76" Created="2019-04-15 14:41:54 +1200" Modified="2019-08-09 09:05:26 +1200" Type="Text">
+                                                <BinderItem ID="14" UUID="8D1096F8-ECF9-4C55-8661-D2AA764F8F76" Created="2019-04-15 14:41:54 +1200" Modified="2019-09-25 12:22:18 +1200" Type="Text">
                                                     <Title>[C1,1,1,1]</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                         <FileExtension>rtf</FileExtension>
+                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>841,0</TextSelection>
+                                                        <TextSelection>0,402</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
-                                                        <BinderItem ID="18" UUID="9002E73A-B4BF-4C1A-B159-9D8B212844E6" Created="2019-04-15 15:04:34 +1200" Modified="2019-07-31 12:17:29 +1200" Type="Text">
+                                                        <BinderItem ID="18" UUID="9002E73A-B4BF-4C1A-B159-9D8B212844E6" Created="2019-04-15 15:04:34 +1200" Modified="2019-09-25 12:22:12 +1200" Type="Text">
                                                             <Title>[C1,1,1,1,2]</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                 <FileExtension>rtf</FileExtension>
+                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                             </MetaData>
                                                             <TextSettings>
                                                                 <TextSelection>767,0</TextSelection>
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                             <Children>
-                                                                <BinderItem ID="26" UUID="8D032CF3-309B-47FE-A7FC-3FF09AD4F297" Created="2019-04-17 15:41:59 +1200" Modified="2019-08-09 09:05:48 +1200" Type="Text">
+                                                                <BinderItem ID="26" UUID="8D032CF3-309B-47FE-A7FC-3FF09AD4F297" Created="2019-04-17 15:41:59 +1200" Modified="2019-09-25 12:22:07 +1200" Type="Text">
                                                                     <Title>[C1,1,1,1,2,1]</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                         <FileExtension>rtf</FileExtension>
+                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                     </MetaData>
                                                                     <TextSettings>
                                                                         <TextSelection>1320,0</TextSelection>
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
                                                                     <Children>
-                                                                        <BinderItem ID="54" UUID="B8CCAD56-E2FB-4C0E-BD3E-7E5EE845039C" Created="2019-07-09 12:07:18 +1200" Modified="2019-07-31 12:18:11 +1200" Type="Text">
+                                                                        <BinderItem ID="54" UUID="B8CCAD56-E2FB-4C0E-BD3E-7E5EE845039C" Created="2019-07-09 12:07:18 +1200" Modified="2019-09-25 12:22:01 +1200" Type="Text">
                                                                             <Title>[C1,1,1,1,2,1,1]</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                 <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                             </MetaData>
                                                                             <TextSettings>
                                                                                 <TextSelection>324,0</TextSelection>
                                                                                 <Target Type="Words">0</Target>
                                                                             </TextSettings>
                                                                             <Children>
-                                                                                <BinderItem ID="56" UUID="4D331ED6-54AB-472C-83BA-044F7EC8D48E" Created="2019-07-09 12:19:16 +1200" Modified="2019-07-31 12:18:32 +1200" Type="Text">
+                                                                                <BinderItem ID="56" UUID="4D331ED6-54AB-472C-83BA-044F7EC8D48E" Created="2019-07-09 12:19:16 +1200" Modified="2019-09-20 11:48:12 +1200" Type="Text">
                                                                                     <Title>[C1,1,1,1,2,1,1,1]</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                         <FileExtension>rtf</FileExtension>
+                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                     </MetaData>
                                                                                     <TextSettings>
-                                                                                        <TextSelection>564,0</TextSelection>
+                                                                                        <TextSelection>517,0</TextSelection>
                                                                                         <Target Type="Words">0</Target>
                                                                                     </TextSettings>
                                                                                     <Children>
-                                                                                        <BinderItem ID="57" UUID="47E69FB2-C189-47E4-8170-8280FE893A45" Created="2019-07-09 12:24:29 +1200" Modified="2019-07-31 12:19:43 +1200" Type="Text">
+                                                                                        <BinderItem ID="57" UUID="47E69FB2-C189-47E4-8170-8280FE893A45" Created="2019-07-09 12:24:29 +1200" Modified="2019-09-20 11:46:46 +1200" Type="Text">
                                                                                             <Title>[C1,1,1,1,2,1,1,1,1]</Title>
                                                                                             <MetaData>
                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                                 <FileExtension>rtf</FileExtension>
+                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                             </MetaData>
                                                                                             <TextSettings>
-                                                                                                <TextSelection>1538,0</TextSelection>
+                                                                                                <TextSelection>1389,0</TextSelection>
                                                                                                 <Target Type="Words">0</Target>
                                                                                             </TextSettings>
                                                                                             <Children>
-                                                                                                <BinderItem ID="62" UUID="7D68A7DE-F929-4A63-8F0A-808A59EC854F" Created="2019-07-10 12:36:19 +1200" Modified="2019-07-22 14:23:57 +1200" Type="Text">
+                                                                                                <BinderItem ID="62" UUID="7D68A7DE-F929-4A63-8F0A-808A59EC854F" Created="2019-07-10 12:36:19 +1200" Modified="2019-09-20 11:47:07 +1200" Type="Text">
                                                                                                     <Title>[C1,1,1,1,2,1,1,1,1,1]</Title>
                                                                                                     <MetaData>
                                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                                         <FileExtension>rtf</FileExtension>
+                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                                     </MetaData>
                                                                                                     <TextSettings>
-                                                                                                        <TextSelection>349,0</TextSelection>
+                                                                                                        <TextSelection>335,0</TextSelection>
                                                                                                         <Target Type="Words">0</Target>
                                                                                                     </TextSettings>
                                                                                                     <Children>
-                                                                                                        <BinderItem ID="65" UUID="FA1FE1BD-A729-4C64-8632-F7C541CBFA6B" Created="2019-07-22 14:39:10 +1200" Modified="2019-08-07 12:57:07 +1200" Type="Text">
+                                                                                                        <BinderItem ID="65" UUID="FA1FE1BD-A729-4C64-8632-F7C541CBFA6B" Created="2019-07-22 14:39:10 +1200" Modified="2019-09-20 11:32:11 +1200" Type="Text">
                                                                                                             <Title>[C1,1,1,1,2,1,1,1,1,1,2]</Title>
                                                                                                             <MetaData>
                                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                                                 <FileExtension>rtf</FileExtension>
+                                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                                             </MetaData>
                                                                                                             <TextSettings>
-                                                                                                                <TextSelection>3457,0</TextSelection>
+                                                                                                                <TextSelection>3485,0</TextSelection>
                                                                                                                 <Target Type="Words">0</Target>
                                                                                                             </TextSettings>
                                                                                                             <Children>
-                                                                                                                <BinderItem ID="45" UUID="259069B3-92DC-4B28-9645-AEBD5D19098A" Created="2019-06-23 13:24:28 +1200" Modified="2019-08-07 12:57:30 +1200" Type="Text">
+                                                                                                                <BinderItem ID="45" UUID="259069B3-92DC-4B28-9645-AEBD5D19098A" Created="2019-06-23 13:24:28 +1200" Modified="2019-09-23 12:06:10 +1200" Type="Text">
                                                                                                                     <Title>[C1,1,1,1,2,1,1,1,1,1,2,1]</Title>
                                                                                                                     <MetaData>
                                                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                                                         <FileExtension>rtf</FileExtension>
+                                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                                                     </MetaData>
                                                                                                                     <TextSettings>
+                                                                                                                        <TextSelection>1488,0</TextSelection>
                                                                                                                         <Target Type="Words">0</Target>
                                                                                                                     </TextSettings>
+                                                                                                                    <Children>
+                                                                                                                        <BinderItem ID="72" UUID="F49EB5B2-4799-4745-819C-73CB354B7C90" Created="2019-08-27 20:27:20 +1200" Modified="2019-09-19 12:19:52 +1200" Type="Text">
+                                                                                                                            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,1]</Title>
+                                                                                                                            <MetaData>
+                                                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                <FileExtension>rtf</FileExtension>
+                                                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                            </MetaData>
+                                                                                                                            <TextSettings>
+                                                                                                                                <TextSelection>381,0</TextSelection>
+                                                                                                                                <Target Type="Words">0</Target>
+                                                                                                                            </TextSettings>
+                                                                                                                        </BinderItem>
+                                                                                                                        <BinderItem ID="73" UUID="3FA178E1-EFD1-469D-A575-764B446EC9EB" Created="2019-08-27 20:28:36 +1200" Modified="2019-09-19 12:32:28 +1200" Type="Text">
+                                                                                                                            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2]</Title>
+                                                                                                                            <MetaData>
+                                                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                <FileExtension>rtf</FileExtension>
+                                                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                            </MetaData>
+                                                                                                                            <TextSettings>
+                                                                                                                                <TextSelection>587,0</TextSelection>
+                                                                                                                                <Target Type="Words">0</Target>
+                                                                                                                            </TextSettings>
+                                                                                                                            <Children>
+                                                                                                                                <BinderItem ID="78" UUID="785AEF5E-3730-432A-8BF3-DA3D5C014E1B" Created="2019-09-03 12:38:22 +1200" Modified="2019-09-19 12:32:20 +1200" Type="Text">
+                                                                                                                                    <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1]</Title>
+                                                                                                                                    <MetaData>
+                                                                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                                    </MetaData>
+                                                                                                                                    <TextSettings>
+                                                                                                                                        <TextSelection>419,0</TextSelection>
+                                                                                                                                        <Target Type="Words">0</Target>
+                                                                                                                                    </TextSettings>
+                                                                                                                                    <Children>
+                                                                                                                                        <BinderItem ID="75" UUID="0C3EC57A-7367-4972-87CD-04A11D08553C" Created="2019-09-02 13:08:20 +1200" Modified="2019-09-19 12:32:03 +1200" Type="Text">
+                                                                                                                                            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1]</Title>
+                                                                                                                                            <MetaData>
+                                                                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                <FileExtension>rtf</FileExtension>
+                                                                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                                            </MetaData>
+                                                                                                                                            <TextSettings>
+                                                                                                                                                <TextSelection>2106,0</TextSelection>
+                                                                                                                                                <Target Type="Words">0</Target>
+                                                                                                                                            </TextSettings>
+                                                                                                                                            <Children>
+                                                                                                                                                <BinderItem ID="74" UUID="255D3AF2-05C9-4E7C-93D2-18F9B8CCD783" Created="2019-09-02 13:07:53 +1200" Modified="2019-09-23 12:25:04 +1200" Type="Text">
+                                                                                                                                                    <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1]</Title>
+                                                                                                                                                    <MetaData>
+                                                                                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                                                    </MetaData>
+                                                                                                                                                    <TextSettings>
+                                                                                                                                                        <TextSelection>2050,0</TextSelection>
+                                                                                                                                                        <Target Type="Words">0</Target>
+                                                                                                                                                    </TextSettings>
+                                                                                                                                                    <Children>
+                                                                                                                                                        <BinderItem ID="77" UUID="23814663-B343-4B2D-9FBB-D4C257F2C4F9" Created="2019-09-03 12:03:37 +1200" Modified="2019-09-19 12:31:25 +1200" Type="Text">
+                                                                                                                                                            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1]</Title>
+                                                                                                                                                            <MetaData>
+                                                                                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                                <FileExtension>rtf</FileExtension>
+                                                                                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                                                            </MetaData>
+                                                                                                                                                            <TextSettings>
+                                                                                                                                                                <TextSelection>3110,0</TextSelection>
+                                                                                                                                                                <Target Type="Words">0</Target>
+                                                                                                                                                            </TextSettings>
+                                                                                                                                                            <Children>
+                                                                                                                                                                <BinderItem ID="96" UUID="49681FA8-E76A-4179-AAC1-92833D127ABA" Created="2019-09-17 12:21:13 +1200" Modified="2019-09-19 12:31:19 +1200" Type="Text">
+                                                                                                                                                                    <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1]</Title>
+                                                                                                                                                                    <MetaData>
+                                                                                                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                                                                    </MetaData>
+                                                                                                                                                                    <TextSettings>
+                                                                                                                                                                        <TextSelection>1226,0</TextSelection>
+                                                                                                                                                                        <Target Type="Words">0</Target>
+                                                                                                                                                                    </TextSettings>
+                                                                                                                                                                    <Children>
+                                                                                                                                                                        <BinderItem ID="98" UUID="81EE8069-FAF0-4184-90B4-08A669BE09C5" Created="2019-09-17 12:41:29 +1200" Modified="2019-09-26 12:15:30 +1200" Type="Text">
+                                                                                                                                                                            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1]</Title>
+                                                                                                                                                                            <MetaData>
+                                                                                                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                                                <FileExtension>rtf</FileExtension>
+                                                                                                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                                                                            </MetaData>
+                                                                                                                                                                            <TextSettings>
+                                                                                                                                                                                <TextSelection>1830,0</TextSelection>
+                                                                                                                                                                                <Target Type="Words">0</Target>
+                                                                                                                                                                            </TextSettings>
+                                                                                                                                                                            <Children>
+                                                                                                                                                                                <BinderItem ID="102" UUID="DCC77CFD-EB03-4842-BDC1-C61C2BABF409" Created="2019-09-22 12:36:17 +1200" Modified="2019-09-22 12:37:52 +1200" Type="Text">
+                                                                                                                                                                                    <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1]</Title>
+                                                                                                                                                                                    <MetaData>
+                                                                                                                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                                                                                    </MetaData>
+                                                                                                                                                                                    <TextSettings>
+                                                                                                                                                                                        <TextSelection>293,0</TextSelection>
+                                                                                                                                                                                        <Target Type="Words">0</Target>
+                                                                                                                                                                                    </TextSettings>
+                                                                                                                                                                                    <Children>
+                                                                                                                                                                                        <BinderItem ID="99" UUID="E3353F85-6A0A-49BC-8473-A4AB7A6E67B4" Created="2019-09-18 12:32:55 +1200" Modified="2019-09-26 12:32:35 +1200" Type="Text">
+                                                                                                                                                                                            <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1,1]</Title>
+                                                                                                                                                                                            <MetaData>
+                                                                                                                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                                                                <FileExtension>rtf</FileExtension>
+                                                                                                                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                                                                                            </MetaData>
+                                                                                                                                                                                            <TextSettings>
+                                                                                                                                                                                                <TextSelection>3880,0</TextSelection>
+                                                                                                                                                                                                <Target Type="Words">0</Target>
+                                                                                                                                                                                            </TextSettings>
+                                                                                                                                                                                        </BinderItem>
+                                                                                                                                                                                    </Children>
+                                                                                                                                                                                </BinderItem>
+                                                                                                                                                                            </Children>
+                                                                                                                                                                        </BinderItem>
+                                                                                                                                                                    </Children>
+                                                                                                                                                                </BinderItem>
+                                                                                                                                                                <BinderItem ID="97" UUID="027EF97D-8912-4849-910C-01045F8A9418" Created="2019-09-17 12:21:41 +1200" Modified="2019-09-17 12:41:52 +1200" Type="Text">
+                                                                                                                                                                    <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,2]</Title>
+                                                                                                                                                                    <MetaData>
+                                                                                                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                                                                    </MetaData>
+                                                                                                                                                                    <TextSettings>
+                                                                                                                                                                        <TextSelection>169,0</TextSelection>
+                                                                                                                                                                        <Target Type="Words">0</Target>
+                                                                                                                                                                    </TextSettings>
+                                                                                                                                                                </BinderItem>
+                                                                                                                                                            </Children>
+                                                                                                                                                        </BinderItem>
+                                                                                                                                                    </Children>
+                                                                                                                                                </BinderItem>
+                                                                                                                                                <BinderItem ID="76" UUID="8AB79FB5-0EAF-4317-9141-B3FBB572B336" Created="2019-09-02 13:31:52 +1200" Modified="2019-09-24 10:16:11 +1200" Type="Text">
+                                                                                                                                                    <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,2]</Title>
+                                                                                                                                                    <MetaData>
+                                                                                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                                                    </MetaData>
+                                                                                                                                                    <TextSettings>
+                                                                                                                                                        <TextSelection>1745,0</TextSelection>
+                                                                                                                                                        <Target Type="Words">0</Target>
+                                                                                                                                                    </TextSettings>
+                                                                                                                                                </BinderItem>
+                                                                                                                                            </Children>
+                                                                                                                                        </BinderItem>
+                                                                                                                                    </Children>
+                                                                                                                                </BinderItem>
+                                                                                                                            </Children>
+                                                                                                                        </BinderItem>
+                                                                                                                    </Children>
                                                                                                                 </BinderItem>
-                                                                                                                <BinderItem ID="68" UUID="F1D17D13-E3AB-478A-BD44-B3E8A6860757" Created="2019-08-07 12:57:33 +1200" Modified="2019-08-07 12:57:37 +1200" Type="Text">
+                                                                                                                <BinderItem ID="68" UUID="F1D17D13-E3AB-478A-BD44-B3E8A6860757" Created="2019-08-07 12:57:33 +1200" Modified="2019-09-20 11:32:03 +1200" Type="Text">
                                                                                                                     <Title>[C1,1,1,1,2,1,1,1,1,1,2,2]</Title>
                                                                                                                     <MetaData>
                                                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                                                         <FileExtension>rtf</FileExtension>
+                                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                                                     </MetaData>
                                                                                                                     <TextSettings>
+                                                                                                                        <TextSelection>309,0</TextSelection>
                                                                                                                         <Target Type="Words">0</Target>
                                                                                                                     </TextSettings>
+                                                                                                                    <Children>
+                                                                                                                        <BinderItem ID="100" UUID="178DECEC-9435-4E54-A2AC-F3EF1F2F29F2" Created="2019-09-19 12:40:36 +1200" Modified="2019-09-20 11:31:59 +1200" Type="Text">
+                                                                                                                            <Title>[C1,1,1,1,2,1,1,1,1,1,2,2,1]</Title>
+                                                                                                                            <MetaData>
+                                                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                                <FileExtension>rtf</FileExtension>
+                                                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                            </MetaData>
+                                                                                                                            <TextSettings>
+                                                                                                                                <TextSelection>877,0</TextSelection>
+                                                                                                                                <Target Type="Words">0</Target>
+                                                                                                                            </TextSettings>
+                                                                                                                        </BinderItem>
+                                                                                                                    </Children>
                                                                                                                 </BinderItem>
                                                                                                             </Children>
                                                                                                         </BinderItem>
                                                                                                     </Children>
                                                                                                 </BinderItem>
-                                                                                                <BinderItem ID="63" UUID="C5F39601-103F-406C-AF75-256778175A53" Created="2019-07-10 12:36:35 +1200" Modified="2019-08-09 09:09:44 +1200" Type="Text">
+                                                                                                <BinderItem ID="63" UUID="C5F39601-103F-406C-AF75-256778175A53" Created="2019-07-10 12:36:35 +1200" Modified="2019-09-05 12:34:04 +1200" Type="Text">
                                                                                                     <Title>[C1,1,1,1,2,1,1,1,1,2]</Title>
                                                                                                     <MetaData>
                                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -186,35 +378,39 @@
                                                                                                         <Target Type="Words">0</Target>
                                                                                                     </TextSettings>
                                                                                                     <Children>
-                                                                                                        <BinderItem ID="66" UUID="90EEAFE4-194F-42DB-AA44-00C1C55089C5" Created="2019-07-30 12:35:09 +1200" Modified="2019-08-07 12:22:01 +1200" Type="Text">
+                                                                                                        <BinderItem ID="66" UUID="90EEAFE4-194F-42DB-AA44-00C1C55089C5" Created="2019-07-30 12:35:09 +1200" Modified="2019-09-05 12:34:36 +1200" Type="Text">
                                                                                                             <Title>[C1,1,1,1,2,1,1,1,1,2,1]</Title>
                                                                                                             <MetaData>
                                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                                                 <FileExtension>rtf</FileExtension>
+                                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                                             </MetaData>
                                                                                                             <TextSettings>
-                                                                                                                <TextSelection>1839,0</TextSelection>
+                                                                                                                <TextSelection>418,0</TextSelection>
                                                                                                                 <Target Type="Words">0</Target>
                                                                                                             </TextSettings>
                                                                                                             <Children>
-                                                                                                                <BinderItem ID="53" UUID="78C836C5-549F-4CFE-A98D-DF854983742B" Created="2019-07-09 12:07:04 +1200" Modified="2019-08-07 12:38:30 +1200" Type="Text">
+                                                                                                                <BinderItem ID="53" UUID="78C836C5-549F-4CFE-A98D-DF854983742B" Created="2019-07-09 12:07:04 +1200" Modified="2019-09-05 12:34:50 +1200" Type="Text">
                                                                                                                     <Title>[C1,1,1,1,2,1,1,1,1,2,1,1]</Title>
                                                                                                                     <MetaData>
                                                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                                                     </MetaData>
                                                                                                                     <TextSettings>
                                                                                                                         <TextSelection>413,0</TextSelection>
                                                                                                                         <Target Type="Words">0</Target>
                                                                                                                     </TextSettings>
                                                                                                                 </BinderItem>
-                                                                                                                <BinderItem ID="67" UUID="0F33E820-4233-4429-B086-E5FB6D54B03F" Created="2019-07-30 12:35:54 +1200" Modified="2019-08-07 12:39:13 +1200" Type="Text">
+                                                                                                                <BinderItem ID="67" UUID="0F33E820-4233-4429-B086-E5FB6D54B03F" Created="2019-07-30 12:35:54 +1200" Modified="2019-09-05 12:35:06 +1200" Type="Text">
                                                                                                                     <Title>[C1,1,1,1,2,1,1,1,1,2,1,2]</Title>
                                                                                                                     <MetaData>
                                                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                                                         <FileExtension>rtf</FileExtension>
+                                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                                                     </MetaData>
                                                                                                                     <TextSettings>
-                                                                                                                        <TextSelection>464,0</TextSelection>
+                                                                                                                        <TextSelection>274,0</TextSelection>
                                                                                                                         <Target Type="Words">0</Target>
                                                                                                                     </TextSettings>
                                                                                                                 </BinderItem>
@@ -224,40 +420,83 @@
                                                                                                 </BinderItem>
                                                                                             </Children>
                                                                                         </BinderItem>
-                                                                                        <BinderItem ID="58" UUID="52360819-2CED-473D-90DD-E38E21ED5830" Created="2019-07-09 12:24:42 +1200" Modified="2019-07-18 12:08:14 +1200" Type="Text">
+                                                                                        <BinderItem ID="58" UUID="52360819-2CED-473D-90DD-E38E21ED5830" Created="2019-07-09 12:24:42 +1200" Modified="2019-09-20 11:48:05 +1200" Type="Text">
                                                                                             <Title>[C1,1,1,1,2,1,1,1,2]</Title>
                                                                                             <MetaData>
                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                                 <FileExtension>rtf</FileExtension>
+                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                             </MetaData>
                                                                                             <TextSettings>
-                                                                                                <TextSelection>122,0</TextSelection>
+                                                                                                <TextSelection>710,0</TextSelection>
                                                                                                 <Target Type="Words">0</Target>
                                                                                             </TextSettings>
                                                                                         </BinderItem>
                                                                                     </Children>
                                                                                 </BinderItem>
-                                                                                <BinderItem ID="46" UUID="EEB4E811-8A63-46CD-ACCB-9E6CD5678017" Created="2019-06-24 13:03:30 +1200" Modified="2019-07-18 12:08:26 +1200" Type="Text">
+                                                                                <BinderItem ID="46" UUID="EEB4E811-8A63-46CD-ACCB-9E6CD5678017" Created="2019-06-24 13:03:30 +1200" Modified="2019-09-25 12:21:47 +1200" Type="Text">
                                                                                     <Title>[C1,1,1,1,2,1,2]</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                         <FileExtension>rtf</FileExtension>
+                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                     </MetaData>
                                                                                     <TextSettings>
-                                                                                        <TextSelection>1041,0</TextSelection>
+                                                                                        <TextSelection>1070,0</TextSelection>
                                                                                         <Target Type="Words">0</Target>
                                                                                     </TextSettings>
                                                                                     <Children>
-                                                                                        <BinderItem ID="59" UUID="E3BCD2DB-B352-44C3-A82A-7E3855F5621B" Created="2019-07-10 12:01:08 +1200" Modified="2019-07-18 12:08:38 +1200" Type="Text">
+                                                                                        <BinderItem ID="59" UUID="E3BCD2DB-B352-44C3-A82A-7E3855F5621B" Created="2019-07-10 12:01:08 +1200" Modified="2019-09-25 12:21:41 +1200" Type="Text">
                                                                                             <Title>[C1,1,1,1,2,1,2,1]</Title>
                                                                                             <MetaData>
                                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                                 <FileExtension>rtf</FileExtension>
+                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                             </MetaData>
                                                                                             <TextSettings>
-                                                                                                <TextSelection>168,0</TextSelection>
+                                                                                                <TextSelection>686,0</TextSelection>
                                                                                                 <Target Type="Words">0</Target>
                                                                                             </TextSettings>
+                                                                                            <Children>
+                                                                                                <BinderItem ID="70" UUID="BB8D06BC-8A89-47BF-A191-937BEF58EEE4" Created="2019-08-14 12:18:43 +1200" Modified="2019-09-25 12:21:37 +1200" Type="Text">
+                                                                                                    <Title>[C1,1,1,1,2,1,2,1,1]</Title>
+                                                                                                    <MetaData>
+                                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                    </MetaData>
+                                                                                                    <TextSettings>
+                                                                                                        <TextSelection>2176,0</TextSelection>
+                                                                                                        <Target Type="Words">0</Target>
+                                                                                                    </TextSettings>
+                                                                                                    <Children>
+                                                                                                        <BinderItem ID="80" UUID="BFD6E4BC-F03A-4022-A68F-06A82A2D0DCE" Created="2019-09-04 12:26:29 +1200" Modified="2019-09-25 12:21:33 +1200" Type="Text">
+                                                                                                            <Title>[C1,1,1,1,2,1,2,1,1,1]</Title>
+                                                                                                            <MetaData>
+                                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                <FileExtension>rtf</FileExtension>
+                                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                            </MetaData>
+                                                                                                            <TextSettings>
+                                                                                                                <TextSelection>1079,0</TextSelection>
+                                                                                                                <Target Type="Words">0</Target>
+                                                                                                            </TextSettings>
+                                                                                                        </BinderItem>
+                                                                                                        <BinderItem ID="82" UUID="9E7F5D55-9B38-4430-A330-6EAD5C4400D7" Created="2019-09-04 12:27:27 +1200" Modified="2019-09-22 12:38:21 +1200" Type="Text">
+                                                                                                            <Title>[C1,1,1,1,2,1,2,1,1,2]</Title>
+                                                                                                            <MetaData>
+                                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                <FileExtension>rtf</FileExtension>
+                                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                            </MetaData>
+                                                                                                            <TextSettings>
+                                                                                                                <TextSelection>3571,0</TextSelection>
+                                                                                                                <Target Type="Words">0</Target>
+                                                                                                            </TextSettings>
+                                                                                                        </BinderItem>
+                                                                                                    </Children>
+                                                                                                </BinderItem>
+                                                                                            </Children>
                                                                                         </BinderItem>
                                                                                     </Children>
                                                                                 </BinderItem>
@@ -265,32 +504,53 @@
                                                                         </BinderItem>
                                                                     </Children>
                                                                 </BinderItem>
-                                                                <BinderItem ID="55" UUID="B60D706A-C7C9-4FDC-9751-3E3A1E246068" Created="2019-07-09 12:09:27 +1200" Modified="2019-07-31 12:21:10 +1200" Type="Text">
+                                                                <BinderItem ID="55" UUID="B60D706A-C7C9-4FDC-9751-3E3A1E246068" Created="2019-07-09 12:09:27 +1200" Modified="2019-09-05 12:37:03 +1200" Type="Text">
                                                                     <Title>[C1,1,1,1,2,3]</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                         <FileExtension>rtf</FileExtension>
+                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                     </MetaData>
                                                                     <TextSettings>
-                                                                        <TextSelection>1583,0</TextSelection>
+                                                                        <TextSelection>395,0</TextSelection>
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
                                                                     <Children>
-                                                                        <BinderItem ID="60" UUID="C515CC91-318B-4079-A043-A1493D7C778F" Created="2019-07-10 12:18:17 +1200" Modified="2019-07-18 12:08:55 +1200" Type="Text">
+                                                                        <BinderItem ID="60" UUID="C515CC91-318B-4079-A043-A1493D7C778F" Created="2019-07-10 12:18:17 +1200" Modified="2019-09-05 12:37:20 +1200" Type="Text">
                                                                             <Title>[C1,1,1,1,2,3,1]</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                             </MetaData>
                                                                             <TextSettings>
+                                                                                <TextSelection>2130,0</TextSelection>
                                                                                 <Target Type="Words">0</Target>
                                                                             </TextSettings>
+                                                                            <Children>
+                                                                                <BinderItem ID="71" UUID="91F599DA-0F69-42BF-8964-F87B76B75F95" Created="2019-08-14 12:18:57 +1200" Modified="2019-09-05 12:37:29 +1200" Type="Text">
+                                                                                    <Title>[C1,1,1,1,2,3,1,1]</Title>
+                                                                                    <MetaData>
+                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                    </MetaData>
+                                                                                    <TextSettings>
+                                                                                        <TextSelection>13,0</TextSelection>
+                                                                                        <Target Type="Words">0</Target>
+                                                                                    </TextSettings>
+                                                                                </BinderItem>
+                                                                            </Children>
                                                                         </BinderItem>
-                                                                        <BinderItem ID="61" UUID="BB645CD0-34BE-422B-B954-45F857AFB4AD" Created="2019-07-10 12:18:32 +1200" Modified="2019-07-18 12:09:05 +1200" Type="Text">
+                                                                        <BinderItem ID="61" UUID="BB645CD0-34BE-422B-B954-45F857AFB4AD" Created="2019-07-10 12:18:32 +1200" Modified="2019-09-05 12:37:40 +1200" Type="Text">
                                                                             <Title>[C1,1,1,1,2,3,2]</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                             </MetaData>
                                                                             <TextSettings>
+                                                                                <TextSelection>837,0</TextSelection>
                                                                                 <Target Type="Words">0</Target>
                                                                             </TextSettings>
                                                                         </BinderItem>
@@ -298,29 +558,31 @@
                                                                 </BinderItem>
                                                             </Children>
                                                         </BinderItem>
-                                                        <BinderItem ID="19" UUID="73FCF289-D123-4094-99B6-20038B41153C" Created="2019-04-15 15:05:00 +1200" Modified="2019-08-09 09:06:15 +1200" Type="Text">
+                                                        <BinderItem ID="19" UUID="73FCF289-D123-4094-99B6-20038B41153C" Created="2019-04-15 15:05:00 +1200" Modified="2019-09-05 12:38:00 +1200" Type="Text">
                                                             <Title>[C1,1,1,1,3]</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                 <FileExtension>rtf</FileExtension>
+                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                             </MetaData>
                                                             <TextSettings>
-                                                                <TextSelection>188,0</TextSelection>
+                                                                <TextSelection>206,0</TextSelection>
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                             <Children>
-                                                                <BinderItem ID="28" UUID="257C1037-D8C7-4D47-9C35-CEF6657799C9" Created="2019-04-18 12:27:17 +1200" Modified="2019-08-09 09:06:20 +1200" Type="Text">
+                                                                <BinderItem ID="28" UUID="257C1037-D8C7-4D47-9C35-CEF6657799C9" Created="2019-04-18 12:27:17 +1200" Modified="2019-09-05 12:38:22 +1200" Type="Text">
                                                                     <Title>[C1,1,1,1,3,1]</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                         <FileExtension>rtf</FileExtension>
+                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                     </MetaData>
                                                                     <TextSettings>
-                                                                        <TextSelection>235,0</TextSelection>
+                                                                        <TextSelection>190,0</TextSelection>
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
                                                                     <Children>
-                                                                        <BinderItem ID="27" UUID="67F35D84-A476-4038-B343-521CD66C448F" Created="2019-04-17 15:42:06 +1200" Modified="2019-08-07 12:10:40 +1200" Type="Text">
+                                                                        <BinderItem ID="27" UUID="67F35D84-A476-4038-B343-521CD66C448F" Created="2019-04-17 15:42:06 +1200" Modified="2019-09-05 12:38:42 +1200" Type="Text">
                                                                             <Title>[C1,1,1,1,3,1,1]</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -332,18 +594,19 @@
                                                                                 <Target Type="Words">0</Target>
                                                                             </TextSettings>
                                                                         </BinderItem>
-                                                                        <BinderItem ID="30" UUID="68A7C490-4041-4C09-946D-4BDB473BBE44" Created="2019-04-18 12:27:50 +1200" Modified="2019-07-31 12:28:11 +1200" Type="Text">
+                                                                        <BinderItem ID="30" UUID="68A7C490-4041-4C09-946D-4BDB473BBE44" Created="2019-04-18 12:27:50 +1200" Modified="2019-09-05 12:39:06 +1200" Type="Text">
                                                                             <Title>[C1,1,1,1,3,1,2]</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                 <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                             </MetaData>
                                                                             <TextSettings>
-                                                                                <TextSelection>879,0</TextSelection>
+                                                                                <TextSelection>170,0</TextSelection>
                                                                                 <Target Type="Words">0</Target>
                                                                             </TextSettings>
                                                                             <Children>
-                                                                                <BinderItem ID="48" UUID="ACC50DFD-072F-4B2E-9CD7-D41E517DCC6F" Created="2019-06-28 15:47:19 +1200" Modified="2019-08-07 12:11:23 +1200" Type="Text">
+                                                                                <BinderItem ID="49" UUID="99CC1008-AD43-4FFC-A6C7-F7E75B07E7DD" Created="2019-06-28 15:47:36 +1200" Modified="2019-09-11 13:01:10 +1200" Type="Text">
                                                                                     <Title>[C1,1,1,1,3,1,2,1]</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -351,30 +614,19 @@
                                                                                         <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                     </MetaData>
                                                                                     <TextSettings>
-                                                                                        <TextSelection>98,0</TextSelection>
+                                                                                        <TextSelection>16,0</TextSelection>
                                                                                         <Target Type="Words">0</Target>
                                                                                     </TextSettings>
                                                                                 </BinderItem>
-                                                                                <BinderItem ID="49" UUID="99CC1008-AD43-4FFC-A6C7-F7E75B07E7DD" Created="2019-06-28 15:47:36 +1200" Modified="2019-07-31 12:28:33 +1200" Type="Text">
+                                                                                <BinderItem ID="50" UUID="466BAF31-E837-468D-87F6-83484E7FE345" Created="2019-06-28 15:47:45 +1200" Modified="2019-09-11 13:01:17 +1200" Type="Text">
                                                                                     <Title>[C1,1,1,1,3,1,2,2]</Title>
-                                                                                    <MetaData>
-                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                                                                        <FileExtension>rtf</FileExtension>
-                                                                                    </MetaData>
-                                                                                    <TextSettings>
-                                                                                        <TextSelection>251,0</TextSelection>
-                                                                                        <Target Type="Words">0</Target>
-                                                                                    </TextSettings>
-                                                                                </BinderItem>
-                                                                                <BinderItem ID="50" UUID="466BAF31-E837-468D-87F6-83484E7FE345" Created="2019-06-28 15:47:45 +1200" Modified="2019-08-07 12:11:05 +1200" Type="Text">
-                                                                                    <Title>[C1,1,1,1,3,1,2,3]</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                         <FileExtension>rtf</FileExtension>
                                                                                         <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                     </MetaData>
                                                                                     <TextSettings>
-                                                                                        <TextSelection>339,0</TextSelection>
+                                                                                        <TextSelection>220,0</TextSelection>
                                                                                         <Target Type="Words">0</Target>
                                                                                     </TextSettings>
                                                                                 </BinderItem>
@@ -382,7 +634,7 @@
                                                                         </BinderItem>
                                                                     </Children>
                                                                 </BinderItem>
-                                                                <BinderItem ID="29" UUID="5D01BEC5-A311-4265-A6A9-6C1C4A3F541B" Created="2019-04-18 12:27:39 +1200" Modified="2019-08-07 12:12:22 +1200" Type="Text">
+                                                                <BinderItem ID="29" UUID="5D01BEC5-A311-4265-A6A9-6C1C4A3F541B" Created="2019-04-18 12:27:39 +1200" Modified="2019-09-05 12:39:52 +1200" Type="Text">
                                                                     <Title>[C1,1,1,1,3,2]</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -394,33 +646,36 @@
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
                                                                     <Children>
-                                                                        <BinderItem ID="47" UUID="524E9008-3CFE-444A-8898-4799CDD9AAB0" Created="2019-06-24 13:03:46 +1200" Modified="2019-07-31 12:22:45 +1200" Type="Text">
+                                                                        <BinderItem ID="47" UUID="524E9008-3CFE-444A-8898-4799CDD9AAB0" Created="2019-06-24 13:03:46 +1200" Modified="2019-09-05 12:40:21 +1200" Type="Text">
                                                                             <Title>[C1,1,1,1,3,2,2]</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                 <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                             </MetaData>
                                                                             <TextSettings>
-                                                                                <TextSelection>3350,0</TextSelection>
+                                                                                <TextSelection>504,0</TextSelection>
                                                                                 <Target Type="Words">0</Target>
                                                                             </TextSettings>
                                                                             <Children>
-                                                                                <BinderItem ID="51" UUID="E631A10E-77B4-45EA-8E36-D11A0D878AB5" Created="2019-07-01 13:13:43 +1200" Modified="2019-07-18 12:10:57 +1200" Type="Text">
+                                                                                <BinderItem ID="51" UUID="E631A10E-77B4-45EA-8E36-D11A0D878AB5" Created="2019-07-01 13:13:43 +1200" Modified="2019-09-05 12:40:35 +1200" Type="Text">
                                                                                     <Title>[C1,1,1,1,3,2,2,1]</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                         <FileExtension>rtf</FileExtension>
+                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                     </MetaData>
                                                                                     <TextSettings>
                                                                                         <TextSelection>249,0</TextSelection>
                                                                                         <Target Type="Words">0</Target>
                                                                                     </TextSettings>
                                                                                 </BinderItem>
-                                                                                <BinderItem ID="52" UUID="B9A8AB29-1C25-4189-BBFA-46548428EA28" Created="2019-07-01 13:14:13 +1200" Modified="2019-07-31 12:29:25 +1200" Type="Text">
+                                                                                <BinderItem ID="52" UUID="B9A8AB29-1C25-4189-BBFA-46548428EA28" Created="2019-07-01 13:14:13 +1200" Modified="2019-09-05 12:40:56 +1200" Type="Text">
                                                                                     <Title>[C1,1,1,1,3,2,2,2]</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                         <FileExtension>rtf</FileExtension>
+                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                     </MetaData>
                                                                                     <TextSettings>
                                                                                         <TextSelection>1875,0</TextSelection>
@@ -435,151 +690,335 @@
                                                         </BinderItem>
                                                     </Children>
                                                 </BinderItem>
-                                                <BinderItem ID="15" UUID="112A7F36-2863-4EA8-AF9B-28B353982431" Created="2019-04-15 14:42:23 +1200" Modified="2019-08-09 09:06:27 +1200" Type="Text">
+                                                <BinderItem ID="15" UUID="112A7F36-2863-4EA8-AF9B-28B353982431" Created="2019-04-15 14:42:23 +1200" Modified="2019-09-24 10:29:14 +1200" Type="Text">
                                                     <Title>[C1,1,1,2]</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                         <FileExtension>rtf</FileExtension>
+                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>875,0</TextSelection>
+                                                        <TextSelection>1083,0</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
-                                                        <BinderItem ID="20" UUID="42A3321D-11A1-41F2-BF42-07A0EB3E97C9" Created="2019-04-15 18:22:13 +1200" Modified="2019-07-18 12:11:21 +1200" Type="Text">
+                                                        <BinderItem ID="20" UUID="42A3321D-11A1-41F2-BF42-07A0EB3E97C9" Created="2019-04-15 18:22:13 +1200" Modified="2019-09-12 12:21:47 +1200" Type="Text">
                                                             <Title>[C1,1,1,2,1]</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <FileExtension>rtf</FileExtension>
+                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                             </MetaData>
                                                             <TextSettings>
+                                                                <TextSelection>262,0</TextSelection>
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
+                                                            <Children>
+                                                                <BinderItem ID="93" UUID="2C655C1B-D8D6-44B8-8311-E15B2BE3126D" Created="2019-09-12 12:21:18 +1200" Modified="2019-09-25 11:26:55 +1200" Type="Text">
+                                                                    <Title>[C1,1,1,2,1,1]</Title>
+                                                                    <MetaData>
+                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                        <FileExtension>rtf</FileExtension>
+                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                    </MetaData>
+                                                                    <TextSettings>
+                                                                        <TextSelection>1565,0</TextSelection>
+                                                                        <Target Type="Words">0</Target>
+                                                                    </TextSettings>
+                                                                    <Children>
+                                                                        <BinderItem ID="83" UUID="CD8900E6-00D0-4B94-81F7-413B4E370115" Created="2019-09-05 12:18:00 +1200" Modified="2019-09-12 12:22:20 +1200" Type="Text">
+                                                                            <Title>[C1,1,1,2,1,1,1]</Title>
+                                                                            <MetaData>
+                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                            </MetaData>
+                                                                            <TextSettings>
+                                                                                <TextSelection>90,0</TextSelection>
+                                                                                <Target Type="Words">0</Target>
+                                                                            </TextSettings>
+                                                                        </BinderItem>
+                                                                        <BinderItem ID="84" UUID="24552A0D-2954-4E54-8A44-BB80561E2794" Created="2019-09-05 12:18:12 +1200" Modified="2019-09-25 11:28:08 +1200" Type="Text">
+                                                                            <Title>[C1,1,1,2,1,1,2]</Title>
+                                                                            <MetaData>
+                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                            </MetaData>
+                                                                            <TextSettings>
+                                                                                <TextSelection>1626,0</TextSelection>
+                                                                                <Target Type="Words">0</Target>
+                                                                            </TextSettings>
+                                                                        </BinderItem>
+                                                                        <BinderItem ID="85" UUID="02527FDF-0D74-4EAA-B215-7DC8FC4413D1" Created="2019-09-05 12:18:20 +1200" Modified="2019-09-25 11:28:51 +1200" Type="Text">
+                                                                            <Title>[C1,1,1,2,1,1,3]</Title>
+                                                                            <MetaData>
+                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                            </MetaData>
+                                                                            <TextSettings>
+                                                                                <TextSelection>154,0</TextSelection>
+                                                                                <Target Type="Words">0</Target>
+                                                                            </TextSettings>
+                                                                        </BinderItem>
+                                                                    </Children>
+                                                                </BinderItem>
+                                                            </Children>
                                                         </BinderItem>
-                                                        <BinderItem ID="21" UUID="43D06FE8-5F58-4123-B107-088A046A77A4" Created="2019-04-15 18:22:33 +1200" Modified="2019-07-18 12:11:27 +1200" Type="Text">
+                                                        <BinderItem ID="21" UUID="43D06FE8-5F58-4123-B107-088A046A77A4" Created="2019-04-15 18:22:33 +1200" Modified="2019-09-22 12:41:10 +1200" Type="Text">
                                                             <Title>[C1,1,1,2,2]</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <FileExtension>rtf</FileExtension>
+                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                             </MetaData>
                                                             <TextSettings>
+                                                                <TextSelection>1574,0</TextSelection>
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                         </BinderItem>
-                                                        <BinderItem ID="22" UUID="1E9DDEEA-7BFF-4F8B-970E-4D90F4C43B7D" Created="2019-04-15 18:22:42 +1200" Modified="2019-07-18 12:11:33 +1200" Type="Text">
+                                                        <BinderItem ID="22" UUID="1E9DDEEA-7BFF-4F8B-970E-4D90F4C43B7D" Created="2019-04-15 18:22:42 +1200" Modified="2019-09-24 10:29:04 +1200" Type="Text">
                                                             <Title>[C1,1,1,2,3]</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <FileExtension>rtf</FileExtension>
+                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                             </MetaData>
                                                             <TextSettings>
+                                                                <TextSelection>253,0</TextSelection>
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
+                                                            <Children>
+                                                                <BinderItem ID="92" UUID="1AE709B5-6B3E-4E57-BCAD-B75D5870B171" Created="2019-09-12 12:18:56 +1200" Modified="2019-09-24 10:28:59 +1200" Type="Text">
+                                                                    <Title>[C1,1,1,2,3,1]</Title>
+                                                                    <MetaData>
+                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                        <FileExtension>rtf</FileExtension>
+                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                    </MetaData>
+                                                                    <TextSettings>
+                                                                        <TextSelection>1234,0</TextSelection>
+                                                                        <Target Type="Words">0</Target>
+                                                                    </TextSettings>
+                                                                    <Children>
+                                                                        <BinderItem ID="94" UUID="81E42B67-5EB1-4C60-849E-BF59808ED80C" Created="2019-09-14 13:22:32 +1200" Modified="2019-09-24 10:22:48 +1200" Type="Text">
+                                                                            <Title>[C1,1,1,2,3,1,1]</Title>
+                                                                            <MetaData>
+                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                            </MetaData>
+                                                                            <TextSettings>
+                                                                                <TextSelection>2474,0</TextSelection>
+                                                                                <Target Type="Words">0</Target>
+                                                                            </TextSettings>
+                                                                            <Children>
+                                                                                <BinderItem ID="103" UUID="CDBE1E1A-C68D-4CAB-AC40-30A362FE74E2" Created="2019-09-23 12:21:37 +1200" Modified="2019-09-24 10:12:47 +1200" Type="Text">
+                                                                                    <Title>[C1,1,1,2,3,1,1,1]</Title>
+                                                                                    <MetaData>
+                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                    </MetaData>
+                                                                                    <TextSettings>
+                                                                                        <TextSelection>2431,0</TextSelection>
+                                                                                        <Target Type="Words">0</Target>
+                                                                                    </TextSettings>
+                                                                                </BinderItem>
+                                                                                <BinderItem ID="104" UUID="0C8FD273-3D94-42F5-BDE9-CBC951929B3A" Created="2019-09-23 12:21:53 +1200" Modified="2019-09-24 10:22:44 +1200" Type="Text">
+                                                                                    <Title>[C1,1,1,2,3,1,1,2]</Title>
+                                                                                    <MetaData>
+                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                    </MetaData>
+                                                                                    <TextSettings>
+                                                                                        <TextSelection>160,0</TextSelection>
+                                                                                        <Target Type="Words">0</Target>
+                                                                                    </TextSettings>
+                                                                                </BinderItem>
+                                                                            </Children>
+                                                                        </BinderItem>
+                                                                        <BinderItem ID="95" UUID="879A3A1F-A8D1-4747-A4CB-1189953CCCAF" Created="2019-09-14 13:22:42 +1200" Modified="2019-09-24 10:28:52 +1200" Type="Text">
+                                                                            <Title>[C1,1,1,2,3,1,2]</Title>
+                                                                            <MetaData>
+                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                            </MetaData>
+                                                                            <TextSettings>
+                                                                                <TextSelection>378,0</TextSelection>
+                                                                                <Target Type="Words">0</Target>
+                                                                            </TextSettings>
+                                                                        </BinderItem>
+                                                                    </Children>
+                                                                </BinderItem>
+                                                            </Children>
                                                         </BinderItem>
                                                     </Children>
                                                 </BinderItem>
-                                                <BinderItem ID="17" UUID="78A82C4C-511C-445F-AF83-83FE8E8EDDE4" Created="2019-04-15 15:04:00 +1200" Modified="2019-07-30 12:02:09 +1200" Type="Text">
+                                                <BinderItem ID="17" UUID="78A82C4C-511C-445F-AF83-83FE8E8EDDE4" Created="2019-04-15 15:04:00 +1200" Modified="2019-09-26 12:33:30 +1200" Type="Text">
                                                     <Title>[C1,1,1,3]</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                         <FileExtension>rtf</FileExtension>
+                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>557,0</TextSelection>
+                                                        <TextSelection>227,0</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
-                                                        <BinderItem ID="23" UUID="980F1989-6D21-4568-AB47-C7FEE92B26E6" Created="2019-04-17 15:18:09 +1200" Modified="2019-07-18 12:11:50 +1200" Type="Text">
-                                                            <Title>[C1,1,1,1,1,1]</Title>
-                                                            <MetaData>
-                                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                            </MetaData>
-                                                            <TextSettings>
-                                                                <Target Type="Words">0</Target>
-                                                            </TextSettings>
-                                                        </BinderItem>
-                                                        <BinderItem ID="24" UUID="18569926-C13A-48D4-98B1-B321438F98BF" Created="2019-04-17 15:18:31 +1200" Modified="2019-07-18 12:11:59 +1200" Type="Text">
-                                                            <Title>[C1,1,1,1,1,2]</Title>
-                                                            <MetaData>
-                                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                            </MetaData>
-                                                            <TextSettings>
-                                                                <Target Type="Words">0</Target>
-                                                            </TextSettings>
-                                                        </BinderItem>
-                                                        <BinderItem ID="25" UUID="0E76C9D8-6C83-4E27-8DA5-BBBA359B652A" Created="2019-04-17 15:18:39 +1200" Modified="2019-07-18 12:12:06 +1200" Type="Text">
-                                                            <Title>[C1,1,1,1,1,3]</Title>
-                                                            <MetaData>
-                                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                            </MetaData>
-                                                            <TextSettings>
-                                                                <Target Type="Words">0</Target>
-                                                            </TextSettings>
-                                                        </BinderItem>
-                                                    </Children>
-                                                </BinderItem>
-                                            </Children>
-                                        </BinderItem>
-                                        <BinderItem ID="3" UUID="E3ECCADE-03F0-4910-BB3D-E611B138B8CC" Created="2019-04-11 12:51:38 +1200" Modified="2019-08-09 09:06:32 +1200" Type="Text">
-                                            <Title>[C1,1,2]</Title>
-                                            <MetaData>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                <FileExtension>rtf</FileExtension>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>457,0</TextSelection>
-                                                <Target Type="Words">0</Target>
-                                            </TextSettings>
-                                            <Children>
-                                                <BinderItem ID="36" UUID="70392BDF-4CC4-44E8-A2D1-67C18F819AC3" Created="2019-05-20 13:36:04 +1200" Modified="2019-08-09 09:06:36 +1200" Type="Text">
-                                                    <Title>[C1,1,2,1]</Title>
-                                                    <MetaData>
-                                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                                        <FileExtension>rtf</FileExtension>
-                                                    </MetaData>
-                                                    <TextSettings>
-                                                        <TextSelection>812,0</TextSelection>
-                                                        <Target Type="Words">0</Target>
-                                                    </TextSettings>
-                                                    <Children>
-                                                        <BinderItem ID="39" UUID="C296F837-7E64-4022-A883-AFD369FCDEFE" Created="2019-05-20 13:50:58 +1200" Modified="2019-07-30 12:04:38 +1200" Type="Text">
-                                                            <Title>[C1,1,2,1,1]</Title>
+                                                        <BinderItem ID="23" UUID="980F1989-6D21-4568-AB47-C7FEE92B26E6" Created="2019-04-17 15:18:09 +1200" Modified="2019-09-26 12:33:26 +1200" Type="Text">
+                                                            <Title>[C1,1,1,3,1]</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                 <FileExtension>rtf</FileExtension>
+                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                             </MetaData>
                                                             <TextSettings>
-                                                                <TextSelection>1937,0</TextSelection>
+                                                                <TextSelection>2685,0</TextSelection>
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                             <Children>
-                                                                <BinderItem ID="41" UUID="7975D1F7-93FA-4899-BE85-57684B962229" Created="2019-06-15 21:39:39 +1200" Modified="2019-08-09 09:12:15 +1200" Type="Text">
-                                                                    <Title>[C1,1,2,1,1,1]</Title>
+                                                                <BinderItem ID="24" UUID="18569926-C13A-48D4-98B1-B321438F98BF" Created="2019-04-17 15:18:31 +1200" Modified="2019-09-26 12:33:21 +1200" Type="Text">
+                                                                    <Title>[C1,1,1,3,1,1]</Title>
                                                                     <MetaData>
                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                         <FileExtension>rtf</FileExtension>
+                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                     </MetaData>
                                                                     <TextSettings>
-                                                                        <TextSelection>1217,0</TextSelection>
+                                                                        <TextSelection>968,0</TextSelection>
                                                                         <Target Type="Words">0</Target>
                                                                     </TextSettings>
                                                                     <Children>
-                                                                        <BinderItem ID="42" UUID="F2CCDE16-D49C-49FA-8601-B36037A55519" Created="2019-06-16 16:06:29 +1200" Modified="2019-08-08 12:37:30 +1200" Type="Text">
-                                                                            <Title>[C1,1,2,1,1,1,1]</Title>
+                                                                        <BinderItem ID="48" UUID="ACC50DFD-072F-4B2E-9CD7-D41E517DCC6F" Created="2019-06-28 15:47:19 +1200" Modified="2019-09-26 12:33:15 +1200" Type="Text">
+                                                                            <Title>[C1,1,1,3,1,1,1]</Title>
                                                                             <MetaData>
                                                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                                                 <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                             </MetaData>
                                                                             <TextSettings>
-                                                                                <TextSelection>2850,0</TextSelection>
+                                                                                <TextSelection>691,0</TextSelection>
                                                                                 <Target Type="Words">0</Target>
                                                                             </TextSettings>
                                                                             <Children>
-                                                                                <BinderItem ID="69" UUID="147190F3-3BDF-4DF3-8005-ACCE8C2D3CF8" Created="2019-08-08 12:37:41 +1200" Modified="2019-08-08 12:49:08 +1200" Type="Text">
-                                                                                    <Title>[C1,1,2,1,1,1,1,1]</Title>
+                                                                                <BinderItem ID="86" UUID="E8B219CB-58A1-47F3-AFE0-C97CC8ABB22C" Created="2019-09-11 11:55:38 +1200" Modified="2019-09-26 12:43:23 +1200" Type="Text">
+                                                                                    <Title>[C1,1,1,3,1,1,1,1]</Title>
                                                                                     <MetaData>
                                                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                                                         <FileExtension>rtf</FileExtension>
+                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                                                     </MetaData>
                                                                                     <TextSettings>
-                                                                                        <TextSelection>1300,0</TextSelection>
+                                                                                        <TextSelection>720,0</TextSelection>
+                                                                                        <Target Type="Words">0</Target>
+                                                                                    </TextSettings>
+                                                                                    <Children>
+                                                                                        <BinderItem ID="90" UUID="349C6884-DB34-4FA0-91FD-E8480DACFCAF" Created="2019-09-11 12:15:59 +1200" Modified="2019-09-26 12:33:03 +1200" Type="Text">
+                                                                                            <Title>[C1,1,1,3,1,1,1,1,1]</Title>
+                                                                                            <MetaData>
+                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                <FileExtension>rtf</FileExtension>
+                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                            </MetaData>
+                                                                                            <TextSettings>
+                                                                                                <TextSelection>1134,0</TextSelection>
+                                                                                                <Target Type="Words">0</Target>
+                                                                                            </TextSettings>
+                                                                                            <Children>
+                                                                                                <BinderItem ID="105" UUID="9B64BB52-405D-401B-BEEB-E1ADFC8C2C8C" Created="2019-09-25 12:01:00 +1200" Modified="2019-09-26 12:32:59 +1200" Type="Text">
+                                                                                                    <Title>[C1,1,1,3,1,1,1,1,1,1]</Title>
+                                                                                                    <MetaData>
+                                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                    </MetaData>
+                                                                                                    <TextSettings>
+                                                                                                        <TextSelection>137,0</TextSelection>
+                                                                                                        <Target Type="Words">0</Target>
+                                                                                                    </TextSettings>
+                                                                                                    <Children>
+                                                                                                        <BinderItem ID="106" UUID="2764A397-39C3-4107-9D1C-7DA24001F5EE" Created="2019-09-25 12:45:36 +1200" Modified="2019-09-26 12:32:55 +1200" Type="Text">
+                                                                                                            <Title>[C1,1,1,3,1,1,1,1,1,1,1]</Title>
+                                                                                                            <MetaData>
+                                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                            </MetaData>
+                                                                                                            <TextSettings>
+                                                                                                                <TextSelection>2297,0</TextSelection>
+                                                                                                                <Target Type="Words">0</Target>
+                                                                                                            </TextSettings>
+                                                                                                            <Children>
+                                                                                                                <BinderItem ID="107" UUID="6D1CBC06-F32D-4B1D-9057-B6C3D3650998" Created="2019-09-26 12:14:13 +1200" Modified="2019-09-26 12:32:50 +1200" Type="Text">
+                                                                                                                    <Title>[C1,1,1,3,1,1,1,1,1,1,1,1]</Title>
+                                                                                                                    <MetaData>
+                                                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                                                    </MetaData>
+                                                                                                                    <TextSettings>
+                                                                                                                        <TextSelection>3906,0</TextSelection>
+                                                                                                                        <Target Type="Words">0</Target>
+                                                                                                                    </TextSettings>
+                                                                                                                </BinderItem>
+                                                                                                            </Children>
+                                                                                                        </BinderItem>
+                                                                                                    </Children>
+                                                                                                </BinderItem>
+                                                                                            </Children>
+                                                                                        </BinderItem>
+                                                                                    </Children>
+                                                                                </BinderItem>
+                                                                                <BinderItem ID="87" UUID="B2AD7920-F487-4DD7-9F25-1F8D3CFA55D6" Created="2019-09-11 11:55:57 +1200" Modified="2019-09-25 11:30:03 +1200" Type="Text">
+                                                                                    <Title>[C1,1,1,3,1,1,1,2]</Title>
+                                                                                    <MetaData>
+                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                    </MetaData>
+                                                                                    <TextSettings>
+                                                                                        <TextSelection>908,0</TextSelection>
+                                                                                        <Target Type="Words">0</Target>
+                                                                                    </TextSettings>
+                                                                                </BinderItem>
+                                                                                <BinderItem ID="88" UUID="8BACF1F4-3CCE-4698-BA33-9E52CB2F718A" Created="2019-09-11 11:56:04 +1200" Modified="2019-09-25 11:30:33 +1200" Type="Text">
+                                                                                    <Title>[C1,1,1,3,1,1,1,3]</Title>
+                                                                                    <MetaData>
+                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                    </MetaData>
+                                                                                    <TextSettings>
+                                                                                        <TextSelection>102,0</TextSelection>
+                                                                                        <Target Type="Words">0</Target>
+                                                                                    </TextSettings>
+                                                                                </BinderItem>
+                                                                            </Children>
+                                                                        </BinderItem>
+                                                                        <BinderItem ID="79" UUID="C71085AE-7DD8-4432-BBA8-9CA6599AFA1E" Created="2019-09-04 11:59:34 +1200" Modified="2019-09-11 12:30:01 +1200" Type="Text">
+                                                                            <Title>[C1,1,1,3,1,1,2]</Title>
+                                                                            <MetaData>
+                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                            </MetaData>
+                                                                            <TextSettings>
+                                                                                <TextSelection>389,0</TextSelection>
+                                                                                <Target Type="Words">0</Target>
+                                                                            </TextSettings>
+                                                                            <Children>
+                                                                                <BinderItem ID="89" UUID="BC0964F7-D0A9-479B-80E2-895647EEE837" Created="2019-09-11 11:56:18 +1200" Modified="2019-09-25 11:31:08 +1200" Type="Text">
+                                                                                    <Title>[C1,1,1,3,1,1,2,1]</Title>
+                                                                                    <MetaData>
+                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                    </MetaData>
+                                                                                    <TextSettings>
+                                                                                        <TextSelection>453,0</TextSelection>
                                                                                         <Target Type="Words">0</Target>
                                                                                     </TextSettings>
                                                                                 </BinderItem>
@@ -587,9 +1026,116 @@
                                                                         </BinderItem>
                                                                     </Children>
                                                                 </BinderItem>
+                                                                <BinderItem ID="25" UUID="0E76C9D8-6C83-4E27-8DA5-BBBA359B652A" Created="2019-04-17 15:18:39 +1200" Modified="2019-09-11 12:43:34 +1200" Type="Text">
+                                                                    <Title>[C1,1,1,3,1,2]</Title>
+                                                                    <MetaData>
+                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                        <FileExtension>rtf</FileExtension>
+                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                    </MetaData>
+                                                                    <TextSettings>
+                                                                        <TextSelection>1010,0</TextSelection>
+                                                                        <Target Type="Words">0</Target>
+                                                                    </TextSettings>
+                                                                </BinderItem>
                                                             </Children>
                                                         </BinderItem>
-                                                        <BinderItem ID="40" UUID="9F61BF23-7426-47FE-AA02-C1565890DD20" Created="2019-05-20 13:51:14 +1200" Modified="2019-08-07 12:13:16 +1200" Type="Text">
+                                                    </Children>
+                                                </BinderItem>
+                                            </Children>
+                                        </BinderItem>
+                                        <BinderItem ID="3" UUID="E3ECCADE-03F0-4910-BB3D-E611B138B8CC" Created="2019-04-11 12:51:38 +1200" Modified="2019-09-26 12:46:23 +1200" Type="Text">
+                                            <Title>[C1,1,2]</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>459,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                            <Children>
+                                                <BinderItem ID="36" UUID="70392BDF-4CC4-44E8-A2D1-67C18F819AC3" Created="2019-05-20 13:36:04 +1200" Modified="2019-09-26 12:46:19 +1200" Type="Text">
+                                                    <Title>[C1,1,2,1]</Title>
+                                                    <MetaData>
+                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <FileExtension>rtf</FileExtension>
+                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                    </MetaData>
+                                                    <TextSettings>
+                                                        <TextSelection>212,0</TextSelection>
+                                                        <Target Type="Words">0</Target>
+                                                    </TextSettings>
+                                                    <Children>
+                                                        <BinderItem ID="39" UUID="C296F837-7E64-4022-A883-AFD369FCDEFE" Created="2019-05-20 13:50:58 +1200" Modified="2019-09-26 12:46:15 +1200" Type="Text">
+                                                            <Title>[C1,1,2,1,1]</Title>
+                                                            <MetaData>
+                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                <FileExtension>rtf</FileExtension>
+                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                            </MetaData>
+                                                            <TextSettings>
+                                                                <TextSelection>1976,0</TextSelection>
+                                                                <Target Type="Words">0</Target>
+                                                            </TextSettings>
+                                                            <Children>
+                                                                <BinderItem ID="41" UUID="7975D1F7-93FA-4899-BE85-57684B962229" Created="2019-06-15 21:39:39 +1200" Modified="2019-09-26 12:46:09 +1200" Type="Text">
+                                                                    <Title>[C1,1,2,1,1,1]</Title>
+                                                                    <MetaData>
+                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                        <FileExtension>rtf</FileExtension>
+                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                    </MetaData>
+                                                                    <TextSettings>
+                                                                        <TextSelection>376,0</TextSelection>
+                                                                        <Target Type="Words">0</Target>
+                                                                    </TextSettings>
+                                                                    <Children>
+                                                                        <BinderItem ID="42" UUID="F2CCDE16-D49C-49FA-8601-B36037A55519" Created="2019-06-16 16:06:29 +1200" Modified="2019-09-26 12:46:05 +1200" Type="Text">
+                                                                            <Title>[C1,1,2,1,1,1,1]</Title>
+                                                                            <MetaData>
+                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                <FileExtension>rtf</FileExtension>
+                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                            </MetaData>
+                                                                            <TextSettings>
+                                                                                <TextSelection>778,0</TextSelection>
+                                                                                <Target Type="Words">0</Target>
+                                                                            </TextSettings>
+                                                                            <Children>
+                                                                                <BinderItem ID="69" UUID="147190F3-3BDF-4DF3-8005-ACCE8C2D3CF8" Created="2019-08-08 12:37:41 +1200" Modified="2019-09-26 12:46:00 +1200" Type="Text">
+                                                                                    <Title>[C1,1,2,1,1,1,1,1]</Title>
+                                                                                    <MetaData>
+                                                                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                        <FileExtension>rtf</FileExtension>
+                                                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                    </MetaData>
+                                                                                    <TextSettings>
+                                                                                        <TextSelection>808,0</TextSelection>
+                                                                                        <Target Type="Words">0</Target>
+                                                                                    </TextSettings>
+                                                                                    <Children>
+                                                                                        <BinderItem ID="101" UUID="9CD630D4-E51B-40E2-A19C-D439530250B3" Created="2019-09-20 11:31:41 +1200" Modified="2019-09-26 12:45:53 +1200" Type="Text">
+                                                                                            <Title>[C1,1,2,1,1,1,1,1,1]</Title>
+                                                                                            <MetaData>
+                                                                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                                                                                            </MetaData>
+                                                                                            <TextSettings>
+                                                                                                <TextSelection>840,0</TextSelection>
+                                                                                                <Target Type="Words">0</Target>
+                                                                                            </TextSettings>
+                                                                                        </BinderItem>
+                                                                                    </Children>
+                                                                                </BinderItem>
+                                                                            </Children>
+                                                                        </BinderItem>
+                                                                    </Children>
+                                                                </BinderItem>
+                                                            </Children>
+                                                        </BinderItem>
+                                                        <BinderItem ID="40" UUID="9F61BF23-7426-47FE-AA02-C1565890DD20" Created="2019-05-20 13:51:14 +1200" Modified="2019-09-10 11:59:41 +1200" Type="Text">
                                                             <Title>[C1,1,2,1,2]</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -597,31 +1143,33 @@
                                                                 <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                             </MetaData>
                                                             <TextSettings>
-                                                                <TextSelection>4120,0</TextSelection>
+                                                                <TextSelection>1684,0</TextSelection>
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                         </BinderItem>
                                                     </Children>
                                                 </BinderItem>
-                                                <BinderItem ID="37" UUID="C942C9E7-62ED-41BF-9D91-D97FEBC91406" Created="2019-05-20 13:36:19 +1200" Modified="2019-07-30 12:10:08 +1200" Type="Text">
+                                                <BinderItem ID="37" UUID="C942C9E7-62ED-41BF-9D91-D97FEBC91406" Created="2019-05-20 13:36:19 +1200" Modified="2019-09-12 12:33:44 +1200" Type="Text">
                                                     <Title>[C1,1,2,2]</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                         <FileExtension>rtf</FileExtension>
+                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>1239,0</TextSelection>
+                                                        <TextSelection>1738,0</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="38" UUID="D1E88A03-1A10-4211-B1E9-114AC719BE6A" Created="2019-05-20 13:36:27 +1200" Modified="2019-07-30 12:10:40 +1200" Type="Text">
+                                                <BinderItem ID="38" UUID="D1E88A03-1A10-4211-B1E9-114AC719BE6A" Created="2019-05-20 13:36:27 +1200" Modified="2019-09-14 12:58:33 +1200" Type="Text">
                                                     <Title>[C1,1,2,3]</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                         <FileExtension>rtf</FileExtension>
+                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>1275,0</TextSelection>
+                                                        <TextSelection>3140,0</TextSelection>
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
@@ -629,7 +1177,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="5" UUID="8231C77E-6CFC-4591-8EF3-25DB600BFE14" Created="2019-04-12 11:38:47 +1200" Modified="2019-08-09 09:15:38 +1200" Type="Text">
+                                <BinderItem ID="5" UUID="8231C77E-6CFC-4591-8EF3-25DB600BFE14" Created="2019-04-12 11:38:47 +1200" Modified="2019-09-05 12:44:34 +1200" Type="Text">
                                     <Title>[C1,2]</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -643,53 +1191,53 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem ID="6" UUID="E483AD4B-A33F-4241-A1F5-C0E967A6C4ED" Created="2019-04-12 11:39:02 +1200" Modified="2019-08-09 09:17:36 +1200" Type="Text">
+                        <BinderItem ID="6" UUID="E483AD4B-A33F-4241-A1F5-C0E967A6C4ED" Created="2019-04-12 11:39:02 +1200" Modified="2019-09-26 12:47:34 +1200" Type="Text">
                             <Title>[C2] </Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2473,0</TextSelection>
+                                <TextSelection>3162,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="31" UUID="78201881-B296-4C16-A1EE-6BECB808CF14" Created="2019-05-02 12:06:09 +1200" Modified="2019-08-09 09:21:28 +1200" Type="Text">
+                                <BinderItem ID="31" UUID="78201881-B296-4C16-A1EE-6BECB808CF14" Created="2019-05-02 12:06:09 +1200" Modified="2019-09-25 11:34:19 +1200" Type="Text">
                                     <Title>[C2,1]</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>4411,0</TextSelection>
+                                        <TextSelection>5552,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="34" UUID="0AC019C5-BFBB-48DE-A947-50375F3E581C" Created="2019-05-13 13:16:47 +1200" Modified="2019-08-09 09:25:02 +1200" Type="Text">
+                                        <BinderItem ID="34" UUID="0AC019C5-BFBB-48DE-A947-50375F3E581C" Created="2019-05-13 13:16:47 +1200" Modified="2019-09-05 12:45:26 +1200" Type="Text">
                                             <Title>[C2,1,1]</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                 <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>3442,0</TextSelection>
+                                                <TextSelection>455,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="35" UUID="51F99D19-9663-448E-94E3-75ABCA992282" Created="2019-05-13 13:17:01 +1200" Modified="2019-08-09 09:26:20 +1200" Type="Text">
+                                        <BinderItem ID="35" UUID="51F99D19-9663-448E-94E3-75ABCA992282" Created="2019-05-13 13:17:01 +1200" Modified="2019-09-26 12:49:33 +1200" Type="Text">
                                             <Title>[C2,1,2]</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                 <FileExtension>rtf</FileExtension>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>447,0</TextSelection>
+                                                <TextSelection>885,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="32" UUID="CC8A6E72-6781-4F17-A954-7DD284394F1C" Created="2019-05-02 12:06:43 +1200" Modified="2019-08-09 09:26:40 +1200" Type="Text">
+                                <BinderItem ID="32" UUID="CC8A6E72-6781-4F17-A954-7DD284394F1C" Created="2019-05-02 12:06:43 +1200" Modified="2019-09-05 12:45:59 +1200" Type="Text">
                                     <Title>[C2,2]</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -700,18 +1248,9 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="33" UUID="A0984EEA-C390-4D56-AA39-A5955A93F8C0" Created="2019-05-02 12:06:52 +1200" Modified="2019-07-18 12:14:05 +1200" Type="Text">
-                                    <Title>[C2,3]</Title>
-                                    <MetaData>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                    </MetaData>
-                                    <TextSettings>
-                                        <Target Type="Words">0</Target>
-                                    </TextSettings>
-                                </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem ID="4" UUID="24E7B295-66FF-4781-A142-489715732732" Created="2019-04-12 11:38:39 +1200" Modified="2019-08-09 09:27:11 +1200" Type="Text">
+                        <BinderItem ID="4" UUID="24E7B295-66FF-4781-A142-489715732732" Created="2019-04-12 11:38:39 +1200" Modified="2019-09-05 12:46:15 +1200" Type="Text">
                             <Title>[C3]</Title>
                             <MetaData>
                                 <StatusID>5</StatusID>
@@ -720,47 +1259,52 @@
                                 <IconFileName>Book (Blue Book).tiff</IconFileName>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>725,0</TextSelection>
+                                <TextSelection>905,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="43" UUID="DE0BA9C2-51B0-480D-8D86-5E7446E29DD0" Created="2019-06-23 13:23:59 +1200" Modified="2019-08-09 09:27:51 +1200" Type="Text">
+                                <BinderItem ID="43" UUID="DE0BA9C2-51B0-480D-8D86-5E7446E29DD0" Created="2019-06-23 13:23:59 +1200" Modified="2019-09-05 12:46:29 +1200" Type="Text">
                                     <Title>[C3,1]</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <FileExtension>rtf</FileExtension>
+                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                     </MetaData>
                                     <TextSettings>
                                         <TextSelection>1529,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="16" UUID="75FBC677-E499-46E4-B073-78D048D390C0" Created="2019-04-15 14:42:34 +1200" Modified="2019-07-18 12:14:24 +1200" Type="Text">
+                                        <BinderItem ID="16" UUID="75FBC677-E499-46E4-B073-78D048D390C0" Created="2019-04-15 14:42:34 +1200" Modified="2019-09-05 12:46:40 +1200" Type="Text">
                                             <Title>[C3,1,1]</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                 <FileExtension>rtf</FileExtension>
+                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                             </MetaData>
                                             <TextSettings>
                                                 <TextSelection>183,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="13" UUID="E83D046C-71C9-4A2F-8300-696FFF291AC7" Created="2019-04-15 14:11:43 +1200" Modified="2019-08-09 09:28:55 +1200" Type="Text">
+                                        <BinderItem ID="13" UUID="E83D046C-71C9-4A2F-8300-696FFF291AC7" Created="2019-04-15 14:11:43 +1200" Modified="2019-09-05 12:46:50 +1200" Type="Text">
                                             <Title>[C3,1,2]</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                 <FileExtension>rtf</FileExtension>
+                                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                                             </MetaData>
                                             <TextSettings>
                                                 <TextSelection>1254,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
-                                                <BinderItem ID="64" UUID="50AFA693-D96B-4735-807B-F75F948F5E77" Created="2019-07-16 12:14:05 +1200" Modified="2019-08-07 12:07:44 +1200" Type="Text">
+                                                <BinderItem ID="64" UUID="50AFA693-D96B-4735-807B-F75F948F5E77" Created="2019-07-16 12:14:05 +1200" Modified="2019-09-05 12:46:59 +1200" Type="Text">
                                                     <Title>[C3,1,2,2]</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                                        <FileExtension>rtf</FileExtension>
+                                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                                     </MetaData>
                                                     <TextSettings>
                                                         <TextSelection>276,0</TextSelection>
@@ -771,11 +1315,12 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="44" UUID="E6377793-F1E2-4D7D-B5CD-C3D5B89B0D9D" Created="2019-06-23 13:24:17 +1200" Modified="2019-08-09 09:30:11 +1200" Type="Text">
+                                <BinderItem ID="44" UUID="E6377793-F1E2-4D7D-B5CD-C3D5B89B0D9D" Created="2019-06-23 13:24:17 +1200" Modified="2019-09-05 12:47:13 +1200" Type="Text">
                                     <Title>[C3,2]</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <FileExtension>rtf</FileExtension>
+                                        <IconFileName>Book (Blue Book).tiff</IconFileName>
                                     </MetaData>
                                     <TextSettings>
                                         <TextSelection>2078,0</TextSelection>
@@ -799,6 +1344,39 @@
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
+            <Children>
+                <BinderItem ID="81" UUID="FB7F0CF1-A525-4DFB-A34B-F86E9A16CD60" Created="2019-09-04 12:27:24 +1200" Modified="2019-09-05 12:36:43 +1200" Type="Text">
+                    <Title>[C1,1,1,1,2,1,2,1,1,3]</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="91" UUID="53EDC7D3-2F21-481B-B640-89E36A8AE461" Created="2019-09-12 12:18:43 +1200" Modified="2019-09-14 13:02:42 +1200" Type="Text">
+                    <Title>[C1,1,1,2,2,2]</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>19,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="33" UUID="A0984EEA-C390-4D56-AA39-A5955A93F8C0" Created="2019-05-02 12:06:52 +1200" Modified="2019-09-05 12:46:06 +1200" Type="Text">
+                    <Title>[C2,3]</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
         </BinderItem>
     </Binder>
     <LabelSettings>
@@ -826,7 +1404,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2019-08-08 13:23:14 +1200"/>
+        <PreviousSession Words="3190" Characters="16783" Date="2019-09-23 12:02:14 +1200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="380EC639-26CC-4690-AFE4-C748DA8E7741" Color="0.901961 0.917647 0.933333">
@@ -834,7 +1412,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="8AE22B70-BC74-4D7B-8981-D01A5F1E97F0" Color="0.901961 0.901961 0.980392">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">choices</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">max</SearchSettings>
         </Collection>
     </Collections>
     <PrintSettings PaperType="Letter" LeftMargin="36.0001" RightMargin="36.0001" TopMargin="36.0001" BottomMargin="36.0001" Orientation="Portrait" Collates="No" ReverseOrder="No"/>

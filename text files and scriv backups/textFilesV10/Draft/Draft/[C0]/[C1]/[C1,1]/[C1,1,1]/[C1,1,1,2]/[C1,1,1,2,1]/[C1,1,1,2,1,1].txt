@@ -1,0 +1,25 @@
+[1,1,1,2,1,1]You flail your legs wide, catching the guy in front of you in the stomach.
+
+He lets out an, “Oof,” of breath and stumbles back, tripping over his own feet and landing heavily on his ass.
+
+“Hey!” the Greg holding you up by the arms says. He shakes you. “Calm down.”
+
+The third Vagabond is in front of you in a second, standing between you and the one on the ground. “That was a bad decision you just made there.”
+
+The vagabond on the ground opens his mouth but just lets out a wheeze of air.
+
+What. Like you’re supposed to feel sorry for these people? They’re kidnapping you!
+
+“I’m alright, Boss.” The one on the ground says. The Boss doesn’t turn around, just pulls out her own rope and grips you by the ankle - hard. You wince as her fingers dig in.
+
+She makes quick work of tying up your legs. You are dropped to the ground rather roughly and then a bag is being shoved over your head and tied around your neck. You choke for a second before the tie is loosened enough for you to breathe and tied off.
+
+“Right then, boys. Let’s get going. We have to take this one back to base before [Xe] can make any more of a nuisance of [Xself].” The Boss says. Someone picks you up - Greg by the feel of them - and hauls you over their shoulder.
+
+“Right you are, Boss.” A grunt. “Thanks for the hand.”
+
+“Anytime, Patrick.” She says. Greg shifts you on his shoulder and starts walking.
+
+
+[C1,1,2,1,1,1]be carried.
+[END]

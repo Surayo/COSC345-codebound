@@ -1,0 +1,15 @@
+[1,1,2,1,1,1,1,1]You wake up to the sound of a heavy door creaking open. It’s dark when you open your eyes. For a second you have no idea where you are or what time it is.
+
+“Up and at ‘em sunshine. They bought down breakfast before you have to face Rasputin, whatever it is he wants but, hey! It shouldn’t be too bad. I remember when I was a new recruit and he greeted me then too!”
+
+You sit up and blink at Patrick who let himself into your room with a plate of something steaming. He pulls a panel down from the wall, turning it into a table shelf thing held up by chains and places on it a plate of what looks like surprisingly good quality re-hydrated food. 
+
+You usually get your nutrients out of a can, leaving the better options for the people who need it more. It’s not like you don’t get enough to eat but this looks much more appetising than what you usually wolf down fast enough you don’t have to think about what it is you’re eating.
+
+“Thanks.” You say.
+
+“All in a days work.” Patrick says, saluting you and heading back out the door. “Don’t take too long. I’m not sure when Rasputin wants to see you but you might want to be ready to go for a wander when he does.”
+
+He closes the door behind him and leaves you to the food. You blink down at your plate, still half asleep. It must be nice, having an Aspect that leaves him so energetic all the time.
+
+[END]

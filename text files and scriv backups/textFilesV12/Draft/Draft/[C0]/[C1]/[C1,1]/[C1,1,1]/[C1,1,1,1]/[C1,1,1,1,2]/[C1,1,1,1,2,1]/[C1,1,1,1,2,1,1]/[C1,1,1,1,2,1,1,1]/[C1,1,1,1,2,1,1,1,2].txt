@@ -1,0 +1,25 @@
+[1,1,1,1,2,1,1,1,2]You sob, still clutching the rock in your hand. You thump the other on the ground in frustrated anger.
+
+“[Name]?” you hear Eve say. You still in your sobbing and turn. “God. What’s wrong with you? What are you even doing out here?”
+
+“Eve.” You say. There is another girl standing behind her eyes wide with shock. You wipe the tears from your face, ashamed at the state of yourself. “I… I was looking for you.”
+
+“Well, you found me.” She says. “Come on. Get up off the ground. You’re a disaster.” She walks over and lifts you up by the arm, brushing you down when you’re standing.
+
+You take in a deep breath, calming yourself. “Right. OK. I think I’m OK now. I don’t know what came over me.”
+
+“Good.” She says, looking steadier now that you’re not crying. “How did you even find me? I could have been anywhere in Fragos.”
+
+“Ah. Actually I have no idea. I’m quite lost.”
+
+She groans and the girl behind her giggles. “Great. So I can’t just tell you to go home and expect you to get then?”
+
+“What! I’m not leaving you now. I came out here to find you!” She groans louder.
+
+“Great. A tag along. OK so me and Ellie-May here have a job to do and you’re not going to ruin that for us.” She grabs you by the arm and pulls you after her. “Come with me.”
+
+
+[C1,1,1,1,2,1,1,1,1,1]”No. I can’t. I have to go home.” You say, “We’re going home. You’re coming with me” 
+
+[C1,1,1,1,2,1,1,1,1,2]Follow her.
+[END]

@@ -15,6 +15,7 @@
 #include "graphics.h"
 
 int main(int argc, const char * argv[]) {
+    /*
     char *filetext = NULL, *cleantext = NULL;
     char *choiceText = NULL, *choiceFile = "C0";
     char file_location[100], prefix[] = "/Devolution/[", suffix[] = "].txt";
@@ -87,6 +88,9 @@ int main(int argc, const char * argv[]) {
             //break;
         }
     }
+     */
+    
+    createWindow(1);
     
     return EXIT_SUCCESS;
 }

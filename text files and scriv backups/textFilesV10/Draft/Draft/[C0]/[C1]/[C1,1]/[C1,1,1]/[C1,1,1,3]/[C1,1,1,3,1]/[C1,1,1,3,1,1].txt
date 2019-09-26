@@ -1,0 +1,19 @@
+[1,1,1,3,1,1]”She’s just back on her bullshit again - you know how she gets.” You say.
+
+Liaba laughs. “Don’t I know it.” 
+
+It’s easy. You can push thoughts of your sister to the side for a minute. The crowd gets thicker as you walk, people bunching up as more workers trickle in from other houses. You settle into the walk, into the routine of heading to work just like any other day.
+
+Someone pushes in between you and Liaba and Liaba gives them the stink eye. “Oh!” She says. You glance over at them yourself.
+
+Oh.
+
+“Eve?” you say, “What are you-” she cuts you off, grabbing you by the arm and tugging you to the side.
+
+“Can I talk to you for a second?” she asks. She doesn’t wait for an answer, just pulls you away  from the crowd and into a side alley. 
+
+
+[C1,1,1,3,1,1,1]”Wait.” You say pulling your arm out of her grip. She groans.
+
+[C1,1,1,3,1,1,2]”What are you doing back?” you ask, finishing your thought from before, now that she’s finished moving you.
+[END]

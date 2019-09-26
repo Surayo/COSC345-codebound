@@ -1,0 +1,29 @@
+[1,1,1,2,1,2]You kick behind you as hard as your tired legs will let you. Greg lets out a grunt of pain and you’re dropped to the ground in a heap.
+
+“Hey! What the fuck!” the man in front of you says. You barley glance back to see Greg hunched over in pain. You stumble to your feet - hands and mouth still tied - and start running.
+
+You don’t get far.
+
+You feel something grab you by the ankle and are yanked off your feet. You hit the ground hard for a second time. Your elbows take most of the blow as your hands are still tied. 
+
+“Do I have to get my hands dirty or can you get [Xer] under control, Patrick?” the women says.
+
+You are pulled back and flipped over, both your ankles caught in the grip of the tall lanky man - Patrick. Greg is hunched over with both hands between his legs.
+
+“A hand would be appreciated, Boss.” You try and kick out of his grip or kick him but he twists with the force. The woman comes over and you kick more franticly ,trying to get away before you have two people to fight off. It’s no use. Patrick, lanky as he is, is still stronger than you are after a long walk and a longer day. 
+
+The Boss grabs you by the ankles herself in a vice grip. “I’ll hold [Xer]. You get the ropes on [Xer] before [Xe] tries to run again.” 
+
+“On it, Boss.” Patrick pulls out more rope and efficiently lopes it around your struggling legs and ties it off. You don’t think you would be able to run like this, assuming you would’ve been able to run before.
+
+Behind them, Greg manages to get to his feet, still hunched over and cradling himself gingerly. He hands Patrick a sack who shoves it over your head, tying it off around your neck.
+
+“You alright over there, Greg.” Patrick asks, “You think you can handle carrying ‘[Xm] back to base?”
+
+“I’ll live.” Greg says and then you are hoisted over his shoulder.
+
+“Let’s get going, boys.” The Boss says.
+
+
+[C1,1,2,1,1,1]be carried.
+[END]

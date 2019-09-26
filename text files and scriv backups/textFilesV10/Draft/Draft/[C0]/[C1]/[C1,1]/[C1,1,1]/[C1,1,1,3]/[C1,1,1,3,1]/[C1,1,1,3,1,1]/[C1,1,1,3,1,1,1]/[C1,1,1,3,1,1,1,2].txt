@@ -1,0 +1,25 @@
+[1,1,1,3,1,1,1,2]”LIABA!” you yell as loud as you can through the cloth.
+
+“[Name]?!” you hear distantly before a hand clamps over your mouth and you are dragged further away.
+
+“Quick.” A woman's voice says, “Someone heard. Let’s get out of here.”
+
+You let out as oof of breath as you’re hoisted over someone's shoulder. They start off at a loping run and your breath leaves you with a grunt with every heavy step. “Li - aba” you say  between breathes.
+
+Someone thumps you on the head. “Shut up.” A deep voice says. 
+
+“I think we lost them.” A third voice, “That was one hell of a close call. I’m glad we though to bring Eve with us though. I don’t think the workers ‘av realised she’s with us!” 
+
+You can no longer hear the distant tread of workers. You strain your hearing over the pounding of your captors feet, but there is no sign that Liaba has followed you. “Help!” you yell, “I’m - oof - over here!” 
+
+Your kidnappers pay no mind to your yelling this time. They have slowed down their sprinting to just a steady jog.
+
+“Let’s put [Xer] down over there. We need to tie [Xer] up.” The woman says.
+
+“Sure thing, Boss.”
+
+You hear pounding feet and return to your struggling at earnest. “What’d I miss?” Eve asks.
+
+
+[C1,1,1,3,1,1,1,1,1]Be tied up.
+[END]
