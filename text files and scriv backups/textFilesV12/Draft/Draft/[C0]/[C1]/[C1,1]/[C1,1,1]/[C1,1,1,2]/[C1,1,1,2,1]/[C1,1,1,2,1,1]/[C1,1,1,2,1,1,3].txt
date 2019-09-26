@@ -1,0 +1,9 @@
+[1,1,1,2,1,1,3]The man in front of you takes no time at all tying your feet together just like he did you hands. “Efficient work, Patrick, Greg.” The woman says. “This was easier than I thought it would be.”
+
+“Thanks, Boss. I was honestly worried we wouldn’t find the fucker but there [Xe] was, stumbling through the same street we were.” Patrick says as Greg sets you back on your feet, “What are the chances, eh?” So they were trying to find  you?
+
+You want to ask why the fuck they were out doing something like that but the gag in your mouth prevents you from saying anything. Greg lets go of your wrists long enough to shove a bag over your head, tying it off around your neck and then you’re being hauled over his shoulder.
+
+
+[C1,1,2,1,1,1]be carried.
+[END]
