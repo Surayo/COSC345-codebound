@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.14.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-09-27 08:54:48 +1200" ModID="18B5455D-222E-4950-8E84-773E347FE5A5">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.14.0" Device="LAPTOP-TN5DCUJ5" Modified="2019-09-27 09:12:15 +1200" ModID="18B5455D-222E-4950-8E84-773E347FE5A5">
     <Binder>
         <BinderItem ID="9" UUID="121C8319-5277-4A61-A646-F96ECFE22679" Created="2019-04-12 11:40:07 +1200" Modified="2019-06-23 13:19:08 +1200" Type="Text">
             <Title>story ideas</Title>
@@ -1259,7 +1259,7 @@
                                 <IconFileName>Book (Blue Book).tiff</IconFileName>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>725,0</TextSelection>
+                                <TextSelection>905,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
