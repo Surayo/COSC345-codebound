@@ -1,0 +1,15 @@
+[C1,1,1,1,2,1,2,1]Despite what you tell yourself, you don’t get back up.
+
+You drift in and out of sleep as the sky brightens around where you’re slumped against the side of a building. 
+
+Between one blink and the next, the smog has changed from a deep electric green - reflecting the glow of the Bioforms - to a dusty light blue as the light from the sun shines through the layers of smog and drowns out the green of the Bioforms’ glow.
+
+Your legs ache. You aren’t sure exactly how many hours you wandered out here in the city but after your long day at work, it was more than your body could take. 
+
+Still, You don’t manage to pull yourself back to your feet until well after daybreak.
+
+
+[C1,1,1,1,2,1,2,1,1]Wander aimlessly.
+
+[C1,1,1,1,2,1,2,1,1]Wander purposefully.
+[END]

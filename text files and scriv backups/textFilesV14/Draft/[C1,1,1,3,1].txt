@@ -1,0 +1,33 @@
+[1,1,1,3,1]You sleep roughly for far fewer hours than you need. The day starts like every other. Banging at your room's door and the sounds of shuffling feet. Drew hollers outside the door something indecipherable and then moves on. 
+
+It’s the same wake-up call every morning.
+
+You pull yourself out of bed where you managed to pass out last night. Eve’s bed still sits in the corner - stripped of its blankets. 
+
+You eat your vaguely nutritious gloop like you do every morning while listening to the rest of The House as the workers all get ready for the early shift. Somewhere on the far side of The House Agnes’s baby, Sally is crying, as she is wont to do. 
+
+It isn't long before Drew is making the rounds again, your ears prick up at the sound of his yelling. “We got ten minutes, Brian, if ye want grub before yur shif’ ye gotta get up and eat it!” a pause, “Ye’ll be bloody sorry when yur half staved slaving away at the tiller.” It’s honestly a life-send that you have Drew in The House. He makes sure all the workers get up every day and checks in on you all as he does. He’s invaluable.
+
+Doors start opening throughout The House, other workers making their way out of The House and towards The Factory. That’s your queue to start moving.
+
+The smog is heavy in the air, more so than usual. The air is unnaturally still.
+
+You walk with other workers but feel too tired to join in with their banter, your sisters' absence sits heavy on your shoulders.
+
+It sucks. Why did she have to abandon you like that? You’ve been together since your parents died years ago. She was a constant presence in your life and, sure, she has always been a little flighty, but fuck. Why did she have to up and become a fucking Vagabond?
+
+Liaba glances back at you, “Where’s your sister? Is she skipping out again.” She asks, falling back from the group to walk with you.
+
+You grumble something even you know isn’t words and plod on, head down.
+
+“Come on, [NAME]. Talk to me.” She bumps into your side. “Did you two fight? I heard something last night waaay after your bedtime.”
+
+“I don’t want to talk about it.” You don’t want to have to lie to her but your sister left you for the fucking Vagabonds last night and you’re trying not to stay pissed about it. 
+
+“Hmmmmm. Alright. But you’re moping way more than usual. If your sister’s gotten into some shit again talk to me. Her stressing you out stresses me out and I’m not about that life.”
+
+
+[C1,1,1,3,1,1]You give her a friendly punch on the shoulder. You feel better knowing she’s there for you.
+
+[C1,1,1,3,1,2]Dread and guilt washes over you. You should tell her. She’s as much Eve’s friend as yours. She needs to know what Eve has done.
+[END]

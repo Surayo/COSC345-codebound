@@ -1,0 +1,11 @@
+[1,1,1,1,2,1,1,1,1,1,2,2]”We’re doing this the hard way then are we.” She says, grinning down at you.
+
+She turns to Ellie-May, “You still have that sleeping Aspect do you?”
+
+“Ah. No. Sorry. I swapped that for stamina. I didn’t think I’d need to make anyone fall asleep but I sure needed to stay awake myself.”
+
+Eve pouts. “Bad luck, [Name]. ”And then she thumps you over the back of the head with a rock.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,2,1]Wake up.
+[END]
