@@ -1,0 +1,27 @@
+[1,1,1,3,1,2]You get a grip on her arm, slowing the both of you down. She must see something concerning in your expression because she goes serious, waiting for you to talk. 
+
+You let out a breath and lower your voice so the people around you won’t hear. “Eve joined the Vagabonds.” You say.
+
+Liaba stops. “What!” she says louder than you would like. A few people look over.
+
+“Shhhhh.” You say, “That’s what all the ruckus was about last night. I was trying to stop her. She wouldn’t listen.”
+
+“Oh my god.” Liaba says, marginally quieter than before.
+
+The crowd has gotten thicker around you as more workers arrive from other houses. Someone pushes in between the two of you.
+
+“Oh my god!” Liaba says again. “Eve!?”
+
+“Yeah, Eve.” You say, glancing over.
+
+Oh.
+
+It’s Eve. She’s standing between the two of you, grinning in your direction.
+
+“That’s my name.” She says. She grabs you by the arm pulling you away from where Liaba is still gaping at her. “Can I talk to you for a second?” She doesn’t wait for an answer. Just pulls you away from the crowd and into a side alley.
+
+
+[C1,1,1,3,1,1,1]”Wait.” You say pulling your arm out of her grip. She groans.
+
+[C1,1,1,3,1,1,2]”What are you doing back?” you ask, finishing your thought from before, now that she’s finished moving you.
+[END]

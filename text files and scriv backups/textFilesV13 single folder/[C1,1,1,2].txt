@@ -1,0 +1,17 @@
+[1,1,1,2]Even still within the walls of the city the streets are unfamiliar. You never walk this way. You have no reason to. But exploration isn’t on your agenda tonight. You delve deeper into the unknown and out into the fringes until the lights of the city fade behind you. You are left with the drab semi-darkness of night under the smog. 
+
+A pale green glow seeps in from all directions - a sign of the forest of unmoving Bioforms that surround the city. 
+
+You wind through the streets, picking directions at the whims of your gut.
+
+You hear something moving further up in the distance. Eve? You switch directions and start heading towards her as fast as your tired legs can carry you. Another noise and the shifting of a shadow. The sound of deep laughter. 
+
+You slow back down to a walk. Past the beat of your own heartbeat you hear it again - laughter. Too deep to be Eve. 
+
+
+[C1,1,1,2,1]Run.
+
+[C1,1,1,2,2]Your heart is in your throat. You freeze in place.
+
+[C1,1,1,2,3]You keep heading towards the sound of laughter, moving quieter than before. Maybe Eve is with them. 
+[END]
