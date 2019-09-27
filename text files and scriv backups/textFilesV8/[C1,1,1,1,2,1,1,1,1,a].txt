@@ -1,9 +1,0 @@
-[1.1.1.1.2.1.1.1.1.a]Eve groans. “Why are you like this. Shit. OK. You’re coming with us then.” She pulls you out of the dirt by the arm and dusts you off. “What were you ding on the ground anyway? Wait. You know what. I don’t care. Just shut up and come with us.”
-
-She stomps off in a direction you are sure is the opposite of where you want to go.
-
-
-[C1.1.1.1.2.1.1.1.1.1]”No. I can’t. I have to go home.” You say, “Can you just point me in the right direction?” 
-
-[C1.1.1.1.2.1.1.1.1.2]Follow her.
-[END]
