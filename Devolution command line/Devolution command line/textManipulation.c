@@ -125,9 +125,10 @@ void characterInserts(int endIndex, int startIndex, char* name, char gender){
 }
 
 // Set the text blocks
-void setStoryText(char* name, char gender){
+int setStoryText(char* name, char gender){
     int endIndex = 0, startIndex = 1, checkCount = 0;
     char* copyText = NULL;
+    int gameover = 0;
 
     while (checkCount < 1){
         size_t bytes = (((char *)startIndexes[startIndex]) - ((char *)endIndexes[endIndex])) - 1;
@@ -141,11 +142,18 @@ void setStoryText(char* name, char gender){
         char* check = startIndexes[startIndex];
         if (check[1] == 'C'){
             checkCount++;
+        } else if (check[1] == 'G'){
+            checkCount++;
+            gameover = 1;
+        }else if (check[1] == 'F'){
+            checkCount++;
+            gameover = 2;
         }
         startIndex++;
         free(copyText);
         copyText = NULL;
     }
+    return gameover;
 }
 
 // Set the choices
