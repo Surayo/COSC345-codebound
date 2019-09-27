@@ -1,4 +1,4 @@
-[1.1]Your sister appears in the doorway looking as angry as you are. She opens her mouth to retort but you aren’t finished. “Dad didn’t work his fucking bones to the ground for you to skive off work to go hang out with rebel scum like them. Did you even fucking stop to consider who you were hurting?” 
+[1,1]Your sister appears in the doorway looking as angry as you are. She opens her mouth to retort but you aren’t finished. “Dad didn’t work his fucking bones to the ground for you to skive off work to go hang out with rebel scum like them. Did you even fucking stop to consider who you were hurting?” 
 
 “You don’t know what you’re talking about, [NAME]. Do you even have any idea who I was with!? No. Of course not. You don’t think.”
 
@@ -16,7 +16,7 @@ You groan and thump your head down on the table. “Why do you have to be like t
 
 It makes your blood boil. How can she refuse to work knowing what’s out there and knowing that The Factory protects you from it? You pull her down by the arm so her face is close to yours, “You are going to work tomorrow.” You say, voice low and careful. She stares back at you, defiant, matching you stare for stare before she rips her arm out of your grip.
 
-“Never again.” she says. Then she walks over to her bunk and starts pulling things into a backpack.
+"Never again," she says. Then she walks over to her bunk and starts pulling things into a backpack.
 
 
 [C1,1,a]Continue.

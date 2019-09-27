@@ -1,0 +1,23 @@
+*****************  INTRO  *****************
+
+	Brief description of game goes here.
+	Basically a plot summary and build
+	suspense idk?
+
+
+
+
+	How to play Devolution:
+==========================================
+	SPACE/RETURN = continue through story
+	[1,2,3] = choices to advance the story
+	BACKSPACE = previous scenario WIP???
+	ESCAPE = exit game
+==========================================
+	PRESS KEY TO CONTINUE:
+	n: 			NEW GAME
+	c: 			CONTINUE
+	ESC:		QUIT
+==========================================
+
+

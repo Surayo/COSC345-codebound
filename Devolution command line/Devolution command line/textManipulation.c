@@ -9,6 +9,7 @@
 #include <stdbool.h>
 #include <unistd.h>
 #include <string.h>
+#include <ctype.h>
 #include "textManipulation.h"
 #include "mylib.h"
 
@@ -89,24 +90,33 @@ char* getCurrentFile(){
 }
 
 // Will take a character sex input as well as character name
-void characterInserts(int endIndex, int startIndex){
-    char* inserts[] = {"Xe]", "Xer]", "Xis]", "Xers]", "Xself]", "Xther]", "Xm]", "Xoy]"};
+void characterInserts(int endIndex, int startIndex, char* name, char gender){
+    char* inserts[] = {"xe]", "xer]", "xis]", "xers]", "xself]", "xther]", "xm]", "xoy]"};
     char* male[] = {"he", "him", "his", "his", "himself", "brother", "em", "boy"};
-    /*char* female[] = {"she", "her", "her", "hers", "herself", "sister", "er", "girl"};*/
-    char name[] = "Nathorn";
+    char* female[] = {"she", "her", "her", "hers", "herself", "sister", "er", "girl"};
 
     size_t bytes = ((((char *)endIndexes[endIndex])) - ((char *)startIndexes[startIndex]));
     char* test = ecalloc(bytes + 1, sizeof(char));
     strncpy(test, (startIndexes[startIndex] + 1), bytes);
+
+    //Converts to lowercase
+    for(int i = 0; test[i]; i++){
+        test[i] = tolower(test[i]);
+    }
     
-    if (strcmp(test, "NAME]") == 0){
+    if (strcmp(test, "name]") == 0){
         clean_block_text = erealloc(clean_block_text, (strlen(clean_block_text) * strlen(name)));
         strncat(clean_block_text, name, strlen(name));
     }
     for (int i = 0; i < 8; i++){
         char *replace = inserts[i];
         if (strcmp(test, replace) == 0){
-            char *proNoun = male[i];
+            char *proNoun;
+            if (gender == 'm'){
+                proNoun = male[i];
+            } else{
+                proNoun = female[i];
+            }
             clean_block_text = erealloc(clean_block_text, (strlen(clean_block_text) * strlen(proNoun) * 10));
             strncat(clean_block_text, proNoun, strlen(proNoun));
         }
@@ -115,7 +125,7 @@ void characterInserts(int endIndex, int startIndex){
 }
 
 // Set the text blocks
-void setStoryText(){
+void setStoryText(char* name, char gender){
     int endIndex = 0, startIndex = 1, checkCount = 0;
     char* copyText = NULL;
 
@@ -126,7 +136,7 @@ void setStoryText(){
         strncat(clean_block_text, copyText, bytes);
         
         endIndex++;
-        characterInserts(endIndex, startIndex);
+        characterInserts(endIndex, startIndex, name, gender);
         
         char* check = startIndexes[startIndex];
         if (check[1] == 'C'){
