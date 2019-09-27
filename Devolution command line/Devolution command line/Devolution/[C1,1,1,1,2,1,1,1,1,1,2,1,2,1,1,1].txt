@@ -1,0 +1,23 @@
+[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1]”But I have questions.” You say.
+
+“Of course.” He stands, ”I can answer anything you like but first - there are six hours until we leave, if you want to rest, it may be best to do so now.” He ushers you out of the room. You bump into Eve as you step back - you had forgotten she was in here.
+
+Honestly, you have been barley standing as it is. You’re bone-tired - both from your long day at work and your hectic wander through the streets all night.
+
+Eve grabs you by the arm again and you glance back one more time as you leave to see Rasputin sitting back down in his office. 
+
+Ellie-May darts ahead through the crowd and disappears through another set of doors. Eve pulls you along at the same slow pace you’ve been walking all night. You don’t think you could walk any faster than this anyway.
+
+Ellie-May pokes her head through the door she went through before you even get to it. “I found us a triple! She says. It’s pretty empty in here at the moment. Rasputin must have lots of people out on missions.”
+
+You and Eve slip into the room after Ellie-May and you are greeted with a large room lined with bunk beds. Most of them are mismatched, some wider or taller than others, some made of metal, others of wood. The Vagabonds must have scrounged these up from the surrounding empty buildings. 
+
+You’ve never slept in a proper bed before. You and your sister always just had your mattresses. 
+
+It’s darker in here than the other room, quieter too. With only the sounds of sleeping filling the silence. Most of the beds near the door are filled with sleeping people and the three of you tip-toe through the throng until you reach the beds Ellie-May must have found. 
+
+You desperately want to ask more questions, but a fog has settled over your thoughts - thicker than your normal exhaustion. The room is too quiet to disturb with your query's anyway so when Eve hands you a pile of blankets and points to a bed you pull the blankets around yourself and you sleep.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1]Wake up.
+[END]

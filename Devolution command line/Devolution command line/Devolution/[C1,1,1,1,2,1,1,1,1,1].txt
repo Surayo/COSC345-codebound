@@ -1,8 +1,8 @@
-[1.1.1.1.2.1.1.1.1.1]”I can’t let you go back now. You’ve seen us. You’ll tell them what we’re up to.” Eve says, looking back at you like you’re stupid.
+[1,1,1,1,2,1,1,1,1,1]”No. I am not going back with you are you shitting me right now.” Eve says, looking back at you like you’re stupid. “I’m a Vagabond now.”
 
-“No I won’t,” you say reflexively
+“You don’t have to be,” you reply.
 
-“Yes you fucking will, [NAME], I know you. Now come on. I have things to do and if you’re coming along you may as well help me do them”
+“Yes I fucking do, [Name], It can’t be undone. Now come on. I have things to do and if you’re coming along you may as well help me do them”
 
 
 [C1,1,1,1,2,1,1,1,1,2]”What things?” You ask, following after her and the girl with her.

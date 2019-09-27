@@ -1,4 +1,4 @@
-[3.1]”Fuck you!” You yell. You don’t think you just act, the knife in your hand aimed for her. She’s a traitorous shit-head and she’s acting like she’s better than you for it.
+[3,1]”Fuck you!” You yell. You don’t think you just act, the knife in your hand aimed for her. She’s a traitorous shit-head and she’s acting like she’s better than you for it.
 
 You slash with a downward arc.
 
@@ -18,6 +18,10 @@ Between one blink and the next you feel your mind pull itself back together from
 
 You breathe out heavily. “What was that? That felt… bad.” 
 
+“I think I’ll be the one doing the talking here, [Name]. That was an idiotic stunt you pulled back there. If you look like you’re going to attack one of my people again I’ll let Borris and Jene put you under again. Consider your next action carefully now. By now you’ll know how unpleasant it could be for you.”
 
-[C3,1,a]Continue.
+
+[C3,1,1]Struggle in anger.
+
+[C3,1,2]Calm down.
 [END]

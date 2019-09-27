@@ -1,0 +1,23 @@
+[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1]”Your Aspect is unique - apart from that of your sister’s.” Rasputin says, ”If I’m not mistaken your toxin immunity protects you from the Bioforms, does it not?”
+
+Ellie-May starts eating now that she isn’t the one talking to Rasputin.
+
+“Uh, yeah.” You reply, ”It does. Though I don’t use it for that much. It’s not like I go out into the forest on a regular basis. I mostly use it in the furnace room to protect everyone from the soot and fumes.” 
+
+Rasputin nods his head. “And that is precisely the point. Your Aspect has a range, it can cover multiple people. Eve can protect herself but we weren’t about to send her on her own.”
+
+“Where exactly are we going? You said you had a flytecraft?” you ask.
+
+“The where is a long story and to tell you the truth - I don’t know. And in regards to the flytecraft, it’s best I show you.”  He stands up. “Finish up your meals. You should be ready to leave in an hour.”
+
+He turns to Eve, “And Eve. Round up Boss, Greg, and Patrick. Tell them the plans. I have more to organise before we leave.”
+
+Eve salutes, “Can do.”
+
+Rasputin leaves the three of you to your food and heads back out into the main hall. You go back to eating.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1]Leave with the party. You have a flytecraft to catch.
+[END]
+
+ 

@@ -1,5 +1,11 @@
-[1,1,1,2,3] Path not finished
+[1,1,1,2,3]”Eve?” you yell out, moving towards the sounds of voices.
 
-[CGO] Game Over
+“Who’s lookin’?” someone replies - Not Eve. You round the corner and come face to face with three Vagabonds, none of them Eve.
 
+“Uhhh.” You say.
+
+
+[C1,1,1,2,1,1]Run.
+
+[C1,1,1,2,3,1]Talk to them.
 [END]

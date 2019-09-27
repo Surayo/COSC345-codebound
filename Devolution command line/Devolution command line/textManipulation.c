@@ -82,7 +82,7 @@ char* getCurrentFile(){
     if (bracketAmount < 1){
         return NULL;
     }
-    long bytes = (((char *)endIndexes[0]) + 1) - ((char *)startIndexes[0]); //3
+    int bytes = (((char *)endIndexes[0]) + 1) - ((char *)startIndexes[0]); //3
     char* file = emalloc(bytes * sizeof(char));
     strncpy(file, startIndexes[0], bytes);
     

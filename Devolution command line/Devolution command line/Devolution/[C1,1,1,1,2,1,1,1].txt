@@ -1,4 +1,4 @@
-[1.1.1.1.2.1.1.1]You sit there in the dirt. The night is utterly still as you sob. A rock is gripped in your hand, pressing into the wound there, but you don’t care.
+[1,1,1,1,2,1,1,1]You sit there in the dirt. The night is utterly still as you sob. A rock is gripped in your hand, pressing into the wound there, but you don’t care.
 
 You hurt and you want to feel it.
 

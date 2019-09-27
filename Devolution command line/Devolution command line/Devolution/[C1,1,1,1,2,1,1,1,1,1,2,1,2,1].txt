@@ -1,0 +1,15 @@
+[1,1,1,1,2,1,1,1,1,1,2,1,2,1]You recognise the man behind the desk immediately.
+
+“Rasputin,” Ellie-May says, stepping forward from behind you. “We found something for you.”
+
+He looks up and then does a double-take. “The last person who I saw just finished informing me that they somehow lost [Xer]. How on earth did you two find [Xer]?” He asks. He sets a pen down on the desk leaning forward further to see you better.
+
+“I’m not actually sure,” Ellie-May says, tilting her head to the side. “We were out on assignment as asked and stumbled upon [Name] out in the street.” She turns to you. “Do you usually walk around Vagabond territory that late at night?”
+
+“No, I-I was just...” You hesitate.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1]”-Sleepwalking?” you say. Not wanting to admit you were out looking for Eve.
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1]”OK. I’ll admit. I was out looking for Eve.”
+[END]

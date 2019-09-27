@@ -1,4 +1,4 @@
-[1.1.2.1]You toss your head to the side and let out a strangled shout before strong hands push you down again. Foul tasting cloth is shoved in your mouth.
+[1,1,2,1]You toss your head to the side and let out a strangled shout before strong hands push you down again. Foul tasting cloth is shoved in your mouth.
 
 “Keep [Xer] quiet.” Someone whispers - a woman’s voice.
 
