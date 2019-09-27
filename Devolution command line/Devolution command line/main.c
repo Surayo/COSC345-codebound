@@ -14,10 +14,6 @@
 #include "textManipulation.h"
 #include "mylib.h"
 
-typedef struct {
-    int delay;
-} game_t;
-
 /* reads from keypress, doesn't echo */
 int getch(void) {
     struct termios oldattr, newattr;
@@ -69,17 +65,59 @@ int main(int argc, const char * argv[]) {
     int choiceNum = 0, choice = 0;
     int gameover = 0;
     char *name = NULL;
-    char gender;
+    char gender = 'm';
     int read = 0;
     size_t len = 0;
+    int nameConfirm = 0;
+    char choiceGen;
+    int i = 0;
+    char c;
+
+    //START TITLE
+    strcpy(file_location, "/Devolution/[TITLE].txt");
+    if (getcwd(cwd, sizeof(cwd)) == NULL) {
+        perror("getcwd() error");
+        return 1;
+    }
     
-    game_t game;
-    game.delay = 1;
+    fptr = openfile(cwd, file_location);
+    if (fptr == NULL){
+        exit(EXIT_FAILURE);
+    }
+    
+    c = fgetc(fptr);
+    while(c != EOF) {
+        printf("%c", c);
+        usleep(500);
+        c = fgetc(fptr);
+    }
+    fclose(fptr);
+    sleep(1);
+    printf("\n\n\nPRESS ENTER TO CONTINUE\n");
+    waitKey();
+    system("clear");
+    //END TITLE
+    
+    //START INTRO
+    strcpy(file_location, "/Devolution/[INTRO].txt");
+    if (getcwd(cwd, sizeof(cwd)) == NULL) {
+        perror("getcwd() error");
+        return 1;
+    }
+    fptr = openfile(cwd, file_location);
+    if (fptr == NULL){
+        exit(EXIT_FAILURE);
+    }
+    c = fgetc(fptr);
+    while(c != EOF) {
+        putchar(c);
+        usleep(200);
+        c = fgetc(fptr);
+    }
+    fclose(fptr);
     
     //Character creation
     while (true){
-        int nameConfirm;
-        char choiceGen;
         
         printf("Please enter your name\n");
         while (-1 != read){
@@ -94,27 +132,26 @@ int main(int argc, const char * argv[]) {
         }
         sscanf(name, "%[^\t\n]", name);
         
-        printf("Size read: %d\n Len: %d\n", read, len);
-        
-        printf("What is your gender, m/f?\n");
+        printf("Are you male or female? m/f?\n");
         while ((choiceGen = getch()) != EOF) {
             if (choiceGen == 'm') {
                 gender = 'm';
-                printf("\n");
                 break;
             }
             if (choiceGen == 'f') {
                 gender = 'f';
-                printf("\n");
                 break;
             }
         }
+        printf("\n");
         
-        if (gender = 'm'){
-            printf("Your name is: %s and you're male? y/n\n", name);
+        if (gender == 'm'){
+            printf("Your name is %s and you're male.\n", name);
         } else{
-            printf("Your name is: %s and you're female? y/n\n", name);
+            printf("Your name is %s and you're female.\n", name);
         }
+        printf("Is this correct? y/n?");
+        
         while ((choiceNum = getch()) != EOF) {
             int choice = choiceNum - 48;
             
@@ -134,6 +171,20 @@ int main(int argc, const char * argv[]) {
         }
     }
     
+    printf("The story begins");
+    fflush(stdout);
+    for (i = 0; i < 3; i++){
+        printf(" .");
+        sleep(1);
+        fflush(stdout);
+    }
+    printf("\n");
+    system("clear");
+    //END CHAR CREATE //
+    //END INTRO
+    
+    //Load in first text file
+    memset(file_location, 0, sizeof(file_location));
     strcpy(file_location, "/Devolution/[C0].txt");
     
     while (true) {
@@ -156,16 +207,13 @@ int main(int argc, const char * argv[]) {
         //printf("%s\n", cleantext);                                    //story printed here
         int count = 0;
         for(int i = 0; i <strlen(cleantext); i++){
-            if (game.delay){
-                if (cleantext[i] == '\n' && cleantext[i-1] == '\n') {
-                    waitKey();
-                    count = 0;
-                }
-                if (count > 80 && cleantext[i] == ' ') {
-                    printf("\n");
-                    count = 0;
-                }
-                
+            if (cleantext[i] == '\n' && cleantext[i-1] == '\n') {
+                waitKey();
+                count = 0;
+            }
+            if (count > 80 && cleantext[i] == ' ') {
+                printf("\n");
+                count = 0;
             }
             putchar(cleantext[i]);
             count++;
@@ -192,12 +240,9 @@ int main(int argc, const char * argv[]) {
                 choiceText = getChoiceText(i);                      //these are the CHOICES
                 count = 0;
                 for(int i = 0; i <strlen(choiceText); i++){
-                    if (game.delay){
-                        if (count > 80 && choiceText[i] == ' ') {
-                            printf("\n");
-                            count = 0;
-                        }
-                        
+                    if (count > 80 && choiceText[i] == ' ') {
+                        printf("\n");
+                        count = 0;
                     }
                     putchar(choiceText[i]);
                     count++;

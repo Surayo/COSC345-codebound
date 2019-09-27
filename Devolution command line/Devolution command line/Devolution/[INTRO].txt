@@ -1,0 +1,22 @@
+*************************************  INTRODUCTION  *************************************
+		
+	Brief description of game goes here.
+	Basically a plot summary and build suspense
+	idk
+
+==========================================================================================
+
+How to play Devolution, a brief tutorial:
+
+	KEY				ACTION
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	SPACE/RETURN:			Continue through story.
+	[1,2,3]:			Select a choice to advance the story.
+	BACKSPACE:			Previous scenario.
+	ESCAPE:				Exit the game
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+==========================================================================================
+
+Character creation:
+
