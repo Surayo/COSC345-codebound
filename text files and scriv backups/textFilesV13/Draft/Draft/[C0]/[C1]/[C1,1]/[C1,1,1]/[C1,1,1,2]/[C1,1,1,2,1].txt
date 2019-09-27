@@ -1,8 +1,0 @@
-[1,1,1,2,1]You dart down another side street, away from the sounds of voices. Someone lets out a short shout and then there are footsteps pounding after you. 
-
-Fuck. Why did you run. You stumble but catch yourself before you tumble.
-
-
-[C1,1,1,2,1,1]Fall.
-[END]
-

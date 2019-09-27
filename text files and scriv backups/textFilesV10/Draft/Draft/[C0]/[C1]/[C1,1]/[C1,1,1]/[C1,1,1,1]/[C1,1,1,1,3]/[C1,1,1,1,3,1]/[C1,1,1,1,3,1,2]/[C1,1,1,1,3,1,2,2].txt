@@ -1,7 +1,0 @@
-[1,1,1,1,3,1,2,2]You manage to backtrack through The Factory and make it back out into the street. The glow of the Bioforms is dimmest here around The Factory - the source of the cities smog. Still, the streets glow brighter here than it did inside.
-
-
-[C1,1,1,3]Go home.
-
-[C1,1,1,1,2,3]You still need to find your sister, you pick a direction and walk. You still might stumble into her
-[END]
