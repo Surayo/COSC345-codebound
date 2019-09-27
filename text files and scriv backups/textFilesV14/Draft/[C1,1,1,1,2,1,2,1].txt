@@ -1,4 +1,4 @@
-[C1,1,1,1,2,1,2,1]Despite what you tell yourself, you don’t get back up.
+[1,1,1,1,2,1,2,1]Despite what you tell yourself, you don’t get back up.
 
 You drift in and out of sleep as the sky brightens around where you’re slumped against the side of a building. 
 
