@@ -69,7 +69,7 @@ int main(int argc, const char * argv[]) {
     int choiceNum = 0, choice = 0;
     char name[20];
     char gender;
-    char story_path[100];
+    char ** story_path = emalloc(sizeof(char));
     
     game_t game;
     game.delay = 1;
@@ -136,7 +136,7 @@ int main(int argc, const char * argv[]) {
         setStoryText(name, gender);
         cleantext = getCleanText();                                     //this is the STORY text
         //printf("%s\n", cleantext);                                    //story printed here
-        printf("Current file: %s\n", getCurrentFile());
+        //printf("Current file: %s\n", getCurrentFile());
         int count = 0;
         for(int i = 0; i <strlen(cleantext); i++){
             if (game.delay){
