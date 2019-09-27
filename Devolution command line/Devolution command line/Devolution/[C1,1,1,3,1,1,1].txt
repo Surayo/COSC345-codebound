@@ -1,0 +1,15 @@
+[1,1,1,3,1,1,1]You can still see workers walking past over your sister's shoulder. Liaba has stopped and is waiting for you. “I didn’t think you’d be back. After last night-”
+
+“I’m not.” She glances to the side crowding you further into the alley. “I’m just here to pick you up.” She grins and winks to someone over your shoulder.
+
+You turn to look but before you catch a glimpse of their face a bag is shoved over your head. You yell out instinctively but it’s muffled by the bag. Arms grip you by the chest and pull you back.
+
+“[Name]? Eve what happened to [Name]?” you hear Liaba say, her voice growing more distant as you are dragged further from the site. 
+
+
+[C1,1,1,3,1,1,1,1]Struggle.
+
+[C1,1,1,3,1,1,1,2]Yell.
+
+[C1,1,1,3,1,1,1,3]Go limp.
+[END]

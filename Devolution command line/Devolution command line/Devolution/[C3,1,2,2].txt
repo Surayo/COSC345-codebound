@@ -1,4 +1,4 @@
-[3.1.2.2]”Your loss.” Rasputin says. “But know this; we are aiming to win this war.”
+[3,1,2,2]”Your loss.” Rasputin says. “But know this; we are aiming to win this war.”
 
 “What war?” you ask, confused. What is he talking about? A war?
 

@@ -1,23 +1,57 @@
-[1.1.1.1.2.1.1.1.1.1.2]Before either of them can stop you, you break into a sprint, hoping the girl with Eve doesn’t have an Aspect that can catch you.
+[1,1,1,1,2,1,1,1,1,1,2]Before either of them can stop you, you break into a sprint, hoping the girl with Eve doesn’t have an Aspect that can catch you.
 
-Eve yells after you and you can hear the heavy footfalls of her chasing you down. “Get back here, [NAME], you piece of shit!”
+Eve yells after you and you can hear the heavy footfalls of her chasing you down. “Get back here, [name], you piece of shit!”
 
 It takes you a few more pounding gasping steps before you realise your mistake. You ran out of energy a long time ago. You can’t run.
 
-By the time you’ve made it to the end of the street your breaths are wheezing out of you and you can hear the heavy footfalls of your sister steadily gaining on you. “Fuck off!” you yell back at her, hoping she’ll just let you go without a struggle.
+By the time you’ve made it to the end of the street, your breaths are wheezing out of you and you can hear the heavy footfalls of your sister steadily gaining on you. “Fuck off!” you yell back at her, hoping she’ll just let you go without a struggle.
 
-Instead you are tackled from behind.
+Instead, you are tackled from behind.
 
-The breath is knocked out as you and face first on the pavement. Eve shifts so she’s sitting on top of you, pinning your hands to the ground. 
+The breath is knocked out as you fall face-first on the pavement. Eve shifts so she’s sitting on top of you, pinning your hands to the ground. 
 
-She has always been stronger then you. You wheeze into the ground.
+She has always been stronger than you. You wheeze into the ground.
 
 “Fuck.” She doesn’t even seem out of breath. “That was stupid.” 
 
-You just groan into the ground, still trying to get you breath back.
+You just groan into the ground, still trying to get your breath back.
 
-“What, did I break something, [NAME]? You alright?” She leans further over you, pressing your chest further into the ground.
+“What, did I break something, [Name]? You alright?” She leans further over you, pressing your chest further into the ground.
+
+“Can’t breathe.” You manage.
+
+She hums as if considering, “Nice try punk. If I let you up, are you going to run again? You know I can’t let you do that. You’re too deep in this shit now. I’m gonna have to take you with me.”
+
+“Are you kidnapping me?” you ask.
+
+“I guess, now get up and stay close. I still have things to do. Ellie-May!” She shouts. 
+
+“Yeah?” Ellie-May says from much closer then Eve must have assumed she was.
+
+“Oh. You’re right there. Could you keep an eye on [Name]. Don’t let [Xer] run away. You know the Boss won't like that.
+
+“Sure! I can do that. [Xe] doesn’t look like much anyway. Like, [Xe] couldn’t outrun you. Even I’m faster than you.”
+
+“Shut up. I’m fast.”
+
+“Nuh-uh. You’ve been with the Vagabonds for what, a week? It takes a while to build your stamina back up after working in The Factory for so long.”
+
+“Wait you’ve been with the Vagabonds for a whole week?” you ask Eve. How did you not notice? Most days Eve walks with you and Liaba to The Factory for work though it’s just as likely that she’ll leave before you. Now that you think about it, you hadn’t seen Eve for most of the week, walked with her less than usual, and on more than one occasion you had slept without noticing her steady breathing in the same room as yours.
+
+“I knew you were a zombie, [Name], but not to this extent. I’ve been gone this whole week!”
+
+“Huh.” You guess you had been more tired than usual. More people had disappeared from The Factory this week and you had had to increase your work hours to keep up with demand.
+
+Eve gets up off of you and you flip over. “Either way you’re coming with me.” She looks over as Ellie-May, “We may have to call off the whole testing our Aspects thing. Getting [Name] back to the bunker before [Xe] gets away sounds like a better idea, yeah?”
+
+“Yeah,” Ellie-May says, drawing out the word into a disappointed sigh. “Next time though we’ll do it for sure!”
+
+“Hey, wait a second. I’m not going with you.” You say. Eve looks at you, unimpressed.
+
+“Uh, yeah you are.” She says, “It’s two versus one - less than one by my estimates. Don’t fight me on this. There’s no point fighting.” 
 
 
-[C1,1,1,1,2,1,1,1,1,1,2,a]Continue.
+[C1,1,1,1,2,1,1,1,1,1,2,1]You sigh and get up off the ground. There is no point fighting her on this.
+
+[C1,1,1,1,2,1,1,1,1,1,2,2]”Yeah there fucking is. I’m not going with you,” you say.
 [END]

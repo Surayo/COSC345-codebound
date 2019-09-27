@@ -18,6 +18,12 @@ You glance from one face to another and spot another familiar face in the crowd.
 
 Rush had disappeared one day. He never said anything before he was just gone. It had been a crushing blow.
 
+You don’t know what he’s rebelling against, or what bought your sister over to the Vagabonds side.
 
-[C2,a]Continue.
+Rasputin speaks again. “There is good reason we rebel.”
+
+
+[C2,1]”Explain it to me then.” You say. Rasputin nods, satisfied and motions for you to follow him. You follow.
+
+[C2,2]”Everyone has to work. It’s the only way to keep the Bioforms out of the city. You need to stop this.” You say
 [END]

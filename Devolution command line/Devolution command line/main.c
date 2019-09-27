@@ -166,7 +166,7 @@ int main(int argc, const char * argv[]) {
             choiceText = getChoiceText(i);                      //these are the CHOICES
             printf("%d: %s", (i + 1), choiceText);              //choice printed here
         }
-        printf("ESC: Exit the game\n");
+        printf("\nESC: Exit the game\n");
         
         printf("\n*****************************************************\n\n");
         

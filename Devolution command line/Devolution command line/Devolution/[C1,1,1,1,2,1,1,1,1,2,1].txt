@@ -1,4 +1,4 @@
-[1.1.1.1.2.1.1.1.1.2.1]You walk towards the glowing green lights, looking back once to see Eve with her forehead pressed to Ellie-May’s and a steady red haze enveloping both of them. Huh. They step apart and the red haze recedes, settling back into Ellie-May’s shoulders. Maybe that means it worked?
+[1,1,1,1,2,1,1,1,1,2,1]You walk towards the glowing green lights, looking back once to see Eve with her forehead pressed to Ellie-May’s and a steady red haze enveloping both of them. Huh. They step apart and the red haze recedes, settling back into Ellie-May’s shoulders. Maybe that means it worked?
 
 Whatever. They aren’t going to be able to test it with you still this close. You keep walking.
 

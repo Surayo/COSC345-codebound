@@ -1,8 +1,6 @@
-[1.1.1]You can’t let her do this. You slap your face to try and startle yourself back awake then stumble back to your feet. Before you can second guess your sudden resolve you head out into the streets to look for Eve.
+[1,1,1]It’s fully dark out and a harsh chill has settled over the town centre. You must have been asleep at the table for longer than you thought. 
 
-It’s fully dark out and a harsh chill has settled over the town center. You must have been asleep at the table for longer than you thought. 
-
-You shiver and pull your work coat closer around yourself and peer both ways down the street. To the left lies the Factory, you know that path like the unwavering aftertaste of canned Nutritious Food Staple. To the right lies deeper parts of the Fringes, crumbling skyscrapers and the sprawling roads of a city long abandoned. 
+You shiver and pull your work coat closer around yourself and peer both ways down the street. To the left lies The Factory, you know that path like the unwavering aftertaste of canned Nutritious Food Staple. To the right lies deeper parts of The Fringes, crumbling skyscrapers and the sprawling roads of a city long abandoned. 
 
 Which way did she go?
  

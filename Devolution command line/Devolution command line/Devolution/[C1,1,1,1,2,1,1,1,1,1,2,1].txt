@@ -1,5 +1,29 @@
-[1,1,1,1,2,1,1,1,1,1,2,1] Path not finished
+[1,1,1,1,2,1,1,1,1,1,2,1]Once you have decided to go with them you don’t try and fight them. They take you through a fairly direct path to their base, almost taking no turns to get there.
 
-[CGO] Game Over
+“Yeah, we just had to get out to the edge of the city,” Eve explains, “The edge of the city is in every direction. Why the fuck would I take a complicated path to get there. It’s lucky we found you actually. What are the chances?” She grins.
 
+“Sure, yeah. Lucky.” You say rolling your eyes.
+
+It doesn’t take long for you to approach the Vagabond’s hideout. You know you’re close when you see someone else all in black. They rush past you. 
+
+A scruffy beard sporting older guy you think you recognise but can’t quite place is leaning up against a wall. With a deep voice, he says, “Evening, Eve.” And grins as Eve as the three of you walk past. “Ellie-May.” He nods at her behind you.
+
+“That joke’s getting old, Tom,” Eve replies as she pulls you into the doorway of the nondescript building Tom’s leaning against. You’re pulled down a short entryway and through another door at the end.
+
+You’re somewhat shocked to find the next room crawling with Vagabonds. Your eyes dart around, trying to take in all the people milling about. People in nightcaps and stripy pyjamas sit around with hot drinks in their hands while others in the usual black Vagabond clothes move around and through more doorways.
+
+Eve doesn’t let you linger though, pulling you through the throng of people and towards another door.
+
+Some lanky dude steps in front of your group before Eve can get where she is hauling you though.
+
+“How the shite did you fucking find ‘[Xm]. We were the one out looking for ‘[Xm]!” the random dude says, aghast for some reason. They were looking for you?
+
+“Wait you were looking for my [Xther]? And I wasn’t told? Why the hell not?”
+
+“Oi. Don’t yell at me. I was just doing a job. You know how it is in this business. The ones on top give you orders and you follow through. Where did you find ‘[Xm] anyway?” He says peering at you curiously.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,1]You cut your sister off before she can reply again like you’re not in the fucking room.
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2]”I don’t even know how the fuck I found him.” Eve replies.
 [END]

@@ -1,0 +1,21 @@
+[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1]”It doesn’t matter.” Rasputin says, waving your words aside. He stands up. “What matters is what you’re planning to do now. My Vagabonds and I are in a difficult position. With you here, we could complete our sole purpose before tomorrows end. The question is whether you are willing to join us.” Eve has stepped back with Ellie-May, letting Rasputin address you fully. 
+
+“What exactly is your goal?” You ask.
+
+Rasputin walks around the table, looking over at the far wall of the office. It sports a giant map of Fragos, from the city centre, to The Factory, to all edges of The Fringes. You see traces of tunnels you’ve never seen before crossing under paths you walk everyday and detailed patterns of paths connecting well-marked points that reach as far as to the Bioforms start growing.
+
+“Our goal is to leave this city.” He says. “We know there is something else out there - other people, even. Whatever it may be, it must be better than this wretched existence.”
+
+He turns back you, unknown emotions swirling through his eyes.
+
+“You’ve been working in The Factory a while, yes? You’ve seen what it’s like. It’s hell down there - bitter endless hell. Whatever it is that’s out there, beyond the outer edges of Fragos, it must be better than staying here. And with you, we could find it. We could finally be free from this place.”
+
+You hesitate, not sure what to say. You are somewhat taken aback. What can you do that all these other people can’t? Why does he think you hold enough power to lead the people of Fragos to a better life?
+
+Rasputin turns away from both you and the map and settles back into his chair behind the desk. “The only question is, is whether you will help me. There are six hours until our next chance for escape. Will you join us?” He asks from his seated position in front of you.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1]”OK.” You say, Rasputin lets out a breath and runs a hand through his hair.
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,2]”I - No.” You say. “What are you talking about. There is nothing out there for us - The Factory is our only chance.”
+[END]

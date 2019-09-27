@@ -1,0 +1,23 @@
+[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,2]His stare hardens. “I was hoping it would not have to come to this. Ellie-May-” he nods to her where she is still standing behind you, “-Take [Xer] to the cells.”
+
+Before you can do anything both your arms are grabbed from behind, one on each side. You struggle briefly and look back, shocked to see your sister holding you captive too. “Eve?” She stares, resolute.
+
+“You did this to yourself.”
+
+It’s useless. They march you past other Vagabonds and through more doors, leading you down into the depths of their hide-out. You have always been weaker than your sister and in your exhausted state she easily manhandles you down and into a darker part of the building. 
+
+Ellie-May unlocks a heavy metal door. You are pushed into the room and onto a cot in the corner before you can try anything. Eve looks back at you before she leaves her face still blank. “I’ll see you in the morning.” She says and shuts the door behind her. 
+
+You sigh and lean back into your cot. Now that you are sitting down you’re not sure you can get back up. It has been a very long day.
+
+You hear footsteps outside your door and peak your eyes open. When did you close them? You are even more exhausted than you thought.
+
+“Alright, buddy. I’m Patrick and I’ll be your captor this evenin’. Don’t even think about trying nothin’ because I don’t sleep and as far as I am willin’ to bet, my yellin’ will bring more help to my end of this deal than your’s  will.”
+
+You blink. It sounds like the same guy that interrupted Eve when she was taking you to Rasputin’s office.
+
+“Got it.” You say, relaxing back into your cot, your eyes closing again. Not much you can do with that message fully set in. You drift off before you can hear his reply.
+
+
+[C1,1,2,1,1,1,1,1]be woken up.
+[END]
