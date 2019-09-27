@@ -1,0 +1,13 @@
+[1,1,1,1,2,1,1,1,1,1,2,1,2]”[Xe] was just there, out in the street. It was kind of strange actually.” Ellie-May says. You blink round at her. 
+
+You guess it would be strange. The Factory workers know better than to go out into The Fringes at night. At least you found your sister though.
+
+“The fuck were you doing out there then?” he addresses you. “As far as I was told you was supposed to be at home sound asleep!”
+
+You frown. “Why would you know where I was supposed to be?” you ask.
+
+“Oh! Ahh. No reason.” He grins sheepishly. “I’ll see you later than eh Eve?” Then he wanders off.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1]“Come on.” Eve says and hauls you through another door.
+[END]

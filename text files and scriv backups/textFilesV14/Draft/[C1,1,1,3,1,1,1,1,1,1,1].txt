@@ -1,0 +1,31 @@
+[1,1,1,3,1,1,1,1,1,1,1]Greg places you down in the hanger of the flytecraft rather more gently than you expected and steps back. The walls are white and clear of Bioforms with bright lights shining from them, brighter than you are used to from living under a layer of smog your whole life.
+
+The other Vagabonds are still standing outside the ship, waiting for something. You squint at the gaps between buildings in the direction they’re looking but see nothing. 
+
+Then, ahead, you head a mechanical noise of tires. Between two buildings comes a line of delivery drones, their trolleys empty. “Right on schedule,” Rasputin says. 
+
+The robots board the ship. They tuck their trolleys away and head further inside. Rasputin motions and the Vagabonds all follow the robots into the ship. 
+
+“It makes so much sense.” Rasputin says, “That this ship would lead us to another civilisation. Look at how clean the walls are - do you see? Not even moss.” Surprisingly, even though the flytecraft is surrounded by Bioforms, there are none inside.
+
+The robots have tracked green Bioforms into the ship but the influence of your Aspect is already turning them brown and withered.
+
+The doors shut behind them.
+
+“I guess this is it, eh?” Patrick says,  staring at the closed door. “No turning back now, right Boss.”
+
+“We are in this for the long haul.” She says. “Right. New mission orders. You are to explore every inch of this flytecraft, learn more about it. We should try to deduce where it is taking us.”
+
+She turns to Eve. “What is the range of [Name]’s Aspect? Are we safe to spread out?”
+
+“Oh yeah, it should be fine. This ship is pretty small and I’ve seen [Xis] Aspect cover the entire factory floor.”
+
+“Good.” She says, “Patrick, Greg. You two start searching the flytecraft for signs of life. Provisions, sleeping chambers, records. Eve, Ellie-May. You two keep an eye on [Name]. We don’t want [Xer] ruining this for us. Rasputin and I will look for the bridge. We need to know where we are going.”
+
+Greg nods and starts off in a direction with Patrick trailing behind. Eve lets out a loud groan before plopping herself down on the ground beside you. “This is shit. Babysitting my little [Xther] just like always.”
+
+Rasputin and Boss have already walked off. And then it is just the three of you.
+
+
+[C1,1,1,3,1,1,1,1,1,1,1,1]Arrive.
+[END]

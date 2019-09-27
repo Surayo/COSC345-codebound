@@ -1,0 +1,7 @@
+[1,1,1,1,2,1,1,1,1,1,2,1,1]“She found me because I was out in the streets looking for her. I regret that now.” You say.
+
+He laughs. “No joke! Well, all’s well that ends well. In the end, it didn’t actually matter if me and mine kidnapped you or not! You turned up here anyway!” He claps you on the shoulder and wanders off before you can ask him about what he meant by ‘kidnapped’.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1]“Come on.” Eve says and hauls you through another door.
+[END]

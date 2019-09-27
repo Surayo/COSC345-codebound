@@ -1,0 +1,23 @@
+[1,1,1,2,3,1,1,2]His stare hardens. “I was hoping it would not have to come to this. Greg-” he nods to him where he is still standing behind you, “-Take [Xer] to the cells.”
+
+Both Greg and Patrick grab you by the arms, one on each side. 
+
+You struggle briefly but it’s useless. They march you past other Vagabonds and through more doors, leading you down into the depths of their hide-out. Your struggles do nothing against the powerhouse that is Greg and he easily manhandles you down into a darker part of the building.
+
+Boss unlocks a heavy metal door. You are pushed into the room and onto a cot in the corner before you can try anything. “What a turn of events.” Boss says from the door, “And here I thought you’d come quietly, even join us.”
+
+“You can’t do this.” You say, “I want to see Eve, where is she!?” 
+
+“Don’t worry. You’ll see her in the morning.” Patrick says. The three of them leave, locking the door behind them.
+
+You sigh and lean back into your cot.
+
+“Oh and don’t think about trying nothin’,” Patrick says, his voice muffled through the door. “Ima be here all night keeping watch on you.”
+
+“Great.” You say. They even have you under guard.
+
+You lean back in your cot and let your eyes closed. It’s been a long day, even before you decided to go wandering around outside. You drift off to sleep.
+
+
+[C1,1,2,1,1,1,1,1]be woken up.
+[END]

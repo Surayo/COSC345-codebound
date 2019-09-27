@@ -1,0 +1,23 @@
+[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1]“It all makes so much sense.” Rasputin says, “That this ship would lead us to another civilisation. Look at how clean the walls are - do you see? Not even moss.” Surprisingly, even though the flytecraft is surrounded by Bioforms, there are none inside.
+
+The robots have tracked green Bioforms into the ship but the influence of your Aspect is already turning them brown and withered.
+
+The doors shut behind you.
+
+“I guess this is it, eh?” Patrick says,  staring at the closed door. “No turning back now, right Boss.”
+
+“We are in this for the long haul.” She says. “Right. New mission orders. You are to explore every inch of this flytecraft, learn more about it. We should try to deduce where it is taking us.”
+
+She turns to you. “What is the range of your Aspect. Do we all need to stick together or can I send some of you off?”
+
+“It more than covers the size of this ship.” You say. “Don’t even worry about it.”
+
+“Good.” She says, “Patrick, Greg, Eve, [Name]. You four start searching the flytecraft for signs of life. Provisions, sleeping chambers, records. Rasputin, Ellie-may and I will look for the bridge. We need to know where we are going.”
+
+Greg nods and starts off in a direction with Patrick trailing behind. Ellie-May gives Eve a sad look before slipping after Rasputin where he has already walked off with Boss. 
+
+Eve grabs you by the arm, and the two of you head off after Greg and Patrick.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1,1]Arrive.
+[END]

@@ -1,0 +1,53 @@
+[1,1,1,1,2,1,2,1,1,2]”This is a nice surprise. I assume introductions are in order?” The leader of the Vagabonds, Rasputin, says. “This is Boss-” He points to a tall woman beside him who nods in your direction, face stern, “-Greg, Patrick-” He points to a large, gruff-looking man and the shorter lanky looking dude beside him. 
+
+The latter grins at you. “How do you do,” He says, shaking your hand vigorously. 
+
+Rasputin continues “-Eve, though of course, you would already know her, and Ellie-May.” He says finally, pointing to a girl standing beside Eve. “My name is Rasputin, and you would be [Name], would you not?”
+
+“Uh, yeah.” You say. “That’s right. How did you know that?” The group has started walking again and you follow close beside Eve.
+
+“Eve told me all about you of course. You have the most intriguing Aspect.”
+
+You scoff. “She told you that. I can tell you it’s not that interesting. It’s only toxin immunity.”
+
+He hums, looking away. You have the suspension he’s not agreeing with you, “I assume she didn’t tell you of my Aspect?”
+
+Eve cuts in, scoffing, “Of course not. Do you think I’m an idiot? [Xe] wasn’t a Vagabond. I wasn’t going to trust [Xer] with Vagabond secrets.”
+
+“No. She didn’t.” You say, ignoring Eve.
+
+“I can sense significance. And you, my friend, are surrounded by it. Your Aspect glows with it.”
+
+“So you can see the border than?” you ask. You have always wondered how big it’s gotten. The forcefield of toxin immunity that radiates from you have grown over the years but it is always hard to tell by how much without exposing people to toxins in your experimentations.
+
+“I can see the border, yes.”
+
+“Weird.” You say. You squint off into the distance, trying to see the edge of your Aspect yourself. Ellie-May, the younger vagabond, walks over and touches Rasputin’s hand. For a second they both glow with a faint haze of red and then it fades. 
+
+“Oh. That is pretty. Your Aspect looks so nice, [name].” She says.
+
+“Wait. What just happened.” You ask.
+
+Ellis-May giggles. “I can copy Aspects! I wanted to see what Rasputin was describing. It’s sort of like a shiny blue haze covering all of us-” she stretches her arms out, “-stretching like a hundred meters in all directions, even up into the sky.” She grins at you “Your Aspect must be pretty significant to put on this sort of light show.”
+
+“Wow,” Eve says, sarcasm heavy in her voice. “[Name] sure is special.”
+
+You scowl at her. “Shut up Eve.”
+
+“Oh, look,” Ellie-May says, pointing. “That’s glowing blue too. What is that it’s so bright.”
+
+“That’s the flytecraft,” Rasputin says. “We’re here.”
+
+“Wait. You guys have a flytecraft?” you ask, “We’re getting on a flytecraft?”
+
+“Yes.” Rasputin says, “Now might be a good time to debrief you actually. Those-” he points to a line of delivery drones, their trollies empty of packages, “are delivery drones, they come here every month or so in that flytecraft and deliver food and resources to the city. Our job here today is to follow them and find out where they are getting these good from. 
+
+“In the best scenario, at the end of that flytecraft’s flight path will be another civilisation. Someone has to be providing us with food. For some reason, they have just never come here themselves. They have always just sent the flytecraft, empty apart from the robots.”
+
+The aforementioned robots board the craft, stowing their trolleys away in the ship. 
+
+“Come on. We have to board before they leave.” Rasputin says. You all follow him onto the ship.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1]You all follow Rasputin onto the ship.
+[END]

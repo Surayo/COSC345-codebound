@@ -1,0 +1,45 @@
+[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1]Eve shakes you awake. “Get up, dipshit. We’re going out” You blink up at her from your mattress. 
+
+Wait. This isn’t your room. Above your head, you see the second story of a bunk bed. The room is dark but you can make out other people sleeping in more bunk beds around you. 
+
+Oh. You guess you’re a Vagabond now? You didn’t think this through.
+
+Ellie-May’s head pops down from the bunk bed above you, upside down will all her hair hanging loose. “Ooo. I wonder what Rasputin will get us to do today?” She says to Eve, ”We never did get to see if our Aspects were compatible.”
+
+“Yeah. Well if he does get as to go try that again we won’t be able to take this one with us” she jerks her thumb at you. You yawn and sit up in bed. “[Xis] Aspect would counter mine” You’re still tired but more refreshed than you were last night. You think you want to know what Rasputin has in store for you.
+
+Did he mention something about leaving today? You’re not sure if you were awake enough to remember where you were going if he even did. 
+
+The three of you head out into the same crowded room you first saw when you came in last night. Though in the light of the morning more people are sitting around eating breakfast and coming in and out through doors. 
+
+Eve leads you through one of the doors and you find a queue of people getting breakfast. There are a few tables dotted around but most people are getting food and leaving. It seems the main eating room is the main hall behind you.
+
+It’s a fast queue and when you get to the front you are handed a plate piled with a hot meal. You can’t remember the last time your meal didn’t come out of a can. It smells delicious. 
+
+Eve pulls you over to one of the tables and it’s only when you get there that you notice Rasputin is sitting there eating his own breakfast.
+
+“I didn’t get your report last night, Ellie-May.” He says, “How did the experiments go? Are you and Eve compatible?”
+
+Ellie-May and Eve sit down as if this isn’t the obvious leader of the Vagabonds and they’re not the obvious underlings. “We didn’t actually get around to it,” Ellie-May says. Eve tucks into her food and you follow suit, ”[Name] turned up before we got the chance to try anything.”
+
+“Well, that’s a shame. Don’t fret over it though. I have other plans for you today. Now that we have [Name] here we’re sending out another scouting mission on the flytecraft.”
+
+“Oh,” Ellie-may says. “Today?”
+
+“According to our watch, at its current progress it’s due to leave in two hours. The bots have dropped off their cargo and are well on their way back.”
+
+Ellie-May looks down at her plate. Eve has paused in her eating and is watching the two of them but has not interrupted. 
+
+“Who else is going?” Ellie-May finally asks.
+
+“Boss,-” He counts the names off on his fingers, ”-Greg, Patrick, Eve-” he nods in her direction. She nods back. “-[name]-” you look up and make brief eye contact, “-and me.”
+
+“Wait, really?” Ellie-May says. “But last time-”
+
+Rasputin interrupts, “Last time we didn’t have [Name] on our team. What happened then won’t happen again.”
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1]“Me?” you say. “What can I do?”
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,2]”Where are we going?” you ask, “What happened last time?”
+[END]

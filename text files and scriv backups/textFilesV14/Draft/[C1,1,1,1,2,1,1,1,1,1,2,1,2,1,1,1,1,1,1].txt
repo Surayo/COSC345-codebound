@@ -1,0 +1,23 @@
+[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1]The seven of you set off with little over an hour to spare. The other members of your party are a woman named Boss who is tall and serious-looking and who seems to defer only to Rasputin, a large man named Greg, who has only said two words in the half-hour since you met him, and a shorter man named Patrick - the same one who had bumped into you last night - who more than makes up for Greg’s silence with his own chatter.
+
+“Welcome to the Vagabonds!” Patrick had said, vigorously shaking your hand after your sister had introduced you.
+
+It takes you less than half an hour before you’re nearing the edge of the city. Bioforms start popping up in cracks in the sidewalk and clinging to buildings. It makes Greg and Patrick nervous though they seem to understand that you protect them from the Bioform poison as they stick close to your side after that.
+
+By the time you see the flytecraft Bioforms are everywhere. 
+
+So they do have a flytecraft. Great flying machines that could move as unimaginable speeds.
+
+And now you are getting on one. And not just the wreckage of a decaying beast. You are getting on a working one and expecting it to transport you somewhere.
+
+“Right on time,” Rasputin says. 
+
+You turn around from staring at the inside of the flytecraft - its pristine white walls stretching further into the ship - to see several delivery drones making their slow mechanical way back to the flytecraft.
+
+Their trolleys are empty. They must be back from delivering their cargo whatever that was.
+
+Your group steps out of their way as they load their empty trolleys back onto the ship and head further inside. The light is bright in the ship - brighter than you are used to.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1]Rasputin motions and you all follow the robots into the ship.
+[END]

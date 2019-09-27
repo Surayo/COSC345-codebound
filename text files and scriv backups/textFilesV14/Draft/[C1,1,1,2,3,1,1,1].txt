@@ -1,0 +1,51 @@
+[C1,1,1,2,3,1,1,1]”But I have questions.” You say.
+
+“Of course.” He stands, ”I can answer anything you like but first - there are seven hours until we leave, if you want to rest, it may be best to do so now.” 
+
+Boss ushers you out of the room and the three of you step back out into the din of the main hall.
+
+You glance back one more time as you leave to see Rasputin sitting back down in his office. 
+
+You stop following Boss and she turns back to you when she notices “I’m not going to bed until I’ve seen Eve.” You say.
+
+“That can be arranged. Patrick. Would you keep [Name] company while [Xe] waits? I myself would rather go to bed... It’s been a long night.”
+
+“Sure thing Boss.” He says. “How good are you at cards?”
+
+You aren’t very good at cards it turns out. To be honest it’s a feat even staying awake. Greg, even though he wasn’t asked to stay, joins you as well and takes the brunt of Patrick’s chatter for which you are very grateful. 
+
+More than an hour has passed before Patrick pipes up with, “Oh look there’s Eve and Ellie-May now. That took longer than expected.”
+
+That wakes you up. You turn and see Eve making her way across the room. She hasn’t spotted you yet.
+
+“Eve?” you yell across the room.
+
+She turns looking for whoever called her name and then spots you. “Holy shit, [Name]!? What are you doing here!?” she says jogging over. Another girl follows close behind her and stops with her by your table. 
+
+“I guess I’m a Vagabond now?” you say.
+
+“[Xe] rightly is,” Patrick says. “Didn’t even fight it or nothin’.”
+
+“Well, that is a surprise,” Eve says. “I didn’t think you had it in you.”
+
+“Fuck off.” You say, “I can do it.”
+
+She smirks. “I see you’ve met the local lads, Greg and Patrick.  This here is Ellie-May. She’s been teaching me the ropes here since I joined.”
+
+Ellie-May grins at you, “Hi!”
+
+Greg lets out a wide yawn and blinks at you all. “I better get this one to bed,” Patrick says. “I’ll see all of you in the morning. Night. Greg and Patrick wander off.
+
+“Honestly I could go for a nap myself,” Eve says. “Come on. Let’s find a bunk.”
+
+She takes you through a set of doors into a large room lined with bunk beds. Most of them are mismatched, some wider or taller than others, some made of metal, others of wood. The Vagabonds must have scrounged these up from the surrounding empty buildings. 
+
+You’ve never slept in a proper bed before. You and your sister always just had your mattresses. 
+
+It’s darker in here than the other room, quieter too. With only the sounds of sleeping filling the silence. Most of the beds near the door are filled with sleeping people and the three of you tip-toe through the throng until Ellie-May says, “Hey, I found a triple.” And pulls your small group to the side.
+
+Eve hands you a pile of blankets and points to the bottom bunk. It doesn’t take you long to settle into the quiet room. You pull the blankets around yourself and sleep.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1]Wake up.
+[END]

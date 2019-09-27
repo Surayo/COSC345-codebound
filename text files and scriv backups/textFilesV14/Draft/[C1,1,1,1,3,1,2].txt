@@ -1,0 +1,15 @@
+[1,1,1,1,3,1,2]You pass through several sets of heavy doors before finally coming out into a room you have never seen before. The room is smaller than the furnace floor.
+
+Crates are piled around a half dozen forklifts and along the back wall, you see four old trucks lined up in front of huge shutter doors. The room glows green from the light coming in from outside.
+
+What is this place? A few crates are propped open near you and you look inside. Dark metal contraptions line the crates. They look like machines - handheld tools - though you have no idea what they do. 
+
+The machines have large cylindrical red chambers over what looks like a handgrip. You pick it up, surprised by how little it weighs for its size. It must be mostly hollow inside.
+
+It sits neatly in your hand and your finger settles automatically on a small leaver under the red chamber.
+
+
+[C1,1,1,1,3,1,2,1]Put it back and get the hell out of there.
+
+[C1,1,1,1,3,1,2,2]Looking into the tube thing at the end of the machine you pull the lever. You have no idea what this thing does and want to find out.
+[END]

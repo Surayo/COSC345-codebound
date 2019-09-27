@@ -1,0 +1,21 @@
+[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,2]”Ah.” Rasputin says, “to tell you the truth - I don’t know where we’re going.  We are hoping to find civilisation at the end of it.”
+
+Ellie-May starts eating now that she isn’t the one talking to Rasputin.
+
+“But what about last time? Have you sent people before?” you ask.
+
+“The last group we sent never came back. We assume Bioform poison was to blame. It was stupid for me to assume the flytecraft would protect them. But there is no way to truly know what happened.”
+
+“Oh.” You say. “That’s why you need me. I can protect us from the Bioform poison.”
+
+“Precisely.” He says. “Your sister has a similar Aspect but hers would only protect herself. We weren’t willing to send her alone.” Rasputin stands. “Finish up your meals. You should be ready to leave in an hour.”
+
+He turns to Eve, “And Eve. Round up Boss, Greg, and Patrick. Tell them the plans. I have more to organise before we leave.”
+
+Eve salutes, “Can do.”
+
+Rasputin leaves the three of you to your food and heads back out into the main hall. You go back to eating.
+
+
+[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1]Leave with the party. You have a flytecraft to catch.
+[END]
