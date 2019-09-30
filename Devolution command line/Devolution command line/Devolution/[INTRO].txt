@@ -1,22 +1,22 @@
-*************************************  INTRODUCTION  *************************************
+*******************************  INTRODUCTION  *******************************
 		
-	Brief description of game goes here.
-	Basically a plot summary and build suspense
-	idk
+	Welcome to Devolution, a sci-fi adventure where you choose how 
+	the player progresses!
+	
+	
 
-==========================================================================================
+=============================================================================
 
-How to play Devolution, a brief tutorial:
+How to play:
 
-	KEY				ACTION
-	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	SPACE/RETURN:			Continue through story.
-	[1,2,3]:			Select a choice to advance the story.
-	BACKSPACE:			Previous scenario.
-	ESCAPE:				Exit the game
-	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	KEY			ACTION
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	SPACE/RETURN:		Continue through story.
+	[1,2,3]:		Select a choice to advance the story.
+	ESCAPE:			Exit the game.
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-==========================================================================================
+=============================================================================
 
 Character creation:
 
