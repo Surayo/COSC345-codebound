@@ -154,69 +154,6 @@ It’s the ring you gave her as a gift when she started her first day in The Fac
         </Document>
         <Document ID="9">
             <Title>story ideas</Title>
-            <Text>
-[NAME] - Name of the main character
-[VNAME] - Name of the villain
-[RNAME] - Name of the rival/counterpart
-[XE] - He and she
-[XER] - him and her
-[XIS] - his and her
-[XERS] - hers and his
-[XSELF] - himself and herself
-[Xther] - brother and sister
-
-
-
-Your name is [NAME] and you are on a train. This is the first time you have been on a train and you clutch at the train ticket in your pocket as the scenery outside the window speeds past. It was a lucky find, the ticket. You spotted it on the pavement on your walk home. 
-
-
-
-The force of the attach flips you over and your head hits the ground hard. Your ears ring.
-
-
-
-The air is heavy with smog and the streets are cracked and filthy. (Blah, blah, blah - setting up disopian town.) You are walking home from work. You work in the factories. Everyone in this town works in the factories. The days are grueling and by the time you make it home, you will barely have the energy to eat and sleep before you have to do it all over again. It’s all you can do to put one heavy boot in front of the other as you autopilot your way home. You are exhausted after a 12-hour shift at the coal furnaces. 
-
-
-Suddenly twelve Vagabonds round the corner - (The Vagabonds are a rebel gang who refuse to work in the factories like the rest of you) and in amongst them, you spot a familiar face. It's your sister Josie. 
-
-
-Decision - 
-1. Don’t make eye contact with your sister. Pretend you didn’t see her. You just want to get home and it's not worth the trouble confronting her here.
-2. You get angry. What does she think she’s doing joining those rebel scum. You start shouting at her and pull out your flick knife.
-3. You stop and stare at her in shock. What is she doing with them? The group of Vagabonds notice you and advance. Most people know better than to stare.
-
-
-Notes on the three options. 
-1. you confront your sister at home. You try and convince her to leave the gang. She tries to convince you to join them
-2. You start a fight with the rebels (leads to your potential death or getting on the gang's bad side)
-3. the rebels and your sister try to recruit you to their gang. The leader explains why they are rebelling against the wealthy overlords
-
-
-Weapons factory - produce guns and munitions 
-        Gang trying to take over, rebel?
-
-
-Sister - Eve. Likes jewelry. Always had rings and chains and additions to her uniform where [NAME] never did. Kind of over the top dramatic about things. Defensive and clingy in her relationships. Wears large round glasses that don't have lenses. Brazen and competent. Older sister? - fact check this.
-
-
-Leader - Rasputin (real name: Steven). Mysterious but kind. Has a sense of power and authority but doesn’t look like it. Very articulate with his vocabulary and very skilled at manipulation. Has manipulated the Vagabonds by bending the truth and convincing them to follow him. Uses sister to get close to the main character. Slight fanatic. (watch high sparrow)
-
-Drew - bangs on the doors of the house. 
-
-Liaba - friend of Eve and [NAME]. Possible romance?
-
-Rush - “An older guy who used to work alongside you at the furnaces.”
-
-Greg - kidnapper
-Patrick - kidnapper
-Boss - attacker, lead kidnapper woman
-
-
-[Choice0] meeting Vagabonds
-* [Choice1] confronting sister at home
-* [Choice1.1] sister angry conversation in room
-* [Choice1.2] sister calm conversation at table</Text>
         </Document>
         <Document ID="10">
             <Title>[C1,1,1]</Title>
@@ -2453,7 +2390,22 @@ Your group steps out of their way as they load their empty trolleys back onto th
         </Document>
         <Document ID="99">
             <Title>[C1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1,1]</Title>
-            <Text>
+            <Text>[1,1,1,1,2,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1,1]You don’t get far into your search. Your group has mostly been opening and briefly searching empty room after empty room when you hear a rumbling sound from back near the entrance.
+
+“What was that?” Patrick says straitening from where he was looking inside a cupboard.
+
+“I don’t know.” Eve says, “But I’m going to find out.”
+
+She hurries out of the room and after a second of hesitation, you head out after her with Greg and Patrick bringing up the rear.
+
+Eve lets out a shout from ahead of you. “What.” You say, “What is it?”
+
+“We made it!” Eve shouts back. “We’re there!”
+
+You break out into a sprint.
+
+Eve is standing at the again open entryway, grinning back at you. Through the door, you can see the remnants of another civilisation. 
+
 Except it is nothing like any you have seen before. 
 
 Green. It’s all green. It’s like the Bioforms grew into the shapes of buildings - all clean lines and paths all made from Bioforms.
