@@ -14,7 +14,10 @@ You have always trusted her before to have good reason for doing what she does e
 
 “What was your answer?” you finally ask. 
 
-Rasputin smiles, “Good question. But I think it best if I show you.”
+Rasputin smiles,“I don’t think you’re ready for that. Go home little [Xoy]”
 
-[C3,1,2,2]”Fuck that. I’m not going anywhere with you.” You say.
+
+[C1]The hands release you and you go.
+
+[C3,1,1]”Fuck that. I’m going to stop you” 
 [END]
