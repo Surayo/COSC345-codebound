@@ -36,5 +36,4 @@ Sitting on the table is the ring you gave her her first day in The Factory.
 
 [C1,1,2]She can look after herself for one night. You pull yourself to your feet just long enough to strip your uniform off and crawl into bed. You are so tired.
 
-[C1,1,3]Sleep drags your eyes back closed. You fall asleep at the table.
 [END]

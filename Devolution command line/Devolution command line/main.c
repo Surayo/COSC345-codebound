@@ -14,26 +14,12 @@
 #include "textManipulation.h"
 #include "mylib.h"
 
-/* reads from keypress, doesn't echo */
 int getch(void) {
     struct termios oldattr, newattr;
     int ch;
     tcgetattr( STDIN_FILENO, &oldattr );
     newattr = oldattr;
     newattr.c_lflag &= ~( ICANON | ECHO );
-    tcsetattr( STDIN_FILENO, TCSANOW, &newattr );
-    ch = getchar();
-    tcsetattr( STDIN_FILENO, TCSANOW, &oldattr );
-    return ch;
-}
-
-/* reads from keypress, echoes */
-int getche(void) {
-    struct termios oldattr, newattr;
-    int ch;
-    tcgetattr( STDIN_FILENO, &oldattr );
-    newattr = oldattr;
-    newattr.c_lflag &= ~( ICANON );
     tcsetattr( STDIN_FILENO, TCSANOW, &newattr );
     ch = getchar();
     tcsetattr( STDIN_FILENO, TCSANOW, &oldattr );
@@ -72,17 +58,20 @@ int main(int argc, const char * argv[]) {
     char choiceGen;
     int i = 0;
     char c;
-
-    //START TITLE
+    
+    // START TITLE //
+    memset(file_location, 0, sizeof(file_location));
     strcpy(file_location, "/Devolution/[TITLE].txt");
     if (getcwd(cwd, sizeof(cwd)) == NULL) {
-        perror("getcwd() error");
-        return 1;
+        perror("Error getting current working dir\n");
+        exit(EXIT_FAILURE);
     }
     
     fptr = openfile(cwd, file_location);
     if (fptr == NULL){
+        printf("Can't open file!\n");
         exit(EXIT_FAILURE);
+        
     }
     
     c = fgetc(fptr);
@@ -96,9 +85,9 @@ int main(int argc, const char * argv[]) {
     printf("\n\n\nPRESS ENTER TO CONTINUE\n");
     waitKey();
     system("clear");
-    //END TITLE
+    // END TITLE //
     
-    //START INTRO
+    // START INTRO //
     strcpy(file_location, "/Devolution/[INTRO].txt");
     if (getcwd(cwd, sizeof(cwd)) == NULL) {
         perror("getcwd() error");
@@ -116,9 +105,8 @@ int main(int argc, const char * argv[]) {
     }
     fclose(fptr);
     
-    //Character creation
+    // CHAR CREATE //
     while (true){
-        
         printf("Please enter your name\n");
         while (-1 != read){
             read = getline(&name, &len, stdin);
@@ -171,7 +159,7 @@ int main(int argc, const char * argv[]) {
         }
     }
     
-    printf("The story begins");
+    printf("\n\nThe story begins");
     fflush(stdout);
     for (i = 0; i < 3; i++){
         printf(" .");
@@ -180,19 +168,20 @@ int main(int argc, const char * argv[]) {
     }
     printf("\n");
     system("clear");
-    //END CHAR CREATE //
-    //END INTRO
+    // END CHAR CREATE //
+    // END INTRO //
     
-    //Load in first text file
+    // LOAD IN FIRST STORY FILE //
     memset(file_location, 0, sizeof(file_location));
     strcpy(file_location, "/Devolution/[C0].txt");
     
+    // STORY LOOP //
     while (true) {
         if (getcwd(cwd, sizeof(cwd)) == NULL) {
             perror("getcwd() error");
             return 1;
         }
-    
+        
         fptr = openfile(cwd, file_location);
         if (fptr == NULL){
             return EXIT_SUCCESS;
@@ -200,18 +189,16 @@ int main(int argc, const char * argv[]) {
         
         filetext = setFile(fptr);
         setBracketPoints(filetext);
-    
-        //Set the text
+        
         gameover = setStoryText(name, gender);
-        cleantext = getCleanText();                                     //this is the STORY text
-        //printf("%s\n", cleantext);                                    //story printed here
+        cleantext = getCleanText();
         int count = 0;
         for(int i = 0; i <strlen(cleantext); i++){
             if (cleantext[i] == '\n' && cleantext[i-1] == '\n') {
                 waitKey();
                 count = 0;
             }
-            if (count > 80 && cleantext[i] == ' ') {
+            if (count > 70 && cleantext[i] == ' ') {
                 printf("\n");
                 count = 0;
             }
@@ -232,15 +219,14 @@ int main(int argc, const char * argv[]) {
         } else {
             setChoices();
             int choiceAmount = getChoiceAmount();
-            //printf("Choices:\n");
             
             printf("*********************  CHOICES  *********************\n\n");
             for (int i = 0; i < choiceAmount; i++){
                 printf("%d: ", i + 1);
-                choiceText = getChoiceText(i);                      //these are the CHOICES
+                choiceText = getChoiceText(i);
                 count = 0;
                 for(int i = 0; i <strlen(choiceText); i++){
-                    if (count > 80 && choiceText[i] == ' ') {
+                    if (count > 70 && choiceText[i] == ' ') {
                         printf("\n");
                         count = 0;
                     }
@@ -249,22 +235,19 @@ int main(int argc, const char * argv[]) {
                     fflush(stdout);
                 }
             }
-            printf("\nESC: Exit the game\n");
             
             printf("\n*****************************************************\n\n");
             
             choiceNum = 0;
-
+            
             fflush(stdin);
             printf("Please enter the corresponding number to make your decision.\n");
             while ((choiceNum = getch()) != EOF) {
                 choice = choiceNum - 48;
-                //printf("\n%d\n", choice);                                             //printing int corresponding to choice
-                //s is 67, b is 50
                 if (choice > 0 && choice <= choiceAmount && choice != 0) {
                     choiceFile = getChoiceFile(choice - 1);
                     break;
-                } else if (choice == -21) {                                             //escape to exit game, ask to confirm exit
+                } else if (choice == -21) {
                     printf("Confirm exit game? y/n\n");
                     while ((choiceNum = getch()) != EOF && choiceNum != '\n') {
                         int choice = choiceNum - 48;
@@ -280,7 +263,7 @@ int main(int argc, const char * argv[]) {
                     }
                 }
             }
-        
+            
             printf("\n");
             choiceText = getChoiceText(choice-1);
             printf("%d: %s", choice, choiceText);
@@ -298,9 +281,6 @@ int main(int argc, const char * argv[]) {
         freeGame(filetext, cleantext, fptr);
     }
     free(name);
+    
     return EXIT_SUCCESS;
 }
-
-
-
-
